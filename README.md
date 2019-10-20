@@ -61,6 +61,7 @@ Therefore, please consider donating, it will greatly support this project ! \(�
  0. [**Getting started**](#tuto0)
  1. [Displaying a static text sprite in a scene](#tuto1)
  2. [Introduction to game loops: Moving a sprite across it's scene](#tuto2)
+ 3. [Converting a picture to a sprite and displaying it](#tuto3)
 
 ## <a name="tuto0"></a>0/ Getting started:
 ### 💿 Installation with pip:
@@ -336,3 +337,7 @@ while True:
 This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbODI3Mjc1NzQ5XX0=
+-->
