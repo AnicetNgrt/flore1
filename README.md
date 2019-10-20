@@ -360,11 +360,11 @@ Ok let's try to display `anicet.jpg` (resized of course) in the terminal:
 ```python
 # just following the previously given code:
 anicet_asset = Engine.pic_to_textAsset('assets/anicet.jpg', 
-	new_size="AUTO", #or: [wiegt]
+	new_size="AUTO", #or: [width,height]
 	transparent_rgb=(-1, -1, -1)
 	)
 ```
-This will convert the picture. Note that you can 
+This will convert the picture. Note that you can tell it to resize automatically to the maximum reasonnable size, or just tell it which size you want. Also the engine supports transparent pictures, according you tell it whic
 
 
  #  <a name="doc"></a>Documentation
@@ -386,5 +386,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDAxMzI3NTMsODI3Mjc1NzQ5XX0=
+eyJoaXN0b3J5IjpbLTE4ODQ1MDkzNTAsODI3Mjc1NzQ5XX0=
 -->
