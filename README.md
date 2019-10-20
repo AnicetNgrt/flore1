@@ -322,8 +322,9 @@ while True:
 ```
 ## <a name="tuto3"></a>3/ Converting a picture to a sprite and displaying it:
 ### 🧭 What we will do:
-![wow](https://imgur.com/QNGbXty.png)
-  
+![wow](https://imgur.com/QNGbXty.png)This tutorial is about displaying pictures on top of one another after having converted them to (text) sprites.
+[-> I just want the code thanks.](#tuto3_code)
+### 
  #  <a name="doc"></a>Documentation
  The flore1 module has 3 top level classes located in `flore1/flore1.py`:
  
@@ -342,5 +343,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwOTAyNDQ1LDgyNzI3NTc0OV19
+eyJoaXN0b3J5IjpbLTMwNzI4MzQzNCw4MjcyNzU3NDldfQ==
 -->
