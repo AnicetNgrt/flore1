@@ -21,10 +21,6 @@
  - Sound management
  - Remote SSH rendering
  - Basic server/client fonctionnalities
-
-## License:
-This library is distributed under a CC-BY-SA license.
-Any kind of collaboration on this project is welcomed  (●^◡ ^● )
 ## Known compatible terminal emulators:
  - Windows 10 - Powershell
  - Windows 10 - cmd
@@ -40,5 +36,9 @@ Any kind of collaboration on this project is welcomed  (●^◡ ^● )
     "\u001b[49;5;<color_code>m"
     "\u001b[39;5;<color_code>m"
   
+## License:
+This library is distributed under a CC-BY-SA license.
+Any kind of collaboration on this project is welcomed  (●^◡ ^● )
+
 
 
