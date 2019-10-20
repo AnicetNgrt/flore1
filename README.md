@@ -354,9 +354,13 @@ Scene = Engine.new_scene("super cool name",
 ```
 **Very important:** Most terminal have large font size by default. It will be necessary to lower this size in your terminal's settings in order to display bigger than 100*100px pictures. Mine is at 6 now for instance.
 ### 🧾 From pictures to text and... no vice-versa 
-The Engine class can convert `.png`, `.jpg` and `.svg` pictures to text Assets, which can then be turned into sprites. 
+The Engine class can convert `.png`, `.jpg` and `.svg` pictures to text Assets with the help of `pillow`, a very known python image manipulation library.
 But here comes the issue: **size**. Because even if you ask your terminal to go 1px font style, it won't be easy to display anything bigger than 300*300px. So, yeah, this is more of a pixel-art engine than a fancy graphical library. But come on, it's on the terminal :D !
-Ok let's try to display `anicet.jpg` (resized of course) in the terminal
+Ok let's try to display `anicet.jpg` (resized of course) in the terminal:
+```python
+# just following the previously given code:
+
+```
 
 
  #  <a name="doc"></a>Documentation
@@ -378,5 +382,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDIzODQ3NjQsODI3Mjc1NzQ5XX0=
+eyJoaXN0b3J5IjpbLTE3MDY0NTYwNzUsODI3Mjc1NzQ5XX0=
 -->
