@@ -326,13 +326,13 @@ while True:
 [-> I just want the code thanks.](#tuto3_code)
 ### 📁 Let's get pictures !
 For this tutorial we need pictures so make sure you have the following:
-```markdown
+```
 📁 my_super_game/
-|------🐍 main.py     
-|------📁 assets/
-|------------📸 anicet.jpg  
-|------------🎨 archer.png
-|------------🎨 aniss.png
+|-----|🐍 main.py     
+|-----|📁 assets/
+|------------📸 anicet.jpg   -> https://imgur.com/4dFlgUF
+|------------🎨 archer.png   -> https://imgur.com/BX2i3j5
+|------------🎨 aniss.png    -> https://imgur.com/AYA6Ruc
 ```
  #  <a name="doc"></a>Documentation
  The flore1 module has 3 top level classes located in `flore1/flore1.py`:
@@ -352,5 +352,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDk4MTEwOTEsODI3Mjc1NzQ5XX0=
+eyJoaXN0b3J5IjpbMTYwNzY1MjM3Niw4MjcyNzU3NDldfQ==
 -->
