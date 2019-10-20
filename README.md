@@ -1,8 +1,15 @@
-![logo](https://imgur.com/jyVaBkr.png)
+ 
 # Flore 1 - pre alpha
-The first **python** 2D game engine **rendering in the terminal**.
+ The first **python** 2D game engine **rendering in the terminal**.
 
-## What can it do ?
+## Table of content:
+
+ 1. [**Features**](#features)
+ 2. [**Roadmap**](#roadmap) 
+ 3. [**Compatibility**](#compat)
+ 4. [**License**](#license)
+
+## <a name="features"></a>What can it do ?
 #### For now, what it does the best is rendering:
  -   Interpret an easy syntax for creating text based sprites with color.
  -   Convert pictures to text based sprites.
@@ -16,15 +23,14 @@ The first **python** 2D game engine **rendering in the terminal**.
  -   Sync/unsync the looped functions with render speed (fps stabilisation).
  -  Play flibook in a scene at a desired frame rate. 
 
-## What is planned ?:
-#### Everything else you would expect from a barebone game engine:
+##  <a name="roadmap"></a>What is planned ?
  - Input management
  - Sound management
  - Remote SSH rendering
  - Basic server/client fonctionnalities
 
 
-## Known compatible terminal emulators:
+##  <a name="compat"></a>Known compatible terminals
  - Windows 10 - Powershell
  - Windows 10 - cmd
  - Windows 10 - new GPU terminal
@@ -38,8 +44,11 @@ The first **python** 2D game engine **rendering in the terminal**.
     "\33[0m"
     "\u001b[49;5;<color_code>m"
     "\u001b[39;5;<color_code>m"
-  
-## License:
+ 
+ ## <a name="doc"></a>Documentation
+ 
+ 
+## <a name="license"></a>License
 This library is distributed under a CC-BY-SA license.
-Any kind of collaboration on this project is welcomed  (●^◡ ^● )
+Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
