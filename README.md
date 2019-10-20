@@ -353,7 +353,8 @@ Scene = Engine.new_scene("super cool name",
     )
 ```
 **Very important:** Most terminal have large font size by default. It will be necessary to lower this size in your terminal's settings in order to display bigger than 100*100px pictures. Mine is at 6 now for instance.
-### 🧾
+### 🧾 From pictures to text and... no vice-versa
+
 
  #  <a name="doc"></a>Documentation
  The flore1 module has 3 top level classes located in `flore1/flore1.py`:
@@ -374,5 +375,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMzIyOTkxOCw4MjcyNzU3NDldfQ==
+eyJoaXN0b3J5IjpbLTU0ODMyNTk1NCw4MjcyNzU3NDldfQ==
 -->
