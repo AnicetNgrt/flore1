@@ -47,7 +47,7 @@
     "\u001b[49;5;<color_code>m"
     "\u001b[39;5;<color_code>m"
     
-  #  <a name="doc"></a>Tutorials
+  #  <a name="tuto"></a>Tutorials
   ### Table of content:
   
 
