@@ -325,11 +325,12 @@ while True:
 ![wow](https://imgur.com/QNGbXty.png)This tutorial is about displaying pictures on top of one another after having converted them to (text) sprites.
 [-> I just want the code thanks.](#tuto3_code)
 ### 📁 Let's get pictures !
-If you remember well, I adviced you to adopt this structure for your games:
+For this tutorial we need pictures so make sure you have the following:
 ```
 📁 my_super_game/
-|------🐍 main.py   just empty now  \(°o° /)  
-|------📁 assets/   this folder will contain your assets eg: pictures
+|------🐍 main.py     
+|------📁 assets/
+|------------ 
 ```
  #  <a name="doc"></a>Documentation
  The flore1 module has 3 top level classes located in `flore1/flore1.py`:
@@ -349,5 +350,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTU0NzgxOTQsODI3Mjc1NzQ5XX0=
+eyJoaXN0b3J5IjpbLTE5ODY3MDU4NDksODI3Mjc1NzQ5XX0=
 -->
