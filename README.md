@@ -194,6 +194,7 @@ time.sleep(15)
 ```
 ## <a name="tuto2"></a>2/ Refresh class and sprite movement:
 ### 🧭 What we will do:
+![fastboi](https://imgur.com/BRbsNUR.gif)
 This tutorial is about moving a sprite across the scene.
 [-> I just want the code thanks.](#tuto2_code)
 ### 🚠Introduction:
@@ -267,7 +268,9 @@ while True:
     Refresh.run()
 ```
 Every time you call Refresh.run(), well, it does what you asked him to do... at the best of its abilities.
-![fastboi](https://imgur.com/BRbsNUR.gif)Wow, do you see this ? A purple ASCII army of squids crossing the screen at a rocking 24 fps ! This is purely amazing !
+![fastboi](https://imgur.com/BRbsNUR.gif)Wow, do you see this ? A purple ASCII army of squids crossing the screen at a rocking 24 fps ! 
+This is purely amazing !
+
 *This gif looks like it is 10 fps but that's only because of my crappy gif recorder ... \( ; - ;  \ )*
 
 ### <a name="tuto2_code"></a>📥 Conclusion: This tutorial's code:
