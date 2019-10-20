@@ -1,7 +1,5 @@
-
+![logo](https://imgur.com/YkSRs3R.png)
 # Flore 1 - pre alpha
-![logo](https://imgur.com/jyVaBkr.png)
-
 The first **python** 2D game engine **rendering in the terminal**.
 
 ## What can it do ?
