@@ -199,7 +199,7 @@ Scene.show()
 
 time.sleep(15)
 ```
-## <a name="tuto2"></a>2/ Refresh class and sprite movement:
+## <a name="tuto2"></a>2/ Introduction to game loops: Moving a sprite across it's scene:
 ### 🧭 What we will do:
 ![fastboi](https://imgur.com/BRbsNUR.gif)
 This tutorial is about moving a sprite across the scene.
