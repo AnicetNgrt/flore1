@@ -86,7 +86,7 @@ import time # will be useful at the end
 
 # let's create our Engine instance !
 Engine = flore1.Engine(
-    auto_scale = True, # Wether the terminal should be rescaled
+    auto_scale = True, # Whether the terminal should be rescaled
     win_mode = False # If you have display issues, you may want to set this to True
     )
 
@@ -117,7 +117,7 @@ Then you create a sprite from your asset (think of the Text Asset as a building 
 super_sprite = super_asset.to_sprite()
 # That's that simple
 ```
-Done, now let's display it in our previously created scene !
+Done, now let's display it in a scene !
 
 ### 🎥 Displaying a sprite:
 In order to display our sprite, we will need a Scene instance to put it in.
