@@ -2,6 +2,13 @@
 # Flore 1 - pre alpha
  The first **python** 2D game engine **rendering in the terminal**.
 
+### Note:
+Thanks a lot for paying attention to my work. 
+My name is Anicet Nougaret, and I'm doing all of this alone. 
+This project will always remain open source and free.
+Therefore, please consider donating, it will greatly support this project ! \(●'◡'●)/
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=56G94VB5RYGKN&source=url)
+
 # Table of content:
 
  1. [**Features**](#features)
