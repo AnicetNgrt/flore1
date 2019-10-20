@@ -370,7 +370,10 @@ Ok, now let's create the asset, put it in the scene, and display it. Just as usu
 # following the previously given code:
 anicet_sprite = anicet_asset.to_sprite()
 Scene.put(anicet_sprite, 10, 10, 1)
+Scene.show()
 ```
+![enter image description here](https://imgur.com/PNXPVtc.png)
+Hey, that's me ! *(I feel like I will hate myself for taking this picture in a few years)*
 
  #  <a name="doc"></a>Documentation
  The flore1 module has 3 top level classes located in `flore1/flore1.py`:
@@ -391,5 +394,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg3NTI5MTQxLDgyNzI3NTc0OV19
+eyJoaXN0b3J5IjpbMTUzNDcxNTE0MCw4MjcyNzU3NDldfQ==
 -->
