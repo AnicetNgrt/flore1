@@ -330,7 +330,8 @@ For this tutorial we need pictures so make sure you have the following:
 📁 my_super_game/
 |------🐍 main.py     
 |------📁 assets/
-|------------ 
+|------------📸
+|------------🖌✏🖍🖌🖊🖋✏✒
 ```
  #  <a name="doc"></a>Documentation
  The flore1 module has 3 top level classes located in `flore1/flore1.py`:
@@ -350,5 +351,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODY3MDU4NDksODI3Mjc1NzQ5XX0=
+eyJoaXN0b3J5IjpbLTgzOTU1NjEwOSw4MjcyNzU3NDldfQ==
 -->
