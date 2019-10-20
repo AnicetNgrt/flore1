@@ -102,7 +102,7 @@ This tutorial is about displaying a text sprite in a scene with color and define
 ### 🎨 Creating a text sprite:
 In order to create our text sprite we need to create a "building manual" for the sprite. Don't worry it is just an array of strings.
 ```python
-# just following the previously given code:
+# following the previously given code:
 building_manual = [
 	"MY SUPER TEXT SPRITE LOOKS DAMN COOL",
 	"Don't you agree ?",
@@ -124,7 +124,7 @@ Done, now let's display it in a scene !
 In order to display our sprite, we will need a Scene instance to put it in.
 So let's create it too:
 ```python
-# just following the previously given code:
+# following the previously given code:
 Scene = Engine.new_scene("super cool name",
     res_x = 64, # don't mind thoses for now
     res_y = 32,
@@ -135,7 +135,7 @@ Scene = Engine.new_scene("super cool name",
 ```
 Now let's put the sprite in and refresh:
 ```python
-# just following the previously given code:
+# following the previously given code:
 # This puts the sprite in the scene
 Scene.put(super_sprite, 10, 10, 1) #(sprite, x, y, layer)
 # If you don't do this, the scene won't refresh
@@ -238,7 +238,7 @@ Here we just want to move only one sprite, so what we are going to do may seem o
 
 First we will need to create our `game_loop` function:
 ```python
-# just following the previously given code:
+# following the previously given code:
 # THE FIRST ARGUMENT MUST ALWAYS BE "Refresh"
 # but whatever you put afterwards is up to you
 # be careful, that's an easy mistake
@@ -255,13 +255,13 @@ Don't worry, this `<whatever the name of your function is>.i` will be always the
 Ok, but where is Refresh, and what is meant to be "too slow" ?:
 ### 📺 Initiating and feeding the Refresh:
 ```python
-# just following the previously given code:
+# following the previously given code:
 Refresh = flore1.Refresh(fps = 24)
 ```
 So what we did here is that we created our Refresh instance, and asked it to run at 24 frames per second. Which means that our `game_loop.i` will try to sync with the Refresh in order to be incremented 24 times per second. If you decide to display so many sprites that the Refresh slows down to 12 frames per second, then `game_loop.i` will increment by 2 on every frame, in order to keep up with it's 24 fps objective. 
 What I mean by that is that your sprite will always move at the same speed regardless of the lag (in theory).
 ```python
-# just following the previously given code:
+# following the previously given code:
 loop_tuple = (game_loop, Scene, super_sprite)
 Refresh.feed(*loop_tuple) # don't forget the *
 ```
@@ -271,7 +271,7 @@ You will notice that we didn't put the Refresh in the tuple. In fact, Refresh is
 Now you have a super cool refresh, which task is to run `game_loop(Refresh, Scene, super_sprite)` at 24 fps.
 But you still need to run it ! And this can't loop itself sadly...
 ```python
-# just following the previously given code:
+# following the previously given code:
 while True:
     Refresh.run()
 ```
@@ -358,7 +358,7 @@ The Engine class can convert `.png`, `.jpg` and `.svg` pictures to text Assets w
 But here comes the issue: **size**. Because even if you ask your terminal to go 1px font style, it won't be easy to display anything bigger than 300*300px. So, yeah, this is more of a pixel-art engine than a fancy graphical library. But come on, it's on the terminal :D !
 Ok let's try to display `anicet.jpg` (resized of course) in the terminal:
 ```python
-# just following the previously given code:
+# following the previously given code:
 anicet_asset = Engine.pic_to_textAsset('assets/anicet.jpg', 
 	new_size="AUTO", #or: [width,height]
 	transparent_rgb=(-1, -1, -1)
@@ -391,5 +391,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5ODU2NjkyOSw4MjcyNzU3NDldfQ==
+eyJoaXN0b3J5IjpbMzg3NTI5MTQxLDgyNzI3NTc0OV19
 -->
