@@ -359,8 +359,12 @@ But here comes the issue: **size**. Because even if you ask your terminal to go 
 Ok let's try to display `anicet.jpg` (resized of course) in the terminal:
 ```python
 # just following the previously given code:
-
+anicet_asset = Engine.pic_to_textAsset('assets/anicet.jpg', 
+	new_size="AUTO", #or: [wiegt]
+	transparent_rgb=(-1, -1, -1)
+	)
 ```
+This will convert the picture. Note that you can 
 
 
  #  <a name="doc"></a>Documentation
@@ -382,5 +386,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDY0NTYwNzUsODI3Mjc1NzQ5XX0=
+eyJoaXN0b3J5IjpbLTE1NDAxMzI3NTMsODI3Mjc1NzQ5XX0=
 -->
