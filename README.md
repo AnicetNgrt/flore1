@@ -1,3 +1,4 @@
+![logo](https://imgur.com/6FEKoDg)
 # Flore 1 - pre alpha
  The first **python** 2D game engine **rendering in the terminal**.
 
@@ -21,6 +22,8 @@
  - Sound management
  - Remote SSH rendering
  - Basic server/client fonctionnalities
+
+
 ## Known compatible terminal emulators:
  - Windows 10 - Powershell
  - Windows 10 - cmd
@@ -39,6 +42,4 @@
 ## License:
 This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed  (●^◡ ^● )
-
-
 
