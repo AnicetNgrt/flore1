@@ -374,7 +374,7 @@ Scene.show()
 ```
 ![enter image description here](https://imgur.com/PNXPVtc.png)
 Hey, that's me ! *(I feel like I will hate myself for taking this picture in a few years)*
-As you can see, the originaly 1024*1024px picture got quite resized ! .jpg files almost never downscale without ugly artifacts everywhere. But it is the `pillow` library that deals with resizing for me, so guess I have no other choice. ¯\\\_(ツ)_/¯
+As you can see, the originaly 1024*1024px picture got quite resized ! Files almost never downscale without ugly artifacts everywhere. This is due to the limited n=255 terminal's color range... so I have no other choice. ¯\\\_(ツ)_/¯
 
  #  <a name="doc"></a>Documentation
  The flore1 module has 3 top level classes located in `flore1/flore1.py`:
@@ -395,5 +395,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NzYyMzMwMyw4MjcyNzU3NDldfQ==
+eyJoaXN0b3J5IjpbMTgwNDc4MzE5OSw4MjcyNzU3NDldfQ==
 -->
