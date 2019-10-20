@@ -353,7 +353,8 @@ Scene = Engine.new_scene("super cool name",
     )
 ```
 **Very important:** Most terminal have large font size by default. It will be necessary to lower this size in your terminal's settings in order to display bigger than 100*100px pictures. Mine is at 6 now for instance.
-### 🧾 From pictures to text and... no vice-versa
+### 🧾 From pictures to text and... no vice-versa 
+The Engine class can convert `.png`, `.jpg` and `.svg` pictures to text Assets, which can then be turned into sprites.
 
 
  #  <a name="doc"></a>Documentation
@@ -375,5 +376,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0ODMyNTk1NCw4MjcyNzU3NDldfQ==
+eyJoaXN0b3J5IjpbMTg4OTQ4MzAzNCw4MjcyNzU3NDldfQ==
 -->
