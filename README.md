@@ -364,8 +364,13 @@ anicet_asset = Engine.pic_to_textAsset('assets/anicet.jpg',
 	transparent_rgb=(-1, -1, -1)
 	)
 ```
-This will convert the picture. Note that you can tell it to resize automatically to the maximum reasonnable size, or just tell it which size you want. Also the engine supports transparent pictures, according you tell it whic
-
+This will convert the picture. Note that you can tell it to resize automatically to the maximum reasonnable size, or just tell it which size you want. Also the engine supports transparent pictures, assuming you tell it which color is meant to be transparent.
+Ok, now let's create the asset, put it in the scene, and display it. Just as usual:
+```python
+# following the previously given code:
+anicet_sprite = anicet_asset.to_sprite()
+Scene.put(anicet_sprite, 10, 10, 1)
+```
 
  #  <a name="doc"></a>Documentation
  The flore1 module has 3 top level classes located in `flore1/flore1.py`:
@@ -386,5 +391,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODQ1MDkzNTAsODI3Mjc1NzQ5XX0=
+eyJoaXN0b3J5IjpbLTU5ODU2NjkyOSw4MjcyNzU3NDldfQ==
 -->
