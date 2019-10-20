@@ -320,6 +320,9 @@ Refresh.feed(*loop_tuple)
 while True:
     Refresh.run()
 ```
+## <a name="tuto3"></a>3/ Converting a picture to a sprite and displaying it:
+### 🧭 What we will do:
+
   
  #  <a name="doc"></a>Documentation
  The flore1 module has 3 top level classes located in `flore1/flore1.py`:
@@ -339,5 +342,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI3Mjc1NzQ5XX0=
+eyJoaXN0b3J5IjpbMTI4ODUxMTk1NSw4MjcyNzU3NDldfQ==
 -->
