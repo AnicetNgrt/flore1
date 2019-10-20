@@ -334,7 +334,25 @@ For this tutorial we need pictures so make sure you have the following:
 |-----|-----🎨 archer.png   -> https://imgur.com/BX2i3j5
 |-----|-----🎨 aniss.png    -> https://imgur.com/AYA6Ruc
 ```
-Here also should be your `main.p`
+Here also should be your `main.py` right now:
+```python
+import flore1
+import time
+
+Engine = flore1.Engine(
+    auto_scale = True, # Wether the terminal should be rescaled
+    win_mode = False # If you have display issues, you may want to set this to True
+    )
+
+Scene = Engine.new_scene("super cool name",
+    res_x = 128, # For this one we need a bigger scene
+    res_y = 128,
+    coord_x = 1,
+    coord_y = 1,
+    layer_count = 15
+    )
+```
+**Very important:** Most terminal have large font size by default. It will be necessary to lower this size in your terminal's settings i
 
  #  <a name="doc"></a>Documentation
  The flore1 module has 3 top level classes located in `flore1/flore1.py`:
@@ -354,5 +372,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MzIzNTc2Nyw4MjcyNzU3NDldfQ==
+eyJoaXN0b3J5IjpbMTg2NzI4MDY3NCw4MjcyNzU3NDldfQ==
 -->
