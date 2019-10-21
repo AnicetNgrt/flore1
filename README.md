@@ -322,7 +322,7 @@ while True:
 ```
 ## <a name="tuto3"></a>3/ Converting a picture to a sprite and displaying it:
 ### 🧭 What we will do:
-![wow](https://imgur.com/QNGbXty.png)This tutorial is about displaying pictures on top of one another after having converted them to (text) sprites.
+![wow](https://imgur.com/QNGbXty.png)This tutorial is about displaying pictures on top of one another after having them converted to (text) sprites.
 [-> I just want the code thanks.](#tuto3_code)
 ### 📁 Let's get pictures !
 For this tutorial we need pictures so make sure you have the following:
@@ -372,7 +372,7 @@ anicet_sprite = anicet_asset.to_sprite()
 Scene.put(anicet_sprite, 10, 10, 1)
 Scene.show()
 ```
-![enter image description here](https://imgur.com/PNXPVtc.png)
+![me but pixelated](https://imgur.com/PNXPVtc.png)
 Hey, that's me ! *(I feel like I will hate myself for taking this picture in a few years)*
 As you can see, the originaly 1024*1024px picture got quite resized ! Files almost never downscale without ugly artifacts everywhere. This is due to the limited n=255 terminal's color range... so I have no other choice. ¯\\\_(ツ)_/¯
 
@@ -395,6 +395,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTg5MTUxNjksMTgwNDc4MzE5OSw4Mj
-cyNzU3NDldfQ==
+eyJoaXN0b3J5IjpbLTc5NTM4MjEyNSwxODA0NzgzMTk5LDgyNz
+I3NTc0OV19
 -->
