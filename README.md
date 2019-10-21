@@ -219,6 +219,9 @@ import flore1
 Engine = flore1.Engine(auto_scale = True, win_mode = False)
 
 building_manual = [
+	"bc:195fc:127MY SUPER TEXT SPRITE LOOKS DAMN COOLcc:0",
+	"Don't you agree ?",
+	"Now I will do an ASCII army of squids just for the sake of it:",
 	"fc:200(S 0-o0)S  (S 0-o0)S  (S 0-o0)S  (S 0-o0)S  (S 0-o0)S  (S 0-o0)Scc:0"
 ]
 super_asset = Engine.TextAsset(building_manual)
@@ -361,7 +364,6 @@ Ok let's try to display `anicet.jpg` (resized of course) in the terminal:
 # following the previously given code:
 anicet_asset = Engine.pic_to_textAsset('assets/anicet.jpg', 
 	new_size="AUTO", #or: [width,height]
-	transparent_rgb=(-1, -1, -1)
 	)
 ```
 This will convert the picture. Note that you can tell it to resize automatically to the maximum reasonnable size, or just tell it which size you want. Also the engine supports transparent pictures, assuming you tell it which color is meant to be transparent.
@@ -455,6 +457,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTI3MDY0OTIsMTgwNDc4MzE5OSw4Mj
-cyNzU3NDldfQ==
+eyJoaXN0b3J5IjpbMTg4ODIzOTA5NCwxODA0NzgzMTk5LDgyNz
+I3NTc0OV19
 -->
