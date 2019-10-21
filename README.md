@@ -376,7 +376,7 @@ Scene.show()
 Hey, that's me ! *(I feel like I will hate myself for taking this picture in a few years)*
 As you can see, the originaly 1024*1024px picture got quite resized ! Files almost never downscale without ugly artifacts everywhere. This is due to the limited n=255 terminal's color range... so I have no other choice. ¯\\\_(ツ)_/¯
 ### 📚 Displaying more pictures
-Now let's display repeat the process in order to display more pictures.
+Now let's repeat the process in order to display more pictures.
 ```python
 # following the previously given code
 bow_icon_asset = Engine.pic_to_textAsset('assets/archer.png', 
@@ -385,6 +385,7 @@ bow_icon_asset = Engine.pic_to_textAsset('assets/archer.png',
 bow_icon_sprite = bow_icon_asset.to_sprite()
 Scene.put(bow_icon_sprite, 10, 60, 2)
 ```
+
  #  <a name="doc"></a>Documentation
  The flore1 module has 3 top level classes located in `flore1/flore1.py`:
  
@@ -404,6 +405,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODMxOTU5MjQsMTgwNDc4MzE5OSw4Mj
+eyJoaXN0b3J5IjpbLTE4NjkzNDgyMzIsMTgwNDc4MzE5OSw4Mj
 cyNzU3NDldfQ==
 -->
