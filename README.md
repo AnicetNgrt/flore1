@@ -371,12 +371,14 @@ Ok, now let's create the asset, put it in the scene, and display it. Just as usu
 anicet_sprite = anicet_asset.to_sprite()
 Scene.put(anicet_sprite, 10, 10, 1)
 Scene.show()
+time.sleep(30)
 ```
 ![me but pixelated](https://imgur.com/PNXPVtc.png)
 Hey, that's me ! *(I feel like I will hate myself for taking this picture in a few years)*
 As you can see, the originaly 1024*1024px picture got quite resized ! Files almost never downscale without ugly artifacts everywhere. This is due to the limited n=255 terminal's color range... so I have no other choice. ¯\\\_(ツ)_/¯
 ### 📚 Displaying more pictures
 Now let's repeat the process in order to display more pictures.
+Don't forget to erase the 
 ```python
 # following the previously given code
 # Let's display our 2nd picture:
@@ -395,11 +397,45 @@ Scene.put(avatar_sprite, 60, 20, 3) # 3 => layer
 
 # Don't forget this:
 Scene.show()
+time.sleep(30)
 ```
 As you can see we asked our scene to put our 2nd sprite on the 2nd layer and the 3rd one on the 3rd layer. Therefore, the 1st picture on the 1st layer will be on the foreground, and the two others will be more or less on the top according to their layer.
 
 ![wow](https://imgur.com/QNGbXty.png)It works ! 
-### Conlusion:
+### <a name="tuto3_code"></a>📥 Conclusion: This tutorial's code:
+```python
+import flore1
+import time
+
+Engine = flore1.Engine(
+    auto_scale = True, # Wether the terminal should be rescaled
+    win_mode = False # If you have display issues, you may want to set this to True
+    )
+
+Scene = Engine.new_scene("super cool name",
+    res_x = 128,
+    res_y = 128,
+    coord_x = 1,
+    coord_y = 1,
+    layer_count = 15
+    )
+
+anicet_asset = Engine.pic_to_textAsset('assets/anicet.jpg', new_size="AUTO", transparent_rgb=(-1, -1, -1))
+anicet_sprite = anicet_asset.to_sprite()
+Scene.put(anicet_sprite, 10, 10, 1)
+
+bow_icon_asset = Engine.pic_to_textAsset('assets/archer.png', new_size=["32","32"], transparent_rgb=(-1, -1, -1))
+bow_icon_sprite = bow_icon_asset.to_sprite()
+Scene.put(bow_icon_sprite, 10, 60, 2)
+
+avatar_asset = Engine.pic_to_textAsset('assets/aniss.png', new_size=["50","50"], transparent_rgb=(-1, -1, -1))
+avatar_sprite = avatar_asset.to_sprite()
+Scene.put(avatar_sprite, 60, 20, 3)
+
+Scene.show()
+
+time.sleep(30)
+```
  #  <a name="doc"></a>Documentation
  The flore1 module has 3 top level classes located in `flore1/flore1.py`:
  
@@ -419,6 +455,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjk4MjgyNjYsMTgwNDc4MzE5OSw4Mj
-cyNzU3NDldfQ==
+eyJoaXN0b3J5IjpbNjQ2OTQzNTU4LDE4MDQ3ODMxOTksODI3Mj
+c1NzQ5XX0=
 -->
