@@ -391,10 +391,12 @@ avatar_asset = Engine.pic_to_textAsset('assets/aniss.png',
 	new_size=["50","50"] # resize to 50*50px
 	)
 avatar_sprite = avatar_asset.to_sprite()
-Scene.put(avatar_sprite, 60, 20, 3)
+Scene.put(avatar_sprite, 60, 20, 3) # 3=la
 
-# Don't fo
+# Don't forget this:
+Scene.show()
 ```
+As you can see we ask our scene to put our 2nd sprite on the 2nd layer and the 3rd one on the 3rd layer.
 
  #  <a name="doc"></a>Documentation
  The flore1 module has 3 top level classes located in `flore1/flore1.py`:
@@ -415,6 +417,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4ODg4NjAzNywxODA0NzgzMTk5LDgyNz
-I3NTc0OV19
+eyJoaXN0b3J5IjpbLTEyNjQ5MDE2NTEsMTgwNDc4MzE5OSw4Mj
+cyNzU3NDldfQ==
 -->
