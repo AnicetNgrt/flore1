@@ -380,8 +380,7 @@ Now let's display repeat the process in order to display more pictures.
 ```python
 # following the previously given code
 bow_icon_asset = Engine.pic_to_textAsset('assets/archer.png', 
-	new_size=["32","32"], 
-	transparent_rgb=(-1, -1, -1) # no transparency here, (
+	new_size=["32","32"] # we ask it to resize this picture to 32*32px
 	)
 bow_icon_sprite = bow_icon_asset.to_sprite()
 Scene.put(bow_icon_sprite, 10, 60, 2)
@@ -405,6 +404,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzE1MjQ2NzEsMTgwNDc4MzE5OSw4Mj
+eyJoaXN0b3J5IjpbLTE5ODMxOTU5MjQsMTgwNDc4MzE5OSw4Mj
 cyNzU3NDldfQ==
 -->
