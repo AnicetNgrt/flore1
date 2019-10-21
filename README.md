@@ -381,10 +381,9 @@ As you can see, the originaly 1024*1024px picture got quite resized ! Files almo
 ### 📚 Displaying more pictures
 Now let's repeat the process in order to display more pictures.
 Don't forget to erase the `time.sleep(30)` you put previously.
-#### Let's display a picture with transparency:
+#### a. Let's display a picture with transparency:
 ```python
 # following the previously given code
-# Let's display our 2nd picture:
 bow_icon_asset = Engine.pic_to_textAsset('assets/archer.png', 
 	new_size=["32","32"], # we ask it to resize this picture to 32*32px
 	transparent_rgb=(238, 195, 154) # The color in the picture that is meant to be transparent
@@ -392,11 +391,13 @@ bow_icon_asset = Engine.pic_to_textAsset('assets/archer.png',
 bow_icon_sprite = bow_icon_asset.to_sprite()
 Scene.put(bow_icon_sprite, 10, 60, 2) # 2 => layer
 ```
-By puting (238, 195, 154) in the `transparent_rgb` optionnal argument, we ask the scene to not print this picture's pixels having this rgb code.
+By puting `(238, 195, 154)` in the `transparent_rgb` optionnal argument, we ask the scene not to print this picture's pixels having this rgb code.
+#### b. Let's display a picture without transparency:
 ```python
-# We also display our 3rd one:
+# following the previously given code
 avatar_asset = Engine.pic_to_textAsset('assets/aniss.png', 
 	new_size=["50","50"] # resize to 50*50px
+	# here we don
 	)
 avatar_sprite = avatar_asset.to_sprite()
 Scene.put(avatar_sprite, 60, 20, 3) # 3 => layer
@@ -461,6 +462,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NjEyNzUyLDE4ODgyMzkwOTQsMTgwND
+eyJoaXN0b3J5IjpbODQzNDM2Njk3LDE4ODgyMzkwOTQsMTgwND
 c4MzE5OSw4MjcyNzU3NDldfQ==
 -->
