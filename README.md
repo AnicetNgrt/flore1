@@ -323,7 +323,7 @@ Refresh.feed(*loop_tuple)
 while True:
     Refresh.run()
 ```
-## <a name="tuto3"></a>3/ Converting a picture to a sprite and displaying it:
+## <a name="tuto3"></a>3/ Converting a picture with transparency to a sprite and displaying it:
 ### 🧭 What we will do:
 ![wow](https://imgur.com/X3xpstQ.png)This tutorial is about displaying pictures on top of one another with transparency, after having them converted to (text) sprites.
 [-> I just want the code thanks.](#tuto3_code)
@@ -381,15 +381,18 @@ As you can see, the originaly 1024*1024px picture got quite resized ! Files almo
 ### 📚 Displaying more pictures
 Now let's repeat the process in order to display more pictures.
 Don't forget to erase the `time.sleep(30)` you put previously.
+#### Let's display a picture with transparency:
 ```python
 # following the previously given code
 # Let's display our 2nd picture:
 bow_icon_asset = Engine.pic_to_textAsset('assets/archer.png', 
-	new_size=["32","32"] # we ask it to resize this picture to 32*32px
+	new_size=["32","32"], # we ask it to resize this picture to 32*32px
+	transparent_rgb=(238, 195, 154) # The color in the picture that is mean
 	)
 bow_icon_sprite = bow_icon_asset.to_sprite()
 Scene.put(bow_icon_sprite, 10, 60, 2) # 2 => layer
-
+```
+```python
 # We also display our 3rd one:
 avatar_asset = Engine.pic_to_textAsset('assets/aniss.png', 
 	new_size=["50","50"] # resize to 50*50px
@@ -457,6 +460,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MzEzODkxMCwxODg4MjM5MDk0LDE4MD
+eyJoaXN0b3J5IjpbMjA5NzI5MzAwOSwxODg4MjM5MDk0LDE4MD
 Q3ODMxOTksODI3Mjc1NzQ5XX0=
 -->
