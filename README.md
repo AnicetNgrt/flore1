@@ -375,7 +375,8 @@ Scene.show()
 ![me but pixelated](https://imgur.com/PNXPVtc.png)
 Hey, that's me ! *(I feel like I will hate myself for taking this picture in a few years)*
 As you can see, the originaly 1024*1024px picture got quite resized ! Files almost never downscale without ugly artifacts everywhere. This is due to the limited n=255 terminal's color range... so I have no other choice. ¯\\\_(ツ)_/¯
-
+### 📚 Displaying more pictures
+Now let's display repeat the prcoe
  #  <a name="doc"></a>Documentation
  The flore1 module has 3 top level classes located in `flore1/flore1.py`:
  
@@ -395,6 +396,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NTM4MjEyNSwxODA0NzgzMTk5LDgyNz
+eyJoaXN0b3J5IjpbLTQ1NjE2NzM3MSwxODA0NzgzMTk5LDgyNz
 I3NTc0OV19
 -->
