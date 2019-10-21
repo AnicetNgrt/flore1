@@ -379,16 +379,21 @@ As you can see, the originaly 1024*1024px picture got quite resized ! Files almo
 Now let's repeat the process in order to display more pictures.
 ```python
 # following the previously given code
+# Let's display our 2nd picture:
 bow_icon_asset = Engine.pic_to_textAsset('assets/archer.png', 
 	new_size=["32","32"] # we ask it to resize this picture to 32*32px
 	)
 bow_icon_sprite = bow_icon_asset.to_sprite()
 Scene.put(bow_icon_sprite, 10, 60, 2)
-# We also display a 3rd one:
+
+# We also display our 3rd one:
 avatar_asset = Engine.pic_to_textAsset('assets/aniss.png', 
-	new_size=["50","50"], transparent_rgb=(-1, -1, -1))
+	new_size=["50","50"] # resize to 50*50px
+	)
 avatar_sprite = avatar_asset.to_sprite()
 Scene.put(avatar_sprite, 60, 20, 3)
+
+# Don't fo
 ```
 
  #  <a name="doc"></a>Documentation
@@ -410,6 +415,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODc3MDk0NjQsMTgwNDc4MzE5OSw4Mj
-cyNzU3NDldfQ==
+eyJoaXN0b3J5IjpbMTM4ODg4NjAzNywxODA0NzgzMTk5LDgyNz
+I3NTc0OV19
 -->
