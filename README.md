@@ -445,6 +445,7 @@ Scene.show()
 
 time.sleep(30)
 ```
+##
  #  <a name="doc"></a>Documentation
  The flore1 module has 3 top level classes located in `flore1/flore1.py`:
  
@@ -464,6 +465,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTQ1NTYxMDYsMTg4ODIzOTA5NCwxOD
-A0NzgzMTk5LDgyNzI3NTc0OV19
+eyJoaXN0b3J5IjpbLTE1MjQ2MzY3OTYsLTE2OTQ1NTYxMDYsMT
+g4ODIzOTA5NCwxODA0NzgzMTk5LDgyNzI3NTc0OV19
 -->
