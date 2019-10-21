@@ -384,6 +384,11 @@ bow_icon_asset = Engine.pic_to_textAsset('assets/archer.png',
 	)
 bow_icon_sprite = bow_icon_asset.to_sprite()
 Scene.put(bow_icon_sprite, 10, 60, 2)
+# We also display a 3rd one:
+avatar_asset = Engine.pic_to_textAsset('assets/aniss.png', 
+	new_size=["50","50"], transparent_rgb=(-1, -1, -1))
+avatar_sprite = avatar_asset.to_sprite()
+Scene.put(avatar_sprite, 60, 20, 3)
 ```
 
  #  <a name="doc"></a>Documentation
@@ -405,6 +410,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjkzNDgyMzIsMTgwNDc4MzE5OSw4Mj
+eyJoaXN0b3J5IjpbLTE2ODc3MDk0NjQsMTgwNDc4MzE5OSw4Mj
 cyNzU3NDldfQ==
 -->
