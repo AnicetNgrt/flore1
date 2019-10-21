@@ -397,7 +397,8 @@ By puting `(238, 195, 154)` in the `transparent_rgb` optionnal argument, we ask 
 # following the previously given code
 avatar_asset = Engine.pic_to_textAsset('assets/aniss.png', 
 	new_size=["50","50"] # resize to 50*50px
-	# here we don
+	# here we do not put anything, this way the scene
+	# knows there is no transparency for this picture
 	)
 avatar_sprite = avatar_asset.to_sprite()
 Scene.put(avatar_sprite, 60, 20, 3) # 3 => layer
@@ -408,7 +409,7 @@ time.sleep(30)
 ```
 As you can see we asked our scene to put our 2nd sprite on the 2nd layer and the 3rd one on the 3rd layer. Therefore, the 1st picture on the 1st layer will be on the foreground, and the two others will be more or less on the top according to their layer.
 
-![wow](https://imgur.com/X3xpstQ.png)It works !  Now you know how to display pictures with flore1 !
+![wow](https://imgur.com/X3xpstQ.png)It works ! The bow icon has transparency, and the pictures do display on top of one another  Now you know how to display pictures with flore1 !
 ### <a name="tuto3_code"></a>📥 Conclusion: This tutorial's code:
 ```python
 import flore1
@@ -462,6 +463,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzNDM2Njk3LDE4ODgyMzkwOTQsMTgwND
-c4MzE5OSw4MjcyNzU3NDldfQ==
+eyJoaXN0b3J5IjpbMjA3OTU1NDg0OCwxODg4MjM5MDk0LDE4MD
+Q3ODMxOTksODI3Mjc1NzQ5XX0=
 -->
