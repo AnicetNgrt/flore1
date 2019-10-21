@@ -409,7 +409,8 @@ time.sleep(30)
 ```
 As you can see we asked our scene to put our 2nd sprite on the 2nd layer and the 3rd one on the 3rd layer. Therefore, the 1st picture on the 1st layer will be on the foreground, and the two others will be more or less on the top according to their layer.
 
-![wow](https://imgur.com/X3xpstQ.png)It works ! The bow icon has transparency, and the pictures do display on top of one another  Now you know how to display pictures with flore1 !
+![wow](https://imgur.com/X3xpstQ.png)It works ! The bow icon has transparency, and the pictures do display on top of one another.  
+Now you know how to display pictures with flore1 !
 ### <a name="tuto3_code"></a>📥 Conclusion: This tutorial's code:
 ```python
 import flore1
@@ -432,7 +433,7 @@ anicet_asset = Engine.pic_to_textAsset('assets/anicet.jpg', new_size="AUTO")
 anicet_sprite = anicet_asset.to_sprite()
 Scene.put(anicet_sprite, 10, 10, 1)
 
-bow_icon_asset = Engine.pic_to_textAsset('assets/archer.png', new_size=["32","32"])
+bow_icon_asset = Engine.pic_to_textAsset('assets/archer.png', new_size=["32","32"], transparent_rgb=(238, 195, 154))
 bow_icon_sprite = bow_icon_asset.to_sprite()
 Scene.put(bow_icon_sprite, 10, 60, 2)
 
@@ -463,6 +464,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3OTU1NDg0OCwxODg4MjM5MDk0LDE4MD
-Q3ODMxOTksODI3Mjc1NzQ5XX0=
+eyJoaXN0b3J5IjpbLTE2OTQ1NTYxMDYsMTg4ODIzOTA5NCwxOD
+A0NzgzMTk5LDgyNzI3NTc0OV19
 -->
