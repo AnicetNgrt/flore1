@@ -58,12 +58,12 @@ Therefore, please consider donating, it will greatly support this project ! \\(�
   ### Table of content:
   
 
- 0. [**Getting started**](#tuto0)
+ 0. [Getting started](#tuto0)
  1. [Displaying a static text sprite in a scene](#tuto1)
  2. [Introduction to game loops: Moving a sprite across it's scene](#tuto2)
  3. [Converting a picture to a sprite and displaying it](#tuto3)
- 4. [Flipbooks: how to display a gif on the termi]
-
+ 4. [Flipbooks: Display a gif on the terminal as an animated text sprite](#tuto4)
+ 
 ## <a name="tuto0"></a>0/ Getting started:
 ### 💿 Installation with pip:
   If you don't have python (3.6 or above) and pip installed, install them first.
@@ -466,7 +466,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI1NDk0ODIyLC0xNTI0NjM2Nzk2LC0xNj
-k0NTU2MTA2LDE4ODgyMzkwOTQsMTgwNDc4MzE5OSw4MjcyNzU3
-NDldfQ==
+eyJoaXN0b3J5IjpbMTAwMzMyMDMyNCwtMTUyNDYzNjc5NiwtMT
+Y5NDU1NjEwNiwxODg4MjM5MDk0LDE4MDQ3ODMxOTksODI3Mjc1
+NzQ5XX0=
 -->
