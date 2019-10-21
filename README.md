@@ -387,11 +387,12 @@ Don't forget to erase the `time.sleep(30)` you put previously.
 # Let's display our 2nd picture:
 bow_icon_asset = Engine.pic_to_textAsset('assets/archer.png', 
 	new_size=["32","32"], # we ask it to resize this picture to 32*32px
-	transparent_rgb=(238, 195, 154) # The color in the picture that is mean
+	transparent_rgb=(238, 195, 154) # The color in the picture that is meant to be transparent
 	)
 bow_icon_sprite = bow_icon_asset.to_sprite()
 Scene.put(bow_icon_sprite, 10, 60, 2) # 2 => layer
 ```
+By puting (238, 195, 154) in the `transparent_rgb` optionnal argument, we ask the scene to not print this picture's pixels having this rgb code.
 ```python
 # We also display our 3rd one:
 avatar_asset = Engine.pic_to_textAsset('assets/aniss.png', 
@@ -460,6 +461,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NzI5MzAwOSwxODg4MjM5MDk0LDE4MD
-Q3ODMxOTksODI3Mjc1NzQ5XX0=
+eyJoaXN0b3J5IjpbLTM0NjEyNzUyLDE4ODgyMzkwOTQsMTgwND
+c4MzE5OSw4MjcyNzU3NDldfQ==
 -->
