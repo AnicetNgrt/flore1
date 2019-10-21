@@ -384,19 +384,20 @@ bow_icon_asset = Engine.pic_to_textAsset('assets/archer.png',
 	new_size=["32","32"] # we ask it to resize this picture to 32*32px
 	)
 bow_icon_sprite = bow_icon_asset.to_sprite()
-Scene.put(bow_icon_sprite, 10, 60, 2)
+Scene.put(bow_icon_sprite, 10, 60, 2) # 2 => layer
 
 # We also display our 3rd one:
 avatar_asset = Engine.pic_to_textAsset('assets/aniss.png', 
 	new_size=["50","50"] # resize to 50*50px
 	)
 avatar_sprite = avatar_asset.to_sprite()
-Scene.put(avatar_sprite, 60, 20, 3) # 3=la
+Scene.put(avatar_sprite, 60, 20, 3) # 3 => layer
 
 # Don't forget this:
 Scene.show()
 ```
-As you can see we ask our scene to put our 2nd sprite on the 2nd layer and the 3rd one on the 3rd layer.
+As you can see we asked our scene to put our 2nd sprite on the 2nd layer and the 3rd one on the 3rd layer. Therefore, the 1st picture on the 1st layer will be on the foreground, and the two others will be more or less on the top according to their layer.
+
 
  #  <a name="doc"></a>Documentation
  The flore1 module has 3 top level classes located in `flore1/flore1.py`:
@@ -417,6 +418,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjQ5MDE2NTEsMTgwNDc4MzE5OSw4Mj
-cyNzU3NDldfQ==
+eyJoaXN0b3J5IjpbMzkxNjUxNDY5LDE4MDQ3ODMxOTksODI3Mj
+c1NzQ5XX0=
 -->
