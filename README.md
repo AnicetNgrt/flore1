@@ -378,7 +378,7 @@ Hey, that's me ! *(I feel like I will hate myself for taking this picture in a f
 As you can see, the originaly 1024*1024px picture got quite resized ! Files almost never downscale without ugly artifacts everywhere. This is due to the limited n=255 terminal's color range... so I have no other choice. ¯\\\_(ツ)_/¯
 ### 📚 Displaying more pictures
 Now let's repeat the process in order to display more pictures.
-Don't forget to erase the 
+Don't forget to erase the `time.sleep(30)` you put previously.
 ```python
 # following the previously given code
 # Let's display our 2nd picture:
@@ -401,7 +401,7 @@ time.sleep(30)
 ```
 As you can see we asked our scene to put our 2nd sprite on the 2nd layer and the 3rd one on the 3rd layer. Therefore, the 1st picture on the 1st layer will be on the foreground, and the two others will be more or less on the top according to their layer.
 
-![wow](https://imgur.com/QNGbXty.png)It works ! 
+![wow](https://imgur.com/QNGbXty.png)It works !  Now you know how to display pictures with flore1 !
 ### <a name="tuto3_code"></a>📥 Conclusion: This tutorial's code:
 ```python
 import flore1
@@ -420,15 +420,15 @@ Scene = Engine.new_scene("super cool name",
     layer_count = 15
     )
 
-anicet_asset = Engine.pic_to_textAsset('assets/anicet.jpg', new_size="AUTO", transparent_rgb=(-1, -1, -1))
+anicet_asset = Engine.pic_to_textAsset('assets/anicet.jpg', new_size="AUTO")
 anicet_sprite = anicet_asset.to_sprite()
 Scene.put(anicet_sprite, 10, 10, 1)
 
-bow_icon_asset = Engine.pic_to_textAsset('assets/archer.png', new_size=["32","32"], transparent_rgb=(-1, -1, -1))
+bow_icon_asset = Engine.pic_to_textAsset('assets/archer.png', new_size=["32","32"])
 bow_icon_sprite = bow_icon_asset.to_sprite()
 Scene.put(bow_icon_sprite, 10, 60, 2)
 
-avatar_asset = Engine.pic_to_textAsset('assets/aniss.png', new_size=["50","50"], transparent_rgb=(-1, -1, -1))
+avatar_asset = Engine.pic_to_textAsset('assets/aniss.png', new_size=["50","50"])
 avatar_sprite = avatar_asset.to_sprite()
 Scene.put(avatar_sprite, 60, 20, 3)
 
@@ -455,6 +455,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ2OTQzNTU4LDE4MDQ3ODMxOTksODI3Mj
-c1NzQ5XX0=
+eyJoaXN0b3J5IjpbLTE3MTI3MDY0OTIsMTgwNDc4MzE5OSw4Mj
+cyNzU3NDldfQ==
 -->
