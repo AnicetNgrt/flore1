@@ -398,7 +398,8 @@ Scene.show()
 ```
 As you can see we asked our scene to put our 2nd sprite on the 2nd layer and the 3rd one on the 3rd layer. Therefore, the 1st picture on the 1st layer will be on the foreground, and the two others will be more or less on the top according to their layer.
 
-
+![wow](https://imgur.com/QNGbXty.png)It works ! 
+### Conlusion:
  #  <a name="doc"></a>Documentation
  The flore1 module has 3 top level classes located in `flore1/flore1.py`:
  
@@ -418,6 +419,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkxNjUxNDY5LDE4MDQ3ODMxOTksODI3Mj
-c1NzQ5XX0=
+eyJoaXN0b3J5IjpbLTE3Mjk4MjgyNjYsMTgwNDc4MzE5OSw4Mj
+cyNzU3NDldfQ==
 -->
