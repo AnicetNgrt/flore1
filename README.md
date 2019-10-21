@@ -6,7 +6,7 @@
 Thanks a lot for paying attention to my work. 
 My name is Anicet Nougaret, and I'm doing all of this alone. 
 This project will always remain open source and free.
-Therefore, please consider donating, it will greatly support this project ! \(●'◡'●)/
+Therefore, please consider donating, it will greatly support this project ! \\(●'◡'●)/
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=56G94VB5RYGKN&source=url)
 
 # Table of content:
@@ -395,5 +395,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNDc4MzE5OSw4MjcyNzU3NDldfQ==
+eyJoaXN0b3J5IjpbLTE0MTg5MTUxNjksMTgwNDc4MzE5OSw4Mj
+cyNzU3NDldfQ==
 -->
