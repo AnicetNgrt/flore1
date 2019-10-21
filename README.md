@@ -325,7 +325,7 @@ while True:
 ```
 ## <a name="tuto3"></a>3/ Converting a picture to a sprite and displaying it:
 ### 🧭 What we will do:
-![wow](https://imgur.com/QNGbXty.png)This tutorial is about displaying pictures on top of one another after having them converted to (text) sprites.
+![wow](https://imgur.com/X3xpstQ.png)This tutorial is about displaying pictures on top of one another with transparency, after having them converted to (text) sprites.
 [-> I just want the code thanks.](#tuto3_code)
 ### 📁 Let's get pictures !
 For this tutorial we need pictures so make sure you have the following:
@@ -403,7 +403,7 @@ time.sleep(30)
 ```
 As you can see we asked our scene to put our 2nd sprite on the 2nd layer and the 3rd one on the 3rd layer. Therefore, the 1st picture on the 1st layer will be on the foreground, and the two others will be more or less on the top according to their layer.
 
-![wow](https://imgur.com/QNGbXty.png)It works !  Now you know how to display pictures with flore1 !
+![wow](https://imgur.com/X3xpstQ.png)It works !  Now you know how to display pictures with flore1 !
 ### <a name="tuto3_code"></a>📥 Conclusion: This tutorial's code:
 ```python
 import flore1
@@ -457,6 +457,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4ODIzOTA5NCwxODA0NzgzMTk5LDgyNz
-I3NTc0OV19
+eyJoaXN0b3J5IjpbLTU3MzEzODkxMCwxODg4MjM5MDk0LDE4MD
+Q3ODMxOTksODI3Mjc1NzQ5XX0=
 -->
