@@ -9,8 +9,9 @@ I aim to learn from thoses who want to contribute to this project. So please con
 ### 📜 Basic guidelines:
 
  - A faster/more optimised version will always be priviligiated.
- - Improvin
+ - 
+ - Improving on syntax and code style is welcomed if it leads to similar or better performances.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTc2NzkwNSwtMjA1NzA4MzUyOF19
+eyJoaXN0b3J5IjpbMTQyMDg4NDQ3OSwtMjA1NzA4MzUyOF19
 -->
