@@ -10,8 +10,7 @@ I aim to learn from thoses who want to contribute to this project. So please con
  - A faster/more optimised version will always be priviligiated.
  - Improvements and bugfixes must be demonstrated and explained clearly in your pull requests.
  - Improving on syntax and code style is welcomed if it leads to similar or better performances.
- - Be patient 
- - C shall always be rewarded in some way :)
+ - Be patient, contribution shall always be rewarded in some way.
 
 ### 📮 Your pull request should include:
 
@@ -20,12 +19,13 @@ I aim to learn from thoses who want to contribute to this project. So please con
  - The test files you used to compare performance
  - The test files for the new fonctionnalities
  
+ ### 📖 Helping with the documentation and the tutorials:
  
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNTM0MjgzMSwyMTA5NDc3MjMsNDYxNT
-ExMzIsLTE5NjU5NzE1MDAsLTIwNTcwODM1MjhdfQ==
+eyJoaXN0b3J5IjpbMzMzMTU5NDQ5LDIxMDk0NzcyMyw0NjE1MT
+EzMiwtMTk2NTk3MTUwMCwtMjA1NzA4MzUyOF19
 -->
