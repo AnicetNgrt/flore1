@@ -13,13 +13,13 @@ I aim to learn from thoses who want to contribute to this project. So please con
 
 ### 📮 Your pull request should include:
 
- - Brief but clear explanation of each change (unless they repeat)
+ - The list of improvements/bugfixes
+ - A clear explanation of each change regarding the algorithms (unless they repeat)
  - The test files you used to compare performance
- - 
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODQzNTUwNzIsLTIwNTcwODM1MjhdfQ
-==
+eyJoaXN0b3J5IjpbNzY5NDMzNzEzLC0yMDU3MDgzNTI4XX0=
 -->
