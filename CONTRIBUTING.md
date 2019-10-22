@@ -8,9 +8,9 @@ I aim to learn from thoses who want to contribute to this project. So please con
 
 ### 📜 Basic guidelines:
 
- - We w
+ - A faster/more optimised version will always be priviligiated.
+ - Improvin
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzQ1MzI2NzYsLTIwNTcwODM1MjhdfQ
-==
+eyJoaXN0b3J5IjpbLTUwOTc2NzkwNSwtMjA1NzA4MzUyOF19
 -->
