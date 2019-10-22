@@ -21,13 +21,13 @@ I aim to learn from thoses who want to contribute to this project. So please con
  
  ### 📖 Helping with the documentation and the tutorials:
  I don't expect anyone to do this for me, but if still you do, please send me your piece of documentation or your tutorial in a .md file on [my email](#anicet.nougaret@zohomail.eu). I will review it, correct it if needed, send it back to you for approbation, and then push it to master. 
- **You will be clearly credited of course !**
+ **You will be credited of course !**
 
-
+# 🏅 Rewarding contributors
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg5MTgxNDc2LDIxMDk0NzcyMyw0NjE1MT
+eyJoaXN0b3J5IjpbMzg1Mzk2NTc1LDIxMDk0NzcyMyw0NjE1MT
 EzMiwtMTk2NTk3MTUwMCwtMjA1NzA4MzUyOF19
 -->
