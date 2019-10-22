@@ -1,16 +1,15 @@
 # 💡 Contributing to flore1 
 First, thanks a lot for contributing to flore1 ! **╰(\*°▽°\* )╯** 
 
-# 🔰 Introduction:
 Flore1 is still a small scale project made entirely by I (the writer). 
 I am a solo dev who is not very used to collaborative work on github.
 I aim to learn from thoses who want to contribute to this project. So please consider the fact that there is no fancy well redacted guidelines now.
 
 # 📜 Basic guidelines:
 
- - **A faster/more optimised version will always be priviligiated.**
- - **Improvements and bugfixes must be demonstrated and explained clearly in your pull requests.**
- - **Improving on syntax and code style is welcomed if it leads to similar or better performances.**
+ - A faster/more optimised version will always be priviligiated.
+ - Improvements and bugfixes must be demonstrated and explained clearly in your pull requests.
+ - Improving on syntax and code style is welcomed if it leads to similar or better performances.
 
 ## Your pull request should include:
 
@@ -19,5 +18,5 @@ I aim to learn from thoses who want to contribute to this project. So please con
  - The test files you used to compare performance
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4OTY2NjIwMiwtMjA1NzA4MzUyOF19
+eyJoaXN0b3J5IjpbMTAxMDk3OTY1NiwtMjA1NzA4MzUyOF19
 -->
