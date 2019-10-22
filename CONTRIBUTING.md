@@ -1,9 +1,15 @@
-# Contributing to flore1 
-First, thanks a lot for contributing to flore1 ! ╰(\*°▽°\*)╯ !
-Flore1 is still a small scale project made entirely by I (the writer). I am a solo dev who is not very used to collaborative work on github.
+# 💡 Contributing to flore1 
+First, thanks a lot for contributing to flore1 ! **╰(\*°▽°\* )╯** 
+
+### Introduction:
+Flore1 is still a small scale project made entirely by I (the writer). 
+I am a solo dev who is not very used to collaborative work on github.
 I aim to learn from thoses who want to contribute to this project. So please consider the fact that there is no fancy well redacted guidelines now.
-Still here goes some basic guidelines:
+
+### Basic guidelines:
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MDgzNjQ3MywtMjA1NzA4MzUyOF19
+eyJoaXN0b3J5IjpbLTE4MTAyNjA0NzYsLTIwNTcwODM1MjhdfQ
+==
 -->
