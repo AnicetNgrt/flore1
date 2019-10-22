@@ -13,8 +13,8 @@ I aim to learn from thoses who want to contribute to this project. So please con
 
 ### 📮 Your pull request should include:
 
- - The list of improvements/bugfixes
- - A clear explanation of each change regarding the algorithms (unless they repeat)
+ - The list of improvements and bugfixes
+ - A clear explanation of each new or modified algorithm
  - The test files you used to compare performance
  - The test files for your added fonctionnalities
  
@@ -24,6 +24,6 @@ I aim to learn from thoses who want to contribute to this project. So please con
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYxNTExMzIsLTE5NjU5NzE1MDAsLTIwNT
-cwODM1MjhdfQ==
+eyJoaXN0b3J5IjpbMjEwOTQ3NzIzLDQ2MTUxMTMyLC0xOTY1OT
+cxNTAwLC0yMDU3MDgzNTI4XX0=
 -->
