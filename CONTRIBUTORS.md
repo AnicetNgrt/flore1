@@ -1,9 +1,10 @@
 # 🔧 Flore 1 contributors list
 
  - Anicet Nougaret:
-	 - First commit
-	 - Orig
+	 - Project initiator
+	 - Project lead
+	 - O
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNTU5MjI0NiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTcwODAxNTM5OSwtMjA4ODc0NjYxMl19
 -->
