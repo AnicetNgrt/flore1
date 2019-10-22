@@ -9,9 +9,13 @@ I aim to learn from thoses who want to contribute to this project. So please con
 ### 📜 Basic guidelines:
 
  - A faster/more optimised version will always be priviligiated.
- - Improvements and bugfixes must be demonstrated clearly in your pull requests
+ - Improvements and bugfixes must be demonstrated and explained clearly in your pull requests.
  - Improving on syntax and code style is welcomed if it leads to similar or better performances.
 
+#### Therefore your pull request should include:
+
+ - Brief but clear explanation 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNDAwMDEwNywtMjA1NzA4MzUyOF19
+eyJoaXN0b3J5IjpbMTMwNDE3ODQ0OCwtMjA1NzA4MzUyOF19
 -->
