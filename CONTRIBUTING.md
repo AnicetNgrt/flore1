@@ -15,8 +15,9 @@ I aim to learn from thoses who want to contribute to this project. So please con
 ## Your pull request should include:
 
  - Brief but clear explanation of each change (unless they repeat)
+ - I don't consider myself an algorithm genius, please explain any big algorithmic changes the best you can.
  - The test files you used to compare performance
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcyMTg0NDExLC0yMDU3MDgzNTI4XX0=
+eyJoaXN0b3J5IjpbLTU4OTY2NjIwMiwtMjA1NzA4MzUyOF19
 -->
