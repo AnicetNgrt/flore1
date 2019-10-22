@@ -24,11 +24,11 @@ I aim to learn from thoses who want to contribute to this project. So please con
  **You will be credited of course !**
 
 # 🏅 Rewarding contributors:
-My project includes a `CONTRIBUTORS.md` file which lists all the contributors, a brief description of their work, and a link to their website i
+My project includes a `CONTRIBUTORS.md` file which lists all the contributors, a brief description of their work, and a link to their website and paypal donation page if they wish to. Of course, you can ask me not to list you in it, this is totally optional. (\^ù\^
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NjcyMTk5LDIxMDk0NzcyMyw0NjE1MT
-EzMiwtMTk2NTk3MTUwMCwtMjA1NzA4MzUyOF19
+eyJoaXN0b3J5IjpbMTc3NjQ0NDY0NSwyMTA5NDc3MjMsNDYxNT
+ExMzIsLTE5NjU5NzE1MDAsLTIwNTcwODM1MjhdfQ==
 -->
