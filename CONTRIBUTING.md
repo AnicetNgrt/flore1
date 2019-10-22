@@ -10,13 +10,14 @@ I aim to learn from thoses who want to contribute to this project. So please con
  - A faster/more optimised version will always be priviligiated.
  - Improvements and bugfixes must be demonstrated and explained clearly in your pull requests.
  - Improving on syntax and code style is welcomed if it leads to similar or better performances.
+ - Be patient, participating shall always be 
 
 ### 📮 Your pull request should include:
 
  - The list of improvements and bugfixes
  - A clear explanation of each new or modified algorithm
  - The test files you used to compare performance
- - The test files for your added fonctionnalities
+ - The test files for the new fonctionnalities
  
  
 
@@ -24,6 +25,6 @@ I aim to learn from thoses who want to contribute to this project. So please con
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwOTQ3NzIzLDQ2MTUxMTMyLC0xOTY1OT
-cxNTAwLC0yMDU3MDgzNTI4XX0=
+eyJoaXN0b3J5IjpbLTQ2NjA0OTEzMywyMTA5NDc3MjMsNDYxNT
+ExMzIsLTE5NjU5NzE1MDAsLTIwNTcwODM1MjhdfQ==
 -->
