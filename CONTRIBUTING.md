@@ -11,12 +11,15 @@ I aim to learn from thoses who want to contribute to this project. So please con
  - Improvements and bugfixes must be demonstrated and explained clearly in your pull requests.
  - Improving on syntax and code style is welcomed if it leads to similar or better performances.
 
-## Your pull request should include:
+### 📮 Your pull request should include:
 
  - Brief but clear explanation of each change (unless they repeat)
- - I don't consider myself an algorithm genius, please explain any big algorithmic changes the best you can.
  - The test files you used to compare performance
+ - 
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMDk3OTY1NiwtMjA1NzA4MzUyOF19
+eyJoaXN0b3J5IjpbLTE5ODQzNTUwNzIsLTIwNTcwODM1MjhdfQ
+==
 -->
