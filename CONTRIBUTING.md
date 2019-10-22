@@ -16,6 +16,7 @@ I aim to learn from thoses who want to contribute to this project. So please con
  - The list of improvements/bugfixes
  - A clear explanation of each change regarding the algorithms (unless they repeat)
  - The test files you used to compare performance
+ - The test files for your added fonctionnalities
  
  
 
@@ -23,6 +24,6 @@ I aim to learn from thoses who want to contribute to this project. So please con
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjU5NzE1MDAsLTIwNTcwODM1MjhdfQ
-==
+eyJoaXN0b3J5IjpbNDYxNTExMzIsLTE5NjU5NzE1MDAsLTIwNT
+cwODM1MjhdfQ==
 -->
