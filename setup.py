@@ -1,9 +1,9 @@
-import setuptools
+from distutils.core import setup
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-setuptools.setup(
+setup(
     name="flore1",
     version="0.0.1",
     author="Anicet Nougaret",
@@ -13,6 +13,9 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/AnicetNgrt/flore1",
     packages=setuptools.find_packages(),
+    install_requires=[            
+          'pillow'
+      ],
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "Programming Language :: Python :: 3",
