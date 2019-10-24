@@ -137,7 +137,6 @@ class Refresh:
             self.i += 1
         
         if required_fps >= fps:
-            print("ggg")
             self.i += required_fps / fps
         
         self.frame = round(self.i)
