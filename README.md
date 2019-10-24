@@ -6,7 +6,8 @@
 Thanks a lot for paying attention to my work. 
 My name is Anicet Nougaret, and I'm doing all of this alone. 
 This project will always remain open source and free.
-Therefore, please consider donating, it will greatly support this project ! \\(●'◡'●)/
+Therefore, please consider donating, it will greatly support this project ! 
+\\(●'◡'●)/
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=56G94VB5RYGKN&source=url)
 
 # Table of content:
@@ -446,7 +447,9 @@ Scene.show()
 
 time.sleep(30)
 ```
-##
+## <a name="tuto4"></a> Flipbooks: Display a gif on the terminal as an animated text sprite
+### 🧭 What we will do:
+In this tutorial we will display an animated gif in the terminal.
  #  <a name="doc"></a>Documentation
  The flore1 module has 3 top level classes located in `flore1/flore1.py`:
  
@@ -466,7 +469,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMzMyMDMyNCwtMTUyNDYzNjc5NiwtMT
-Y5NDU1NjEwNiwxODg4MjM5MDk0LDE4MDQ3ODMxOTksODI3Mjc1
-NzQ5XX0=
+eyJoaXN0b3J5IjpbLTEwMTk4MTc4MzEsMTAwMzMyMDMyNCwtMT
+UyNDYzNjc5NiwtMTY5NDU1NjEwNiwxODg4MjM5MDk0LDE4MDQ3
+ODMxOTksODI3Mjc1NzQ5XX0=
 -->

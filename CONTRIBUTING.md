@@ -1,4 +1,4 @@
-﻿# 💡 Contributing to flore1 
+# 💡 Contributing to flore1 
 **Thanks a lot for contributing to flore1 ! ╰(\*°▽°\* )╯** 
 
 Flore1 is still a small scale project made almost entirely by I (the writer). 
@@ -26,5 +26,3 @@ I aim to learn from thoses who want to contribute to this project. So please con
 # 🏅 Rewarding contributors:
 My project includes a `CONTRIBUTORS.md` file which lists all the contributors, a brief description of their work, and a link to their website and paypal donation page if they wish to. Of course, you can ask me not to list you in it, this is totally optional ;-) .
 Contributors may be more rewarded, but I can't promess anything, I repeat, this is still a small scale project.
-
-
