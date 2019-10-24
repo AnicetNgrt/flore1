@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="flore1",
-    version="0.0.1",
+    version="1.0.0",
     author="Anicet Nougaret",
     author_email="anicet.nougaret@zohomail.eu",
     description="The first 2D python game engine rendering in the terminal.",
