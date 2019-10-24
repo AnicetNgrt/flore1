@@ -137,7 +137,6 @@ class Refresh:
             self.i += 1
         
         if required_fps >= fps:
-            print("ggg")
             self.i += required_fps / fps
         
         self.frame = round(self.i)
@@ -279,7 +278,7 @@ class Engine:
                     pixel = "  "
 
                 if trsprt_index is not None:
-                    if ci == trsprt_index:
+                    if rgb_palette[ci] == transparent_rgb:
                         pixel = "ªª"
 
                 pv_code = code
