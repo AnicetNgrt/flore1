@@ -183,10 +183,12 @@ class VirtualScene:
             sys.stdout.write(self.stream)
             sys.stdout.flush()
             end_time = time.time()
-
+            latency = (end_time - genesis_time)
+            if latency == 0: latency = 0.00001
+            
             if debug:
                 print("\33[0m\033[6;40H| \33[45m\33[37m SYS.STDOUT.WRITE: %9f s" % ((end_time - start_time)))
-                print("\33[0m\033[7;40H| \33[45m\33[37m EXPECTED_FPS: %5s" % str(round(1 / (end_time - genesis_time))))
+                print("\33[0m\033[7;40H| \33[45m\33[37m EXPECTED_FPS: %.2f     " % (round(1 / latency)))
 
             self.frame_event = False
 

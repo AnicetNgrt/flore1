@@ -9,6 +9,3 @@
 
  There is no one else as for now. If you want to be a contributor to flore1 and be part of this list, head to the [CONTRIBUTING file](#https://github.com/AnicetNgrt/flore1/blob/master/CONTRIBUTING.md).
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY3NDM5NDQyLC0yMDg4NzQ2NjEyXX0=
--->

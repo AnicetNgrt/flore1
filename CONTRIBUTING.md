@@ -26,11 +26,3 @@ I aim to learn from thoses who want to contribute to this project. So please con
 # 🏅 Rewarding contributors:
 My project includes a `CONTRIBUTORS.md` file which lists all the contributors, a brief description of their work, and a link to their website and paypal donation page if they wish to. Of course, you can ask me not to list you in it, this is totally optional ;-) .
 Contributors may be more rewarded, but I can't promess anything, I repeat, this is still a small scale project.
-
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTkzNzI1ODMsMTY3MTI2NDU3MSwyMT
-A5NDc3MjMsNDYxNTExMzIsLTE5NjU5NzE1MDAsLTIwNTcwODM1
-MjhdfQ==
--->

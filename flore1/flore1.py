@@ -33,24 +33,23 @@ class Flipbook:
                 asset_path = os.path.join(path, filename)
                 self.asset_list.append(Engine.pic_to_textAsset(asset_path, size, transparent_rgb))
 
-        def play(Refresh, Sprite, asset_list, fps):
+        def play(Sprite, asset_list, fps):
             if not hasattr(play, "last_frame"):
                 play.last_frame = -1
             if not hasattr(play, "frame"):
                 play.frame = 0
             if not hasattr(play, "speed"):
-                fps_ratio = Refresh.fps / fps
+                fps_ratio = play.refresh.fps / fps
                 if fps_ratio > 1:
                     play.speed = 1 / fps_ratio
                 else:
                     play.speed = fps_ratio
 
-            #print("\033["+str(len(asset_list))+";1H "+("%2s" % str(play.i)))
+            #print("\033["+str(len(asset_list)-1)+";1H "+("%2s" % str(play.speed)))
+            #print("\033["+str(len(asset_list))+";1H "+("%2s" % str(play.last_frame)))
+
             play.frame = play.speed * play.i
-            crt_frame = math.floor(play.frame)
-            if crt_frame >= len(asset_list):
-                play.i = 0
-                crt_frame = 0
+            crt_frame = math.floor(play.frame) % len(asset_list)
 
             if crt_frame != play.last_frame:
                 Sprite.set_asset(asset_list[crt_frame])
@@ -78,8 +77,10 @@ class Flipbook:
 class Refresh:
     def __init__(self, fps=35):
         self.fps = fps
-        self.turn = 0
+        self.pv_i = 0
         self.i = 0
+        self.pv_frame = 0
+        self.frame = 0
         self.stack = []
 
 # ------------------------------------------------------------
@@ -96,76 +97,87 @@ class Refresh:
 
     def do(self):
         for func, args, kwargs in self.stack:
-            if not hasattr(func, "sync"):
-                func.sync = True
+            if hasattr(func, "refresh") == False:
+                func.__dict__["refresh"] = self
+            if hasattr(func, "sync") == False:
+                func.__dict__["sync"] = True
             if not hasattr(func, "i"):
-                func.i = 0
+                func.__dict__["i"] = 0
             else:
-                if func.sync == True:
-                    func.i += round(self.i / self.turn)
-                else:
-                    func.i += 1
+                if func.sync == True and (self.frame-self.pv_frame) > 0:
+                    func.__dict__["i"] += self.frame-self.pv_frame  
+                    func(*args, **kwargs)
+                elif func.sync == False:
+                    func.__dict__["i"] += 1
+                    func(*args, **kwargs)
 
-            func(self, *args, **kwargs)
+
 
 # ------------------------------------------------------------
 
     def run(self, debug=False):
-        start = time.time()
+        required_fps = self.fps
+
+        start_time = time.time()
+        
+        self.do()
+
+        exec_time = time.time()
+        latency = exec_time - start_time
+
+        if latency < 0.0001: latency = 0.0001
+
+        fps = 1 / latency
+
+        self.pv_frame = self.frame
+        self.pv_i = self.i
+
+        if fps > required_fps:
+            time.sleep((1 / required_fps) - latency)
+            self.i += 1
+        
+        if required_fps >= fps:
+            print("ggg")
+            self.i += required_fps / fps
+        
+        self.frame = round(self.i)
+        #print(self.i)
 
         if debug:
             otp = "\33[0m\033[1;0H| >>>> Refresh.\33[34mrun \33[33mdebug"
             print(otp)
-            otp = "\033[2;0H\33[0m|\u001b[38;5;15m\u001b[48;5;16m  FPS/RATE_CAP: "
+
+            otp = "\033[2;0H\33[0m|\u001b[38;5;15m\u001b[48;5;16m  INVERTED_LATENCY_CAP: "
             print(otp + str(self.fps))
 
-        self.do()
+            otp = "\33[0m\033[3;0H|\u001b[48;5;16m\u001b[38;5;15m  LATENCY: "
+            print("%s%1.2f   " % (otp, latency))
 
-        middle = time.time()
-        middle_time = middle - start
-        frames_to_skip = 0
-        if middle_time != 0:
-            fps = round(1 / middle_time)
+            otp = "\033[4;0H\33[0m|\u001b[38;5;16m"
+            if fps >= self.fps:
+                otp += "\u001b[48;5;85m"
+            elif self.fps * 0.8 <= fps < self.fps:
+                otp += "\u001b[48;5;87m"
+            elif self.fps * 0.5 <= fps < self.fps * 0.8:
+                otp += "\u001b[48;5;221m"
+            elif self.fps * 0.2 <= fps < self.fps * 0.5:
+                otp += "\u001b[48;5;202m"
+            else:
+                otp += "\u001b[48;5;9m"
+            otp += "  EXECUTION_FREQUENCY: "
+            print("%s%1.2f   " % (otp, fps))
 
-            if debug:
-                otp = "\033[3;0H\33[0m|\u001b[38;5;16m"
+            otp = "\33[0m\033[5;0H|\u001b[48;5;16m\u001b[38;5;15m  FRAME_DIFF: "
+            print("%s%1.2f   " % (otp, self.frame-self.pv_frame))
 
-                if fps >= self.fps:
-                    otp += "\u001b[48;5;85m"
-                elif self.fps * 0.8 <= fps < self.fps:
-                    otp += "\u001b[48;5;87m"
-                elif self.fps * 0.5 <= fps < self.fps * 0.8:
-                    otp += "\u001b[48;5;221m"
-                elif self.fps * 0.2 <= fps < self.fps * 0.5:
-                    otp += "\u001b[48;5;202m"
-                else:
-                    otp += "\u001b[48;5;9m"
+            otp = "\33[0m\033[6;0H|\u001b[48;5;16m\u001b[38;5;15m  ACCUMULATOR_DIFF: "
+            print("%s%1.2f   " % (otp, self.i-self.pv_i))
 
-                otp += "  EXECUTION_RATE: "
-                print("%s%s      " % (otp, str(fps)))
-
-            if self.fps > fps:
-                time_diff = middle_time - 1 / self.fps
-                frames_to_skip += round(self.fps * time_diff)
-                self.i += frames_to_skip
-
-            if fps > self.fps:
-                time_diff = (1 / self.fps) - middle_time
-                time.sleep(time_diff)
-
-        self.i += 1
-        self.turn += 1
-
-        end = time.time()
-        end_time = (end - start)
-
-        if debug:
-            otp = "\33[0m\033[4;0H|\u001b[38;5;15m\u001b[48;5;16m  DISPLAY_REFRESH_RATE: "
-            if end_time != 0:
-                print("%s%3s       " % (otp, str(round(1 / end_time) + round(frames_to_skip / end_time))))
-
-            otp = "\33[0m\033[5;0H|\u001b[48;5;16m\u001b[38;5;15m  SKIPPED_FRAMES_NOW: "
-            print(otp + str(frames_to_skip) + " ")
+            final_time = time.time()
+            total_latency = final_time - start_time
+            otp = "\33[0m\033[7;0H|\u001b[38;5;15m\u001b[48;5;16m  STABILISED_FREQUENCY: "
+            print("%s%1.2f   " % (otp, (self.i - self.pv_i)/total_latency))
+        
 # ------------------------------------------------------------
 
 
