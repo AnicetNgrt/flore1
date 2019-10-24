@@ -133,7 +133,7 @@ class Refresh:
         self.pv_i = self.i
 
         if fps > required_fps:
-            time.sleep(((1 / required_fps) - latency)/2)
+            time.sleep(((1 / required_fps) - latency)/1.1)
             self.i += 1
         
         if required_fps >= fps:
@@ -221,7 +221,7 @@ class Engine:
 
 # ------------------------------------------------------------
 
-    def pic_to_textAsset(self, path, new_size="AUTO", transparent_rgb=(-1, -1, -1)):
+    def pic_to_textAsset(self, path="", new_size="AUTO", transparent_rgb=(-1, -1, -1)):
         img_file = Image.open(path)
         [xs, ys] = img_file.size
         building_manual = []

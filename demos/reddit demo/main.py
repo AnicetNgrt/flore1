@@ -31,7 +31,7 @@ Scene.put(fb_sprt_2, 50, 10, 3)
 flipbook2.start()
 
 
-def loop(Refresh, Scene):
+def loop(Scene):
     if loop.i <= 320:
         Scene.put(credit_sprt, 1, -260 + loop.i, 5)
     else:
