@@ -133,7 +133,7 @@ class Refresh:
         self.pv_i = self.i
 
         if fps > required_fps:
-            time.sleep((1 / required_fps) - latency)
+            time.sleep(((1 / required_fps) - latency)/2)
             self.i += 1
         
         if required_fps >= fps:
