@@ -623,11 +623,19 @@ The Flipbook class let's you easily animate [TextSprites](#textsprite) instance,
 This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
+## <a name="{classname.lower()}"></a>{classname}
+[->class](#classes)
+
+The Flipbook class lets you easily animate [TextSprites](#textsprites) by syncing with the Flipbook's [Refresh](#refresh) 's execution rate. 
+### <a name="{classname.lower()}-{methodname.lower()}"></a>{methodname}
+[->method](#methods)
+
+This method is so cool 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMTE3MjIzOCwtNzAyNzM5MTA0LDEwNT
+eyJoaXN0b3J5IjpbMTU3NjA1NzYzMSwtNzAyNzM5MTA0LDEwNT
 E5MjM2MCwxMzc1NTk3NTk0LDE0NzQ2MjkxMjYsLTEzMTc4MTYx
 ODhdfQ==
 -->
