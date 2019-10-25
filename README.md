@@ -8,7 +8,7 @@ My name is Anicet Nougaret, and I'm doing all of this alone.
 This project will always remain open source and free.
 Therefore, please consider donating, it will greatly support this project ! 
 \\(●'◡'●)/
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg) ](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=56G94VB5RYGKN&source=url)   \\(●'◡'●)/
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg) ](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=56G94VB5RYGKN&source=url) 
 
 # Table of contents:
 
@@ -47,7 +47,7 @@ Therefore, please consider donating, it will greatly support this project !
  4. Windows 10 - python terminal
  5. Linux - repl.it terminal emulator
  
- Note that it has great probability of rendering well on any modern shell which supports the following escapes codes:
+**Note**: It has great probability of rendering well on any modern shell which supports the following escapes codes:
  
 
     "\033[<row>;<col>H"
@@ -597,5 +597,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTI3OTIzMywtMTMxNzgxNjE4OF19
+eyJoaXN0b3J5IjpbMTE2MDQ0NTI0MywtMTMxNzgxNjE4OF19
 -->
