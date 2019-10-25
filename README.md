@@ -605,7 +605,9 @@ while True:
  - [Engine](#engine_doc)
  - [Refresh](#refresh_doc)
  - [Flipbook](#anim_doc)
-
+ - [Engine.Vir](#refresh_doc)
+ - [Engine.TextAsset](#refresh_doc)
+ - [Engine.TextAsset.TextSprite](#anim_doc)
  ## <a name="engine_doc"></a>Engine class:
 
  
@@ -617,6 +619,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTYxODMzMTEsMTA1MTkyMzYwLDEzNz
-U1OTc1OTQsMTQ3NDYyOTEyNiwtMTMxNzgxNjE4OF19
+eyJoaXN0b3J5IjpbLTM4MjQzNzY2MSwxMDUxOTIzNjAsMTM3NT
+U5NzU5NCwxNDc0NjI5MTI2LC0xMzE3ODE2MTg4XX0=
 -->
