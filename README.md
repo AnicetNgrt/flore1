@@ -608,7 +608,7 @@ while True:
 	 - [Engine.TextAsset](#textasset_doc)
 		 - [Engine.TextAsset.TextSprite](#textsprite_doc)
 ## 📔 Flipbook
-The Flipbook class let
+The Flipbook class let's you easily animate TextSprites instance, by communicating with the Refresh 
 ### Methods:
 
 
@@ -621,6 +621,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTI1MjA5MTksMTA1MTkyMzYwLDEzNz
-U1OTc1OTQsMTQ3NDYyOTEyNiwtMTMxNzgxNjE4OF19
+eyJoaXN0b3J5IjpbMTc5MDI0MjExMywxMDUxOTIzNjAsMTM3NT
+U5NzU5NCwxNDc0NjI5MTI2LC0xMzE3ODE2MTg4XX0=
 -->
