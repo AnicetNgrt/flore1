@@ -248,9 +248,6 @@ Here we just want to move only one sprite, so what we are going to do may seem o
 First we will need to create our `game_loop` function:
 ```python
 # following the previously given code:
-# THE FIRST ARGUMENT MUST ALWAYS BE "Refresh"
-# but whatever you put afterwards is up to you
-# be careful, that's an easy mistake
 def game_loop(Scene, super_sprite):
 	# every time game_loop.i is incremented, the sprite will
 	# be displayed one row below itself
@@ -563,6 +560,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODc1MjA0MzAsLTEzMTc4MTYxODhdfQ
+eyJoaXN0b3J5IjpbLTExNzQ3NzA2NTUsLTEzMTc4MTYxODhdfQ
 ==
 -->
