@@ -8,9 +8,9 @@ My name is Anicet Nougaret, and I'm doing all of this alone.
 This project will always remain open source and free.
 Therefore, please consider donating, it will greatly support this project ! 
 \\(●'◡'●)/
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=56G94VB5RYGKN&source=url)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg) ](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=56G94VB5RYGKN&source=url)   \\(●'◡'●)/
 
-# Table of content:
+# Table of contents:
 
  1. [**Features**](#features)
  2. [**Roadmap**](#roadmap) 
@@ -67,7 +67,7 @@ Therefore, please consider donating, it will greatly support this project !
  
 ## <a name="tuto0"></a>0/ Getting started:
 ### 💿 Installation with pip:
-  If you don't have python (3.6 or above) and pip installed, install them first.
+  If you don't have python (3.67 or above) and pip installed, install them first.
   
   Then, type this in your favorite terminal:
   `pip install flore1` or `python -m pip install flore1` 
@@ -94,7 +94,7 @@ Engine = flore1.Engine(
     )
 
 ```
-This will be the very foundation for all the following tutorials !
+This will be the very foundation for all the following tutorials !.
 ## <a name="tuto1"></a>1/ Displaying a static text sprite:
 ### 🧭 What we will do:
 ![enter image description here](https://imgur.com/XVbCCmJ.png)
@@ -115,7 +115,7 @@ super_asset = Engine.TextAsset(building_manual)
  # This is our "Text Asset". Every time we will want to create a sprite
  # with this same building manual, we will create it from this Text Asset
 ```
-Then you create a sprite from your asset (think of the Text Asset as a building manual).
+Then you create a sprite from your asset (think of the Text Asset as a building manual).:
 ```python
 super_sprite = super_asset.to_sprite()
 # That's that simple
@@ -132,7 +132,11 @@ Scene = Engine.new_scene("super cool name",
     res_y = 32,
     coord_x = 10,
     coord_y = 5,
-    layer_count = 15
+    layer_count = 15scene's width
+    res_y = 32, # scene's height
+    coord_x = 10, # scene's distance to left border
+    coord_y = 5, # scene's distance to top border
+    layer_count = 15 # a layer is where your sprite goes: 1 sprite displayed = 1 layer
     )
 ```
 Now let's put the sprite in and refresh:
@@ -146,7 +150,7 @@ Scene.show()
 time.sleep(15) 
 ```
 Ok, good double click on `main.py`:
-![enter image description here](https://imgur.com/vSMx3CP.png)As you can see, because our scene's `coord_x`  and `coord_y` were not 0 and 0, and because we displayed our sprite at (10;10), the text isn't stuck to the left border !
+![enter image description here](https://imgur.com/vSMx3CP.png)As you can see, because our scene's `coord_x`  and `coord_y` were not 0 and 0, and because we displayed our sprite at (10;10), the text isn't stuck to the left and top border !
 ### 👩‍🎨Colored Text Sprites:
 Wait, color on a terminal ? You are not dreaming... unless your terminal emulator is 20 years old. (you'll see)
 In order to have color you must edit your building manual by putting specific codes in it:
@@ -155,10 +159,10 @@ In order to have color you must edit your building manual by putting specific co
  - `"fc:<code>"` This changes font color on any text following it
  - `"cc:0"` This stops both background color and font color *(due to limitation you can't seem to stop only one)*
 
-And if you want to know which `<code>` gives which color, here you go:
+And if you want to know which `<code>` gives you which color, here you go:
 ![terminal colors](http://www.lihaoyi.com/post/Ansi/Rainbow256.png)*picture credit: http://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html*
 
-Ok, now that you know this, let's tweak our asset's building manual with codes:
+Ok, now that you know this, let's tweak our asset'sinsert codes inside our building manual with codes:
 ```python
 building_manual = [
 	"bc:195fc:127MY SUPER TEXT SPRITE LOOKS DAMN COOLcc:0",
@@ -208,11 +212,11 @@ time.sleep(15)
 This tutorial is about moving a sprite across the scene.
 [-> I just want the code thanks.](#tuto2_code)
 ### 🚠Introduction:
--So how does moving work in your mind ? 
+-So how does moving works in your mind ? 
 -We can put sprites at some coordinates and refresh the scene. So why not doing this in a loop ?
 -**Correct !** 
 
-With flore1 there is a very elegant way of doing that thanks to the `flore1.Refresh` class. Let me show you:
+With flore1 there is a very elegafficient way of doing that thanks to the `flore1.Refresh` class. Let me show you:
 
 #### The code you will start with:
 ```python
@@ -255,8 +259,8 @@ def game_loop(Refresh, Scene, super_sprite):
 	Scene.show()
 ```
 In python, functions are objects. So they do have attributes.
-As you can see, we are using `game_loop.i` in our function but we never declared it. 
-Don't worry, this `<whatever the name of your function is>.i` will be always there thanks to the Refresh class. This attribute can sync with the engine's rendering speed in order to increment faster (or slow down) if the game runs too slow (or too fast).
+As you can see, we are using `game_loop.i` in our function but we never declared it nor did we initialized it. 
+Don't worry, this `<whatever the name of your function is>.i` attribute will be always be there thanks to the Refresh class. This attribute can sync with the engine's rendering speed in order to increment faster (or slow down) if the game runs too slow (or too fast).
 Ok, but where is Refresh, and what is meant to be "too slow" ?:
 ### 📺 Initiating and feeding the Refresh:
 ```python
@@ -284,7 +288,8 @@ Every time you call Refresh.run(), well, it does what you asked him to do... at 
 ![fastboi](https://imgur.com/BRbsNUR.gif)Wow, do you see this ? A purple ASCII army of squids crossing the screen at a rocking 24 fps ! 
 This is purely amazing !
 
-*This gif looks like it is 10 fps but that's only because of my crappy gif recorder ... \( ; - ;  \ )*
+*This gif looks like it is 10 fps but that's only because of my crappy gif recorder ... 
+\\( ; - ;  \ )*
 
 ### <a name="tuto2_code"></a>📥 Conclusion: This tutorial's code:
 ```python
@@ -360,7 +365,7 @@ Scene = Engine.new_scene("super cool name",
 **Very important:** Most terminal have large font size by default. It will be necessary to lower this size in your terminal's settings in order to display bigger than 100*100px pictures. Mine is at 6 now for instance.
 ### 🧾 From pictures to text and... no vice-versa 
 The Engine class can convert `.png`, `.jpg` and `.svg` pictures to text Assets with the help of `pillow`, a very known python image manipulation library.
-But here comes the issue: **size**. Because even if you ask your terminal to go 1px font style, it won't be easy to display anything bigger than 300*300px. So, yeah, this is more of a pixel-art engine than a fancy graphical library. But come on, it's on the terminal :D !
+But here comes the issue: **size**. Because even if you ask your terminal to go 14px font style, it won't be easy to display anything bigger than 300*300px. So, yeah, tThis is more of a pixel-art engine than a fancy graphical library. But come on, it's on the terminal :D !
 Ok let's try to display `anicet.jpg` (resized of course) in the terminal:
 ```python
 # following the previously given code:
@@ -379,10 +384,10 @@ time.sleep(30)
 ```
 ![me but pixelated](https://imgur.com/PNXPVtc.png)
 Hey, that's me ! *(I feel like I will hate myself for taking this picture in a few years)*
-As you can see, the originaly 1024*1024px picture got quite resized ! Files almost never downscale without ugly artifacts everywhere. This is due to the limited n=255 terminal's color range... so I have no other choice. ¯\\\_(ツ)_/¯
+As you can see, the originaly 1024*1024px picture got quite resized ! FilVery detailed pictures almost never downscale without ugly artifacts everywhere. This is due to the limited n=255 terminal's color range... so I have no other choice. ¯\\\_(ツ)_/¯
 ### 📚 Displaying more pictures
 Now let's repeat the process in order to display more pictures.
-Don't forget to erase the `time.sleep(30)` you put previously.
+Don't forget to erase the `time.sleep(30)` you put previously, unless you like waiting a lot.
 #### a. Let's display a picture with transparency:
 ```python
 # following the previously given code
@@ -415,6 +420,16 @@ As you can see we asked our scene to put our 2nd sprite on the 2nd layer and the
 Now you know how to display pictures with flore1 !
 ### <a name="tuto3_code"></a>📥 Conclusion: This tutorial's code:
 ```python
+📁 my_super_game/
+|-----🐍 main.py     
+|-----📁 assets/
+|-----|-----📸 anicet.jpg   -> https://imgur.com/4dFlgUF
+|-----|-----🎨 archer.png   -> https://imgur.com/BX2i3j5
+|-----|-----🎨 aniss.png    -> https://imgur.com/AYA6Ruc
+```
+```python
+# main.py
+
 import flore1
 import time
 
@@ -450,6 +465,72 @@ time.sleep(30)
 ## <a name="tuto4"></a> Flipbooks: Display a gif on the terminal as an animated text sprite
 ### 🧭 What we will do:
 In this tutorial we will display an animated gif in the terminal.
+### 🎬 Finding and making a GIF compatible with flore1:
+First we need to find a suitable low-res `.gif` (you can also put large sized GIF since the engine can rescale pictures, but in this tutorial we won't do it).
+Personnaly, I'm not a pro pixel art animator so I took my GIF [here](#https://untiedgames.itch.io/five-free-pixel-explosions).
+![explosion](https://imgur.com/8kXy0FB.gif)
+#### You need to convert your GIF to a folder containing it's frames as PNG files
+Note that the original source I gave lets you download a folder containing all individuals frames as png. Which is exactly what the engine needs. But I case you only have a `.gif` file, such as the one above go to [https://ezgif.com/split](https://ezgif.com/split), import your gif, download the `.zip` containing the frames, and extract it in a folder in your project.
+#### This tutorial's folder:
+```
+📁 my_super_game/
+|-----🐍 main.py     
+|-----📁 assets/
+|-----|-----📁 explosion/
+|-----|-----|-----📼 frame0000.png
+|-----|-----|-----📼 frame0001.png
+                   :
+|-----|-----|-----📼 frame0063.png
+```
+**Note**: You need your frame's to be ranked in lexicographic order accordingly to their order of appearance in your original GIF.
+#### The `main.py` we will start with:
+```python
+import flore1
+
+Engine = flore1.Engine(
+	auto_scale=True, 
+	win_mode=False
+	)
+	
+Scene = Engine.new_scene('main', 
+	res_x=100, # we need a large scene
+	res_y=100, # for our 100*100px gif
+	coord_x=1, 
+	coord_y=1, 
+	layer_count=15
+	)
+```
+### 📘 Creating a Flipbook 
+
+In order to create a flipbook, you first need to create an empty sprite for your flipbook:
+```python
+# following the previously given code:
+explosion_sprt = Engine.new_sprite() 
+```
+But you also need to create a Refresh which will run our animation:
+```python
+# following the previously given code:
+Refresh = flore1.Refresh(fps=60)
+```
+Now let's create our flipbook, it requires many parameters, I advice you read my comments on all of them:
+```python
+# following the previously given code:
+explosion_fb = flore1.Flipbook(
+	Engine, # our engine instance
+	Refresh, # the refresh instance that will run the sprite
+	explosion_sprt, # the empty sprite that will be animated by our flipbook
+	'assets/explosion/', # the path to all our frames 
+	size=[100, 100], # the (new)size of our frames
+	transparent_rgb=(0, 0, 0), # the transparent color for our frames
+	fps=60, # the frame rate of our animation 
+	sync=True # whether it has to skip frames if the refresh slows down
+	)
+```
+**Note**: If the frame rate of your refresh is slower than the frame rate of your flipbook, your flipbook may skip frames.  
+
+Now
+
+
  #  <a name="doc"></a>Documentation
  The flore1 module has 3 top level classes located in `flore1/flore1.py`:
  
@@ -469,7 +550,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTk4MTc4MzEsMTAwMzMyMDMyNCwtMT
-UyNDYzNjc5NiwtMTY5NDU1NjEwNiwxODg4MjM5MDk0LDE4MDQ3
-ODMxOTksODI3Mjc1NzQ5XX0=
+eyJoaXN0b3J5IjpbLTEzMTc4MTYxODgsLTEwMTk4MTc4MzEsMT
+AwMzMyMDMyNCwtMTUyNDYzNjc5NiwtMTY5NDU1NjEwNiwxODg4
+MjM5MDk0LDE4MDQ3ODMxOTksODI3Mjc1NzQ5XX0=
 -->
