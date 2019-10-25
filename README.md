@@ -607,6 +607,74 @@ while True:
 	 - [Engine.VirtualScene](#scene_doc)
 	 - [Engine.TextAsset](#textasset_doc)
 		 - [Engine.TextAsset.TextSprite](#textsprite_doc)
+## <a name="{classname.lower()}"></a>Flipbook
+[->class](#classes)
+
+The Flipbook class lets you easily animate [TextSprites](#textsprites) by computing their texture change rate, function of the Flipbook's [Refresh](#refresh) 's execution rate and the Flipbook frame rate goal. 
+### <a name="flipbook-methods"></a>Methods
+- [init](#flipbook-init) 
+- [start](#flipbook-start) 
+- [stop](#flipbook-stop) 
+### <a name="{classname.lower()}-{methodname.lower()}"></a> init
+[->method](#methods)
+
+### <a name="{classname.lower()}-{methodname.lower()}"></a> start
+[->method](#methods)
+
+### <a name="{classname.lower()}-{methodname.lower()}"></a> stop
+[->method](#methods)
+
+## <a name="{classname.lower()}"></a>Refresh
+[->class](#classes)
+
+### <a name="refresh-methods"></a>Methods
+- [init](#refresh-init) 
+- [terminate](#refresh-terminate) 
+- [feed](#refresh-feed) 
+- [do](#refresh-do) 
+- [run](#refresh-run) 
+### <a name="{classname.lower()}-{methodname.lower()}"></a> init
+[->method](#methods)
+
+### <a name="{classname.lower()}-{methodname.lower()}"></a> terminate
+[->method](#methods)
+
+### <a name="{classname.lower()}-{methodname.lower()}"></a> feed
+[->method](#methods)
+
+### <a name="{classname.lower()}-{methodname.lower()}"></a> do
+[->method](#methods)
+
+### <a name="{classname.lower()}-{methodname.lower()}"></a> run
+[->method](#methods)
+
+## <a name="{classname.lower()}"></a>Engine
+[->class](#classes)
+
+- [init](#engine-init) 
+- [new_scene](#engine-new_scene) 
+- [del_scene](#engine-del_scene) 
+- [new_sprite](#engine-new_sprite) 
+- [find_trsprt_index](#engine-find_trsprt_index) 
+- [pic_to_textAsset](#engine-pic_to_textasset) 
+### <a name="{classname.lower()}-{methodname.lower()}"></a> init
+[->method](#methods)
+
+### <a name="{classname.lower()}-{methodname.lower()}"></a> new_scene
+[->method](#methods)
+
+### <a name="{classname.lower()}-{methodname.lower()}"></a> del_scene
+[->method](#methods)
+
+### <a name="{classname.lower()}-{methodname.lower()}"></a> new_sprite
+[->method](#methods)
+
+### <a name="{classname.lower()}-{methodname.lower()}"></a> find_trsprt_index
+[->method](#methods)
+
+### <a name="{classname.lower()}-{methodname.lower()}"></a> pic_to_textAsset
+[->method](#methods)
+
 
  
 # <a name="license"></a>License
@@ -614,7 +682,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MTk0MzU2OCwtNzAyNzM5MTA0LC03MD
-I3MzkxMDQsMTA1MTkyMzYwLDEzNzU1OTc1OTQsMTQ3NDYyOTEy
-NiwtMTMxNzgxNjE4OF19
+eyJoaXN0b3J5IjpbLTIxMjIyODMwNzgsLTk3MTk0MzU2OCwtNz
+AyNzM5MTA0LC03MDI3MzkxMDQsMTA1MTkyMzYwLDEzNzU1OTc1
+OTQsMTQ3NDYyOTEyNiwtMTMxNzgxNjE4OF19
 -->
