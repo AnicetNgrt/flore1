@@ -535,7 +535,8 @@ Now we can start our Flipbook:
 # following the previously given code
 explosion_fb.start()
 ```
-We will also need to run our refresh in a while loop, as we did previously for sprite movement. But before
+We will also need to run our refresh in a while loop, as we did previously for sprite movement. But before doing that, we need to ask our refresh to `Scene.show()` at every iteration, otherwise the sprite would update but not the display, and we wouldn't see any difference.
+Do you remember when we built a loop function that we fed 
 
 
  #  <a name="doc"></a>Documentation
@@ -557,5 +558,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUzODg1ODA3LC0xMzE3ODE2MTg4XX0=
+eyJoaXN0b3J5IjpbODg3MDc0MTQ0LC0xMzE3ODE2MTg4XX0=
 -->
