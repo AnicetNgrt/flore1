@@ -607,7 +607,7 @@ while True:
  - [Flipbook](#anim_doc)
 
  ## <a name="engine_doc"></a>Engine class:
-##### >>>> 🚧  work in progress
+
  
  
 # <a name="license"></a>License
@@ -617,6 +617,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NTU5NzU5NCwxNDc0NjI5MTI2LC0xMz
-E3ODE2MTg4XX0=
+eyJoaXN0b3J5IjpbMTA1MTkyMzYwLDEzNzU1OTc1OTQsMTQ3ND
+YyOTEyNiwtMTMxNzgxNjE4OF19
 -->
