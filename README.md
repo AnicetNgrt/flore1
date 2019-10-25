@@ -532,8 +532,10 @@ explosion_fb = flore1.Flipbook(
 
 Now we can start our Flipbook:
 ```python
-
+# following the previously given code
+explosion_fb.start()
 ```
+We will also need to run our refresh in a while loop, as we did previously for sprite movement. But before
 
 
  #  <a name="doc"></a>Documentation
@@ -555,5 +557,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDA5ODgzOCwtMTMxNzgxNjE4OF19
+eyJoaXN0b3J5IjpbNjUzODg1ODA3LC0xMzE3ODE2MTg4XX0=
 -->
