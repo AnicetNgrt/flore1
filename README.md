@@ -549,8 +549,35 @@ while True:
     Refresh.run()
 ```
 ### <a name="tuto4_code"></a>📥 Conclusion: This tutorial's code:
+In order to get the frames, I advice you read at least the very beginning of this tutorial.
+```
+📁 my_super_game/
+|-----🐍 main.py     
+|-----📁 assets/
+|-----|-----📁 explosion/
+|-----|-----|-----📼 frame0000.png
+|-----|-----|-----📼 frame0001.png
+                   :
+|-----|-----|-----📼 frame0063.png
+```
+```python
+import flore1
 
+Engine = flore1.Engine(auto_scale=True, win_mode=False)
+Scene = Engine.new_scene('main', res_x=100, res_y=100, coord_x=1, coord_y=1, layer_count=10)
 
+Refresh = flore1.Refresh(fps=60)
+
+explosion_sprt = Engine.new_sprite()
+Scene.put(explosion_sprt, -10, -5, 3)
+explosion_fb = flore1.Flipbook(Engine, Refresh, explosion_sprt, 'assets/explosion/', size=[100, 100], transparent_rgb=(0, 0, 0), fps=60, sync=True)
+explosion_fb.start()
+
+Refresh.feed(Scene.show,*(),**{})
+
+while True:
+    Refresh.run()
+```
 #  <a name="doc"></a> Documentation
  The flore1 module has 3 top level classes located in `flore1/flore1.py`:
  
@@ -570,5 +597,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MjI2MTczOCwtMTMxNzgxNjE4OF19
+eyJoaXN0b3J5IjpbLTE5MTI3OTIzMywtMTMxNzgxNjE4OF19
 -->
