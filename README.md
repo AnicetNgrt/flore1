@@ -541,7 +541,7 @@ Do you remember when we built a loop function that we fed our refresh with ? Her
 # following the previously given code
 Refresh.feed(Scene.show,*(),**{})
 ```
-I haven't really explained `Refresh.feed()`'s syntax already, so let me do it. The first argument must be a function or a method (ex: `my_function`, or `Object.method`), the second argument must be a tuple of keyword arguments for the function (ex: `(x,y,0,18,"ok")`), and the third one must be a di
+I haven't really explained `Refresh.feed()`'s syntax already, so let me do it. The first argument must be a function or a method (ex: `my_function`, or `Object.method`), the second argument must be a tuple of keyword arguments for the function (ex: `(x,y,0,18,"ok")`), and the third one must be a dictionnary of default arguments for the function (ex: `{name="Anicet",favorite_color="yellow"}`)
 
  #  <a name="doc"></a>Documentation
  The flore1 module has 3 top level classes located in `flore1/flore1.py`:
@@ -562,5 +562,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNTY1OTgyOCwtMTMxNzgxNjE4OF19
+eyJoaXN0b3J5IjpbLTEwNjEzMDAxNzAsLTEzMTc4MTYxODhdfQ
+==
 -->
