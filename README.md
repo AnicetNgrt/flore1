@@ -96,7 +96,6 @@ Engine = flore1.Engine(
 
 ```
 This will be the very foundation for all the following tutorials !
-*written by AnicetNgrt*
 ## <a name="tuto1"></a>1/ Displaying a static text sprite:
 ### 🧭 What we will do:
 ![enter image description here](https://imgur.com/XVbCCmJ.png)
@@ -464,7 +463,8 @@ time.sleep(30)
 ```
 ## <a name="tuto4"></a> Flipbooks: Display a gif on the terminal as an animated text sprite
 ### 🧭 What we will do:
-In this tutorial we will display an animated gif in the terminal.
+In this tutorial we will display an animated GIF in the terminal.
+[-> I just want the code thanks.](#tuto1_code)
 ### 🎬 Finding and making a GIF compatible with flore1:
 First we need to find a suitable low-res `.gif` (you can also put large sized GIF since the engine can rescale pictures, but in this tutorial we won't do it).
 Personnaly, I'm not a pro pixel art animator so I took my GIF [here](#https://untiedgames.itch.io/five-free-pixel-explosions).
@@ -599,5 +599,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI2NDE0OTIyLC0xMzE3ODE2MTg4XX0=
+eyJoaXN0b3J5IjpbMjEzNzM0NzUzOSwtMTMxNzgxNjE4OF19
 -->
