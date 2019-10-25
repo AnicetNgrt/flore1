@@ -599,15 +599,16 @@ while True:
     Refresh.run()
 ```
 #  <a name="doc"></a> Documentation
-## Classes
+## 🗄Classes
  
-
- - [Engine](#engine_doc)
+  - [Flipbook](#anim_doc)
  - [Refresh](#refresh_doc)
- - [Flipbook](#anim_doc)
- - [Engine.Vir](#refresh_doc)
- - [Engine.TextAsset](#refresh_doc)
- - [Engine.TextAsset.TextSprite](#anim_doc)
+ - [Engine](#engine_doc)
+	 - [Engine.VirtualScene](#scene_doc)
+	 - [Engine.TextAsset](#textasset_doc)
+		 - [Engine.TextAsset.TextSprite](#textsprite_doc)
+
+
  ## <a name="engine_doc"></a>Engine class:
 
  
@@ -619,6 +620,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MjQzNzY2MSwxMDUxOTIzNjAsMTM3NT
+eyJoaXN0b3J5IjpbMTMzNTY5NTEzNCwxMDUxOTIzNjAsMTM3NT
 U5NzU5NCwxNDc0NjI5MTI2LC0xMzE3ODE2MTg4XX0=
 -->
