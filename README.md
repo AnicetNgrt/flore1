@@ -539,7 +539,7 @@ We will also need to run our refresh in a while loop, as we did previously for s
 Do you remember when we built a loop function that we fed our refresh with ? Here we don't need to create such function because our `Scene.show()` method already refers to a function. We are just going to feed our refresh with our `Scene.show()` method:
 ```python
 # following the previously given code
-
+Refresh.feed(Scene.show,*(),**{})
 ```
 
 
@@ -562,5 +562,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMjY3MDg2OCwtMTMxNzgxNjE4OF19
+eyJoaXN0b3J5IjpbMTE4NDQ4MDc5NiwtMTMxNzgxNjE4OF19
 -->
