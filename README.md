@@ -530,7 +530,10 @@ explosion_fb = flore1.Flipbook(
 ```
 **Note**: If the frame rate of your refresh is slower than the frame rate of your flipbook, your flipbook may skip frames.  
 
-Now
+Now we can start our Flipbook:
+```python
+
+```
 
 
  #  <a name="doc"></a>Documentation
@@ -552,5 +555,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1OTYwOTIyMCwtMTMxNzgxNjE4OF19
+eyJoaXN0b3J5IjpbMTk1NDA5ODgzOCwtMTMxNzgxNjE4OF19
 -->
