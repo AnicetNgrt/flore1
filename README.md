@@ -548,8 +548,10 @@ Now let's loop our `Refresh.run()` as we did in tutorial 2:
 while True:
     Refresh.run()
 ```
+### <a name="tuto4_code"></a>📥 Conclusion: This tutorial's code:
 
- #  <a name="doc"></a>Documentation
+
+#  <a name="doc"></a> Documentation
  The flore1 module has 3 top level classes located in `flore1/flore1.py`:
  
 
@@ -568,5 +570,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3ODk4MTcyOCwtMTMxNzgxNjE4OF19
+eyJoaXN0b3J5IjpbMTg0MjI2MTczOCwtMTMxNzgxNjE4OF19
 -->
