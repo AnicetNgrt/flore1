@@ -544,6 +544,7 @@ The first argument must be a function or a method (ex: `my_function`, or `Object
 
 Now let's loop our `Refresh.run()` as we did in tutorial 2:
 ```python
+# following the previously given code
 while True:
     Refresh.run(debug=True)
 ```
@@ -567,5 +568,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQzMTg3ODc1LC0xMzE3ODE2MTg4XX0=
+eyJoaXN0b3J5IjpbMjUzMTMwNTM2LC0xMzE3ODE2MTg4XX0=
 -->
