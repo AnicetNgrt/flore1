@@ -616,7 +616,8 @@ The Flipbook class let's you easily animate [TextSprites](#textsprite) instance,
 - [start](#flipbook-start)
 - [stop](#flipbook-stop)
 
- 
+### <a name="flipbook-init"></a> init:
+[->method](#flipbook-methods)
  
 # <a name="license"></a>License
 This library is distributed under a CC-BY-SA license.
@@ -625,6 +626,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MzQxNzA2OCwxMDUxOTIzNjAsMTM3NT
+eyJoaXN0b3J5IjpbLTcwMjczOTEwNCwxMDUxOTIzNjAsMTM3NT
 U5NzU5NCwxNDc0NjI5MTI2LC0xMzE3ODE2MTg4XX0=
 -->
