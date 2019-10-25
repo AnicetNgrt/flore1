@@ -599,7 +599,7 @@ while True:
     Refresh.run()
 ```
 #  <a name="doc"></a> Documentation
-## <a name="classes"><a/>Classes
+## <a name="classes"></a>Classes
  
  - [Flipbook](#anim_doc)
  - [Refresh](#refresh_doc)
@@ -607,13 +607,14 @@ while True:
 	 - [Engine.VirtualScene](#scene_doc)
 	 - [Engine.TextAsset](#textasset_doc)
 		 - [Engine.TextAsset.TextSprite](#textsprite_doc)
-## <a name="flipbook"><a/>Flipbook
+## <a name="flipbook"></a>Flipbook
 [->class](#classes)
 
 The Flipbook class let's you easily animate [TextSprites](#textsprite) instance, by computing a texture change rate function of the [Refresh](#refresh)'s execution speed and the flipbook's frame rate goal. 
-### <an name=">Methods:
- - [init](#flipbook_init)
- - [start](#flipbook-start)
+### <a name="flipbook-methods"></a> Methods:
+- [init](#flipbook_init)
+- [start](#flipbook-start)
+- [stop](#flipbook-stop)
 
  
  
@@ -624,6 +625,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTkzODg3OTcsMTA1MTkyMzYwLDEzNz
-U1OTc1OTQsMTQ3NDYyOTEyNiwtMTMxNzgxNjE4OF19
+eyJoaXN0b3J5IjpbLTU0MzQxNzA2OCwxMDUxOTIzNjAsMTM3NT
+U5NzU5NCwxNDc0NjI5MTI2LC0xMzE3ODE2MTg4XX0=
 -->
