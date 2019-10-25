@@ -419,7 +419,7 @@ As you can see we asked our scene to put our 2nd sprite on the 2nd layer and the
 ![wow](https://imgur.com/X3xpstQ.png)It works ! The bow icon has transparency, and the pictures do display on top of one another.  
 Now you know how to display pictures with flore1 !
 ### <a name="tuto3_code"></a>📥 Conclusion: This tutorial's code:
-```python
+```
 📁 my_super_game/
 |-----🐍 main.py     
 |-----📁 assets/
@@ -550,5 +550,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTc4MTYxODhdfQ==
+eyJoaXN0b3J5IjpbMTg3MzA5NjIzMiwtMTMxNzgxNjE4OF19
 -->
