@@ -49,11 +49,12 @@ Therefore, please consider donating, it will greatly support this project !
  
 **Note**: It has great probability of rendering well on any modern shell which supports the following escapes codes:
  
-
-    "\033[<row>;<col>H"
-    "\33[0m"
-    "\u001b[49;5;<color_code>m"
-    "\u001b[39;5;<color_code>m"
+```python
+"\033[<row>;<col>H"
+"\33[0m"
+"\u001b[49;5;<color_code>m"
+"\u001b[39;5;<color_code>m"
+```
     
   #  <a name="tuto"></a>Tutorials
   ### Table of content:
@@ -94,7 +95,8 @@ Engine = flore1.Engine(
     )
 
 ```
-This will be the very foundation for all the following tutorials !.
+This will be the very foundation for all the following tutorials !
+*written by AnicetNgrt*
 ## <a name="tuto1"></a>1/ Displaying a static text sprite:
 ### 🧭 What we will do:
 ![enter image description here](https://imgur.com/XVbCCmJ.png)
@@ -597,5 +599,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MDQ0NTI0MywtMTMxNzgxNjE4OF19
+eyJoaXN0b3J5IjpbNzI2NDE0OTIyLC0xMzE3ODE2MTg4XX0=
 -->
