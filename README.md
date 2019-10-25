@@ -599,7 +599,7 @@ while True:
     Refresh.run()
 ```
 #  <a name="doc"></a> Documentation
- The flore1 module has 3 top level classes located in `flore1/flore1.py`:
+## Classes
  
 
  - [Engine](#engine_doc)
@@ -617,6 +617,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MTkyMzYwLDEzNzU1OTc1OTQsMTQ3ND
-YyOTEyNiwtMTMxNzgxNjE4OF19
+eyJoaXN0b3J5IjpbLTEyMTYxODMzMTEsMTA1MTkyMzYwLDEzNz
+U1OTc1OTQsMTQ3NDYyOTEyNiwtMTMxNzgxNjE4OF19
 -->
