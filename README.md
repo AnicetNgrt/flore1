@@ -624,9 +624,22 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
+## <a name="{classname.lower()}"></a>Flipbook
+[->class](#classes)
 
+The Flipbook class lets you easily animate [TextSprites](#textsprites) by syncing with the Flipbook's [Refresh](#refresh) 's execution rate. 
+### <a name="flipbook-methods"></a>Methods
+[->class](#classes)
+
+- [init](#flipbook-init) 
+- [start](#flipbook-start) 
+- [stop](#flipbook-stop) 
+### <a name="{classname.lower()}-{methodname.lower()}"></a> init
+[->method](#methods)
+
+This method is so cool 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMjczOTEwNCwtNzAyNzM5MTA0LDEwNT
-E5MjM2MCwxMzc1NTk3NTk0LDE0NzQ2MjkxMjYsLTEzMTc4MTYx
-ODhdfQ==
+eyJoaXN0b3J5IjpbNTU5MTgwNjYwLC03MDI3MzkxMDQsLTcwMj
+czOTEwNCwxMDUxOTIzNjAsMTM3NTU5NzU5NCwxNDc0NjI5MTI2
+LC0xMzE3ODE2MTg4XX0=
 -->
