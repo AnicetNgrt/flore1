@@ -251,7 +251,7 @@ First we will need to create our `game_loop` function:
 # THE FIRST ARGUMENT MUST ALWAYS BE "Refresh"
 # but whatever you put afterwards is up to you
 # be careful, that's an easy mistake
-def game_loop(Refresh, Scene, super_sprite):
+def game_loop(Scene, super_sprite):
 	# every time game_loop.i is incremented, the sprite will
 	# be displayed one row below itself
 	Scene.put(super_sprite, 10, -10 + game_loop.i, 1)
@@ -275,7 +275,8 @@ loop_tuple = (game_loop, Scene, super_sprite)
 Refresh.feed(*loop_tuple) # don't forget the *
 ```
 Here we formed a tuple composed with the function `game_loop` itself, and all the variables we want to give as inputs for its keyword arguments.
-If your `game_loop` function has default arguments, I advice you see tutorial 4 for a more in depth explanation of the `Refresh.feed` method's syntax.
+
+**Note**: If your `game_loop` function has default arguments, I advice you see tutorial 4 for a more in depth explanation of the `Refresh.feed` method's syntax.
 ### 😵 While I loop the loop:
 Now you have a super cool refresh, which task is to run `game_loop(Refresh, Scene, super_sprite)` at 24 fps.
 But you still need to run it ! And this can't loop itself sadly...
@@ -562,5 +563,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc0ODIxMjYxLC0xMzE3ODE2MTg4XX0=
+eyJoaXN0b3J5IjpbLTEzODc1MjA0MzAsLTEzMTc4MTYxODhdfQ
+==
 -->
