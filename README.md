@@ -607,39 +607,14 @@ while True:
 	 - [Engine.VirtualScene](#scene_doc)
 	 - [Engine.TextAsset](#textasset_doc)
 		 - [Engine.TextAsset.TextSprite](#textsprite_doc)
-## <a name="flipbook"></a>Flipbook
-[->class](#classes)
 
-The Flipbook class let's you easily animate [TextSprites](#textsprite) instance, by computing a texture change rate function of the [Refresh](#refresh)'s execution speed and the flipbook's frame rate goal. 
-### <a name="flipbook-methods"></a> Methods:
-- [init](#flipbook_init)
-- [start](#flipbook-start)
-- [stop](#flipbook-stop)
-
-### <a name="flipbook-init"></a> init:
-[->method](#flipbook-methods)
  
 # <a name="license"></a>License
 This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
-
-## <a name="{classname.lower()}"></a>Flipbook
-[->class](#classes)
-
-The Flipbook class lets you easily animate [TextSprites](#textsprites) by syncing with the Flipbook's [Refresh](#refresh) 's execution rate. 
-### <a name="flipbook-methods"></a>Methods
-[->class](#classes)
-
-- [init](#flipbook-init) 
-- [start](#flipbook-start) 
-- [stop](#flipbook-stop) 
-### <a name="{classname.lower()}-{methodname.lower()}"></a> init
-[->method](#methods)
-
-This method is so cool 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU5MTgwNjYwLC03MDI3MzkxMDQsLTcwMj
-czOTEwNCwxMDUxOTIzNjAsMTM3NTU5NzU5NCwxNDc0NjI5MTI2
-LC0xMzE3ODE2MTg4XX0=
+eyJoaXN0b3J5IjpbLTk3MTk0MzU2OCwtNzAyNzM5MTA0LC03MD
+I3MzkxMDQsMTA1MTkyMzYwLDEzNzU1OTc1OTQsMTQ3NDYyOTEy
+NiwtMTMxNzgxNjE4OF19
 -->
