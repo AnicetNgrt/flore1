@@ -608,9 +608,9 @@ while True:
 	 - [Engine.TextAsset](#textasset_doc)
 		 - [Engine.TextAsset.TextSprite](#textsprite_doc)
 ## <a name="flipbook"><a/>Flipbook
-[[->back to classes](#classes)]
+[->class](#classes)
 
-The Flipbook class let's you easily animate TextSprites instance, by computing a texture change rate function of the Refresh's execution speed and the flipbook's frame rate goal. 
+The Flipbook class let's you easily animate [TextSprites](#textsprite) instance, by computing a texture change rate function of the [Refresh](#refresh)'s execution speed and the flipbook's frame rate goal. 
 ### Methods:
  - [\_\_init\_\_]
 
@@ -623,6 +623,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNjU1ODQyMiwxMDUxOTIzNjAsMTM3NT
+eyJoaXN0b3J5IjpbLTkyMTM1MTAwNywxMDUxOTIzNjAsMTM3NT
 U5NzU5NCwxNDc0NjI5MTI2LC0xMzE3ODE2MTg4XX0=
 -->
