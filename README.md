@@ -316,7 +316,7 @@ Scene = Engine.new_scene("super cool name",
     )
 
 
-def game_loop(Refresh, Scene, super_sprite):
+def game_loop(Scene, super_sprite):
     if game_loop.i <= 50:
         Scene.put(super_sprite, 10, -10 + game_loop.i, 1)
     Scene.show()
@@ -560,6 +560,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzQ3NzA2NTUsLTEzMTc4MTYxODhdfQ
+eyJoaXN0b3J5IjpbLTE1MDMxNjk2MDgsLTEzMTc4MTYxODhdfQ
 ==
 -->
