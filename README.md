@@ -599,7 +599,7 @@ while True:
     Refresh.run()
 ```
 #  <a name="doc"></a> Documentation
-## 🗄Classes
+## 📑 Classes
  
   - [Flipbook](#anim_doc)
  - [Refresh](#refresh_doc)
@@ -607,9 +607,10 @@ while True:
 	 - [Engine.VirtualScene](#scene_doc)
 	 - [Engine.TextAsset](#textasset_doc)
 		 - [Engine.TextAsset.TextSprite](#textsprite_doc)
+## 📔 Flipbook
+The Flipbook class let
+### Methods:
 
-
- ## <a name="engine_doc"></a>Engine class:
 
  
  
@@ -620,6 +621,6 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNTY5NTEzNCwxMDUxOTIzNjAsMTM3NT
-U5NzU5NCwxNDc0NjI5MTI2LC0xMzE3ODE2MTg4XX0=
+eyJoaXN0b3J5IjpbLTE4OTI1MjA5MTksMTA1MTkyMzYwLDEzNz
+U1OTc1OTQsMTQ3NDYyOTEyNiwtMTMxNzgxNjE4OF19
 -->
