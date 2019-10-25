@@ -468,6 +468,7 @@ In this tutorial we will display an animated gif in the terminal.
 ### 🎬 Finding and making a GIF compatible with flore1:
 First we need to find a suitable low-res `.gif` (you can also put large sized GIF since the engine can rescale pictures, but in this tutorial we won't do it).
 Personnaly, I'm not a pro pixel art animator so I took my GIF [here](#https://untiedgames.itch.io/five-free-pixel-explosions).
+
 ![explosion](https://imgur.com/8kXy0FB.gif)
 #### You need to convert your GIF to a folder containing it's frames as PNG files
 Note that the original source I gave lets you download a folder containing all individuals frames as png. Which is exactly what the engine needs. But I case you only have a `.gif` file, such as the one above go to [https://ezgif.com/split](https://ezgif.com/split), import your gif, download the `.zip` containing the frames, and extract it in a folder in your project.
@@ -550,5 +551,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MzA5NjIzMiwtMTMxNzgxNjE4OF19
+eyJoaXN0b3J5IjpbLTkxODAzNDc5NCwtMTMxNzgxNjE4OF19
 -->
