@@ -546,7 +546,7 @@ Now let's loop our `Refresh.run()` as we did in tutorial 2:
 ```python
 # following the previously given code
 while True:
-    Refresh.run(debug=True)
+    Refresh.run()
 ```
 
  #  <a name="doc"></a>Documentation
@@ -568,5 +568,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUzMTMwNTM2LC0xMzE3ODE2MTg4XX0=
+eyJoaXN0b3J5IjpbMTk3ODk4MTcyOCwtMTMxNzgxNjE4OF19
 -->
