@@ -274,7 +274,8 @@ What I mean by that is that your sprite will always move at the same speed regar
 loop_tuple = (game_loop, Scene, super_sprite)
 Refresh.feed(*loop_tuple) # don't forget the *
 ```
-Here we formed a tuple composed with the function `game_loop` itself, and all the variables we want to give as inputs for its arguments. 
+Here we formed a tuple composed with the function `game_loop` itself, and all the variables we want to give as inputs for its keyword arguments.
+If your `game_loop` function has default arguments, I advice you see tutorial 4 for a more in depth explanation of the `Refresh`
 You will notice that we didn't put the Refresh in the tuple. In fact, Refresh is always a mendatory argument for the functions you feed your Refresh with, so you don't have to give it. In the tuple you only give the inputs to the arguments that come after the Refresh.
 ### 😵 While I loop the loop:
 Now you have a super cool refresh, which task is to run `game_loop(Refresh, Scene, super_sprite)` at 24 fps.
@@ -562,6 +563,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjEzMDAxNzAsLTEzMTc4MTYxODhdfQ
-==
+eyJoaXN0b3J5IjpbLTgzNTEzOTgxOSwtMTMxNzgxNjE4OF19
 -->
