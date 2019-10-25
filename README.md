@@ -541,6 +541,7 @@ Do you remember when we built a loop function that we fed our refresh with ? Her
 # following the previously given code
 Refresh.feed(Scene.show,*(),**{})
 ```
+Here, we are feeding it a bit differently than on tutori
 #### `Refresh.feed`'s syntax:
 The first argument must be a function or a method (ex: `my_function`, or `Object.method`), the second argument must be a tuple of keyword arguments for the function (ex: `(x,y,0,18,"ok")`), and the third one must be a dictionnary of default arguments for the function (ex: `{"name"="Anicet","favorite_color"="yellow"}`).
 
@@ -599,5 +600,5 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNzM0NzUzOSwtMTMxNzgxNjE4OF19
+eyJoaXN0b3J5IjpbMTA5NDIxNTE3MywtMTMxNzgxNjE4OF19
 -->
