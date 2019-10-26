@@ -624,6 +624,10 @@ The Flipbook class lets you easily animate [TextSprites](#textsprites) by comput
 ### <a name="flipbook-init"></a> \_\_init\_\_
 [->method](#methods)
 
+**Prototype**:
+```python
+```
+
 ### <a name="flipbook-start"></a> start
 [->method](#methods)
 
@@ -689,9 +693,9 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ3NTc1MjE2LDg0OTM0MDE3MiwtMzAxMD
-YyOTgxLC0xODk0ODU1NTQ4LC0xMzQxNDI0MTMxLC0yMTIyMjgz
-MDc4LC05NzE5NDM1NjgsLTcwMjczOTEwNCwtNzAyNzM5MTA0LD
-EwNTE5MjM2MCwxMzc1NTk3NTk0LDE0NzQ2MjkxMjYsLTEzMTc4
-MTYxODhdfQ==
+eyJoaXN0b3J5IjpbLTIwOTU2MTI1NjAsODQ5MzQwMTcyLC0zMD
+EwNjI5ODEsLTE4OTQ4NTU1NDgsLTEzNDE0MjQxMzEsLTIxMjIy
+ODMwNzgsLTk3MTk0MzU2OCwtNzAyNzM5MTA0LC03MDI3MzkxMD
+QsMTA1MTkyMzYwLDEzNzU1OTc1OTQsMTQ3NDYyOTEyNiwtMTMx
+NzgxNjE4OF19
 -->
