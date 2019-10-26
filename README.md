@@ -626,15 +626,15 @@ The Flipbook class lets you easily animate [TextSprites](#textsprites) by comput
 
 **Prototype**:
 ```python
-def __init__(
-self, Engine, Refresh, Sprite, path="", size=[32, 32], transparent_rgb=(-1, -1, -1), fps=24, sync="True")
+def __init__(self, Engine, Refresh, Sprite, path="", size=[32, 32], transparent_rgb=(-1, -1, -1), fps=24, sync="True")
 ```
-| in | type  | desc |
+| [ in ] | type  | description |
 |--|--|--|
-| self | [Flipbook](#flipbook) | The flipbook instance just created |
-| Engine | [Engine](#engine) | The engine instance that computes for the creation of the flipbook from its set of pictures
-| Refresh | [Refresh](#refresh) | The refresh instance that runs the flipbook |
-| Sprite | [Sprite](#engine.textasset.textsprite) | The sprite that has its texture animated by the flipbook |
+| self | [Flipbook](#flipbook) | Flipbook instance just created |
+| Engine | [Engine](#engine) | Engine instance that computes for the creation of the flipbook from its set of pictures
+| Refresh | [Refresh](#refresh) | Refresh instance that runs the flipbook |
+| Sprite | [Sprite](#engine.textasset.textsprite) | TextSprite instance that has its texture animated by the flipbook |
+| path | string | pat |
 
 
 ### <a name="flipbook-start"></a> start
@@ -702,9 +702,9 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkxODIwNTU2LC0xMDE1OTE2OTE1LC0xNz
-U5MTYxMzc1LDg0OTM0MDE3MiwtMzAxMDYyOTgxLC0xODk0ODU1
-NTQ4LC0xMzQxNDI0MTMxLC0yMTIyMjgzMDc4LC05NzE5NDM1Nj
-gsLTcwMjczOTEwNCwtNzAyNzM5MTA0LDEwNTE5MjM2MCwxMzc1
-NTk3NTk0LDE0NzQ2MjkxMjYsLTEzMTc4MTYxODhdfQ==
+eyJoaXN0b3J5IjpbMTMyOTQ0OTIzOCwtMTAxNTkxNjkxNSwtMT
+c1OTE2MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mjk4MSwtMTg5NDg1
+NTU0OCwtMTM0MTQyNDEzMSwtMjEyMjI4MzA3OCwtOTcxOTQzNT
+Y4LC03MDI3MzkxMDQsLTcwMjczOTEwNCwxMDUxOTIzNjAsMTM3
+NTU5NzU5NCwxNDc0NjI5MTI2LC0xMzE3ODE2MTg4XX0=
 -->
