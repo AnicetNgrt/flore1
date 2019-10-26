@@ -681,10 +681,9 @@ No return value
 | self | [Flipbook](#flipbook) | Flipbook instance that stops playing
 ---
 ### <a name="flipbook.material"></a> material [property](#flipbook-props)
-##### Type:
-tuple
 ##### Description:
-A tuple composed with a function which changes the Flipbook's sprite's texture at some rate function of the Flipbook's Refresh and the Flipbook's frame rate goal, and also composed of all this function's arguments. Feeding a Refresh with *this tuple
+A tuple composed with a function which changes the Flipbook's sprite's texture at some rate function of the Flipbook's Refresh and the Flipbook's frame rate goal, and also composed of all this function's arguments. Feeding a Refresh with *(this tuple) will start the Flipbook.
+
 
 ## <a name="refresh"></a>Refresh [class](#classes)
 
@@ -744,11 +743,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM4NDgwMDUwLC03NzYwMzkwMjEsLTE0OD
-MyNjY3OTMsLTEzMDI0MDU3ODYsOTEzMzc0Mjg5LC0xMDE1OTE2
-OTE1LC0xNzU5MTYxMzc1LDg0OTM0MDE3MiwtMzAxMDYyOTgxLC
-0xODk0ODU1NTQ4LC0xMzQxNDI0MTMxLC0yMTIyMjgzMDc4LC05
-NzE5NDM1NjgsLTcwMjczOTEwNCwtNzAyNzM5MTA0LDEwNTE5Mj
-M2MCwxMzc1NTk3NTk0LDE0NzQ2MjkxMjYsLTEzMTc4MTYxODhd
-fQ==
+eyJoaXN0b3J5IjpbMTkxNDc4ODY5MSwtNzc2MDM5MDIxLC0xND
+gzMjY2NzkzLC0xMzAyNDA1Nzg2LDkxMzM3NDI4OSwtMTAxNTkx
+NjkxNSwtMTc1OTE2MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mjk4MS
+wtMTg5NDg1NTU0OCwtMTM0MTQyNDEzMSwtMjEyMjI4MzA3OCwt
+OTcxOTQzNTY4LC03MDI3MzkxMDQsLTcwMjczOTEwNCwxMDUxOT
+IzNjAsMTM3NTU5NzU5NCwxNDc0NjI5MTI2LC0xMzE3ODE2MTg4
+XX0=
 -->
