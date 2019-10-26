@@ -1,6 +1,6 @@
  
 # Flore 1 - pre alpha
- The first **python** 2D game engine/Graphical libr **rendering in the terminal**.
+ The first **python** 2D game engine/graphical library **rendering in the terminal**.
 
 
 ### Note:
@@ -561,7 +561,7 @@ while True:
 ```
 Done, now run it and admire:
 
-![Done, now run it and admire.](https://imgur.com/Xo6XNs1.gif)
+![Done, now run it and admire.](https://imgur.com/Xo6XNs1.gif)*true speed on my system, you may get a worse frame rate*
 ### <a name="tuto4_code"></a>📥 Conclusion: This tutorial's code:
 In order to get the frames, I advice you read at least the very beginning of this tutorial.
 ```
@@ -743,7 +743,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjUxMDYwMTYsMjA3NzczNzI2NywtMT
+eyJoaXN0b3J5IjpbLTE2Mzc3ODc5OTksMjA3NzczNzI2NywtMT
 MzNTA4NzAwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMjEsLTE0ODMy
 NjY3OTMsLTEzMDI0MDU3ODYsOTEzMzc0Mjg5LC0xMDE1OTE2OT
 E1LC0xNzU5MTYxMzc1LDg0OTM0MDE3MiwtMzAxMDYyOTgxLC0x
