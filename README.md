@@ -464,7 +464,7 @@ time.sleep(30)
 ## <a name="tuto4"></a> Flipbooks: Display a gif on the terminal as an animated text sprite
 ### 🧭 What we will do:
 In this tutorial we will display an animated GIF in the terminal.
-[-> I just want the code thanks.](#tuto1_code)
+[-> I just want the code thanks.](#tuto4_code)
 ### 🎬 Finding and making a GIF compatible with flore1:
 First we need to find a suitable low-res `.gif` (you can also put large sized GIF since the engine can rescale pictures, but in this tutorial we won't do it).
 Personnaly, I'm not a pro pixel art animator so I took my GIF [here](#https://untiedgames.itch.io/five-free-pixel-explosions).
@@ -682,7 +682,8 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjIyODMwNzgsLTk3MTk0MzU2OCwtNz
-AyNzM5MTA0LC03MDI3MzkxMDQsMTA1MTkyMzYwLDEzNzU1OTc1
-OTQsMTQ3NDYyOTEyNiwtMTMxNzgxNjE4OF19
+eyJoaXN0b3J5IjpbLTEzNDE0MjQxMzEsLTIxMjIyODMwNzgsLT
+k3MTk0MzU2OCwtNzAyNzM5MTA0LC03MDI3MzkxMDQsMTA1MTky
+MzYwLDEzNzU1OTc1OTQsMTQ3NDYyOTEyNiwtMTMxNzgxNjE4OF
+19
 -->
