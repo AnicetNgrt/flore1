@@ -635,7 +635,8 @@ def __init__(self, Engine, Refresh, Sprite, path="", size=[32, 32], transparent_
 | Refresh | [Refresh](#refresh) | Refresh instance that runs the flipbook |
 | Sprite | [Sprite](#engine.textasset.textsprite) | TextSprite instance that has its texture animated by the flipbook |
 | path | string | Path to a folder containing all the frames for the animation in lexicographical order |
-| size | array of integers | [width, height] of the sprite |
+| size | array of integers | [width, height] for the animated sprite |
+| transparent_rgb | tuple of integers | RGB of the transparent color in the flipbook's frames |
 
 
 ### <a name="flipbook-start"></a> start
@@ -703,9 +704,9 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTI4NzI5NzgsLTEwMTU5MTY5MTUsLT
-E3NTkxNjEzNzUsODQ5MzQwMTcyLC0zMDEwNjI5ODEsLTE4OTQ4
-NTU1NDgsLTEzNDE0MjQxMzEsLTIxMjIyODMwNzgsLTk3MTk0Mz
-U2OCwtNzAyNzM5MTA0LC03MDI3MzkxMDQsMTA1MTkyMzYwLDEz
-NzU1OTc1OTQsMTQ3NDYyOTEyNiwtMTMxNzgxNjE4OF19
+eyJoaXN0b3J5IjpbOTEzMzc0Mjg5LC0xMDE1OTE2OTE1LC0xNz
+U5MTYxMzc1LDg0OTM0MDE3MiwtMzAxMDYyOTgxLC0xODk0ODU1
+NTQ4LC0xMzQxNDI0MTMxLC0yMTIyMjgzMDc4LC05NzE5NDM1Nj
+gsLTcwMjczOTEwNCwtNzAyNzM5MTA0LDEwNTE5MjM2MCwxMzc1
+NTk3NTk0LDE0NzQ2MjkxMjYsLTEzMTc4MTYxODhdfQ==
 -->
