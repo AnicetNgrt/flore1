@@ -613,7 +613,7 @@ while True:
 	 - [Engine.VirtualScene](#engine.virtualscene)
 	 - [Engine.TextAsset](#engine.textasset)
 		 - [Engine.TextAsset.TextSprite](#engine.textasset.textsprite)
-## <a name="flipbook"></a>Flipbook [~class~](#classes)
+## <a name="flipbook"></a>Flipbook [^class^](#classes)
 
 
 The Flipbook class lets you easily animate [TextSprites](#textsprites) by computing their texture change rate, function of the Flipbook's [Refresh](#refresh) 's execution rate and the Flipbook frame rate goal. 
@@ -626,7 +626,7 @@ The Flipbook class lets you easily animate [TextSprites](#textsprites) by comput
 - [start](#flipbook-start) 
 - [stop](#flipbook-stop) 
 ---
-### <a name="flipbook-init"></a> \_\_init\_\_ [~method~](#methods)
+### <a name="flipbook-init"></a> \_\_init\_\_ [^method^](#methods)
 
 ##### Description:
 Inits the Flipbook: 
@@ -652,7 +652,7 @@ void
 | fps | integer | Frame rate goal for the flipbook in frame per second
 | sync | boolean | Whether the flipbook skips frame if the refresh slows down
 ---
-### <a name="flipbook-start"></a> start [~method~](#methods)
+### <a name="flipbook-start"></a> start [^method^](#methods)
 ##### Description:
 Feeds the Flipbook's Refresh instance with the Flipbook's [material](#flipbook.material) property.
 ##### Prototype:
@@ -666,7 +666,7 @@ void
 |--|--|--|
 | self | [Flipbook](#flipbook) | Flipbook instance that starts playing
 ---
-### <a name="flipbook-stop"></a> stop [~method~](#methods)
+### <a name="flipbook-stop"></a> stop [^method^](#methods)
 ##### Description:
 Terminates the Flipbook's [material](#flipbook.material) property's function execution within the Flipbook's Refresh instance.
 ##### Prototype:
@@ -681,7 +681,7 @@ void
 | self | [Flipbook](#flipbook) | Flipbook instance that stops playing
 ---
 
-## <a name="refresh"></a>Refresh [~class~](#classes)
+## <a name="refresh"></a>Refresh [^class^](#classes)
 
 ### <a name="refresh-methods"></a>Methods
 - [\_\_init\_\_](#refresh-init) 
@@ -739,7 +739,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NDc3NjIxMSwtMTQ4MzI2Njc5MywtMT
+eyJoaXN0b3J5IjpbLTc3NjAzOTAyMSwtMTQ4MzI2Njc5MywtMT
 MwMjQwNTc4Niw5MTMzNzQyODksLTEwMTU5MTY5MTUsLTE3NTkx
 NjEzNzUsODQ5MzQwMTcyLC0zMDEwNjI5ODEsLTE4OTQ4NTU1ND
 gsLTEzNDE0MjQxMzEsLTIxMjIyODMwNzgsLTk3MTk0MzU2OCwt
