@@ -34,8 +34,8 @@ Therefore, please consider donating, it will greatly support this project !
  -  Play flibook in a scene at a desired frame rate. 
 
 #  <a name="roadmap"></a>What is planned ?
-- `B`
-- `Always` Optimization
+- `Gradually` Documentation and tutorials
+- `Gradually` Optimization
 - `High priority` Input management
 - `Medium priority` Basic server/client fonctionnalities 
 - `Low priority` Sound management  
@@ -49,8 +49,8 @@ Therefore, please consider donating, it will greatly support this project !
  4. Windows 10 - python terminal
  5. Linux - repl.it terminal emulator
  
-**Note**: It has great probability of rendering well on any modern shell which supports the following escapes codes:
- 
+**Notes**: 
+- It has great probability of rendering well on any modern shell which supports the following escapes codes:
 ```python
 "\033[<row>;<col>H"
 "\33[0m"
@@ -739,11 +739,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQxNjc0NDEsLTEzMzUwODcwMDIsMTkxND
-c4ODY5MSwtNzc2MDM5MDIxLC0xNDgzMjY2NzkzLC0xMzAyNDA1
-Nzg2LDkxMzM3NDI4OSwtMTAxNTkxNjkxNSwtMTc1OTE2MTM3NS
-w4NDkzNDAxNzIsLTMwMTA2Mjk4MSwtMTg5NDg1NTU0OCwtMTM0
-MTQyNDEzMSwtMjEyMjI4MzA3OCwtOTcxOTQzNTY4LC03MDI3Mz
-kxMDQsLTcwMjczOTEwNCwxMDUxOTIzNjAsMTM3NTU5NzU5NCwx
-NDc0NjI5MTI2XX0=
+eyJoaXN0b3J5IjpbLTE1NjU2MjI4MjAsLTEzMzUwODcwMDIsMT
+kxNDc4ODY5MSwtNzc2MDM5MDIxLC0xNDgzMjY2NzkzLC0xMzAy
+NDA1Nzg2LDkxMzM3NDI4OSwtMTAxNTkxNjkxNSwtMTc1OTE2MT
+M3NSw4NDkzNDAxNzIsLTMwMTA2Mjk4MSwtMTg5NDg1NTU0OCwt
+MTM0MTQyNDEzMSwtMjEyMjI4MzA3OCwtOTcxOTQzNTY4LC03MD
+I3MzkxMDQsLTcwMjczOTEwNCwxMDUxOTIzNjAsMTM3NTU5NzU5
+NCwxNDc0NjI5MTI2XX0=
 -->
