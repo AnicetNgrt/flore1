@@ -628,18 +628,18 @@ The Flipbook class lets you easily animate [TextSprites](#textsprites) by comput
 ---
 ### <a name="flipbook-init"></a> \_\_init\_\_ [method](#methods)
 
-##### Description:
+##### - Description:
 Inits the Flipbook: 
 - Inits its [material](#flipbook.material) property with a tuple of a function called `play` and its arguments. 
 	- The `play` function calls the Flipbook's sprite's [set_asset](#textsprite-set_asset) method in rythm, in order to change the Flipbook's sprite's texture at the rythm of the frame rate goal. 
 
-##### Prototype:
+##### - Prototype:
 ```python
 def __init__(self, Engine, Refresh, Sprite, path="", size=[32, 32], transparent_rgb=(-1, -1, -1), fps=24, sync="True")
 ```
-##### Return value
+##### - Return value:
 No return value
-##### Arguments
+##### - Arguments:
 | [ in ] | type  | description |
 |--|--|--|
 | self | [Flipbook](#flipbook) | Flipbook instance just created 
@@ -653,29 +653,29 @@ No return value
 | sync | boolean | Whether the flipbook skips frame if the refresh slows down
 ---
 ### <a name="flipbook-start"></a> start [method](#methods)
-##### Description:
+##### - Description:
 Feeds the Flipbook's Refresh instance with the Flipbook's [material](#flipbook.material) property.
-##### Prototype:
+##### - Prototype:
 ```python
 def start(self)
 ```
-##### Return value:
-- No return value
-##### Arguments:
+##### - Return value:
+No return value
+##### - Arguments:
 | [ in ] | type | description
--|--|--|--|
+|--|--|--|
 | self | [Flipbook](#flipbook) | Flipbook instance that starts playing
 ---
 ### <a name="flipbook-stop"></a> stop [method](#methods)
-##### Description:
+##### - Description:
 Terminates the Flipbook's [material](#flipbook.material) property's function execution within the Flipbook's Refresh instance.
-##### Prototype:
+##### - Prototype:
 ```python
 def stop(self)
 ```
-##### Return value:
+##### - Return value:
 No return value
-##### Arguments:
+##### - Arguments:
 | [ in ] | type | description
 |--|--|--|
 | self | [Flipbook](#flipbook) | Flipbook instance that stops playing
@@ -742,11 +742,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MDA2ODQwNSwtNzc2MDM5MDIxLC0xND
-gzMjY2NzkzLC0xMzAyNDA1Nzg2LDkxMzM3NDI4OSwtMTAxNTkx
-NjkxNSwtMTc1OTE2MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mjk4MS
-wtMTg5NDg1NTU0OCwtMTM0MTQyNDEzMSwtMjEyMjI4MzA3OCwt
-OTcxOTQzNTY4LC03MDI3MzkxMDQsLTcwMjczOTEwNCwxMDUxOT
-IzNjAsMTM3NTU5NzU5NCwxNDc0NjI5MTI2LC0xMzE3ODE2MTg4
-XX0=
+eyJoaXN0b3J5IjpbLTExODk0MjkzMjMsLTc3NjAzOTAyMSwtMT
+Q4MzI2Njc5MywtMTMwMjQwNTc4Niw5MTMzNzQyODksLTEwMTU5
+MTY5MTUsLTE3NTkxNjEzNzUsODQ5MzQwMTcyLC0zMDEwNjI5OD
+EsLTE4OTQ4NTU1NDgsLTEzNDE0MjQxMzEsLTIxMjIyODMwNzgs
+LTk3MTk0MzU2OCwtNzAyNzM5MTA0LC03MDI3MzkxMDQsMTA1MT
+kyMzYwLDEzNzU1OTc1OTQsMTQ3NDYyOTEyNiwtMTMxNzgxNjE4
+OF19
 -->
