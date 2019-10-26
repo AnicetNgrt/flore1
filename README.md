@@ -653,7 +653,8 @@ void
 | sync | boolean | Whether the flipbook skips frame if the refresh slows down
 ---
 ### <a name="flipbook-start"></a> start [~method~](#methods)
-
+##### Description:
+Feeds the Flipbook's Refresh instance with the Flipbook's [material](#flipbook.material) property.
 ##### Prototype:
 ```python
 def start(self)
@@ -679,8 +680,7 @@ void
 | self | [Flipbook](#flipbook) | Flipbook instance that stops playing
 ---
 
-## <a name="refresh"></a>Refresh
-[->class](#classes)
+## <a name="refresh"></a>Refresh [~class~](#classes)
 
 ### <a name="refresh-methods"></a>Methods
 - [\_\_init\_\_](#refresh-init) 
@@ -738,7 +738,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjIzNzQwNDgsLTE0ODMyNjY3OTMsLT
+eyJoaXN0b3J5IjpbLTE4NzMxNTQ0MDQsLTE0ODMyNjY3OTMsLT
 EzMDI0MDU3ODYsOTEzMzc0Mjg5LC0xMDE1OTE2OTE1LC0xNzU5
 MTYxMzc1LDg0OTM0MDE3MiwtMzAxMDYyOTgxLC0xODk0ODU1NT
 Q4LC0xMzQxNDI0MTMxLC0yMTIyMjgzMDc4LC05NzE5NDM1Njgs
