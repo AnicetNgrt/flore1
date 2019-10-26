@@ -667,7 +667,8 @@ void
 | self | [Flipbook](#flipbook) | Flipbook instance that starts playing
 ---
 ### <a name="flipbook-stop"></a> stop [~method~](#methods)
-
+##### Description:
+Terminates the Flipbook's [material](#flipbook.material) property's function execution by the Flipbook's Refresh instance.
 ##### Prototype:
 ```python
 def stop(self)
@@ -738,10 +739,10 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzMxNTQ0MDQsLTE0ODMyNjY3OTMsLT
-EzMDI0MDU3ODYsOTEzMzc0Mjg5LC0xMDE1OTE2OTE1LC0xNzU5
-MTYxMzc1LDg0OTM0MDE3MiwtMzAxMDYyOTgxLC0xODk0ODU1NT
-Q4LC0xMzQxNDI0MTMxLC0yMTIyMjgzMDc4LC05NzE5NDM1Njgs
-LTcwMjczOTEwNCwtNzAyNzM5MTA0LDEwNTE5MjM2MCwxMzc1NT
-k3NTk0LDE0NzQ2MjkxMjYsLTEzMTc4MTYxODhdfQ==
+eyJoaXN0b3J5IjpbOTgxNjYxODMsLTE0ODMyNjY3OTMsLTEzMD
+I0MDU3ODYsOTEzMzc0Mjg5LC0xMDE1OTE2OTE1LC0xNzU5MTYx
+Mzc1LDg0OTM0MDE3MiwtMzAxMDYyOTgxLC0xODk0ODU1NTQ4LC
+0xMzQxNDI0MTMxLC0yMTIyMjgzMDc4LC05NzE5NDM1NjgsLTcw
+MjczOTEwNCwtNzAyNzM5MTA0LDEwNTE5MjM2MCwxMzc1NTk3NT
+k0LDE0NzQ2MjkxMjYsLTEzMTc4MTYxODhdfQ==
 -->
