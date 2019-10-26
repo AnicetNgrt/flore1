@@ -684,7 +684,9 @@ No return value
 ##### Type:
 tuple
 ##### Description:
-A tuple composed with (a) a function called play which changes the Flipbook's sprite's texture accordingly to the Flipbook's Refresh' 
+A tuple composed with:
+- (a): A function called play which changes the Flipbook's sprite's texture at some rate function of the Flipbook's Refresh and the Flipbook's frame rate goal.
+- (b): 
 
 ## <a name="refresh"></a>Refresh [class](#classes)
 
@@ -744,11 +746,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyOTgyNDI0OCwtNzc2MDM5MDIxLC0xND
-gzMjY2NzkzLC0xMzAyNDA1Nzg2LDkxMzM3NDI4OSwtMTAxNTkx
-NjkxNSwtMTc1OTE2MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mjk4MS
-wtMTg5NDg1NTU0OCwtMTM0MTQyNDEzMSwtMjEyMjI4MzA3OCwt
-OTcxOTQzNTY4LC03MDI3MzkxMDQsLTcwMjczOTEwNCwxMDUxOT
-IzNjAsMTM3NTU5NzU5NCwxNDc0NjI5MTI2LC0xMzE3ODE2MTg4
-XX0=
+eyJoaXN0b3J5IjpbLTIwODEwMjI5ODgsLTc3NjAzOTAyMSwtMT
+Q4MzI2Njc5MywtMTMwMjQwNTc4Niw5MTMzNzQyODksLTEwMTU5
+MTY5MTUsLTE3NTkxNjEzNzUsODQ5MzQwMTcyLC0zMDEwNjI5OD
+EsLTE4OTQ4NTU1NDgsLTEzNDE0MjQxMzEsLTIxMjIyODMwNzgs
+LTk3MTk0MzU2OCwtNzAyNzM5MTA0LC03MDI3MzkxMDQsMTA1MT
+kyMzYwLDEzNzU1OTc1OTQsMTQ3NDYyOTEyNiwtMTMxNzgxNjE4
+OF19
 -->
