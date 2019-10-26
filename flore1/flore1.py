@@ -184,7 +184,7 @@ class Refresh:
 # ------------------     ENGINE CLASS    ---------------------
 # ------------------------------------------------------------
 class Engine:
-    def __init__(self, auto_scale=False, win_mode=False):
+    def __init__(self, auto_scale=False, win_mode=False, logo=False):
         print(chr(27) + "[H" + chr(27) + "[J")
         self.vscenes = {}
         self.auto_scale = auto_scale
@@ -192,6 +192,16 @@ class Engine:
         if win_mode == True:
             kernel32 = ctypes.windll.kernel32
             kernel32.SetConsoleMode(kernel32.GetStdHandle(-11), 7)
+
+        if logo == True:
+            tmp_scene = self.new_scene("tmp", 1, 1, 64, 64, 1)
+            logo_asset = self.pic_to_textAsset(path="flore1/logo.png", new_size=[32,32], transparent_rgb=(0,0,0))
+            logo_sprite = logo_asset.to_sprite()
+            tmp_scene.put(logo_sprite,32,16,0)
+            tmp_scene.show()
+            time.sleep(5)
+            self.del_scene("tmp")
+            print("\33[0m")
 
 
     from .VIRTUALSCENE.virtualScene import VirtualScene
@@ -204,7 +214,7 @@ class Engine:
 # ------------------------------------------------------------
 
     def del_scene(self, name):
-        del self.vs[name]
+        del self.vscenes[name]
 
 # ------------------------------------------------------------
 
