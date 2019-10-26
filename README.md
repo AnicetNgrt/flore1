@@ -686,7 +686,7 @@ A tuple composed with a function which changes the Flipbook's sprite's texture a
 
 
 ## <a name="refresh"></a>Refresh [class](#classes)
-
+The Refresh class ex
 ### <a name="refresh-methods"></a>Methods
 - [\_\_init\_\_](#refresh-init) 
 - [terminate](#refresh-terminate) 
@@ -694,20 +694,16 @@ A tuple composed with a function which changes the Flipbook's sprite's texture a
 - [do](#refresh-do) 
 - [run](#refresh-run) 
 ### <a name="refresh-init"></a> \_\_init\_\_ [method](#methods)
-
+---
 ### <a name="refresh-terminate"></a> terminate [method](#methods)
-
-### <a name="refresh-feed"></a> feed
-[->method](#methods)
-
-### <a name="refresh-do"></a> do
-[->method](#methods)
-
-### <a name="refresh-run"></a> run
-[->method](#methods)
-
-## <a name="engine"></a>Engine
-[->class](#classes)
+---
+### <a name="refresh-feed"></a> feed [method](#methods)
+---
+### <a name="refresh-do"></a> do [method](#methods)
+---
+### <a name="refresh-run"></a> run [method](#methods)
+---
+## <a name="engine"></a>Engine [class](#classes)
 
 - [\_\_init\_\_](#engine-init) 
 - [new_scene](#engine-new_scene) 
@@ -741,11 +737,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxODA3OTk0NywxOTE0Nzg4NjkxLC03Nz
-YwMzkwMjEsLTE0ODMyNjY3OTMsLTEzMDI0MDU3ODYsOTEzMzc0
-Mjg5LC0xMDE1OTE2OTE1LC0xNzU5MTYxMzc1LDg0OTM0MDE3Mi
-wtMzAxMDYyOTgxLC0xODk0ODU1NTQ4LC0xMzQxNDI0MTMxLC0y
-MTIyMjgzMDc4LC05NzE5NDM1NjgsLTcwMjczOTEwNCwtNzAyNz
-M5MTA0LDEwNTE5MjM2MCwxMzc1NTk3NTk0LDE0NzQ2MjkxMjYs
-LTEzMTc4MTYxODhdfQ==
+eyJoaXN0b3J5IjpbOTkyODA3MjE1LDE5MTQ3ODg2OTEsLTc3Nj
+AzOTAyMSwtMTQ4MzI2Njc5MywtMTMwMjQwNTc4Niw5MTMzNzQy
+ODksLTEwMTU5MTY5MTUsLTE3NTkxNjEzNzUsODQ5MzQwMTcyLC
+0zMDEwNjI5ODEsLTE4OTQ4NTU1NDgsLTEzNDE0MjQxMzEsLTIx
+MjIyODMwNzgsLTk3MTk0MzU2OCwtNzAyNzM5MTA0LC03MDI3Mz
+kxMDQsMTA1MTkyMzYwLDEzNzU1OTc1OTQsMTQ3NDYyOTEyNiwt
+MTMxNzgxNjE4OF19
 -->
