@@ -1,6 +1,7 @@
  
 # Flore 1 - pre alpha
- The first **python** 2D game engine **rendering in the terminal**.
+ The first **python** 2D game engine/Graphical libr **rendering in the terminal**.
+
 
 ### Note:
 Thanks a lot for paying attention to my work. 
@@ -742,11 +743,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NjU3NTgyMywyMDc3NzM3MjY3LC0xMz
-M1MDg3MDAyLDE5MTQ3ODg2OTEsLTc3NjAzOTAyMSwtMTQ4MzI2
-Njc5MywtMTMwMjQwNTc4Niw5MTMzNzQyODksLTEwMTU5MTY5MT
-UsLTE3NTkxNjEzNzUsODQ5MzQwMTcyLC0zMDEwNjI5ODEsLTE4
-OTQ4NTU1NDgsLTEzNDE0MjQxMzEsLTIxMjIyODMwNzgsLTk3MT
-k0MzU2OCwtNzAyNzM5MTA0LC03MDI3MzkxMDQsMTA1MTkyMzYw
-LDEzNzU1OTc1OTRdfQ==
+eyJoaXN0b3J5IjpbLTE2MjUxMDYwMTYsMjA3NzczNzI2NywtMT
+MzNTA4NzAwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMjEsLTE0ODMy
+NjY3OTMsLTEzMDI0MDU3ODYsOTEzMzc0Mjg5LC0xMDE1OTE2OT
+E1LC0xNzU5MTYxMzc1LDg0OTM0MDE3MiwtMzAxMDYyOTgxLC0x
+ODk0ODU1NTQ4LC0xMzQxNDI0MTMxLC0yMTIyMjgzMDc4LC05Nz
+E5NDM1NjgsLTcwMjczOTEwNCwtNzAyNzM5MTA0LDEwNTE5MjM2
+MCwxMzc1NTk3NTk0XX0=
 -->
