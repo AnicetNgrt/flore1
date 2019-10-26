@@ -630,7 +630,6 @@ The Flipbook class lets you easily animate [TextSprites](#textsprites) by comput
 Inits the Flipbook: 
 - Inits its [material](#flipbook.material) property with a tuple of a function called `play` and its arguments. 
 	- The `play` function calls the Flipbook's sprite's [set_asset](#textsprite-set_asset) method in rythm, in order to change the Flipbook's sprite's texture at the rythm of the frame rate goal. 
-- Inits its [Refresh]
 
 **Prototype**:
 ```python
@@ -673,6 +672,8 @@ def stop(self)
 |--|--|--|
 | self | [Flipbook](#flipbook) | Flipbook instance that stops playing
 ---
+### Public properties:
+
 ## <a name="refresh"></a>Refresh
 [->class](#classes)
 
@@ -732,7 +733,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODIxNzQ2LC0xNDgzMjY2NzkzLC0xMz
+eyJoaXN0b3J5IjpbLTM4Nzg1MDYwLC0xNDgzMjY2NzkzLC0xMz
 AyNDA1Nzg2LDkxMzM3NDI4OSwtMTAxNTkxNjkxNSwtMTc1OTE2
 MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mjk4MSwtMTg5NDg1NTU0OC
 wtMTM0MTQyNDEzMSwtMjEyMjI4MzA3OCwtOTcxOTQzNTY4LC03
