@@ -680,7 +680,7 @@ No return value
 |--|--|--|
 | self | [Flipbook](#flipbook) | Flipbook instance that stops playing
 ---
-### material [property](#flipbook-props)
+### <a name="flipbook.material"></a> material [property](#flipbook-props)
 ##### Type:
 tuple: (  )
 
@@ -742,7 +742,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODk0MjkzMjMsLTc3NjAzOTAyMSwtMT
+eyJoaXN0b3J5IjpbLTE3NzAwNzEwNjEsLTc3NjAzOTAyMSwtMT
 Q4MzI2Njc5MywtMTMwMjQwNTc4Niw5MTMzNzQyODksLTEwMTU5
 MTY5MTUsLTE3NTkxNjEzNzUsODQ5MzQwMTcyLC0zMDEwNjI5OD
 EsLTE4OTQ4NTU1NDgsLTEzNDE0MjQxMzEsLTIxMjIyODMwNzgs
