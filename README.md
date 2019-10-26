@@ -616,10 +616,10 @@ while True:
 
 The Flipbook class lets you easily animate [TextSprites](#textsprites) by computing their texture change rate, function of the Flipbook's [Refresh](#refresh) 's execution rate and the Flipbook frame rate goal. 
 ### <a name="flipbook-methods"></a>Methods
-- [init](#flipbook-init) 
+- [\_\_init\_\_](#flipbook-init) 
 - [start](#flipbook-start) 
 - [stop](#flipbook-stop) 
-### <a name="flipbook-init"></a> init
+### <a name="flipbook-init"></a> \_\_init\_\_
 [->method](#methods)
 
 ### <a name="flipbook-start"></a> start
@@ -632,12 +632,12 @@ The Flipbook class lets you easily animate [TextSprites](#textsprites) by comput
 [->class](#classes)
 
 ### <a name="refresh-methods"></a>Methods
-- [init](#refresh-init) 
+- [\_\_init\_\_](#refresh-init) 
 - [terminate](#refresh-terminate) 
 - [feed](#refresh-feed) 
 - [do](#refresh-do) 
 - [run](#refresh-run) 
-### <a name="refresh-init"></a> init
+### <a name="refresh-init"></a> \_\_init\_\_
 [->method](#methods)
 
 ### <a name="refresh-terminate"></a> terminate
@@ -655,13 +655,13 @@ The Flipbook class lets you easily animate [TextSprites](#textsprites) by comput
 ## <a name="engine"></a>Engine
 [->class](#classes)
 
-- [init](#engine-init) 
+- [\_\_init\_\_](#engine-init) 
 - [new_scene](#engine-new_scene) 
 - [del_scene](#engine-del_scene) 
 - [new_sprite](#engine-new_sprite) 
 - [find_trsprt_index](#engine-find_trsprt_index) 
 - [pic_to_textAsset](#engine-pic_to_textasset) 
-### <a name="engine-init"></a> init
+### <a name="engine-init"></a> \_\_init\_\_
 [->method](#methods)
 
 ### <a name="engine-new_scene"></a> new_scene
@@ -687,8 +687,9 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMTA2Mjk4MSwtMTg5NDg1NTU0OCwtMT
-M0MTQyNDEzMSwtMjEyMjI4MzA3OCwtOTcxOTQzNTY4LC03MDI3
-MzkxMDQsLTcwMjczOTEwNCwxMDUxOTIzNjAsMTM3NTU5NzU5NC
-wxNDc0NjI5MTI2LC0xMzE3ODE2MTg4XX0=
+eyJoaXN0b3J5IjpbLTE1Mjk0ODU4OTMsLTMwMTA2Mjk4MSwtMT
+g5NDg1NTU0OCwtMTM0MTQyNDEzMSwtMjEyMjI4MzA3OCwtOTcx
+OTQzNTY4LC03MDI3MzkxMDQsLTcwMjczOTEwNCwxMDUxOTIzNj
+AsMTM3NTU5NzU5NCwxNDc0NjI5MTI2LC0xMzE3ODE2MTg4XX0=
+
 -->
