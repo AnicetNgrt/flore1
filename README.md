@@ -682,11 +682,9 @@ No return value
 ---
 ### <a name="flipbook.material"></a> material [property](#flipbook-props)
 ##### Type:
-tuple: 
-| element | name | type | description
-|--|--|--|--|
-| a | play | function | Function that changes the Flipbook's sprite's texture in rythm with the Flipbook's Refresh and the Flipbook's frame rate goal
-| b | Sprite | [TextSprite](#engine.textasset.textsprite) |  
+tuple
+##### Description:
+A tuple composed with (a) a function called play which changes the Flipbook's sprite's texture accordingly to the Flipbook's Refresh' 
 
 ## <a name="refresh"></a>Refresh [class](#classes)
 
@@ -746,11 +744,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTY2NDY0LC03NzYwMzkwMjEsLTE0OD
-MyNjY3OTMsLTEzMDI0MDU3ODYsOTEzMzc0Mjg5LC0xMDE1OTE2
-OTE1LC0xNzU5MTYxMzc1LDg0OTM0MDE3MiwtMzAxMDYyOTgxLC
-0xODk0ODU1NTQ4LC0xMzQxNDI0MTMxLC0yMTIyMjgzMDc4LC05
-NzE5NDM1NjgsLTcwMjczOTEwNCwtNzAyNzM5MTA0LDEwNTE5Mj
-M2MCwxMzc1NTk3NTk0LDE0NzQ2MjkxMjYsLTEzMTc4MTYxODhd
-fQ==
+eyJoaXN0b3J5IjpbMTMyOTgyNDI0OCwtNzc2MDM5MDIxLC0xND
+gzMjY2NzkzLC0xMzAyNDA1Nzg2LDkxMzM3NDI4OSwtMTAxNTkx
+NjkxNSwtMTc1OTE2MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mjk4MS
+wtMTg5NDg1NTU0OCwtMTM0MTQyNDEzMSwtMjEyMjI4MzA3OCwt
+OTcxOTQzNTY4LC03MDI3MzkxMDQsLTcwMjczOTEwNCwxMDUxOT
+IzNjAsMTM3NTU5NzU5NCwxNDc0NjI5MTI2LC0xMzE3ODE2MTg4
+XX0=
 -->
