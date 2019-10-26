@@ -628,9 +628,9 @@ The Flipbook class lets you easily animate [TextSprites](#textsprites) by comput
 ```python
 def __init__(self, Engine, Refresh, Sprite, path="", size=[32, 32], transparent_rgb=(-1, -1, -1), fps=24, sync="True")
 ```
-| in |  | |
+| in | desc | mendatory |
 |--|--|--|
-|  |  |--|
+| self |  | |
 
 
 ### <a name="flipbook-start"></a> start
@@ -698,9 +698,9 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNTM1ODk2OSw4NDkzNDAxNzIsLTMwMT
-A2Mjk4MSwtMTg5NDg1NTU0OCwtMTM0MTQyNDEzMSwtMjEyMjI4
-MzA3OCwtOTcxOTQzNTY4LC03MDI3MzkxMDQsLTcwMjczOTEwNC
-wxMDUxOTIzNjAsMTM3NTU5NzU5NCwxNDc0NjI5MTI2LC0xMzE3
-ODE2MTg4XX0=
+eyJoaXN0b3J5IjpbLTE3NTkxNjEzNzUsODQ5MzQwMTcyLC0zMD
+EwNjI5ODEsLTE4OTQ4NTU1NDgsLTEzNDE0MjQxMzEsLTIxMjIy
+ODMwNzgsLTk3MTk0MzU2OCwtNzAyNzM5MTA0LC03MDI3MzkxMD
+QsMTA1MTkyMzYwLDEzNzU1OTc1OTQsMTQ3NDYyOTEyNiwtMTMx
+NzgxNjE4OF19
 -->
