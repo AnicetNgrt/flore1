@@ -569,6 +569,8 @@ In order to get the frames, I advice you read at least the very beginning of thi
 |-----|-----|-----📼 frame0063.png
 ```
 ```python
+# main.py
+
 import flore1
 
 Engine = flore1.Engine(auto_scale=True, win_mode=False)
@@ -687,9 +689,9 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MTY0NDkxMyw4NDkzNDAxNzIsLTMwMT
-A2Mjk4MSwtMTg5NDg1NTU0OCwtMTM0MTQyNDEzMSwtMjEyMjI4
-MzA3OCwtOTcxOTQzNTY4LC03MDI3MzkxMDQsLTcwMjczOTEwNC
-wxMDUxOTIzNjAsMTM3NTU5NzU5NCwxNDc0NjI5MTI2LC0xMzE3
-ODE2MTg4XX0=
+eyJoaXN0b3J5IjpbNjQ3NTc1MjE2LDg0OTM0MDE3MiwtMzAxMD
+YyOTgxLC0xODk0ODU1NTQ4LC0xMzQxNDI0MTMxLC0yMTIyMjgz
+MDc4LC05NzE5NDM1NjgsLTcwMjczOTEwNCwtNzAyNzM5MTA0LD
+EwNTE5MjM2MCwxMzc1NTk3NTk0LDE0NzQ2MjkxMjYsLTEzMTc4
+MTYxODhdfQ==
 -->
