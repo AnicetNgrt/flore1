@@ -628,16 +628,17 @@ The Flipbook class lets you easily animate [TextSprites](#textsprites) by comput
 ---
 ### <a name="flipbook-init"></a> \_\_init\_\_ [~method~](#methods)
 
-**Description**:
+##### Description:
 Inits the Flipbook: 
 - Inits its [material](#flipbook.material) property with a tuple of a function called `play` and its arguments. 
 	- The `play` function calls the Flipbook's sprite's [set_asset](#textsprite-set_asset) method in rythm, in order to change the Flipbook's sprite's texture at the rythm of the frame rate goal. 
 
-**Prototype**:
+##### Prototype:
 ```python
 def __init__(self, Engine, Refresh, Sprite, path="", size=[32, 32], transparent_rgb=(-1, -1, -1), fps=24, sync="True")
 ```
-**return**: void
+##### Return value
+void
 | [ in ] | type  | description |
 |--|--|--|
 | self | [Flipbook](#flipbook) | Flipbook instance just created 
@@ -652,11 +653,11 @@ def __init__(self, Engine, Refresh, Sprite, path="", size=[32, 32], transparent_
 ---
 ### <a name="flipbook-start"></a> start [~method~](#methods)
 
-**Prototype**:
+Prototype:
 ```python
 def start(self)
 ```
-**return**: void
+return: void
 | [ in ] | type | description
 |--|--|--|
 | self | [Flipbook](#flipbook) | Flipbook instance that starts playing
@@ -732,7 +733,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMDEwMDc3OSwtMTQ4MzI2Njc5MywtMT
+eyJoaXN0b3J5IjpbMTAyNTMzMDUyNywtMTQ4MzI2Njc5MywtMT
 MwMjQwNTc4Niw5MTMzNzQyODksLTEwMTU5MTY5MTUsLTE3NTkx
 NjEzNzUsODQ5MzQwMTcyLC0zMDEwNjI5ODEsLTE4OTQ4NTU1ND
 gsLTEzNDE0MjQxMzEsLTIxMjIyODMwNzgsLTk3MTk0MzU2OCwt
