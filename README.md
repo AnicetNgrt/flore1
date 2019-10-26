@@ -43,9 +43,9 @@ Therefore, please consider donating, it will greatly support this project !
 
 
 #  <a name="compat"></a>Known compatible terminals
- 1. Windows 10 - Powershell
- 2. Windows 10 - cmd
- 3. Windows 10 - new GPU terminal
+ 1. `good perf.` Windows 10 - Powershell
+ 2. `good perf.` Windows 10 - cmd
+ 3. `it depends` Windows 10 - new GPU terminal
  4. Windows 10 - python terminal
  5. Linux - repl.it terminal emulator
  
@@ -57,8 +57,7 @@ Therefore, please consider donating, it will greatly support this project !
 "\u001b[49;5;<color_code>m"
 "\u001b[39;5;<color_code>m"
 ```
-- Terminals that do not support thoses will never be compatibles.
-- 
+- Terminals that do not support thoses will never be compatibles. 
     
   #  <a name="tuto"></a>Tutorials
   ### Table of content:
@@ -741,11 +740,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDg5NDAxMzcsLTEzMzUwODcwMDIsMT
-kxNDc4ODY5MSwtNzc2MDM5MDIxLC0xNDgzMjY2NzkzLC0xMzAy
-NDA1Nzg2LDkxMzM3NDI4OSwtMTAxNTkxNjkxNSwtMTc1OTE2MT
-M3NSw4NDkzNDAxNzIsLTMwMTA2Mjk4MSwtMTg5NDg1NTU0OCwt
-MTM0MTQyNDEzMSwtMjEyMjI4MzA3OCwtOTcxOTQzNTY4LC03MD
-I3MzkxMDQsLTcwMjczOTEwNCwxMDUxOTIzNjAsMTM3NTU5NzU5
-NCwxNDc0NjI5MTI2XX0=
+eyJoaXN0b3J5IjpbNDc1MjExNTQ4LC0xMzM1MDg3MDAyLDE5MT
+Q3ODg2OTEsLTc3NjAzOTAyMSwtMTQ4MzI2Njc5MywtMTMwMjQw
+NTc4Niw5MTMzNzQyODksLTEwMTU5MTY5MTUsLTE3NTkxNjEzNz
+UsODQ5MzQwMTcyLC0zMDEwNjI5ODEsLTE4OTQ4NTU1NDgsLTEz
+NDE0MjQxMzEsLTIxMjIyODMwNzgsLTk3MTk0MzU2OCwtNzAyNz
+M5MTA0LC03MDI3MzkxMDQsMTA1MTkyMzYwLDEzNzU1OTc1OTQs
+MTQ3NDYyOTEyNl19
 -->
