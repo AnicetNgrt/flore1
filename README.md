@@ -75,9 +75,9 @@ Therefore, please consider donating, it will greatly support this project !
   If you don't have python (3.67 or above) and pip installed, install them first.
   
   **Then, type one of thoses in your favorite terminal**:
-  *universal, may not work:* `pip install flore1`  
-  *unix based OS:* `python -m pip install flore1` 
-  *windows:* `py -m pip install flore1 `
+  - *universal, may not work:* `pip install flore1`  
+  - *unix based OS:* `python -m pip install flore1` 
+  - *windows:* `py -m pip install flore1 `
 
 ### 📁 Project folder:
 You want something like this:
@@ -742,11 +742,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDI3MzYzNzgsLTEzMzUwODcwMDIsMT
-kxNDc4ODY5MSwtNzc2MDM5MDIxLC0xNDgzMjY2NzkzLC0xMzAy
-NDA1Nzg2LDkxMzM3NDI4OSwtMTAxNTkxNjkxNSwtMTc1OTE2MT
-M3NSw4NDkzNDAxNzIsLTMwMTA2Mjk4MSwtMTg5NDg1NTU0OCwt
-MTM0MTQyNDEzMSwtMjEyMjI4MzA3OCwtOTcxOTQzNTY4LC03MD
-I3MzkxMDQsLTcwMjczOTEwNCwxMDUxOTIzNjAsMTM3NTU5NzU5
-NCwxNDc0NjI5MTI2XX0=
+eyJoaXN0b3J5IjpbMjA3NzczNzI2NywtMTMzNTA4NzAwMiwxOT
+E0Nzg4NjkxLC03NzYwMzkwMjEsLTE0ODMyNjY3OTMsLTEzMDI0
+MDU3ODYsOTEzMzc0Mjg5LC0xMDE1OTE2OTE1LC0xNzU5MTYxMz
+c1LDg0OTM0MDE3MiwtMzAxMDYyOTgxLC0xODk0ODU1NTQ4LC0x
+MzQxNDI0MTMxLC0yMTIyMjgzMDc4LC05NzE5NDM1NjgsLTcwMj
+czOTEwNCwtNzAyNzM5MTA0LDEwNTE5MjM2MCwxMzc1NTk3NTk0
+LDE0NzQ2MjkxMjZdfQ==
 -->
