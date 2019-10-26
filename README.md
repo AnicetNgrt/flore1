@@ -664,8 +664,7 @@ def start(self)
 |--|--|--|
 | self | [Flipbook](#flipbook) | Flipbook instance that starts playing
 ---
-### <a name="flipbook-stop"></a> stop
-[->method](#methods)
+### [*method*](#methods)<a name="flipbook-stop"></a>| stop
 
 **Prototype**:
 ```python
@@ -736,7 +735,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMTkyOTUwMywtMTQ4MzI2Njc5MywtMT
+eyJoaXN0b3J5IjpbMTMwNjE2NDM3MCwtMTQ4MzI2Njc5MywtMT
 MwMjQwNTc4Niw5MTMzNzQyODksLTEwMTU5MTY5MTUsLTE3NTkx
 NjEzNzUsODQ5MzQwMTcyLC0zMDEwNjI5ODEsLTE4OTQ4NTU1ND
 gsLTEzNDE0MjQxMzEsLTIxMjIyODMwNzgsLTk3MTk0MzU2OCwt
