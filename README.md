@@ -621,15 +621,19 @@ The Flipbook class lets you easily animate [TextSprites](#textsprites) by comput
 - [\_\_init\_\_](#flipbook-init) 
 - [start](#flipbook-start) 
 - [stop](#flipbook-stop) 
-
+---
 ### <a name="flipbook-init"></a> \_\_init\_\_
+
 [->method](#methods)
 
+**Description**:
+Inits the Flipbook. Inits its [material](#flipbook.material) property with a function called `play` and its 
 
 **Prototype**:
 ```python
 def __init__(self, Engine, Refresh, Sprite, path="", size=[32, 32], transparent_rgb=(-1, -1, -1), fps=24, sync="True")
 ```
+**return**: void
 | [ in ] | type  | description |
 |--|--|--|
 | self | [Flipbook](#flipbook) | Flipbook instance just created 
@@ -641,13 +645,31 @@ def __init__(self, Engine, Refresh, Sprite, path="", size=[32, 32], transparent_
 | transparent_rgb | tuple of integers | RGB of the transparent color in the flipbook's frames 
 | fps | integer | Frame rate goal for the flipbook in frame per second
 | sync | boolean | Whether the flipbook skips frame if the refresh slows down
-
+---
 ### <a name="flipbook-start"></a> start
 [->method](#methods)
 
+**Prototype**:
+```python
+def start(self)
+```
+**return**: void
+| [ in ] | type | description
+|--|--|--|
+| self | [Flipbook](#flipbook) | Flipbook instance that starts playing
+---
 ### <a name="flipbook-stop"></a> stop
 [->method](#methods)
 
+**Prototype**:
+```python
+def stop(self)
+```
+**return**: void
+| [ in ] | type | description
+|--|--|--|
+| self | [Flipbook](#flipbook) | Flipbook instance that stops playing
+---
 ## <a name="refresh"></a>Refresh
 [->class](#classes)
 
@@ -707,10 +729,10 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDI0MDU3ODYsOTEzMzc0Mjg5LC0xMD
-E1OTE2OTE1LC0xNzU5MTYxMzc1LDg0OTM0MDE3MiwtMzAxMDYy
-OTgxLC0xODk0ODU1NTQ4LC0xMzQxNDI0MTMxLC0yMTIyMjgzMD
-c4LC05NzE5NDM1NjgsLTcwMjczOTEwNCwtNzAyNzM5MTA0LDEw
-NTE5MjM2MCwxMzc1NTk3NTk0LDE0NzQ2MjkxMjYsLTEzMTc4MT
-YxODhdfQ==
+eyJoaXN0b3J5IjpbNzA4MDcwMjc1LC0xMzAyNDA1Nzg2LDkxMz
+M3NDI4OSwtMTAxNTkxNjkxNSwtMTc1OTE2MTM3NSw4NDkzNDAx
+NzIsLTMwMTA2Mjk4MSwtMTg5NDg1NTU0OCwtMTM0MTQyNDEzMS
+wtMjEyMjI4MzA3OCwtOTcxOTQzNTY4LC03MDI3MzkxMDQsLTcw
+MjczOTEwNCwxMDUxOTIzNjAsMTM3NTU5NzU5NCwxNDc0NjI5MT
+I2LC0xMzE3ODE2MTg4XX0=
 -->
