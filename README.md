@@ -133,7 +133,7 @@ Scene = Engine.new_scene("super cool name",
     res_y = 32,
     coord_x = 10,
     coord_y = 5,
-    layer_count = 15scene's width
+    layer_count = 15 #scene's width
     res_y = 32, # scene's height
     coord_x = 10, # scene's distance to left border
     coord_y = 5, # scene's distance to top border
@@ -687,8 +687,9 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ5MzQwMTcyLC0zMDEwNjI5ODEsLTE4OT
-Q4NTU1NDgsLTEzNDE0MjQxMzEsLTIxMjIyODMwNzgsLTk3MTk0
-MzU2OCwtNzAyNzM5MTA0LC03MDI3MzkxMDQsMTA1MTkyMzYwLD
-EzNzU1OTc1OTQsMTQ3NDYyOTEyNiwtMTMxNzgxNjE4OF19
+eyJoaXN0b3J5IjpbLTg1MTY0NDkxMyw4NDkzNDAxNzIsLTMwMT
+A2Mjk4MSwtMTg5NDg1NTU0OCwtMTM0MTQyNDEzMSwtMjEyMjI4
+MzA3OCwtOTcxOTQzNTY4LC03MDI3MzkxMDQsLTcwMjczOTEwNC
+wxMDUxOTIzNjAsMTM3NTU5NzU5NCwxNDc0NjI5MTI2LC0xMzE3
+ODE2MTg4XX0=
 -->
