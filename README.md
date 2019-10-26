@@ -621,6 +621,7 @@ The Flipbook class lets you easily animate [TextSprites](#textsprites) by comput
 - [\_\_init\_\_](#flipbook-init) 
 - [start](#flipbook-start) 
 - [stop](#flipbook-stop) 
+
 ### <a name="flipbook-init"></a> \_\_init\_\_
 [->method](#methods)
 
@@ -630,17 +631,16 @@ def __init__(self, Engine, Refresh, Sprite, path="", size=[32, 32], transparent_
 ```
 | [ in ] | type  | description |
 |--|--|--|
-| self | [Flipbook](#flipbook) | Flipbook instance just created 
-| Engine | [Engine](#engine) | Engine instance that computes for the creation of the flipbook from its set of pictures
-| Refresh | [Refresh](#refresh) | Refresh instance that runs the flipbook 
-| Sprite | [Sprite](#engine.textasset.textsprite) | TextSprite instance that has its texture animated by the flipbook 
-| path | string | Path to a folder containing all the frames for the animation in lexicographical order 
-| size | array of integers | [width, height] for the animated sprite 
-| transparent_rgb | tuple of integers | RGB of the transparent color in the flipbook's frames 
-| fps | integer | Frame rate goal for the flipbook in frame per second
-| sync | boolean | Whether the flipbook skips frame if the refresh slows down
+| `self` | [Flipbook](#flipbook) | Flipbook instance just created 
+| `Engine` | [Engine](#engine) | Engine instance that computes for the creation of the flipbook from its set of pictures
+| `Refresh` | [Refresh](#refresh) | Refresh instance that runs the flipbook 
+| `Sprite` | [Sprite](#engine.textasset.textsprite) | TextSprite instance that has its texture animated by the flipbook 
+| `path` | string | Path to a folder containing all the frames for the animation in lexicographical order 
+| `size` | array of integers | [width, height] for the animated sprite 
+| `transparent_rgb` | tuple of integers | RGB of the transparent color in the flipbook's frames 
+| `fps` | integer | Frame rate goal for the flipbook in frame per second
+| `sync` | boolean | Whether the flipbook skips frame if the refresh slows down
 ---
-
 
 ### <a name="flipbook-start"></a> start
 [->method](#methods)
@@ -707,10 +707,10 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDMzNDQ0NDksOTEzMzc0Mjg5LC0xMD
-E1OTE2OTE1LC0xNzU5MTYxMzc1LDg0OTM0MDE3MiwtMzAxMDYy
-OTgxLC0xODk0ODU1NTQ4LC0xMzQxNDI0MTMxLC0yMTIyMjgzMD
-c4LC05NzE5NDM1NjgsLTcwMjczOTEwNCwtNzAyNzM5MTA0LDEw
-NTE5MjM2MCwxMzc1NTk3NTk0LDE0NzQ2MjkxMjYsLTEzMTc4MT
-YxODhdfQ==
+eyJoaXN0b3J5IjpbLTU3NjMwODM3Nyw5MTMzNzQyODksLTEwMT
+U5MTY5MTUsLTE3NTkxNjEzNzUsODQ5MzQwMTcyLC0zMDEwNjI5
+ODEsLTE4OTQ4NTU1NDgsLTEzNDE0MjQxMzEsLTIxMjIyODMwNz
+gsLTk3MTk0MzU2OCwtNzAyNzM5MTA0LC03MDI3MzkxMDQsMTA1
+MTkyMzYwLDEzNzU1OTc1OTQsMTQ3NDYyOTEyNiwtMTMxNzgxNj
+E4OF19
 -->
