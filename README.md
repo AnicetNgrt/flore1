@@ -685,7 +685,8 @@ No return value
 tuple: 
 | element | name | type | description
 |--|--|--|--|
-| a | play | function | A function that changes the Flipbook's sprite's texture in rythm with the Flipbook's Refresh and the Flipbook's frame rate goal
+| a | play | function | Function that changes the Flipbook's sprite's texture in rythm with the Flipbook's Refresh and the Flipbook's frame rate goal
+| b | Sprite | [TextSprite](#engine.textasset.textsprite) |  
 
 ## <a name="refresh"></a>Refresh [class](#classes)
 
@@ -745,11 +746,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDMxMzQ0OTcsLTc3NjAzOTAyMSwtMT
-Q4MzI2Njc5MywtMTMwMjQwNTc4Niw5MTMzNzQyODksLTEwMTU5
-MTY5MTUsLTE3NTkxNjEzNzUsODQ5MzQwMTcyLC0zMDEwNjI5OD
-EsLTE4OTQ4NTU1NDgsLTEzNDE0MjQxMzEsLTIxMjIyODMwNzgs
-LTk3MTk0MzU2OCwtNzAyNzM5MTA0LC03MDI3MzkxMDQsMTA1MT
-kyMzYwLDEzNzU1OTc1OTQsMTQ3NDYyOTEyNiwtMTMxNzgxNjE4
-OF19
+eyJoaXN0b3J5IjpbMTE3OTY2NDY0LC03NzYwMzkwMjEsLTE0OD
+MyNjY3OTMsLTEzMDI0MDU3ODYsOTEzMzc0Mjg5LC0xMDE1OTE2
+OTE1LC0xNzU5MTYxMzc1LDg0OTM0MDE3MiwtMzAxMDYyOTgxLC
+0xODk0ODU1NTQ4LC0xMzQxNDI0MTMxLC0yMTIyMjgzMDc4LC05
+NzE5NDM1NjgsLTcwMjczOTEwNCwtNzAyNzM5MTA0LDEwNTE5Mj
+M2MCwxMzc1NTk3NTk0LDE0NzQ2MjkxMjYsLTEzMTc4MTYxODhd
+fQ==
 -->
