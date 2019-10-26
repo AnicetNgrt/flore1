@@ -687,7 +687,7 @@ No return value
 ---
 ### <a name="flipbook.material"></a> material [property](#flipbook-props)
 ##### Description:
-A tuple composed with a function which changes the Flipbook's sprite's texture at some rate function of the Flipbook's Refresh and the Flipbook's frame rate goal, and also composed of all this function's arguments. Feeding a Refresh with *(this tuple) will start the Flipbook.
+A tuple composed with a function which changes the Flipbook's sprite's texture at some rate function of the Flipbook's Refresh and the Flipbook's frame rate goal, and also composed of all this function's arguments. Feeding a Refresh with `*(Flibook.material)` starts the Flipbook.
 
 
 ## <a name="refresh"></a>Refresh [class](#classes)
@@ -742,11 +742,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NzczNzI2NywtMTMzNTA4NzAwMiwxOT
-E0Nzg4NjkxLC03NzYwMzkwMjEsLTE0ODMyNjY3OTMsLTEzMDI0
-MDU3ODYsOTEzMzc0Mjg5LC0xMDE1OTE2OTE1LC0xNzU5MTYxMz
-c1LDg0OTM0MDE3MiwtMzAxMDYyOTgxLC0xODk0ODU1NTQ4LC0x
-MzQxNDI0MTMxLC0yMTIyMjgzMDc4LC05NzE5NDM1NjgsLTcwMj
-czOTEwNCwtNzAyNzM5MTA0LDEwNTE5MjM2MCwxMzc1NTk3NTk0
-LDE0NzQ2MjkxMjZdfQ==
+eyJoaXN0b3J5IjpbMTE4NjU3NTgyMywyMDc3NzM3MjY3LC0xMz
+M1MDg3MDAyLDE5MTQ3ODg2OTEsLTc3NjAzOTAyMSwtMTQ4MzI2
+Njc5MywtMTMwMjQwNTc4Niw5MTMzNzQyODksLTEwMTU5MTY5MT
+UsLTE3NTkxNjEzNzUsODQ5MzQwMTcyLC0zMDEwNjI5ODEsLTE4
+OTQ4NTU1NDgsLTEzNDE0MjQxMzEsLTIxMjIyODMwNzgsLTk3MT
+k0MzU2OCwtNzAyNzM5MTA0LC03MDI3MzkxMDQsMTA1MTkyMzYw
+LDEzNzU1OTc1OTRdfQ==
 -->
