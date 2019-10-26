@@ -551,7 +551,8 @@ The first argument must be a function or a method (ex: `my_function`, or `Object
 while True:
     Refresh.run()
 ```
-Done, now run it and admire.
+Done, now run it and admire:
+![Done, now run it and admire.](https://imgur.com/Xo6XNs1.gif)
 ### <a name="tuto4_code"></a>📥 Conclusion: This tutorial's code:
 In order to get the frames, I advice you read at least the very beginning of this tutorial.
 ```
@@ -683,8 +684,8 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQ4NTU1NDgsLTEzNDE0MjQxMzEsLT
-IxMjIyODMwNzgsLTk3MTk0MzU2OCwtNzAyNzM5MTA0LC03MDI3
-MzkxMDQsMTA1MTkyMzYwLDEzNzU1OTc1OTQsMTQ3NDYyOTEyNi
-wtMTMxNzgxNjE4OF19
+eyJoaXN0b3J5IjpbLTEzODc5OTI1MDcsLTE4OTQ4NTU1NDgsLT
+EzNDE0MjQxMzEsLTIxMjIyODMwNzgsLTk3MTk0MzU2OCwtNzAy
+NzM5MTA0LC03MDI3MzkxMDQsMTA1MTkyMzYwLDEzNzU1OTc1OT
+QsMTQ3NDYyOTEyNiwtMTMxNzgxNjE4OF19
 -->
