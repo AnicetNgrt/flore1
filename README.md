@@ -686,7 +686,7 @@ A tuple composed with a function which changes the Flipbook's sprite's texture a
 
 
 ## <a name="refresh"></a>Refresh [class](#classes)
-The Refresh class executes a stack of functions that you "fed" it with every time you tell it to "do" it. It constantly calculates execution time and calls the functions you fed it with accordingly, while also incrementing faster/slower all of it's stack function's `.i` attribute depending on whether the execution latency keeps up or not with the Refreshes execution rate goal.
+The Refresh class executes a stack of functions that you "fed" it with every time you tell it to "do" it. It constantly calculates execution time and calls the functions you fed it with accordingly, while also incrementing faster/slower all of its stack's function's `.i` attribute depending on whether the execution latency keeps up or not with the Refreshes execution rate goal. This way, functions you fed it with can keep up with the current execution latency. For instance, if your function goal is to animate sprite it can then decide to skip frames.
 ### <a name="refresh-methods"></a>Methods
 - [\_\_init\_\_](#refresh-init) 
 - [terminate](#refresh-terminate) 
@@ -737,7 +737,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTE2OTc5NzUsMTkxNDc4ODY5MSwtNz
+eyJoaXN0b3J5IjpbLTE3NTAyNTMxMzcsMTkxNDc4ODY5MSwtNz
 c2MDM5MDIxLC0xNDgzMjY2NzkzLC0xMzAyNDA1Nzg2LDkxMzM3
 NDI4OSwtMTAxNTkxNjkxNSwtMTc1OTE2MTM3NSw4NDkzNDAxNz
 IsLTMwMTA2Mjk4MSwtMTg5NDg1NTU0OCwtMTM0MTQyNDEzMSwt
