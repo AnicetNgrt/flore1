@@ -639,6 +639,7 @@ def __init__(self, Engine, Refresh, Sprite, path="", size=[32, 32], transparent_
 | transparent_rgb | tuple of integers | RGB of the transparent color in the flipbook's frames 
 | fps | integer | Frame rate goal for the flipbook in frame per second
 | sync | boolean | Whether the flipbook skips frame if the refresh slows down
+---
 
 
 ### <a name="flipbook-start"></a> start
@@ -706,10 +707,10 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ3NjkyMTE2LDkxMzM3NDI4OSwtMTAxNT
-kxNjkxNSwtMTc1OTE2MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mjk4
-MSwtMTg5NDg1NTU0OCwtMTM0MTQyNDEzMSwtMjEyMjI4MzA3OC
-wtOTcxOTQzNTY4LC03MDI3MzkxMDQsLTcwMjczOTEwNCwxMDUx
-OTIzNjAsMTM3NTU5NzU5NCwxNDc0NjI5MTI2LC0xMzE3ODE2MT
-g4XX0=
+eyJoaXN0b3J5IjpbLTExNDMzNDQ0NDksOTEzMzc0Mjg5LC0xMD
+E1OTE2OTE1LC0xNzU5MTYxMzc1LDg0OTM0MDE3MiwtMzAxMDYy
+OTgxLC0xODk0ODU1NTQ4LC0xMzQxNDI0MTMxLC0yMTIyMjgzMD
+c4LC05NzE5NDM1NjgsLTcwMjczOTEwNCwtNzAyNzM5MTA0LDEw
+NTE5MjM2MCwxMzc1NTk3NTk0LDE0NzQ2MjkxMjYsLTEzMTc4MT
+YxODhdfQ==
 -->
