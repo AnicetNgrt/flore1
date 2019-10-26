@@ -693,11 +693,9 @@ A tuple composed with a function which changes the Flipbook's sprite's texture a
 - [feed](#refresh-feed) 
 - [do](#refresh-do) 
 - [run](#refresh-run) 
-### <a name="refresh-init"></a> \_\_init\_\_
-[->method](#methods)
+### <a name="refresh-init"></a> \_\_init\_\_ [method](#methods)
 
-### <a name="refresh-terminate"></a> terminate
-[->method](#methods)
+### <a name="refresh-terminate"></a> terminate [method](#methods)
 
 ### <a name="refresh-feed"></a> feed
 [->method](#methods)
@@ -743,11 +741,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNDc4ODY5MSwtNzc2MDM5MDIxLC0xND
-gzMjY2NzkzLC0xMzAyNDA1Nzg2LDkxMzM3NDI4OSwtMTAxNTkx
-NjkxNSwtMTc1OTE2MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mjk4MS
-wtMTg5NDg1NTU0OCwtMTM0MTQyNDEzMSwtMjEyMjI4MzA3OCwt
-OTcxOTQzNTY4LC03MDI3MzkxMDQsLTcwMjczOTEwNCwxMDUxOT
-IzNjAsMTM3NTU5NzU5NCwxNDc0NjI5MTI2LC0xMzE3ODE2MTg4
-XX0=
+eyJoaXN0b3J5IjpbMTgxODA3OTk0NywxOTE0Nzg4NjkxLC03Nz
+YwMzkwMjEsLTE0ODMyNjY3OTMsLTEzMDI0MDU3ODYsOTEzMzc0
+Mjg5LC0xMDE1OTE2OTE1LC0xNzU5MTYxMzc1LDg0OTM0MDE3Mi
+wtMzAxMDYyOTgxLC0xODk0ODU1NTQ4LC0xMzQxNDI0MTMxLC0y
+MTIyMjgzMDc4LC05NzE5NDM1NjgsLTcwMjczOTEwNCwtNzAyNz
+M5MTA0LDEwNTE5MjM2MCwxMzc1NTk3NTk0LDE0NzQ2MjkxMjYs
+LTEzMTc4MTYxODhdfQ==
 -->
