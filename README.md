@@ -613,8 +613,8 @@ while True:
 	 - [Engine.VirtualScene](#engine.virtualscene)
 	 - [Engine.TextAsset](#engine.textasset)
 		 - [Engine.TextAsset.TextSprite](#engine.textasset.textsprite)
-## <a name="flipbook"></a>Flipbook
-[->class](#classes)
+## <a name="flipbook"></a>Flipbook [~class~](#classes)
+
 
 The Flipbook class lets you easily animate [TextSprites](#textsprites) by computing their texture change rate, function of the Flipbook's [Refresh](#refresh) 's execution rate and the Flipbook frame rate goal. 
 ### <a name="flipbook-props"></a>Public properties
@@ -626,9 +626,7 @@ The Flipbook class lets you easily animate [TextSprites](#textsprites) by comput
 - [start](#flipbook-start) 
 - [stop](#flipbook-stop) 
 ---
-### <a name="flipbook-init"></a> \_\_init\_\_
-
-[->method](#methods)
+### <a name="flipbook-init"></a> \_\_init\_\_ [~method~](#methods)
 
 **Description**:
 Inits the Flipbook: 
@@ -665,11 +663,11 @@ def start(self)
 ---
 ### <a name="flipbook-stop"></a> stop [~method~](#methods)
 
-**Prototype**:
+Prototype:
 ```python
 def stop(self)
 ```
-**return**: void
+return: void
 | [ in ] | type | description
 |--|--|--|
 | self | [Flipbook](#flipbook) | Flipbook instance that stops playing
@@ -734,10 +732,10 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA4MDcyOTA3LC0xNDgzMjY2NzkzLC0xMz
-AyNDA1Nzg2LDkxMzM3NDI4OSwtMTAxNTkxNjkxNSwtMTc1OTE2
-MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mjk4MSwtMTg5NDg1NTU0OC
-wtMTM0MTQyNDEzMSwtMjEyMjI4MzA3OCwtOTcxOTQzNTY4LC03
-MDI3MzkxMDQsLTcwMjczOTEwNCwxMDUxOTIzNjAsMTM3NTU5Nz
-U5NCwxNDc0NjI5MTI2LC0xMzE3ODE2MTg4XX0=
+eyJoaXN0b3J5IjpbMTUxMDEwMDc3OSwtMTQ4MzI2Njc5MywtMT
+MwMjQwNTc4Niw5MTMzNzQyODksLTEwMTU5MTY5MTUsLTE3NTkx
+NjEzNzUsODQ5MzQwMTcyLC0zMDEwNjI5ODEsLTE4OTQ4NTU1ND
+gsLTEzNDE0MjQxMzEsLTIxMjIyODMwNzgsLTk3MTk0MzU2OCwt
+NzAyNzM5MTA0LC03MDI3MzkxMDQsMTA1MTkyMzYwLDEzNzU1OT
+c1OTQsMTQ3NDYyOTEyNiwtMTMxNzgxNjE4OF19
 -->
