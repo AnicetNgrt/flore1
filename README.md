@@ -638,7 +638,7 @@ Inits the Flipbook:
 def __init__(self, Engine, Refresh, Sprite, path="", size=[32, 32], transparent_rgb=(-1, -1, -1), fps=24, sync="True")
 ```
 ##### Return value
-void
+No return value
 ##### Arguments
 | [ in ] | type  | description |
 |--|--|--|
@@ -660,7 +660,7 @@ Feeds the Flipbook's Refresh instance with the Flipbook's [material](#flipbook.m
 def start(self)
 ```
 ##### Return value 
-void
+No return value
 ##### Arguments
 | [ in ] | type | description
 |--|--|--|
@@ -674,12 +674,13 @@ Terminates the Flipbook's [material](#flipbook.material) property's function exe
 def stop(self)
 ```
 ##### Return value
-void
+No return value
 ##### Arguments
 | [ in ] | type | description
 |--|--|--|
 | self | [Flipbook](#flipbook) | Flipbook instance that stops playing
 ---
+### material []
 
 ## <a name="refresh"></a>Refresh [^class^](#classes)
 
@@ -739,10 +740,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NjAzOTAyMSwtMTQ4MzI2Njc5MywtMT
-MwMjQwNTc4Niw5MTMzNzQyODksLTEwMTU5MTY5MTUsLTE3NTkx
-NjEzNzUsODQ5MzQwMTcyLC0zMDEwNjI5ODEsLTE4OTQ4NTU1ND
-gsLTEzNDE0MjQxMzEsLTIxMjIyODMwNzgsLTk3MTk0MzU2OCwt
-NzAyNzM5MTA0LC03MDI3MzkxMDQsMTA1MTkyMzYwLDEzNzU1OT
-c1OTQsMTQ3NDYyOTEyNiwtMTMxNzgxNjE4OF19
+eyJoaXN0b3J5IjpbMTUwMDYzOTkzMSwtNzc2MDM5MDIxLC0xND
+gzMjY2NzkzLC0xMzAyNDA1Nzg2LDkxMzM3NDI4OSwtMTAxNTkx
+NjkxNSwtMTc1OTE2MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mjk4MS
+wtMTg5NDg1NTU0OCwtMTM0MTQyNDEzMSwtMjEyMjI4MzA3OCwt
+OTcxOTQzNTY4LC03MDI3MzkxMDQsLTcwMjczOTEwNCwxMDUxOT
+IzNjAsMTM3NTU5NzU5NCwxNDc0NjI5MTI2LC0xMzE3ODE2MTg4
+XX0=
 -->
