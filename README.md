@@ -630,7 +630,8 @@ def __init__(self, Engine, Refresh, Sprite, path="", size=[32, 32], transparent_
 ```
 | in | type  | desc |
 |--|--|--|
-| self | [Flipbook] | |
+| self | [Flipbook](#flipbook) | The flipbook instance just created |
+| Engine | [Engine](#engine) | The engine 
 
 
 ### <a name="flipbook-start"></a> start
@@ -698,9 +699,9 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTMzOTkyMzAsLTE3NTkxNjEzNzUsOD
-Q5MzQwMTcyLC0zMDEwNjI5ODEsLTE4OTQ4NTU1NDgsLTEzNDE0
-MjQxMzEsLTIxMjIyODMwNzgsLTk3MTk0MzU2OCwtNzAyNzM5MT
-A0LC03MDI3MzkxMDQsMTA1MTkyMzYwLDEzNzU1OTc1OTQsMTQ3
-NDYyOTEyNiwtMTMxNzgxNjE4OF19
+eyJoaXN0b3J5IjpbLTQyOTQ0ODc2NSwtMTc1OTE2MTM3NSw4ND
+kzNDAxNzIsLTMwMTA2Mjk4MSwtMTg5NDg1NTU0OCwtMTM0MTQy
+NDEzMSwtMjEyMjI4MzA3OCwtOTcxOTQzNTY4LC03MDI3MzkxMD
+QsLTcwMjczOTEwNCwxMDUxOTIzNjAsMTM3NTU5NzU5NCwxNDc0
+NjI5MTI2LC0xMzE3ODE2MTg4XX0=
 -->
