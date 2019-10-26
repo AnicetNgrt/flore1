@@ -634,7 +634,8 @@ def __init__(self, Engine, Refresh, Sprite, path="", size=[32, 32], transparent_
 | Engine | [Engine](#engine) | Engine instance that computes for the creation of the flipbook from its set of pictures
 | Refresh | [Refresh](#refresh) | Refresh instance that runs the flipbook |
 | Sprite | [Sprite](#engine.textasset.textsprite) | TextSprite instance that has its texture animated by the flipbook |
-| path | string | pat |
+| path | string | Path to a folder containing all the frames for the animation in lexicographical order |
+| size | array of integers | [width, height] of the sprite |
 
 
 ### <a name="flipbook-start"></a> start
@@ -702,9 +703,9 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyOTQ0OTIzOCwtMTAxNTkxNjkxNSwtMT
-c1OTE2MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mjk4MSwtMTg5NDg1
-NTU0OCwtMTM0MTQyNDEzMSwtMjEyMjI4MzA3OCwtOTcxOTQzNT
-Y4LC03MDI3MzkxMDQsLTcwMjczOTEwNCwxMDUxOTIzNjAsMTM3
-NTU5NzU5NCwxNDc0NjI5MTI2LC0xMzE3ODE2MTg4XX0=
+eyJoaXN0b3J5IjpbLTE0OTI4NzI5NzgsLTEwMTU5MTY5MTUsLT
+E3NTkxNjEzNzUsODQ5MzQwMTcyLC0zMDEwNjI5ODEsLTE4OTQ4
+NTU1NDgsLTEzNDE0MjQxMzEsLTIxMjIyODMwNzgsLTk3MTk0Mz
+U2OCwtNzAyNzM5MTA0LC03MDI3MzkxMDQsMTA1MTkyMzYwLDEz
+NzU1OTc1OTQsMTQ3NDYyOTEyNiwtMTMxNzgxNjE4OF19
 -->
