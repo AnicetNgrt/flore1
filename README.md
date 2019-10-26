@@ -607,7 +607,7 @@ while True:
 	 - [Engine.VirtualScene](#scene_doc)
 	 - [Engine.TextAsset](#textasset_doc)
 		 - [Engine.TextAsset.TextSprite](#textsprite_doc)
-## <a name="{classname.lower()}"></a>Flipbook
+## <a name="flipbook"></a>Flipbook
 [->class](#classes)
 
 The Flipbook class lets you easily animate [TextSprites](#textsprites) by computing their texture change rate, function of the Flipbook's [Refresh](#refresh) 's execution rate and the Flipbook frame rate goal. 
@@ -615,16 +615,16 @@ The Flipbook class lets you easily animate [TextSprites](#textsprites) by comput
 - [init](#flipbook-init) 
 - [start](#flipbook-start) 
 - [stop](#flipbook-stop) 
-### <a name="{classname.lower()}-{methodname.lower()}"></a> init
+### <a name="flipbook-init"></a> init
 [->method](#methods)
 
-### <a name="{classname.lower()}-{methodname.lower()}"></a> start
+### <a name="flipbook-start"></a> start
 [->method](#methods)
 
-### <a name="{classname.lower()}-{methodname.lower()}"></a> stop
+### <a name="flipbook-stop"></a> stop
 [->method](#methods)
 
-## <a name="{classname.lower()}"></a>Refresh
+## <a name="refresh"></a>Refresh
 [->class](#classes)
 
 ### <a name="refresh-methods"></a>Methods
@@ -633,22 +633,22 @@ The Flipbook class lets you easily animate [TextSprites](#textsprites) by comput
 - [feed](#refresh-feed) 
 - [do](#refresh-do) 
 - [run](#refresh-run) 
-### <a name="{classname.lower()}-{methodname.lower()}"></a> init
+### <a name="refresh-init"></a> init
 [->method](#methods)
 
-### <a name="{classname.lower()}-{methodname.lower()}"></a> terminate
+### <a name="refresh-terminate"></a> terminate
 [->method](#methods)
 
-### <a name="{classname.lower()}-{methodname.lower()}"></a> feed
+### <a name="refresh-feed"></a> feed
 [->method](#methods)
 
-### <a name="{classname.lower()}-{methodname.lower()}"></a> do
+### <a name="refresh-do"></a> do
 [->method](#methods)
 
-### <a name="{classname.lower()}-{methodname.lower()}"></a> run
+### <a name="refresh-run"></a> run
 [->method](#methods)
 
-## <a name="{classname.lower()}"></a>Engine
+## <a name="engine"></a>Engine
 [->class](#classes)
 
 - [init](#engine-init) 
@@ -657,23 +657,24 @@ The Flipbook class lets you easily animate [TextSprites](#textsprites) by comput
 - [new_sprite](#engine-new_sprite) 
 - [find_trsprt_index](#engine-find_trsprt_index) 
 - [pic_to_textAsset](#engine-pic_to_textasset) 
-### <a name="{classname.lower()}-{methodname.lower()}"></a> init
+### <a name="engine-init"></a> init
 [->method](#methods)
 
-### <a name="{classname.lower()}-{methodname.lower()}"></a> new_scene
+### <a name="engine-new_scene"></a> new_scene
 [->method](#methods)
 
-### <a name="{classname.lower()}-{methodname.lower()}"></a> del_scene
+### <a name="engine-del_scene"></a> del_scene
 [->method](#methods)
 
-### <a name="{classname.lower()}-{methodname.lower()}"></a> new_sprite
+### <a name="engine-new_sprite"></a> new_sprite
 [->method](#methods)
 
-### <a name="{classname.lower()}-{methodname.lower()}"></a> find_trsprt_index
+### <a name="engine-find_trsprt_index"></a> find_trsprt_index
 [->method](#methods)
 
-### <a name="{classname.lower()}-{methodname.lower()}"></a> pic_to_textAsset
+### <a name="engine-pic_to_textasset"></a> pic_to_textAsset
 [->method](#methods)
+
 
 
  
@@ -682,8 +683,8 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDE0MjQxMzEsLTIxMjIyODMwNzgsLT
-k3MTk0MzU2OCwtNzAyNzM5MTA0LC03MDI3MzkxMDQsMTA1MTky
-MzYwLDEzNzU1OTc1OTQsMTQ3NDYyOTEyNiwtMTMxNzgxNjE4OF
-19
+eyJoaXN0b3J5IjpbLTE4OTQ4NTU1NDgsLTEzNDE0MjQxMzEsLT
+IxMjIyODMwNzgsLTk3MTk0MzU2OCwtNzAyNzM5MTA0LC03MDI3
+MzkxMDQsMTA1MTkyMzYwLDEzNzU1OTc1OTQsMTQ3NDYyOTEyNi
+wtMTMxNzgxNjE4OF19
 -->
