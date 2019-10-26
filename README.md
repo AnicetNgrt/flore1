@@ -652,8 +652,7 @@ def __init__(self, Engine, Refresh, Sprite, path="", size=[32, 32], transparent_
 | fps | integer | Frame rate goal for the flipbook in frame per second
 | sync | boolean | Whether the flipbook skips frame if the refresh slows down
 ---
-### <a name="flipbook-start"></a> start
-[->method](#methods)
+### <a name="flipbook-start"></a> start [~method~](#methods)
 
 **Prototype**:
 ```python
@@ -664,7 +663,7 @@ def start(self)
 |--|--|--|
 | self | [Flipbook](#flipbook) | Flipbook instance that starts playing
 ---
-### <a name="flipbook-stop"></a> stop[*method*](#methods)]
+### <a name="flipbook-stop"></a> stop [~method~](#methods)
 
 **Prototype**:
 ```python
@@ -735,10 +734,10 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDUwNDY0OTksLTE0ODMyNjY3OTMsLT
-EzMDI0MDU3ODYsOTEzMzc0Mjg5LC0xMDE1OTE2OTE1LC0xNzU5
-MTYxMzc1LDg0OTM0MDE3MiwtMzAxMDYyOTgxLC0xODk0ODU1NT
-Q4LC0xMzQxNDI0MTMxLC0yMTIyMjgzMDc4LC05NzE5NDM1Njgs
-LTcwMjczOTEwNCwtNzAyNzM5MTA0LDEwNTE5MjM2MCwxMzc1NT
-k3NTk0LDE0NzQ2MjkxMjYsLTEzMTc4MTYxODhdfQ==
+eyJoaXN0b3J5IjpbNjA4MDcyOTA3LC0xNDgzMjY2NzkzLC0xMz
+AyNDA1Nzg2LDkxMzM3NDI4OSwtMTAxNTkxNjkxNSwtMTc1OTE2
+MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mjk4MSwtMTg5NDg1NTU0OC
+wtMTM0MTQyNDEzMSwtMjEyMjI4MzA3OCwtOTcxOTQzNTY4LC03
+MDI3MzkxMDQsLTcwMjczOTEwNCwxMDUxOTIzNjAsMTM3NTU5Nz
+U5NCwxNDc0NjI5MTI2LC0xMzE3ODE2MTg4XX0=
 -->
