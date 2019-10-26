@@ -617,6 +617,10 @@ while True:
 [->class](#classes)
 
 The Flipbook class lets you easily animate [TextSprites](#textsprites) by computing their texture change rate, function of the Flipbook's [Refresh](#refresh) 's execution rate and the Flipbook frame rate goal. 
+### <a name="flipbook-props"></a>Public properties
+
+ - [material](#flipbook.material)
+
 ### <a name="flipbook-methods"></a>Methods
 - [\_\_init\_\_](#flipbook-init) 
 - [start](#flipbook-start) 
@@ -672,7 +676,6 @@ def stop(self)
 |--|--|--|
 | self | [Flipbook](#flipbook) | Flipbook instance that stops playing
 ---
-### Public properties:
 
 ## <a name="refresh"></a>Refresh
 [->class](#classes)
@@ -733,10 +736,10 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4Nzg1MDYwLC0xNDgzMjY2NzkzLC0xMz
-AyNDA1Nzg2LDkxMzM3NDI4OSwtMTAxNTkxNjkxNSwtMTc1OTE2
-MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mjk4MSwtMTg5NDg1NTU0OC
-wtMTM0MTQyNDEzMSwtMjEyMjI4MzA3OCwtOTcxOTQzNTY4LC03
-MDI3MzkxMDQsLTcwMjczOTEwNCwxMDUxOTIzNjAsMTM3NTU5Nz
-U5NCwxNDc0NjI5MTI2LC0xMzE3ODE2MTg4XX0=
+eyJoaXN0b3J5IjpbMTAyMTkyOTUwMywtMTQ4MzI2Njc5MywtMT
+MwMjQwNTc4Niw5MTMzNzQyODksLTEwMTU5MTY5MTUsLTE3NTkx
+NjEzNzUsODQ5MzQwMTcyLC0zMDEwNjI5ODEsLTE4OTQ4NTU1ND
+gsLTEzNDE0MjQxMzEsLTIxMjIyODMwNzgsLTk3MTk0MzU2OCwt
+NzAyNzM5MTA0LC03MDI3MzkxMDQsMTA1MTkyMzYwLDEzNzU1OT
+c1OTQsMTQ3NDYyOTEyNiwtMTMxNzgxNjE4OF19
 -->
