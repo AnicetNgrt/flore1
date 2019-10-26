@@ -60,7 +60,7 @@ Therefore, please consider donating, it will greatly support this project !
 ```
 - Terminals that do not support thoses will never be compatibles. 
     
-  #  <a name="tuto"></a>Tutorials
+# <a name="tuto"></a>Tutorials
   ### Table of content:
   
 
@@ -75,8 +75,9 @@ Therefore, please consider donating, it will greatly support this project !
   If you don't have python (3.67 or above) and pip installed, install them first.
   
   Then, type this in your favorite terminal:
-  `pip install flore1` or `python -m pip install flore1` 
-  or `py -m pip install flore1 ` depending on your OS
+  `pip install flore1`  *universal, may not work*
+  `python -m pip install flore1`  **
+  `py -m pip install flore1 ` 
 
 ### 📁 Project folder:
 You want something like this:
@@ -741,7 +742,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg2MTAzNjM1LC0xMzM1MDg3MDAyLDE5MT
+eyJoaXN0b3J5IjpbNzg0OTE0Mjc5LC0xMzM1MDg3MDAyLDE5MT
 Q3ODg2OTEsLTc3NjAzOTAyMSwtMTQ4MzI2Njc5MywtMTMwMjQw
 NTc4Niw5MTMzNzQyODksLTEwMTU5MTY5MTUsLTE3NTkxNjEzNz
 UsODQ5MzQwMTcyLC0zMDEwNjI5ODEsLTE4OTQ4NTU1NDgsLTEz
