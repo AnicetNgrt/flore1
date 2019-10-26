@@ -50,13 +50,15 @@ Therefore, please consider donating, it will greatly support this project !
  5. Linux - repl.it terminal emulator
  
 **Notes**: 
-- It has great probability of rendering well on any modern shell which supports the following escapes codes:
+- It has great probability of rendering well on any modern terminal which supports the following escapes codes:
 ```python
 "\033[<row>;<col>H"
 "\33[0m"
 "\u001b[49;5;<color_code>m"
 "\u001b[39;5;<color_code>m"
 ```
+- Terminals that do not support thoses will never be compatibles.
+- 
     
   #  <a name="tuto"></a>Tutorials
   ### Table of content:
@@ -739,7 +741,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjU2MjI4MjAsLTEzMzUwODcwMDIsMT
+eyJoaXN0b3J5IjpbLTEyMDg5NDAxMzcsLTEzMzUwODcwMDIsMT
 kxNDc4ODY5MSwtNzc2MDM5MDIxLC0xNDgzMjY2NzkzLC0xMzAy
 NDA1Nzg2LDkxMzM3NDI4OSwtMTAxNTkxNjkxNSwtMTc1OTE2MT
 M3NSw4NDkzNDAxNzIsLTMwMTA2Mjk4MSwtMTg5NDg1NTU0OCwt
