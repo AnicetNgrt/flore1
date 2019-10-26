@@ -613,7 +613,7 @@ while True:
 	 - [Engine.VirtualScene](#engine.virtualscene)
 	 - [Engine.TextAsset](#engine.textasset)
 		 - [Engine.TextAsset.TextSprite](#engine.textasset.textsprite)
-## <a name="flipbook"></a>Flipbook [^class^](#classes)
+## <a name="flipbook"></a>Flipbook [class](#classes)
 
 
 The Flipbook class lets you easily animate [TextSprites](#textsprites) by computing their texture change rate, function of the Flipbook's [Refresh](#refresh) 's execution rate and the Flipbook frame rate goal. 
@@ -626,7 +626,7 @@ The Flipbook class lets you easily animate [TextSprites](#textsprites) by comput
 - [start](#flipbook-start) 
 - [stop](#flipbook-stop) 
 ---
-### <a name="flipbook-init"></a> \_\_init\_\_ [^method^](#methods)
+### <a name="flipbook-init"></a> \_\_init\_\_ [method](#methods)
 
 ##### Description:
 Inits the Flipbook: 
@@ -652,39 +652,39 @@ No return value
 | fps | integer | Frame rate goal for the flipbook in frame per second
 | sync | boolean | Whether the flipbook skips frame if the refresh slows down
 ---
-### <a name="flipbook-start"></a> start [^method^](#methods)
+### <a name="flipbook-start"></a> start [method](#methods)
 ##### Description:
 Feeds the Flipbook's Refresh instance with the Flipbook's [material](#flipbook.material) property.
 ##### Prototype:
 ```python
 def start(self)
 ```
-##### Return value 
-No return value
-##### Arguments
+##### Return value:
+- No return value
+##### Arguments:
 | [ in ] | type | description
-|--|--|--|
+-|--|--|--|
 | self | [Flipbook](#flipbook) | Flipbook instance that starts playing
 ---
-### <a name="flipbook-stop"></a> stop [^method^](#methods)
+### <a name="flipbook-stop"></a> stop [method](#methods)
 ##### Description:
 Terminates the Flipbook's [material](#flipbook.material) property's function execution within the Flipbook's Refresh instance.
 ##### Prototype:
 ```python
 def stop(self)
 ```
-##### Return value
+##### Return value:
 No return value
-##### Arguments
+##### Arguments:
 | [ in ] | type | description
 |--|--|--|
 | self | [Flipbook](#flipbook) | Flipbook instance that stops playing
 ---
-### material [^property^](#flipbook-props)
+### material [property](#flipbook-props)
 ##### Type:
 tuple: (  )
 
-## <a name="refresh"></a>Refresh [^class^](#classes)
+## <a name="refresh"></a>Refresh [class](#classes)
 
 ### <a name="refresh-methods"></a>Methods
 - [\_\_init\_\_](#refresh-init) 
@@ -742,11 +742,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzMxNjU5MTEsLTc3NjAzOTAyMSwtMT
-Q4MzI2Njc5MywtMTMwMjQwNTc4Niw5MTMzNzQyODksLTEwMTU5
-MTY5MTUsLTE3NTkxNjEzNzUsODQ5MzQwMTcyLC0zMDEwNjI5OD
-EsLTE4OTQ4NTU1NDgsLTEzNDE0MjQxMzEsLTIxMjIyODMwNzgs
-LTk3MTk0MzU2OCwtNzAyNzM5MTA0LC03MDI3MzkxMDQsMTA1MT
-kyMzYwLDEzNzU1OTc1OTQsMTQ3NDYyOTEyNiwtMTMxNzgxNjE4
-OF19
+eyJoaXN0b3J5IjpbLTM3MDA2ODQwNSwtNzc2MDM5MDIxLC0xND
+gzMjY2NzkzLC0xMzAyNDA1Nzg2LDkxMzM3NDI4OSwtMTAxNTkx
+NjkxNSwtMTc1OTE2MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mjk4MS
+wtMTg5NDg1NTU0OCwtMTM0MTQyNDEzMSwtMjEyMjI4MzA3OCwt
+OTcxOTQzNTY4LC03MDI3MzkxMDQsLTcwMjczOTEwNCwxMDUxOT
+IzNjAsMTM3NTU5NzU5NCwxNDc0NjI5MTI2LC0xMzE3ODE2MTg4
+XX0=
 -->
