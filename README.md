@@ -630,13 +630,15 @@ def __init__(self, Engine, Refresh, Sprite, path="", size=[32, 32], transparent_
 ```
 | [ in ] | type  | description |
 |--|--|--|
-| self | [Flipbook](#flipbook) | Flipbook instance just created |
+| self | [Flipbook](#flipbook) | Flipbook instance just created 
 | Engine | [Engine](#engine) | Engine instance that computes for the creation of the flipbook from its set of pictures
-| Refresh | [Refresh](#refresh) | Refresh instance that runs the flipbook |
-| Sprite | [Sprite](#engine.textasset.textsprite) | TextSprite instance that has its texture animated by the flipbook |
-| path | string | Path to a folder containing all the frames for the animation in lexicographical order |
-| size | array of integers | [width, height] for the animated sprite |
-| transparent_rgb | tuple of integers | RGB of the transparent color in the flipbook's frames |
+| Refresh | [Refresh](#refresh) | Refresh instance that runs the flipbook 
+| Sprite | [Sprite](#engine.textasset.textsprite) | TextSprite instance that has its texture animated by the flipbook 
+| path | string | Path to a folder containing all the frames for the animation in lexicographical order 
+| size | array of integers | [width, height] for the animated sprite 
+| transparent_rgb | tuple of integers | RGB of the transparent color in the flipbook's frames 
+| fps | integer | Frame rate goal for the flipbook in frame per second
+| sync |  |
 
 
 ### <a name="flipbook-start"></a> start
@@ -704,9 +706,10 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEzMzc0Mjg5LC0xMDE1OTE2OTE1LC0xNz
-U5MTYxMzc1LDg0OTM0MDE3MiwtMzAxMDYyOTgxLC0xODk0ODU1
-NTQ4LC0xMzQxNDI0MTMxLC0yMTIyMjgzMDc4LC05NzE5NDM1Nj
-gsLTcwMjczOTEwNCwtNzAyNzM5MTA0LDEwNTE5MjM2MCwxMzc1
-NTk3NTk0LDE0NzQ2MjkxMjYsLTEzMTc4MTYxODhdfQ==
+eyJoaXN0b3J5IjpbLTk5MjQzNjExNiw5MTMzNzQyODksLTEwMT
+U5MTY5MTUsLTE3NTkxNjEzNzUsODQ5MzQwMTcyLC0zMDEwNjI5
+ODEsLTE4OTQ4NTU1NDgsLTEzNDE0MjQxMzEsLTIxMjIyODMwNz
+gsLTk3MTk0MzU2OCwtNzAyNzM5MTA0LC03MDI3MzkxMDQsMTA1
+MTkyMzYwLDEzNzU1OTc1OTQsMTQ3NDYyOTEyNiwtMTMxNzgxNj
+E4OF19
 -->
