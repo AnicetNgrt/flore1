@@ -686,7 +686,7 @@ A tuple composed with a function which changes the Flipbook's sprite's texture a
 
 
 ## <a name="refresh"></a>Refresh [class](#classes)
-The Refresh class executes a stack of functions that you "feed" it with every time you tell it to "do" it. It constantly calculates execution time and calls the functions you fed it with accordingly, while also incrementing faster/slower all of it's stack function's `.i` attribute, 
+The Refresh class executes a stack of functions that you "fed" it with every time you tell it to "do" it. It constantly calculates execution time and calls the functions you fed it with accordingly, while also incrementing faster/slower all of it's stack function's `.i` attribute depending on whether the execution latency keeps up or not with the Refreshes execution rate goal.
 ### <a name="refresh-methods"></a>Methods
 - [\_\_init\_\_](#refresh-init) 
 - [terminate](#refresh-terminate) 
@@ -737,11 +737,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDI3ODkyMSwxOTE0Nzg4NjkxLC03Nz
-YwMzkwMjEsLTE0ODMyNjY3OTMsLTEzMDI0MDU3ODYsOTEzMzc0
-Mjg5LC0xMDE1OTE2OTE1LC0xNzU5MTYxMzc1LDg0OTM0MDE3Mi
-wtMzAxMDYyOTgxLC0xODk0ODU1NTQ4LC0xMzQxNDI0MTMxLC0y
-MTIyMjgzMDc4LC05NzE5NDM1NjgsLTcwMjczOTEwNCwtNzAyNz
-M5MTA0LDEwNTE5MjM2MCwxMzc1NTk3NTk0LDE0NzQ2MjkxMjYs
-LTEzMTc4MTYxODhdfQ==
+eyJoaXN0b3J5IjpbLTEwOTE2OTc5NzUsMTkxNDc4ODY5MSwtNz
+c2MDM5MDIxLC0xNDgzMjY2NzkzLC0xMzAyNDA1Nzg2LDkxMzM3
+NDI4OSwtMTAxNTkxNjkxNSwtMTc1OTE2MTM3NSw4NDkzNDAxNz
+IsLTMwMTA2Mjk4MSwtMTg5NDg1NTU0OCwtMTM0MTQyNDEzMSwt
+MjEyMjI4MzA3OCwtOTcxOTQzNTY4LC03MDI3MzkxMDQsLTcwMj
+czOTEwNCwxMDUxOTIzNjAsMTM3NTU5NzU5NCwxNDc0NjI5MTI2
+LC0xMzE3ODE2MTg4XX0=
 -->
