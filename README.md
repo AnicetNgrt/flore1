@@ -43,12 +43,12 @@ Therefore, please consider donating, it will greatly support this project !
 
 
 #  <a name="compat"></a>Known compatible terminals
-**According to the latest tes**:
- 1. `good perf.` `medium rendering` `Windows 10` - Powershell
- 2. `good perf.` `good rendering` `Windows 10` - cmd
- 3. `good perf.` `bad rendering` `Windows 10` - new GPU terminal
- 4. `good perf.` `good rendering` `Windows 10` - python terminal
- 5. `bad perf.` `good rendering` `Linux` - repl.it terminal emulator
+**According to the latest tests**:
+ 1. `good perf.` `medium rendering` `Windows 10` `CPU`- **Powershell**
+ 2. `good perf.` `good rendering` `Windows 10` `CPU`- **cmd.exe**
+ 3. `good perf.` `bad rendering` `Windows 10` `GPU`- **new terminal**
+ 4. `good perf.` `good rendering` `Windows 10` `CPU`- **python terminal**
+ 5. `bad perf.` `good rendering` `Linux` `CPU`- **repl.it terminal emulator**
  
 **Notes**: 
 - It has great probability of rendering well on any modern terminal which supports the following escapes codes:
@@ -741,11 +741,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTQ3Njc2ODYsLTEzMzUwODcwMDIsMT
-kxNDc4ODY5MSwtNzc2MDM5MDIxLC0xNDgzMjY2NzkzLC0xMzAy
-NDA1Nzg2LDkxMzM3NDI4OSwtMTAxNTkxNjkxNSwtMTc1OTE2MT
-M3NSw4NDkzNDAxNzIsLTMwMTA2Mjk4MSwtMTg5NDg1NTU0OCwt
-MTM0MTQyNDEzMSwtMjEyMjI4MzA3OCwtOTcxOTQzNTY4LC03MD
-I3MzkxMDQsLTcwMjczOTEwNCwxMDUxOTIzNjAsMTM3NTU5NzU5
-NCwxNDc0NjI5MTI2XX0=
+eyJoaXN0b3J5IjpbNjg2MTAzNjM1LC0xMzM1MDg3MDAyLDE5MT
+Q3ODg2OTEsLTc3NjAzOTAyMSwtMTQ4MzI2Njc5MywtMTMwMjQw
+NTc4Niw5MTMzNzQyODksLTEwMTU5MTY5MTUsLTE3NTkxNjEzNz
+UsODQ5MzQwMTcyLC0zMDEwNjI5ODEsLTE4OTQ4NTU1NDgsLTEz
+NDE0MjQxMzEsLTIxMjIyODMwNzgsLTk3MTk0MzU2OCwtNzAyNz
+M5MTA0LC03MDI3MzkxMDQsMTA1MTkyMzYwLDEzNzU1OTc1OTQs
+MTQ3NDYyOTEyNl19
 -->
