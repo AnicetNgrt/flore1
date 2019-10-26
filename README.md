@@ -463,7 +463,9 @@ time.sleep(30)
 ```
 ## <a name="tuto4"></a> Flipbooks: Display a gif on the terminal as an animated text sprite
 ### 🧭 What we will do:
-In this tutorial we will display an animated GIF in the terminal.
+
+![60fps flavour](https://imgur.com/Xo6XNs1.gif)
+In this tutorial we will display an animated GIF in the terminal with transparency.
 [-> I just want the code thanks.](#tuto4_code)
 ### 🎬 Finding and making a GIF compatible with flore1:
 First we need to find a suitable low-res `.gif` (you can also put large sized GIF since the engine can rescale pictures, but in this tutorial we won't do it).
@@ -552,6 +554,7 @@ while True:
     Refresh.run()
 ```
 Done, now run it and admire:
+
 ![Done, now run it and admire.](https://imgur.com/Xo6XNs1.gif)
 ### <a name="tuto4_code"></a>📥 Conclusion: This tutorial's code:
 In order to get the frames, I advice you read at least the very beginning of this tutorial.
@@ -684,8 +687,8 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODc5OTI1MDcsLTE4OTQ4NTU1NDgsLT
-EzNDE0MjQxMzEsLTIxMjIyODMwNzgsLTk3MTk0MzU2OCwtNzAy
-NzM5MTA0LC03MDI3MzkxMDQsMTA1MTkyMzYwLDEzNzU1OTc1OT
-QsMTQ3NDYyOTEyNiwtMTMxNzgxNjE4OF19
+eyJoaXN0b3J5IjpbLTMwMTA2Mjk4MSwtMTg5NDg1NTU0OCwtMT
+M0MTQyNDEzMSwtMjEyMjI4MzA3OCwtOTcxOTQzNTY4LC03MDI3
+MzkxMDQsLTcwMjczOTEwNCwxMDUxOTIzNjAsMTM3NTU5NzU5NC
+wxNDc0NjI5MTI2LC0xMzE3ODE2MTg4XX0=
 -->
