@@ -5,7 +5,7 @@
 
 ### Note:
 Thanks a lot for paying attention to my work. 
-My name is Anicet Nougaret, and I'm doing all of this alone. 
+My name is Anicet Nougaret, I am a french IT student, and I am doing all of this alone. 
 This project will always remain open source and free.
 Therefore, please consider donating, it will greatly support this project ! 
 \\(●'◡'●)/
@@ -743,11 +743,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzc3ODc5OTksMjA3NzczNzI2NywtMT
-MzNTA4NzAwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMjEsLTE0ODMy
-NjY3OTMsLTEzMDI0MDU3ODYsOTEzMzc0Mjg5LC0xMDE1OTE2OT
-E1LC0xNzU5MTYxMzc1LDg0OTM0MDE3MiwtMzAxMDYyOTgxLC0x
-ODk0ODU1NTQ4LC0xMzQxNDI0MTMxLC0yMTIyMjgzMDc4LC05Nz
-E5NDM1NjgsLTcwMjczOTEwNCwtNzAyNzM5MTA0LDEwNTE5MjM2
-MCwxMzc1NTk3NTk0XX0=
+eyJoaXN0b3J5IjpbLTE1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMj
+A3NzczNzI2NywtMTMzNTA4NzAwMiwxOTE0Nzg4NjkxLC03NzYw
+MzkwMjEsLTE0ODMyNjY3OTMsLTEzMDI0MDU3ODYsOTEzMzc0Mj
+g5LC0xMDE1OTE2OTE1LC0xNzU5MTYxMzc1LDg0OTM0MDE3Miwt
+MzAxMDYyOTgxLC0xODk0ODU1NTQ4LC0xMzQxNDI0MTMxLC0yMT
+IyMjgzMDc4LC05NzE5NDM1NjgsLTcwMjczOTEwNCwtNzAyNzM5
+MTA0LDEwNTE5MjM2MF19
 -->
