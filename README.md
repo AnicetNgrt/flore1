@@ -34,10 +34,11 @@ Therefore, please consider donating, it will greatly support this project !
  -  Play flibook in a scene at a desired frame rate. 
 
 #  <a name="roadmap"></a>What is planned ?
- - Input management  `High priority`
- - Sound management  `Low priority`
- - Remote SSH rendering  `Research, seems inte`
- - Basic server/client fonctionnalities
+ - `High priority` Input management
+ - `Medium priority` Basic server/client fonctionnalities 
+ - `Low priority` Sound management  
+ - `Low priority` Remote SSH rendering  
+ - `
 
 
 #  <a name="compat"></a>Known compatible terminals
@@ -737,11 +738,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MzgxOTA2LC0xMzM1MDg3MDAyLDE5MT
-Q3ODg2OTEsLTc3NjAzOTAyMSwtMTQ4MzI2Njc5MywtMTMwMjQw
-NTc4Niw5MTMzNzQyODksLTEwMTU5MTY5MTUsLTE3NTkxNjEzNz
-UsODQ5MzQwMTcyLC0zMDEwNjI5ODEsLTE4OTQ4NTU1NDgsLTEz
-NDE0MjQxMzEsLTIxMjIyODMwNzgsLTk3MTk0MzU2OCwtNzAyNz
-M5MTA0LC03MDI3MzkxMDQsMTA1MTkyMzYwLDEzNzU1OTc1OTQs
-MTQ3NDYyOTEyNl19
+eyJoaXN0b3J5IjpbMTAwMjQ3MzA3MCwtMTMzNTA4NzAwMiwxOT
+E0Nzg4NjkxLC03NzYwMzkwMjEsLTE0ODMyNjY3OTMsLTEzMDI0
+MDU3ODYsOTEzMzc0Mjg5LC0xMDE1OTE2OTE1LC0xNzU5MTYxMz
+c1LDg0OTM0MDE3MiwtMzAxMDYyOTgxLC0xODk0ODU1NTQ4LC0x
+MzQxNDI0MTMxLC0yMTIyMjgzMDc4LC05NzE5NDM1NjgsLTcwMj
+czOTEwNCwtNzAyNzM5MTA0LDEwNTE5MjM2MCwxMzc1NTk3NTk0
+LDE0NzQ2MjkxMjZdfQ==
 -->
