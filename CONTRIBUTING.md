@@ -3,14 +3,14 @@
 
 Flore1 is still a small scale project made almost entirely by I (the writer). 
 I am a solo dev who is not very used to collaborative work on github.
-I aim to learn from thoses who want to contribute to this project. So please consider the fact that there is no fancy well redacted guidelines now.
+I aim to learn from thoses who want to contribute tohow to properly use github with this project. S, so please consider the fact that there is no fancy well redacted guidelines now.forgive me if I manage it poorly. I would love to ear your suggestions !
 
 # 📜 Guidelines:
 ### General state of mind:
  - A faster/more optimised version will always be priviligiated.
  - Improvements and bugfixes must be demonstrated and explained clearly in your pull requests.
  - Improving on syntax and code style is welcomed if it leads to similar or better performances.
- - Be patient, contribution shall always be rewarded in some way.
+ - Be patient, your contribution shawill always be rewarded in some waytaken into account.
 
 ### Your pull request should include:
 
@@ -25,4 +25,10 @@ I aim to learn from thoses who want to contribute to this project. So please con
 
 # 🏅 Rewarding contributors:
 My project includes a `CONTRIBUTORS.md` file which lists all the contributors, a brief description of their work, and a link to their website and paypal donation page if they wish to. Of course, you can ask me not to list you in it, this is totally optional ;-) .
-Contributors may be more rewarded, but I can't promess anything, I repeat, this is still a small scale project.
+Contributors may be more rewardedconsistently rewarded in the future, but I can't promessise anything, I repeat, this is still a small scale project.
+
+
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTY4ODYyMTldfQ==
+-->
