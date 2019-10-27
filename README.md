@@ -728,7 +728,8 @@ No return value
 ---
 ### <a name="refresh-terminate"></a> terminate [method](#methods)
 ##### - Description:
-Remove a specific `(function, *args, **kwargs)` tuple from the Refresh's execution [stack](#refresh.stack).
+Removes a specific `(function, *args, **kwargs)` tuple from the Refresh's execution [stack](#refresh.stack).
+In other words, the Refresh stops calling `function(*args, **kwargs)` when it's [do](#refresh-do) method is called.
 ##### - Prototype:
 ```python
 ```
@@ -740,7 +741,7 @@ Remove a specific `(function, *args, **kwargs)` tuple from the Refresh's executi
 | self | [Refresh](#refresh) | The Refresh instance which [stack](#refresh.stack) gets the tuple removed from
 | func | function | Function type element of the tuple to remove from the [stack](#refresh.stack)
 | *args | *args | Arguments type element of the tuple to remove from the [stack](#refresh.stack) 
-| **kwargs | **kwargs | Keyworded arguments type elemen
+| **kwargs | **kwargs | Keyworded arguments type element of the tuple to remove from the [stack](#refresh.stack)
 
 ---
 ### <a name="refresh-feed"></a> feed [method](#methods)
@@ -813,7 +814,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MzIyNTE5MCwtNjU3ODA3NDE0LDUzOT
+eyJoaXN0b3J5IjpbMTU0NzMwNTk2NSwtNjU3ODA3NDE0LDUzOT
 IzODk5MCwtMTU0NDU0NTQ0MywtMTYzNzc4Nzk5OSwyMDc3NzM3
 MjY3LC0xMzM1MDg3MDAyLDE5MTQ3ODg2OTEsLTc3NjAzOTAyMS
 wtMTQ4MzI2Njc5MywtMTMwMjQwNTc4Niw5MTMzNzQyODksLTEw
