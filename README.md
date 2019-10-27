@@ -706,7 +706,18 @@ You can "feed" the Refresh class with a `(function, *args, **kwars)` tuple. It w
 - [do](#refresh-do) 
 - [run](#refresh-run) 
 ### <a name="refresh-init"></a> \_\_init\_\_ [method](#methods)
+##### - Description:
 
+##### - Prototype:
+```python
+def __init__()
+```
+##### - Return value:
+No return value
+##### - Arguments:
+| [ in ] | type | description
+|--|--|--|
+| self | [Flipbook](#flipbook) | Flipbook instance that stops playing
 ---
 ### <a name="refresh-terminate"></a> terminate [method](#methods)
 ---
@@ -750,11 +761,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwMjgxMjA4LC02NTc4MDc0MTQsNTM5Mj
-M4OTkwLC0xNTQ0NTQ1NDQzLC0xNjM3Nzg3OTk5LDIwNzc3Mzcy
-NjcsLTEzMzUwODcwMDIsMTkxNDc4ODY5MSwtNzc2MDM5MDIxLC
-0xNDgzMjY2NzkzLC0xMzAyNDA1Nzg2LDkxMzM3NDI4OSwtMTAx
-NTkxNjkxNSwtMTc1OTE2MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mj
-k4MSwtMTg5NDg1NTU0OCwtMTM0MTQyNDEzMSwtMjEyMjI4MzA3
-OCwtOTcxOTQzNTY4XX0=
+eyJoaXN0b3J5IjpbLTUxOTE0MDc2MywtNjU3ODA3NDE0LDUzOT
+IzODk5MCwtMTU0NDU0NTQ0MywtMTYzNzc4Nzk5OSwyMDc3NzM3
+MjY3LC0xMzM1MDg3MDAyLDE5MTQ3ODg2OTEsLTc3NjAzOTAyMS
+wtMTQ4MzI2Njc5MywtMTMwMjQwNTc4Niw5MTMzNzQyODksLTEw
+MTU5MTY5MTUsLTE3NTkxNjEzNzUsODQ5MzQwMTcyLC0zMDEwNj
+I5ODEsLTE4OTQ4NTU1NDgsLTEzNDE0MjQxMzEsLTIxMjIyODMw
+NzgsLTk3MTk0MzU2OF19
 -->
