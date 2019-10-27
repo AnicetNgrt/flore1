@@ -668,7 +668,14 @@ No return value
 | sync | boolean | Whether the flipbook skips frame if the refresh slows down
 ##### - Exemple:
 ```python
-my_flipbook = flore1.Flipbook(Engine, )
+my_flipbook = flore1.Flipbook(
+	Engine, 
+	Refresh, 
+	empty_sprite,
+	path="./super_folder/",
+	size=[32,32],
+	transparent_rgb=(0, 0,0)
+	)
 ```
 ---
 ### <a name="flipbook-start"></a>🧰 start [method](#methods)
@@ -929,7 +936,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxOTczODc2MCwzODkxNDc0MzMsLTExNT
+eyJoaXN0b3J5IjpbLTI3MzAyNzE3MCwzODkxNDc0MzMsLTExNT
 Q2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIxMCwtMTY5NjExNzQ3
 MCwxMzgxNzczNjkyLDE2OTAwNDE0NjAsLTk1MjkyODM3OCwtMT
 IxNjE5NTQ1NiwtNjU3ODA3NDE0LDUzOTIzODk5MCwtMTU0NDU0
