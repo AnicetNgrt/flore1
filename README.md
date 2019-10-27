@@ -798,7 +798,11 @@ No return value
 | self | [Refresh](#refresh) | The Refresh instance that is ran
 | debug | boolean | Whether you want the debug header for this method to show on the top left corner
 ---
+### <a name="refresh.fps"></a> *[integer]* fps [property](#flipbook-props)
+##### Description:
+The frame rate goal of the Refresh instance.
 
+---
 ## <a name="engine"></a>Engine [class](#classes)
 
 - [\_\_init\_\_](#engine-init) 
@@ -842,7 +846,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjE0MjQ4MDAsLTE2OTYxMTc0NzAsMT
+eyJoaXN0b3J5IjpbLTE3NjM2MzYxMDgsLTE2OTYxMTc0NzAsMT
 M4MTc3MzY5MiwxNjkwMDQxNDYwLC05NTI5MjgzNzgsLTEyMTYx
 OTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5OTAsLTE1NDQ1NDU0ND
 MsLTE2Mzc3ODc5OTksMjA3NzczNzI2NywtMTMzNTA4NzAwMiwx
