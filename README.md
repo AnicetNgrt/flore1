@@ -871,6 +871,7 @@ def new_scene(self, name, coord_x, coord_y, res_x, res_y, layer_count)
 | coord_y | integer | The distance of the scene frome the terminal's top border in chars  
 | res_x | float | 1/2 of the width of the scene in chars. (multiplied by 2 and then  rounded)
 | res_y | integer | The height of the scene in chars
+| layer_count | integer < 0 | The number of layers in the scene, in other words, how many level of superposition the scene tries to manage.
  
 ---
 ### <a name="engine-del_scene"></a>🧰 del_scene [method](#methods)
@@ -929,11 +930,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkxMjA5NjgwLC05MDE3MDA3MCwzODkxND
-c0MzMsLTExNTQ2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIxMCwt
-MTY5NjExNzQ3MCwxMzgxNzczNjkyLDE2OTAwNDE0NjAsLTk1Mj
-kyODM3OCwtMTIxNjE5NTQ1NiwtNjU3ODA3NDE0LDUzOTIzODk5
-MCwtMTU0NDU0NTQ0MywtMTYzNzc4Nzk5OSwyMDc3NzM3MjY3LC
-0xMzM1MDg3MDAyLDE5MTQ3ODg2OTEsLTc3NjAzOTAyMSwtMTQ4
-MzI2Njc5M119
+eyJoaXN0b3J5IjpbLTkxOTQ5Mjk3NCw4OTEyMDk2ODAsLTkwMT
+cwMDcwLDM4OTE0NzQzMywtMTE1NDY4MDA0Nyw0NzI4MDAwMTQs
+NjgxMDM1MjEwLC0xNjk2MTE3NDcwLDEzODE3NzM2OTIsMTY5MD
+A0MTQ2MCwtOTUyOTI4Mzc4LC0xMjE2MTk1NDU2LC02NTc4MDc0
+MTQsNTM5MjM4OTkwLC0xNTQ0NTQ1NDQzLC0xNjM3Nzg3OTk5LD
+IwNzc3MzcyNjcsLTEzMzUwODcwMDIsMTkxNDc4ODY5MSwtNzc2
+MDM5MDIxXX0=
 -->
