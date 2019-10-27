@@ -851,7 +851,7 @@ def __init__(self, auto_scale=False, win_mode=False, logo=False)
 ##### - Arguments:
 | [ in ] | type | description
 |--|--|--|
-|  |  |
+| self | [Engine](#engine) | The Engine instance that is initialized
 ---
 ### <a name="engine-new_scene"></a>🧰 new_scene [method](#methods)
 ##### - Description:
@@ -921,11 +921,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg5MTQ3NDMzLC0xMTU0NjgwMDQ3LDQ3Mj
-gwMDAxNCw2ODEwMzUyMTAsLTE2OTYxMTc0NzAsMTM4MTc3MzY5
-MiwxNjkwMDQxNDYwLC05NTI5MjgzNzgsLTEyMTYxOTU0NTYsLT
-Y1NzgwNzQxNCw1MzkyMzg5OTAsLTE1NDQ1NDU0NDMsLTE2Mzc3
-ODc5OTksMjA3NzczNzI2NywtMTMzNTA4NzAwMiwxOTE0Nzg4Nj
-kxLC03NzYwMzkwMjEsLTE0ODMyNjY3OTMsLTEzMDI0MDU3ODYs
-OTEzMzc0Mjg5XX0=
+eyJoaXN0b3J5IjpbNTAwMjgwNTY2LDM4OTE0NzQzMywtMTE1ND
+Y4MDA0Nyw0NzI4MDAwMTQsNjgxMDM1MjEwLC0xNjk2MTE3NDcw
+LDEzODE3NzM2OTIsMTY5MDA0MTQ2MCwtOTUyOTI4Mzc4LC0xMj
+E2MTk1NDU2LC02NTc4MDc0MTQsNTM5MjM4OTkwLC0xNTQ0NTQ1
+NDQzLC0xNjM3Nzg3OTk5LDIwNzc3MzcyNjcsLTEzMzUwODcwMD
+IsMTkxNDc4ODY5MSwtNzc2MDM5MDIxLC0xNDgzMjY2NzkzLC0x
+MzAyNDA1Nzg2XX0=
 -->
