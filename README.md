@@ -619,12 +619,12 @@ while True:
 #  <a name="doc"></a> Documentation
 ## <a name="classes"></a>Classes
  
- - [Flipbook](#flipbook)
+ - [Flipbook](#flipbook) 
  - [Refresh](#refresh)
  - [Engine](#engine)
-	 - [Engine.VirtualScene](#engine.virtualscene) *Scene*
-	 - [Engine.TextAsset](#engine.textasset) *Asset*
-		 - [Engine.TextAsset.TextSprite](#engine.textasset.textsprite)
+	 - [Engine.VirtualScene](#engine.virtualscene) *`Scenes`*
+	 - [Engine.TextAsset](#engine.textasset) *`Assets`*
+		 - [Engine.TextAsset.TextSprite](#engine.textasset.textsprite) *`Sprites`*
 ## <a name="flipbook"></a>Flipbook [class](#classes)
 
 
@@ -838,11 +838,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI5Mzk1MDc4LDEzODE3NzM2OTIsMTY5MD
-A0MTQ2MCwtOTUyOTI4Mzc4LC0xMjE2MTk1NDU2LC02NTc4MDc0
-MTQsNTM5MjM4OTkwLC0xNTQ0NTQ1NDQzLC0xNjM3Nzg3OTk5LD
-IwNzc3MzcyNjcsLTEzMzUwODcwMDIsMTkxNDc4ODY5MSwtNzc2
-MDM5MDIxLC0xNDgzMjY2NzkzLC0xMzAyNDA1Nzg2LDkxMzM3ND
-I4OSwtMTAxNTkxNjkxNSwtMTc1OTE2MTM3NSw4NDkzNDAxNzIs
-LTMwMTA2Mjk4MV19
+eyJoaXN0b3J5IjpbMTM1NjMwNTcxMCwxMzgxNzczNjkyLDE2OT
+AwNDE0NjAsLTk1MjkyODM3OCwtMTIxNjE5NTQ1NiwtNjU3ODA3
+NDE0LDUzOTIzODk5MCwtMTU0NDU0NTQ0MywtMTYzNzc4Nzk5OS
+wyMDc3NzM3MjY3LC0xMzM1MDg3MDAyLDE5MTQ3ODg2OTEsLTc3
+NjAzOTAyMSwtMTQ4MzI2Njc5MywtMTMwMjQwNTc4Niw5MTMzNz
+QyODksLTEwMTU5MTY5MTUsLTE3NTkxNjEzNzUsODQ5MzQwMTcy
+LC0zMDEwNjI5ODFdfQ==
 -->
