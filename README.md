@@ -22,7 +22,7 @@ Therefore, please consider donating, it will greatly support this project !
  6. [**License**](#license)
 
 # <a name="features"></a>What can it do ?
-The best thing to do would be to look briefly at all the tutorials available, they tend to cover everything the latest build can do.**
+*The best thing to do would be to take a look at the [tutorials](#tuto), they tend to cover everything the latest build can do.*
 #### For now, what it does the best is rendering:
  -   Interpret an easy syntax for creating text based sprites with color.
  -   Convert pictures to text based sprites.
@@ -841,11 +841,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNzYwNzIyMiwtMTY5NjExNzQ3MCwxMz
-gxNzczNjkyLDE2OTAwNDE0NjAsLTk1MjkyODM3OCwtMTIxNjE5
-NTQ1NiwtNjU3ODA3NDE0LDUzOTIzODk5MCwtMTU0NDU0NTQ0My
-wtMTYzNzc4Nzk5OSwyMDc3NzM3MjY3LC0xMzM1MDg3MDAyLDE5
-MTQ3ODg2OTEsLTc3NjAzOTAyMSwtMTQ4MzI2Njc5MywtMTMwMj
-QwNTc4Niw5MTMzNzQyODksLTEwMTU5MTY5MTUsLTE3NTkxNjEz
-NzUsODQ5MzQwMTcyXX0=
+eyJoaXN0b3J5IjpbOTUyMDM0NzQ3LC0xNjk2MTE3NDcwLDEzOD
+E3NzM2OTIsMTY5MDA0MTQ2MCwtOTUyOTI4Mzc4LC0xMjE2MTk1
+NDU2LC02NTc4MDc0MTQsNTM5MjM4OTkwLC0xNTQ0NTQ1NDQzLC
+0xNjM3Nzg3OTk5LDIwNzc3MzcyNjcsLTEzMzUwODcwMDIsMTkx
+NDc4ODY5MSwtNzc2MDM5MDIxLC0xNDgzMjY2NzkzLC0xMzAyND
+A1Nzg2LDkxMzM3NDI4OSwtMTAxNTkxNjkxNSwtMTc1OTE2MTM3
+NSw4NDkzNDAxNzJdfQ==
 -->
