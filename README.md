@@ -777,7 +777,7 @@ No return value
 ##### - Arguments:
 | [ in ] | type | description
 |--|--|--|
-| self | [Refresh](#refresh) | The Refresh instance which [stack](#refresh.stack) is being iterated though
+| self | [Refresh](#refresh) | The Refresh instance which [stack](#refresh.stack) is being reviewed
 ---
 ### <a name="refresh-run"></a> run [method](#methods)
 ##### - Description:
@@ -799,9 +799,18 @@ No return value
 - [new_sprite](#engine-new_sprite) 
 - [find_trsprt_index](#engine-find_trsprt_index) 
 - [pic_to_textAsset](#engine-pic_to_textasset) 
-### <a name="engine-init"></a> \_\_init\_\_
-[->method](#methods)
+### <a name="engine-init"></a> \_\_init\_\_ [method](#methods)
+##### - Description:
+##### - Prototype:
+```python
+```
+##### - Return value:
 
+##### - Arguments:
+| [ in ] | type | description
+|--|--|--|
+|  |  |
+---
 ### <a name="engine-new_scene"></a> new_scene
 [->method](#methods)
 
@@ -825,11 +834,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNDA2NTk5NiwxNjkwMDQxNDYwLC05NT
-I5MjgzNzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5
-OTAsLTE1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3NzczNzI2Ny
-wtMTMzNTA4NzAwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMjEsLTE0
-ODMyNjY3OTMsLTEzMDI0MDU3ODYsOTEzMzc0Mjg5LC0xMDE1OT
-E2OTE1LC0xNzU5MTYxMzc1LDg0OTM0MDE3MiwtMzAxMDYyOTgx
-LC0xODk0ODU1NTQ4XX0=
+eyJoaXN0b3J5IjpbLTEzNTI2NjYzOTQsMTY5MDA0MTQ2MCwtOT
+UyOTI4Mzc4LC0xMjE2MTk1NDU2LC02NTc4MDc0MTQsNTM5MjM4
+OTkwLC0xNTQ0NTQ1NDQzLC0xNjM3Nzg3OTk5LDIwNzc3MzcyNj
+csLTEzMzUwODcwMDIsMTkxNDc4ODY5MSwtNzc2MDM5MDIxLC0x
+NDgzMjY2NzkzLC0xMzAyNDA1Nzg2LDkxMzM3NDI4OSwtMTAxNT
+kxNjkxNSwtMTc1OTE2MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mjk4
+MSwtMTg5NDg1NTU0OF19
 -->
