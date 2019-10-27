@@ -862,6 +862,7 @@ No return value
 ##### - Description:
 ##### - Prototype:
 ```python
+def new_scene(self, name, coord_x, coord_y, res_x, res_y, layer_count)
 ```
 ##### - Return value:
 
@@ -926,11 +927,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMTcwMDcwLDM4OTE0NzQzMywtMTE1ND
-Y4MDA0Nyw0NzI4MDAwMTQsNjgxMDM1MjEwLC0xNjk2MTE3NDcw
-LDEzODE3NzM2OTIsMTY5MDA0MTQ2MCwtOTUyOTI4Mzc4LC0xMj
-E2MTk1NDU2LC02NTc4MDc0MTQsNTM5MjM4OTkwLC0xNTQ0NTQ1
-NDQzLC0xNjM3Nzg3OTk5LDIwNzc3MzcyNjcsLTEzMzUwODcwMD
-IsMTkxNDc4ODY5MSwtNzc2MDM5MDIxLC0xNDgzMjY2NzkzLC0x
-MzAyNDA1Nzg2XX0=
+eyJoaXN0b3J5IjpbMTQwNzk0OTA3LC05MDE3MDA3MCwzODkxND
+c0MzMsLTExNTQ2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIxMCwt
+MTY5NjExNzQ3MCwxMzgxNzczNjkyLDE2OTAwNDE0NjAsLTk1Mj
+kyODM3OCwtMTIxNjE5NTQ1NiwtNjU3ODA3NDE0LDUzOTIzODk5
+MCwtMTU0NDU0NTQ0MywtMTYzNzc4Nzk5OSwyMDc3NzM3MjY3LC
+0xMzM1MDg3MDAyLDE5MTQ3ODg2OTEsLTc3NjAzOTAyMSwtMTQ4
+MzI2Njc5M119
 -->
