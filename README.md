@@ -64,9 +64,8 @@ Therefore, please consider donating, it will greatly support this project !
 - Terminals that do not support thoses will never be compatibles. 
     
 # <a name="tuto"></a>Tutorials
-  ### Table of content:
-  
-
+Theses aim to be a fun and beginner-friendly way of learning how to use flore1.  
+### Table of content:
  0. [Getting started](#tuto0)
  1. [Displaying a static text sprite in a scene](#tuto1)
  2. [Introduction to game loops: Moving a sprite across its scene](#tuto2)
@@ -841,11 +840,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUyMDM0NzQ3LC0xNjk2MTE3NDcwLDEzOD
-E3NzM2OTIsMTY5MDA0MTQ2MCwtOTUyOTI4Mzc4LC0xMjE2MTk1
-NDU2LC02NTc4MDc0MTQsNTM5MjM4OTkwLC0xNTQ0NTQ1NDQzLC
-0xNjM3Nzg3OTk5LDIwNzc3MzcyNjcsLTEzMzUwODcwMDIsMTkx
-NDc4ODY5MSwtNzc2MDM5MDIxLC0xNDgzMjY2NzkzLC0xMzAyND
-A1Nzg2LDkxMzM3NDI4OSwtMTAxNTkxNjkxNSwtMTc1OTE2MTM3
-NSw4NDkzNDAxNzJdfQ==
+eyJoaXN0b3J5IjpbLTE3ODU4MTg2NjAsLTE2OTYxMTc0NzAsMT
+M4MTc3MzY5MiwxNjkwMDQxNDYwLC05NTI5MjgzNzgsLTEyMTYx
+OTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5OTAsLTE1NDQ1NDU0ND
+MsLTE2Mzc3ODc5OTksMjA3NzczNzI2NywtMTMzNTA4NzAwMiwx
+OTE0Nzg4NjkxLC03NzYwMzkwMjEsLTE0ODMyNjY3OTMsLTEzMD
+I0MDU3ODYsOTEzMzc0Mjg5LC0xMDE1OTE2OTE1LC0xNzU5MTYx
+Mzc1LDg0OTM0MDE3Ml19
 -->
