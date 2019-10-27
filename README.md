@@ -707,10 +707,10 @@ You can "feed" the Refresh class with a `(function, *args, **kwars)` tuple. It w
 - [run](#refresh-run) 
 ### <a name="refresh-init"></a> \_\_init\_\_ [method](#methods)
 ##### - Description:
-
+Inits all the [properties](#refre) of Refresh.
 ##### - Prototype:
 ```python
-def __init__()
+def __init__(self, fps=35)
 ```
 ##### - Return value:
 No return value
@@ -761,7 +761,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxOTE0MDc2MywtNjU3ODA3NDE0LDUzOT
+eyJoaXN0b3J5IjpbMTY2ODQ4NTQwMywtNjU3ODA3NDE0LDUzOT
 IzODk5MCwtMTU0NDU0NTQ0MywtMTYzNzc4Nzk5OSwyMDc3NzM3
 MjY3LC0xMzM1MDg3MDAyLDE5MTQ3ODg2OTEsLTc3NjAzOTAyMS
 wtMTQ4MzI2Njc5MywtMTMwMjQwNTc4Niw5MTMzNzQyODksLTEw
