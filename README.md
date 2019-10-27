@@ -1,5 +1,5 @@
  
-# Flore 1 - ⚙🌸 
+# 🌸 Flore [1](un) 
  The first **python** 2D game engine/graphical library **rendering in the terminal**.
 
 
@@ -823,7 +823,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NTI5NDA0MCwtMTIxNjE5NTQ1NiwtNj
+eyJoaXN0b3J5IjpbMTU2OTAxNjMwNiwtMTIxNjE5NTQ1NiwtNj
 U3ODA3NDE0LDUzOTIzODk5MCwtMTU0NDU0NTQ0MywtMTYzNzc4
 Nzk5OSwyMDc3NzM3MjY3LC0xMzM1MDg3MDAyLDE5MTQ3ODg2OT
 EsLTc3NjAzOTAyMSwtMTQ4MzI2Njc5MywtMTMwMjQwNTc4Niw5
