@@ -860,6 +860,7 @@ No return value
 ---
 ### <a name="engine-new_scene"></a>🧰 new_scene [method](#methods)
 ##### - Description:
+Creates an [Engine.VirtualScene](#engine.virtualscene) instance, af the Engine's [vscenes](#engine.vscenes) property with it, and returns it.
 ##### - Prototype:
 ```python
 def new_scene(self, name, coord_x, coord_y, res_x, res_y, layer_count)
@@ -927,7 +928,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MDI4MzA1MCwtOTAxNzAwNzAsMzg5MT
+eyJoaXN0b3J5IjpbMTAyODIxNjg2MCwtOTAxNzAwNzAsMzg5MT
 Q3NDMzLC0xMTU0NjgwMDQ3LDQ3MjgwMDAxNCw2ODEwMzUyMTAs
 LTE2OTYxMTc0NzAsMTM4MTc3MzY5MiwxNjkwMDQxNDYwLC05NT
 I5MjgzNzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5
