@@ -1,6 +1,7 @@
  
 # 🌸 Flore 1 
  The first **python** 2D game engine/graphical library **rendering in the terminal**.
+ It features the engine itself, along with some utilitary ca
 
 
 **[Quick start](#tuto0)**
@@ -617,6 +618,7 @@ while True:
     Refresh.run()
 ```
 #  <a name="doc"></a> Documentation
+Here you will find detailed explanations for everything you may want to use from this library.
 ## <a name="classes"></a>Classes
  
  - [Flipbook](#flipbook) 
@@ -838,7 +840,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NjMwNTcxMCwxMzgxNzczNjkyLDE2OT
+eyJoaXN0b3J5IjpbMTIxODI5MjI5NywxMzgxNzczNjkyLDE2OT
 AwNDE0NjAsLTk1MjkyODM3OCwtMTIxNjE5NTQ1NiwtNjU3ODA3
 NDE0LDUzOTIzODk5MCwtMTU0NDU0NTQ0MywtMTYzNzc4Nzk5OS
 wyMDc3NzM3MjY3LC0xMzM1MDg3MDAyLDE5MTQ3ODg2OTEsLTc3
