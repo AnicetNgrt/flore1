@@ -642,8 +642,8 @@ The Flipbook class lets you easily animate [TextSprites](#textsprites) by comput
 
 ##### - Description:
 Inits the Flipbook: 
-- Inits its [material](#flipbook.material) property with a tuple of a function called `play` and its arguments. 
-	- The `play` function calls the Flipbook's sprite's [set_asset](#textsprite-set_asset) method in rythm, in order to change the Flipbook's sprite's texture at the rythm of the frame rate goal. 
+- Inits its [material](#flipbook.material) property
+	- Creates the `play` function. See [material](#flipbook.material)  for more details.
 
 ##### - Prototype:
 ```python
@@ -749,11 +749,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM5MjM4OTkwLC0xNTQ0NTQ1NDQzLC0xNj
-M3Nzg3OTk5LDIwNzc3MzcyNjcsLTEzMzUwODcwMDIsMTkxNDc4
-ODY5MSwtNzc2MDM5MDIxLC0xNDgzMjY2NzkzLC0xMzAyNDA1Nz
-g2LDkxMzM3NDI4OSwtMTAxNTkxNjkxNSwtMTc1OTE2MTM3NSw4
-NDkzNDAxNzIsLTMwMTA2Mjk4MSwtMTg5NDg1NTU0OCwtMTM0MT
-QyNDEzMSwtMjEyMjI4MzA3OCwtOTcxOTQzNTY4LC03MDI3Mzkx
-MDQsLTcwMjczOTEwNF19
+eyJoaXN0b3J5IjpbLTEwNDYxMzU0MjAsNTM5MjM4OTkwLC0xNT
+Q0NTQ1NDQzLC0xNjM3Nzg3OTk5LDIwNzc3MzcyNjcsLTEzMzUw
+ODcwMDIsMTkxNDc4ODY5MSwtNzc2MDM5MDIxLC0xNDgzMjY2Nz
+kzLC0xMzAyNDA1Nzg2LDkxMzM3NDI4OSwtMTAxNTkxNjkxNSwt
+MTc1OTE2MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mjk4MSwtMTg5ND
+g1NTU0OCwtMTM0MTQyNDEzMSwtMjEyMjI4MzA3OCwtOTcxOTQz
+NTY4LC03MDI3MzkxMDRdfQ==
 -->
