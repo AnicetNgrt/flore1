@@ -664,11 +664,11 @@ No return value
 | Engine | [Engine](#engine) | None | Engine instance that computes for the creation of the flipbook from its set of pictures
 | Refresh | [Refresh](#refresh) | None| Refresh instance that runs the flipbook 
 | Sprite | [Sprite](#engine.textasset.textsprite) | None| TextSprite instance that has its texture animated by the flipbook 
-| path | string | Path exists| Path to a folder containing all the frames for the animation in lexicographical order. **Relative to the .py file at the origin of the call**
-| size | array of integers |  | [width, height] for the animated sprite 
-| transparent_rgb | tuple of integers || RGB of the transparent color in the flipbook's frames 
-| fps | integer || Frame rate goal for the flipbook in frame per second
-| sync | boolean || Whether the flipbook skips frame if the refresh slows down
+| path | string | Path exists| Path to a folder containing all the frames for the animation in lexicographical order. **Relative to the .py file at the root of the call.**
+| size | array of integers | [ a>0 , b>0 ] | [width, height] for the animated sprite 
+| transparent_rgb | tuple of integers | None | RGB of the transparent color in the flipbook's frames 
+| fps | integer | > 0 | Frame rate goal for the flipbook in frame per second
+| sync | boolean | None | Whether the flipbook skips frame if the refresh slows down
 
 ---
 ### <a name="flipbook-start"></a>🧰 start [method](#methods)
@@ -930,7 +930,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTk2NzAxMSw4OTEyMDk2ODAsLTkwMT
+eyJoaXN0b3J5IjpbMTQyNjkzMjIzNiw4OTEyMDk2ODAsLTkwMT
 cwMDcwLDM4OTE0NzQzMywtMTE1NDY4MDA0Nyw0NzI4MDAwMTQs
 NjgxMDM1MjEwLC0xNjk2MTE3NDcwLDEzODE3NzM2OTIsMTY5MD
 A0MTQ2MCwtOTUyOTI4Mzc4LC0xMjE2MTk1NDU2LC02NTc4MDc0
