@@ -782,7 +782,7 @@ No return value
 ---
 ### <a name="refresh-run"></a> run [method](#methods)
 ##### - Description:
-Calls the [do](#refresh-do) m
+Calls the [do](#refresh-do) method and computes its execution time (the latency caused by it). Then it computes its [i](#refresh.i) attro
 ##### - Prototype:
 ```python
 ```
@@ -836,7 +836,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NTM3MTMxMSwxNjkwMDQxNDYwLC05NT
+eyJoaXN0b3J5IjpbLTkxNTQ1MjM4NywxNjkwMDQxNDYwLC05NT
 I5MjgzNzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5
 OTAsLTE1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3NzczNzI2Ny
 wtMTMzNTA4NzAwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMjEsLTE0
