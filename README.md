@@ -750,17 +750,20 @@ No return value
 ### <a name="refresh-feed"></a> feed [method](#methods)
 ##### - Description:
 Adds a `(function, *args, **kwargs)` tuple to the Refresh's execution [stack](#refresh.stack). 
-In other words, it asks the Refresh to call `function(*args, **kwargs)` every time its [do](#refresh-do) method is called, to add its execution time to the total execution latency, and, only if `function.sync = True` to sync its execution rate with the Refresh's execution latency goal.
+In other words, it asks the Refresh to call `function(*args, **kwargs)` every time its [do](#refresh-do) method is called, to add its execution time to the total execution latency, and, only if `function.sync = True`, to sync its execution rate with the Refresh's execution latency goal.
 ##### - Prototype:
 ```python
-
+def feed(self, function, *args, **kwargs)
 ```
 ##### - Return value:
 
 ##### - Arguments:
 | [ in ] | type | description
 |--|--|--|
-|  |  |
+| self | [Refresh](#refresh) | The Refresh instance which [stack](#refresh.stack) gets the tuple removed from
+| func | function | Function type element of the tuple to remove from the [stack](#refresh.stack)
+| *args | *args | Arguments type element of the tuple to remove from the [stack](#refresh.stack) 
+| **kwargs | **kwargs | Keyworded arguments type element of the tuple to remove from the [stack](#refresh.stack)
 ---
 ### <a name="refresh-do"></a> do [method](#methods)
 ##### - Description:
@@ -820,11 +823,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1Mz
-kyMzg5OTAsLTE1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3Nzcz
-NzI2NywtMTMzNTA4NzAwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMj
-EsLTE0ODMyNjY3OTMsLTEzMDI0MDU3ODYsOTEzMzc0Mjg5LC0x
-MDE1OTE2OTE1LC0xNzU5MTYxMzc1LDg0OTM0MDE3MiwtMzAxMD
-YyOTgxLC0xODk0ODU1NTQ4LC0xMzQxNDI0MTMxLC0yMTIyMjgz
-MDc4LC05NzE5NDM1NjhdfQ==
+eyJoaXN0b3J5IjpbNDk3NDgwMjM0LC0xMjE2MTk1NDU2LC02NT
+c4MDc0MTQsNTM5MjM4OTkwLC0xNTQ0NTQ1NDQzLC0xNjM3Nzg3
+OTk5LDIwNzc3MzcyNjcsLTEzMzUwODcwMDIsMTkxNDc4ODY5MS
+wtNzc2MDM5MDIxLC0xNDgzMjY2NzkzLC0xMzAyNDA1Nzg2LDkx
+MzM3NDI4OSwtMTAxNTkxNjkxNSwtMTc1OTE2MTM3NSw4NDkzND
+AxNzIsLTMwMTA2Mjk4MSwtMTg5NDg1NTU0OCwtMTM0MTQyNDEz
+MSwtMjEyMjI4MzA3OF19
 -->
