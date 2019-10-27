@@ -862,7 +862,8 @@ def new_scene(self, name, coord_x, coord_y, res_x, res_y, layer_count)
 ##### - Arguments:
 | [ in ] | type | description
 |--|--|--|
-
+| name | string | The key of the scene in the [Engine.vscenes](#engine.vscenes) dictionnary
+|  |  |   
 ---
 ### <a name="engine-del_scene"></a>🧰 del_scene [method](#methods)
 ##### - Description:
@@ -920,7 +921,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NTU3ODY4OCwtOTAxNzAwNzAsMzg5MT
+eyJoaXN0b3J5IjpbMTUwOTk3MDQ5NiwtOTAxNzAwNzAsMzg5MT
 Q3NDMzLC0xMTU0NjgwMDQ3LDQ3MjgwMDAxNCw2ODEwMzUyMTAs
 LTE2OTYxMTc0NzAsMTM4MTc3MzY5MiwxNjkwMDQxNDYwLC05NT
 I5MjgzNzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5
