@@ -783,7 +783,7 @@ No return value
 |--|--|--|
 | self | [Refresh](#refresh) | The Refresh instance which [stack](#refresh.stack) is being reviewed
 ---
-### <a name="refresh-run"></a> run [method](#methods)
+### <a name="refresh-run"></a>🧮💿📐🗒📝 run [method](#methods)
 ##### - Description:
 Calls the [do](#refresh-do) method and computes its execution time (the latency caused by it). Then it computes the [Refresh.i](#refresh.i) property function of the latency and the [Refresh.fps](#refresh.fps) property. The point is that this property  always augments at the same speed regardless of the low or high latency. Then [Refresh.frame](#refresh.frame) is 
 ##### - Prototype:
@@ -860,7 +860,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzg4NzQxNyw2ODEwMzUyMTAsLTE2OT
+eyJoaXN0b3J5IjpbMTU3MTUzOTY5OSw2ODEwMzUyMTAsLTE2OT
 YxMTc0NzAsMTM4MTc3MzY5MiwxNjkwMDQxNDYwLC05NTI5Mjgz
 NzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5OTAsLT
 E1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3NzczNzI2NywtMTMz
