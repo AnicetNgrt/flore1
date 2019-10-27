@@ -700,7 +700,7 @@ A tuple composed with `play`: a function which changes the Flipbook's sprite's t
 ## <a name="refresh"></a>Refresh [class](#classes)
 You can "[feed](#refresh-feed)" the Refresh class with a `(function, *args, **kwars)` tuple. It will add it to it's [execution stack](#refresh.stack). Everytime you ask the Refresh to "[do](#refesh-do)" it will call all the `function(*args, **kwargs)` from its stack, compute execution time and wait if the execution time was too fast, or ask all the function that have their attribute `sync` set to `True` in its stack to "skip" frames if it was too slow. Therefore the Refresh class is there for frame stabilisation purposes and speed stabilisation purposes. For more details see the docs on its [methods](#refresh-methods).*
 
-**Note**: I only talk about functions in this class's doc. **Everything also works with methods**, the code adapts to them, it is oversimplification in order to avoid repeating myself.
+**Note**: I only talk about functions in this class's doc. **Everything also works with `(method, *args, **kwargs)` tuples**, the code adapts to them.
 ### <a name="refresh-props"></a>Properties
 - [fps](#refresh.fps)
 - [stack](#refresh.stack)
@@ -742,7 +742,7 @@ No return value
 | [ in ] | type | description
 |--|--|--|
 | self | [Refresh](#refresh) | The Refresh instance which [stack](#refresh.stack) gets the tuple removed from
-| func | function (or method) | Function type element of the tuple to remove from the [stack](#refresh.stack)
+| func | function | Function type element of the tuple to remove from the [stack](#refresh.stack)
 | *args | *args | Arguments type element of the tuple to remove from the [stack](#refresh.stack) 
 | **kwargs | **kwargs | Keyworded arguments type element of the tuple to remove from the [stack](#refresh.stack)
 
@@ -820,11 +820,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MjExNzgwNiwtNjU3ODA3NDE0LDUzOT
-IzODk5MCwtMTU0NDU0NTQ0MywtMTYzNzc4Nzk5OSwyMDc3NzM3
-MjY3LC0xMzM1MDg3MDAyLDE5MTQ3ODg2OTEsLTc3NjAzOTAyMS
-wtMTQ4MzI2Njc5MywtMTMwMjQwNTc4Niw5MTMzNzQyODksLTEw
-MTU5MTY5MTUsLTE3NTkxNjEzNzUsODQ5MzQwMTcyLC0zMDEwNj
-I5ODEsLTE4OTQ4NTU1NDgsLTEzNDE0MjQxMzEsLTIxMjIyODMw
-NzgsLTk3MTk0MzU2OF19
+eyJoaXN0b3J5IjpbLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1Mz
+kyMzg5OTAsLTE1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3Nzcz
+NzI2NywtMTMzNTA4NzAwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMj
+EsLTE0ODMyNjY3OTMsLTEzMDI0MDU3ODYsOTEzMzc0Mjg5LC0x
+MDE1OTE2OTE1LC0xNzU5MTYxMzc1LDg0OTM0MDE3MiwtMzAxMD
+YyOTgxLC0xODk0ODU1NTQ4LC0xMzQxNDI0MTMxLC0yMTIyMjgz
+MDc4LC05NzE5NDM1NjhdfQ==
 -->
