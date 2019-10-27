@@ -657,7 +657,6 @@ No return value
 ##### - Arguments:
 | [ in ] | type  | description |
 |--|--|--|
-| self | [Flipbook](#flipbook) | Flipbook instance just created 
 | Engine | [Engine](#engine) | Engine instance that computes for the creation of the flipbook from its set of pictures
 | Refresh | [Refresh](#refresh) | Refresh instance that runs the flipbook 
 | Sprite | [Sprite](#engine.textasset.textsprite) | TextSprite instance that has its texture animated by the flipbook 
@@ -678,9 +677,8 @@ def start(self)
 ##### - Return value:
 No return value
 ##### - Arguments:
-| [ in ] | type | description
-|--|--|--|
-| self | [Flipbook](#flipbook) | Flipbook instance that starts playing
+None
+
 ---
 ### <a name="flipbook-stop"></a>🧰 stop [method](#methods)
 ##### - Description:
@@ -692,9 +690,8 @@ def stop(self)
 ##### - Return value:
 No return value
 ##### - Arguments:
-| [ in ] | type | description
-|--|--|--|
-| self | [Flipbook](#flipbook) | Flipbook instance that stops playing
+None
+
 ---
 ### <a name="flipbook.material"></a>📌 material [property](#flipbook-props) 
 ##### Description:
@@ -730,7 +727,6 @@ No return value
 ##### - Arguments:
 | [ in ] | type | description
 |--|--|--|
-| self | [Refresh](#refresh) | Refresh instant to initialize
 | fps | integer | Execution rate goal of the Refresh 
 ---
 ### <a name="refresh-terminate"></a>🧰 terminate [method](#methods)
@@ -746,7 +742,6 @@ No return value
 ##### - Arguments:
 | [ in ] | type | description
 |--|--|--|
-| self | [Refresh](#refresh) | The Refresh instance which [stack](#refresh.stack) gets the tuple removed from
 | func | function | Function type element of the tuple to remove from the [stack](#refresh.stack)
 | *args | *args | Arguments type element of the tuple to remove from the [stack](#refresh.stack) 
 | **kwargs | **kwargs | Keyworded arguments type element of the tuple to remove from the [stack](#refresh.stack)
@@ -765,7 +760,6 @@ No return value
 ##### - Arguments:
 | [ in ] | type | description
 |--|--|--|
-| self | [Refresh](#refresh) | The Refresh instance which [stack](#refresh.stack) gets appended with the tuple
 | func | function | Function type element of the tuple to append the [stack](#refresh.stack) with
 | *args | *args | Arguments type element of the tuple to append the [stack](#refresh.stack) with 
 | **kwargs | **kwargs | Keyworded arguments type element of the tuple to append the [stack](#refresh.stack) with
@@ -780,9 +774,8 @@ def do(self)
 ##### - Return value:
 No return value
 ##### - Arguments:
-| [ in ] | type | description
-|--|--|--|
-| self | [Refresh](#refresh) | The Refresh instance which [stack](#refresh.stack) is being reviewed
+No arguments
+
 ---
 ### <a name="refresh-run"></a>🧰 run [method](#methods)
 ##### - Description:
@@ -927,7 +920,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NDM2NTEwNCwtOTAxNzAwNzAsMzg5MT
+eyJoaXN0b3J5IjpbMTI1NTU3ODY4OCwtOTAxNzAwNzAsMzg5MT
 Q3NDMzLC0xMTU0NjgwMDQ3LDQ3MjgwMDAxNCw2ODEwMzUyMTAs
 LTE2OTYxMTc0NzAsMTM4MTc3MzY5MiwxNjkwMDQxNDYwLC05NT
 I5MjgzNzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5
