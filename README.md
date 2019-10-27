@@ -840,7 +840,8 @@ The Engine takes care of everything from rendering to input and sound, but its u
 ### <a name="engine-init"></a>🧰 \_\_init\_\_ [method](#methods)
 ##### - Description:
 - Inits the Engine instance:
-	- Inits its [auto_scale]
+	- Inits its [auto_scale](#engine.auto_scale) property
+	- Inits
 ##### - Prototype:
 ```python
 def __init__(self, auto_scale=False, win_mode=False, logo=False)
@@ -920,11 +921,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTc2MzAxODQsLTExNTQ2ODAwNDcsND
-cyODAwMDE0LDY4MTAzNTIxMCwtMTY5NjExNzQ3MCwxMzgxNzcz
-NjkyLDE2OTAwNDE0NjAsLTk1MjkyODM3OCwtMTIxNjE5NTQ1Ni
-wtNjU3ODA3NDE0LDUzOTIzODk5MCwtMTU0NDU0NTQ0MywtMTYz
-Nzc4Nzk5OSwyMDc3NzM3MjY3LC0xMzM1MDg3MDAyLDE5MTQ3OD
-g2OTEsLTc3NjAzOTAyMSwtMTQ4MzI2Njc5MywtMTMwMjQwNTc4
-Niw5MTMzNzQyODldfQ==
+eyJoaXN0b3J5IjpbMzg5MTQ3NDMzLC0xMTU0NjgwMDQ3LDQ3Mj
+gwMDAxNCw2ODEwMzUyMTAsLTE2OTYxMTc0NzAsMTM4MTc3MzY5
+MiwxNjkwMDQxNDYwLC05NTI5MjgzNzgsLTEyMTYxOTU0NTYsLT
+Y1NzgwNzQxNCw1MzkyMzg5OTAsLTE1NDQ1NDU0NDMsLTE2Mzc3
+ODc5OTksMjA3NzczNzI2NywtMTMzNTA4NzAwMiwxOTE0Nzg4Nj
+kxLC03NzYwMzkwMjEsLTE0ODMyNjY3OTMsLTEzMDI0MDU3ODYs
+OTEzMzc0Mjg5XX0=
 -->
