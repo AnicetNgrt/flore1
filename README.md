@@ -805,7 +805,7 @@ The frame rate goal of the Refresh instance. It is meant to be an integer.
 ---
 ### <a name="refresh.stack"></a> stack [property](#flipbook-props) 
 ##### Description: 
-A list of `(function, *args, **kwargs)` tuple. It lists all the functions that can be called by the Refresh and all their arguments. This depends on whether the function's `.sync` attribute is set to `True` and 
+A list of `(function, *args, **kwargs)` tuple. It lists all the functions that can be called by the Refresh and all their arguments. This depends on whether the function's `.sync` attribute is set to `True` or `False`, and on whether [Refresh.frame](#refresh.frame) has changed.
 
 ---
 ### <a name="refresh.frame"></a> frame [property](#flipbook-props) 
@@ -858,11 +858,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODY1NTM3NjYsLTE2OTYxMTc0NzAsMT
-M4MTc3MzY5MiwxNjkwMDQxNDYwLC05NTI5MjgzNzgsLTEyMTYx
-OTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5OTAsLTE1NDQ1NDU0ND
-MsLTE2Mzc3ODc5OTksMjA3NzczNzI2NywtMTMzNTA4NzAwMiwx
-OTE0Nzg4NjkxLC03NzYwMzkwMjEsLTE0ODMyNjY3OTMsLTEzMD
-I0MDU3ODYsOTEzMzc0Mjg5LC0xMDE1OTE2OTE1LC0xNzU5MTYx
-Mzc1LDg0OTM0MDE3Ml19
+eyJoaXN0b3J5IjpbNjgxMDM1MjEwLC0xNjk2MTE3NDcwLDEzOD
+E3NzM2OTIsMTY5MDA0MTQ2MCwtOTUyOTI4Mzc4LC0xMjE2MTk1
+NDU2LC02NTc4MDc0MTQsNTM5MjM4OTkwLC0xNTQ0NTQ1NDQzLC
+0xNjM3Nzg3OTk5LDIwNzc3MzcyNjcsLTEzMzUwODcwMDIsMTkx
+NDc4ODY5MSwtNzc2MDM5MDIxLC0xNDgzMjY2NzkzLC0xMzAyND
+A1Nzg2LDkxMzM3NDI4OSwtMTAxNTkxNjkxNSwtMTc1OTE2MTM3
+NSw4NDkzNDAxNzJdfQ==
 -->
