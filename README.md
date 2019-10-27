@@ -821,7 +821,7 @@ A float variable that accumulates the frame latency and the frame advance in ord
 
 ---
 ## <a name="engine"></a>📜 Engine [class](#classes)
-The Engine takes care of everyt
+The Engine takes care of everything from rendering to input and sound, but its usage is a bit barebone from time to time. That's why it is not the only flore1 top level class. 
 
 - [\_\_init\_\_](#engine-init) 
 - [new_scene](#engine-new_scene) 
@@ -909,7 +909,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg5NzY3MzU1LDQ3MjgwMDAxNCw2ODEwMz
+eyJoaXN0b3J5IjpbOTU3OTgzMDYzLDQ3MjgwMDAxNCw2ODEwMz
 UyMTAsLTE2OTYxMTc0NzAsMTM4MTc3MzY5MiwxNjkwMDQxNDYw
 LC05NTI5MjgzNzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1Mz
 kyMzg5OTAsLTE1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3Nzcz
