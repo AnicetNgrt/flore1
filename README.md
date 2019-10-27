@@ -622,8 +622,8 @@ while True:
  - [Flipbook](#flipbook)
  - [Refresh](#refresh)
  - [Engine](#engine)
-	 - [Engine.VirtualScene](#engine.virtualscene)
-	 - [Engine.TextAsset](#engine.textasset)
+	 - [Engine.VirtualScene](#engine.virtualscene) *Scene*
+	 - [Engine.TextAsset](#engine.textasset) *Asset*
 		 - [Engine.TextAsset.TextSprite](#engine.textasset.textsprite)
 ## <a name="flipbook"></a>Flipbook [class](#classes)
 
@@ -793,7 +793,7 @@ No return value
 | [ in ] | type | description
 |--|--|--|
 | self | [Refresh](#refresh) | The Refresh instance that is ran
-| debug | boolean | Whether you want the debug header for this metho to show for this
+| debug | boolean | Whether you want the debug header for this method to show on the top left corner
 ---
 ## <a name="engine"></a>Engine [class](#classes)
 
@@ -838,7 +838,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExODEzNzA0LDEzODE3NzM2OTIsMTY5MD
+eyJoaXN0b3J5IjpbNDI5Mzk1MDc4LDEzODE3NzM2OTIsMTY5MD
 A0MTQ2MCwtOTUyOTI4Mzc4LC0xMjE2MTk1NDU2LC02NTc4MDc0
 MTQsNTM5MjM4OTkwLC0xNTQ0NTQ1NDQzLC0xNjM3Nzg3OTk5LD
 IwNzc3MzcyNjcsLTEzMzUwODcwMDIsMTkxNDc4ODY5MSwtNzc2
