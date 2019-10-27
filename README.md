@@ -738,7 +738,9 @@ Remove a specific `(function, *args, **kwargs)` tuple from the Refresh's executi
 | [ in ] | type | description
 |--|--|--|
 | self | [Refresh](#refresh) | The Refresh instance which [stack](#refresh.stack) gets the tuple removed from
-| func | function | Function element of the tuple to remove from the [stack.
+| func | function | Function type element of the tuple to remove from the [stack](#refresh.stack)
+| *args | *args | Arguments type element of the tuple to remove from the [stack](#refresh.stack) 
+| **kwargs | **kwargs | Keyworded arguments type elemen
 
 ---
 ### <a name="refresh-feed"></a> feed [method](#methods)
@@ -811,11 +813,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4Mzc3MTU5LC02NTc4MDc0MTQsNTM5Mj
-M4OTkwLC0xNTQ0NTQ1NDQzLC0xNjM3Nzg3OTk5LDIwNzc3Mzcy
-NjcsLTEzMzUwODcwMDIsMTkxNDc4ODY5MSwtNzc2MDM5MDIxLC
-0xNDgzMjY2NzkzLC0xMzAyNDA1Nzg2LDkxMzM3NDI4OSwtMTAx
-NTkxNjkxNSwtMTc1OTE2MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mj
-k4MSwtMTg5NDg1NTU0OCwtMTM0MTQyNDEzMSwtMjEyMjI4MzA3
-OCwtOTcxOTQzNTY4XX0=
+eyJoaXN0b3J5IjpbLTc5MzIyNTE5MCwtNjU3ODA3NDE0LDUzOT
+IzODk5MCwtMTU0NDU0NTQ0MywtMTYzNzc4Nzk5OSwyMDc3NzM3
+MjY3LC0xMzM1MDg3MDAyLDE5MTQ3ODg2OTEsLTc3NjAzOTAyMS
+wtMTQ4MzI2Njc5MywtMTMwMjQwNTc4Niw5MTMzNzQyODksLTEw
+MTU5MTY5MTUsLTE3NTkxNjEzNzUsODQ5MzQwMTcyLC0zMDEwNj
+I5ODEsLTE4OTQ4NTU1NDgsLTEzNDE0MjQxMzEsLTIxMjIyODMw
+NzgsLTk3MTk0MzU2OF19
 -->
