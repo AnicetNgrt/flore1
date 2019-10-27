@@ -731,7 +731,7 @@ No return value
 ##### - Arguments:
 | [ in ] | type | condition | description
 |--|--|--|--|
-| fps | integer | **> 0** | Execution rate goal of the Refresh 
+| fps | integer | > 0 | Execution rate goal of the Refresh 
 ---
 ### <a name="refresh-terminate"></a>🧰 terminate [method](#methods)
 ##### - Description:
@@ -866,16 +866,17 @@ def new_scene(self, name, coord_x, coord_y, res_x, res_y, layer_count)
 ##### - Arguments:
 | [ in ] | type | condition | description
 |--|--|--|--|
-| name | string | **!= ""** | The key of the scene in the [Engine.vscenes](#engine.vscenes) dictionnary
-| coord_x | integer | **> 0** | The distance of the scene from the terminal's left border in chars
-| coord_y | integer | **> 0** | The distance of the scene frome the terminal's top border in chars  
-| res_x | float | **> 0** | 1/2 of the width of the scene in chars. (multiplied by 2 and then  rounded)
-| res_y | integer | **> 0**| The height of the scene in chars
-| layer_count | integer | **> 0** | The number of layers in the scene, in other words, how many level of superposition the scene tries to manage.
+| name | string | != "" | The key of the scene in the [Engine.vscenes](#engine.vscenes) dictionnary
+| coord_x | integer | > 0 | The distance of the scene from the terminal's left border in chars
+| coord_y | integer | > 0 | The distance of the scene frome the terminal's top border in chars  
+| res_x | float | > 0 | 1/2 of the width of the scene in chars. (multiplied by 2 and then  rounded)
+| res_y | integer | > 0 | The height of the scene in chars
+| layer_count | integer | > 0 | The number of layers in the scene, in other words, how many level of superposition the scene tries to manage.
  
 ---
 ### <a name="engine-del_scene"></a>🧰 del_scene [method](#methods)
 ##### - Description:
+Deletes the entry in [Engine.vscenes]
 ##### - Prototype:
 ```python
 ```
@@ -930,7 +931,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNjkzMjIzNiw4OTEyMDk2ODAsLTkwMT
+eyJoaXN0b3J5IjpbMTc2MTg5MzIwMSw4OTEyMDk2ODAsLTkwMT
 cwMDcwLDM4OTE0NzQzMywtMTE1NDY4MDA0Nyw0NzI4MDAwMTQs
 NjgxMDM1MjEwLC0xNjk2MTE3NDcwLDEzODE3NzM2OTIsMTY5MD
 A0MTQ2MCwtOTUyOTI4Mzc4LC0xMjE2MTk1NDU2LC02NTc4MDc0
