@@ -623,7 +623,7 @@ Here you will find detailed explanations for everything you may want to use from
 
 **Notes**: 
 - With most fonts, 1 char width = 1/2 char height, always keep this in mind. If the docs don't talk about a `width` parameter or a `x` parameter being "1/2 of its true value" or "multiplied by 2" it means your `width` or your `x` may be the half of what you expect.
-- Never give the `self` argument
+- Never give the `self` argument when calling methods.
 ## <a name="classes"></a>Classes
  
  - [Flipbook](#flipbook) 
@@ -929,11 +929,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNDY0MzE4NiwtOTAxNzAwNzAsMzg5MT
-Q3NDMzLC0xMTU0NjgwMDQ3LDQ3MjgwMDAxNCw2ODEwMzUyMTAs
-LTE2OTYxMTc0NzAsMTM4MTc3MzY5MiwxNjkwMDQxNDYwLC05NT
-I5MjgzNzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5
-OTAsLTE1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3NzczNzI2Ny
-wtMTMzNTA4NzAwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMjEsLTE0
-ODMyNjY3OTNdfQ==
+eyJoaXN0b3J5IjpbODkxMjA5NjgwLC05MDE3MDA3MCwzODkxND
+c0MzMsLTExNTQ2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIxMCwt
+MTY5NjExNzQ3MCwxMzgxNzczNjkyLDE2OTAwNDE0NjAsLTk1Mj
+kyODM3OCwtMTIxNjE5NTQ1NiwtNjU3ODA3NDE0LDUzOTIzODk5
+MCwtMTU0NDU0NTQ0MywtMTYzNzc4Nzk5OSwyMDc3NzM3MjY3LC
+0xMzM1MDg3MDAyLDE5MTQ3ODg2OTEsLTc3NjAzOTAyMSwtMTQ4
+MzI2Njc5M119
 -->
