@@ -9,7 +9,7 @@
 **Note**: Thanks a lot for paying attention to my work. 
 My name is Anicet Nougaret, I am a french IT student, and I am doing all of this alone. This project will always remain open source and free.
 Therefore, please consider donating, it will greatly support this project ! 
-\\(●'◡'●)/
+\\(●\^◡\^●)/
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg) ](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=56G94VB5RYGKN&source=url) 
 
 # Table of contents:
@@ -840,11 +840,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNjcxNDQyMCwxMzgxNzczNjkyLDE2OT
-AwNDE0NjAsLTk1MjkyODM3OCwtMTIxNjE5NTQ1NiwtNjU3ODA3
-NDE0LDUzOTIzODk5MCwtMTU0NDU0NTQ0MywtMTYzNzc4Nzk5OS
-wyMDc3NzM3MjY3LC0xMzM1MDg3MDAyLDE5MTQ3ODg2OTEsLTc3
-NjAzOTAyMSwtMTQ4MzI2Njc5MywtMTMwMjQwNTc4Niw5MTMzNz
-QyODksLTEwMTU5MTY5MTUsLTE3NTkxNjEzNzUsODQ5MzQwMTcy
-LC0zMDEwNjI5ODFdfQ==
+eyJoaXN0b3J5IjpbLTE2OTYxMTc0NzAsMTM4MTc3MzY5MiwxNj
+kwMDQxNDYwLC05NTI5MjgzNzgsLTEyMTYxOTU0NTYsLTY1Nzgw
+NzQxNCw1MzkyMzg5OTAsLTE1NDQ1NDU0NDMsLTE2Mzc3ODc5OT
+ksMjA3NzczNzI2NywtMTMzNTA4NzAwMiwxOTE0Nzg4NjkxLC03
+NzYwMzkwMjEsLTE0ODMyNjY3OTMsLTEzMDI0MDU3ODYsOTEzMz
+c0Mjg5LC0xMDE1OTE2OTE1LC0xNzU5MTYxMzc1LDg0OTM0MDE3
+MiwtMzAxMDYyOTgxXX0=
 -->
