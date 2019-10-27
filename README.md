@@ -865,9 +865,9 @@ def new_scene(self, name, coord_x, coord_y, res_x, res_y, layer_count)
 | name | string | The key of the scene in the [Engine.vscenes](#engine.vscenes) dictionnary
 | coord_x | integer | The distance of the scene from the terminal's left border in chars
 | coord_y | integer | The distance of the scene frome the terminal's top border in chars  
-| res_x | float | The 1/2 of the width of the scene in chars. (multiplied by 2 and then  rounded)
+| res_x | float | 1/2 of the width of the scene in chars. (multiplied by 2 and then  rounded)
 | res_y | integer | The height of the scene in chars
-**Note**: With most fonts 1 char width = 1/2 char height, always keep this in mind for `coord_x` and `coord_y`.
+**Note**: With most fonts 1 char width = 1/2 char height, always keep this in mind. If the docs don't talk about a parameter being "1/2" or "multiplied by 2" it means your width may be the half of what y
  
 ---
 ### <a name="engine-del_scene"></a>🧰 del_scene [method](#methods)
@@ -926,11 +926,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDYwNjA4MjQsLTkwMTcwMDcwLDM4OT
-E0NzQzMywtMTE1NDY4MDA0Nyw0NzI4MDAwMTQsNjgxMDM1MjEw
-LC0xNjk2MTE3NDcwLDEzODE3NzM2OTIsMTY5MDA0MTQ2MCwtOT
-UyOTI4Mzc4LC0xMjE2MTk1NDU2LC02NTc4MDc0MTQsNTM5MjM4
-OTkwLC0xNTQ0NTQ1NDQzLC0xNjM3Nzg3OTk5LDIwNzc3MzcyNj
-csLTEzMzUwODcwMDIsMTkxNDc4ODY5MSwtNzc2MDM5MDIxLC0x
-NDgzMjY2NzkzXX0=
+eyJoaXN0b3J5IjpbMTc1NDI4MjM0NiwtOTAxNzAwNzAsMzg5MT
+Q3NDMzLC0xMTU0NjgwMDQ3LDQ3MjgwMDAxNCw2ODEwMzUyMTAs
+LTE2OTYxMTc0NzAsMTM4MTc3MzY5MiwxNjkwMDQxNDYwLC05NT
+I5MjgzNzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5
+OTAsLTE1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3NzczNzI2Ny
+wtMTMzNTA4NzAwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMjEsLTE0
+ODMyNjY3OTNdfQ==
 -->
