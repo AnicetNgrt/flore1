@@ -700,7 +700,8 @@ A tuple composed with `play`: a function which changes the Flipbook's sprite's t
 ## <a name="refresh"></a>Refresh [class](#classes)
 You can "[feed](#refresh-feed)" the Refresh class with a `(function, *args, **kwars)` tuple. It will add it to it's [execution stack](#refresh.stack). Everytime you ask the Refresh to "[do](#refesh-do)" it will call all the `function(*args, **kwargs)` from its stack, compute execution time and wait if the execution time was too fast, or ask all the function that have their attribute `sync` set to `True` in its stack to "skip" frames if it was too slow. Therefore the Refresh class is there for frame stabilisation purposes and speed stabilisation purposes. For more details see the docs on its [methods](#refresh-methods).*
 
-**Note**: I only talk about functions in this class's doc. **Everything also works with `(method, *args, **kwargs)` tuples**, the code adapts to them.
+**Note**: I only talk about functions in this class's doc. **Everything also works with `(method, *args, **kwargs)` tuples**.
+
 ### <a name="refresh-props"></a>Properties
 - [fps](#refresh.fps)
 - [stack](#refresh.stack)
@@ -781,6 +782,7 @@ No return value
 ---
 ### <a name="refresh-run"></a> run [method](#methods)
 ##### - Description:
+Calls the [do](#refresh-do) m
 ##### - Prototype:
 ```python
 ```
@@ -834,11 +836,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTI2NjYzOTQsMTY5MDA0MTQ2MCwtOT
-UyOTI4Mzc4LC0xMjE2MTk1NDU2LC02NTc4MDc0MTQsNTM5MjM4
-OTkwLC0xNTQ0NTQ1NDQzLC0xNjM3Nzg3OTk5LDIwNzc3MzcyNj
-csLTEzMzUwODcwMDIsMTkxNDc4ODY5MSwtNzc2MDM5MDIxLC0x
-NDgzMjY2NzkzLC0xMzAyNDA1Nzg2LDkxMzM3NDI4OSwtMTAxNT
-kxNjkxNSwtMTc1OTE2MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mjk4
-MSwtMTg5NDg1NTU0OF19
+eyJoaXN0b3J5IjpbMTM0NTM3MTMxMSwxNjkwMDQxNDYwLC05NT
+I5MjgzNzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5
+OTAsLTE1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3NzczNzI2Ny
+wtMTMzNTA4NzAwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMjEsLTE0
+ODMyNjY3OTMsLTEzMDI0MDU3ODYsOTEzMzc0Mjg5LC0xMDE1OT
+E2OTE1LC0xNzU5MTYxMzc1LDg0OTM0MDE3MiwtMzAxMDYyOTgx
+LC0xODk0ODU1NTQ4XX0=
 -->
