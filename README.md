@@ -717,7 +717,7 @@ You can "[feed](#refresh-feed)" the Refresh class with a `(function, *args, **kw
 - [do](#refresh-do) 
 - [run](#refresh-run) 
 - ---
-### <a name="refresh-init"></a> \_\_init\_\_ [method](#methods)
+### <a name="refresh-init"></a>🧰 \_\_init\_\_ [method](#methods)
 ##### - Description:
 Inits all the [properties](#refresh-props) of Refresh.
 ##### - Prototype:
@@ -732,7 +732,7 @@ No return value
 | self | [Refresh](#refresh) | Refresh instant to initialize
 | fps | integer | Execution rate goal of the Refresh 
 ---
-### <a name="refresh-terminate"></a> terminate [method](#methods)
+### <a name="refresh-terminate"></a>🧰 terminate [method](#methods)
 ##### - Description:
 Removes a specific `(function, *args, **kwargs)` tuple from the Refresh's execution [stack](#refresh.stack).
 In other words, the Refresh stops calling `function(*args, **kwargs)` when it's [do](#refresh-do) method is called.
@@ -751,7 +751,7 @@ No return value
 | **kwargs | **kwargs | Keyworded arguments type element of the tuple to remove from the [stack](#refresh.stack)
 
 ---
-### <a name="refresh-feed"></a> feed [method](#methods)
+### <a name="refresh-feed"></a>🧰 feed [method](#methods)
 ##### - Description:
 Adds a `(function, *args, **kwargs)` tuple to the Refresh's execution [stack](#refresh.stack). 
 In other words, it asks the Refresh to call `function(*args, **kwargs)` via the [do](#refresh-do) method every time its [run](#refresh-run) method is called, to add its execution time to the total execution latency, and, only if `function.sync = True`, to sync its execution rate with the Refresh's execution latency goal.
@@ -769,7 +769,7 @@ No return value
 | *args | *args | Arguments type element of the tuple to append the [stack](#refresh.stack) with 
 | **kwargs | **kwargs | Keyworded arguments type element of the tuple to append the [stack](#refresh.stack) with
 ---
-### <a name="refresh-do"></a> do [method](#methods)
+### <a name="refresh-do"></a>🧰 do [method](#methods)
 ##### - Description:
 For each `(function, *args, **kwargs)` tuple in the Refresh's [stack](#refresh.stack) it may call `function(*args, **kwargs)` (if `function.sync` is True, it only calls it on frame change). But before, if `function.i` does not exist it sets it to `0`, if `function.sync` does not exist, it sets it to `True`, and if `function.refresh` does not exist, it sets it to `self`.
 ##### - Prototype:
@@ -783,7 +783,7 @@ No return value
 |--|--|--|
 | self | [Refresh](#refresh) | The Refresh instance which [stack](#refresh.stack) is being reviewed
 ---
-### <a name="refresh-run"></a>🧮💿📐🗒📝 run [method](#methods)
+### <a name="refresh-run"></a>🧰 run [method](#methods)
 ##### - Description:
 Calls the [do](#refresh-do) method and computes its execution time (the latency caused by it). Then it computes the [Refresh.i](#refresh.i) property function of the latency and the [Refresh.fps](#refresh.fps) property. The point is that this property  always augments at the same speed regardless of the low or high latency. Then [Refresh.frame](#refresh.frame) is 
 ##### - Prototype:
@@ -860,7 +860,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MTUzOTY5OSw2ODEwMzUyMTAsLTE2OT
+eyJoaXN0b3J5IjpbMTAwMjg3OTcyMyw2ODEwMzUyMTAsLTE2OT
 YxMTc0NzAsMTM4MTc3MzY5MiwxNjkwMDQxNDYwLC05NTI5Mjgz
 NzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5OTAsLT
 E1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3NzczNzI2NywtMTMz
