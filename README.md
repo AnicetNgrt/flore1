@@ -698,7 +698,7 @@ A tuple composed with `play`: a function which changes the Flipbook's sprite's t
 
 
 ## <a name="refresh"></a>Refresh [class](#classes)
-You can "[feed](#refresh-feed)" the Refresh class with a `(function, *args, **kwars)` tuple. It will add it to it's [execution stack](#refresh.stack). Everytime you ask the Refresh to "[do](à" it will call all the `function(*args, **kwargs)` from its stack, compute execution time and wait if the execution time was too fast, or ask all the function that have their attribute `sync` set to `True` in its stack to "skip" frames if it was too slow. Therefore the Refresh class is there for frame stabilisation purposes and speed stabilisation purposes. For more details see the docs on its [methods](#refresh-methods).
+You can "[feed](#refresh-feed)" the Refresh class with a `(function, *args, **kwars)` tuple. It will add it to it's [execution stack](#refresh.stack). Everytime you ask the Refresh to "[do](#refesh-do)" it will call all the `function(*args, **kwargs)` from its stack, compute execution time and wait if the execution time was too fast, or ask all the function that have their attribute `sync` set to `True` in its stack to "skip" frames if it was too slow. Therefore the Refresh class is there for frame stabilisation purposes and speed stabilisation purposes. For more details see the docs on its [methods](#refresh-methods).
 ### <a name="refresh-props"></a>Properties
 - [fps](#refresh.fps)
 - [stack](#refresh.stack)
@@ -710,6 +710,7 @@ You can "[feed](#refresh-feed)" the Refresh class with a `(function, *args, **kw
 - [feed](#refresh-feed) 
 - [do](#refresh-do) 
 - [run](#refresh-run) 
+- ---
 ### <a name="refresh-init"></a> \_\_init\_\_ [method](#methods)
 ##### - Description:
 Inits all the [properties](#refresh-props) of Refresh.
@@ -722,7 +723,7 @@ No return value
 ##### - Arguments:
 | [ in ] | type | description
 |--|--|--|
-| self | [Flipbook](#flipbook) | Flipbook instance that stops playing
+| self | [Refresh](#refresh) | Refresh instant to initi
 ---
 ### <a name="refresh-terminate"></a> terminate [method](#methods)
 ---
@@ -766,11 +767,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTcyMjIwMjgsLTY1NzgwNzQxNCw1Mz
-kyMzg5OTAsLTE1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3Nzcz
-NzI2NywtMTMzNTA4NzAwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMj
-EsLTE0ODMyNjY3OTMsLTEzMDI0MDU3ODYsOTEzMzc0Mjg5LC0x
-MDE1OTE2OTE1LC0xNzU5MTYxMzc1LDg0OTM0MDE3MiwtMzAxMD
-YyOTgxLC0xODk0ODU1NTQ4LC0xMzQxNDI0MTMxLC0yMTIyMjgz
-MDc4LC05NzE5NDM1NjhdfQ==
+eyJoaXN0b3J5IjpbMTU0NTU0MDEyLC02NTc4MDc0MTQsNTM5Mj
+M4OTkwLC0xNTQ0NTQ1NDQzLC0xNjM3Nzg3OTk5LDIwNzc3Mzcy
+NjcsLTEzMzUwODcwMDIsMTkxNDc4ODY5MSwtNzc2MDM5MDIxLC
+0xNDgzMjY2NzkzLC0xMzAyNDA1Nzg2LDkxMzM3NDI4OSwtMTAx
+NTkxNjkxNSwtMTc1OTE2MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mj
+k4MSwtMTg5NDg1NTU0OCwtMTM0MTQyNDEzMSwtMjEyMjI4MzA3
+OCwtOTcxOTQzNTY4XX0=
 -->
