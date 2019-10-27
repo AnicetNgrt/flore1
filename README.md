@@ -782,7 +782,7 @@ No return value
 ---
 ### <a name="refresh-run"></a> run [method](#methods)
 ##### - Description:
-Calls the [do](#refresh-do) method and computes its execution time (the latency caused by it). Then it computes its [i](#refresh.i) attro
+Calls the [do](#refresh-do) method and computes its execution time (the latency caused by it). Then it computes the [Refresh.i](#refresh.i) property function of the latency and the [Refresh.fps](#refresh.fps) property. The point is that this property  always augments at the same speed r
 ##### - Prototype:
 ```python
 ```
@@ -836,11 +836,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNTQ1MjM4NywxNjkwMDQxNDYwLC05NT
-I5MjgzNzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5
-OTAsLTE1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3NzczNzI2Ny
-wtMTMzNTA4NzAwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMjEsLTE0
-ODMyNjY3OTMsLTEzMDI0MDU3ODYsOTEzMzc0Mjg5LC0xMDE1OT
-E2OTE1LC0xNzU5MTYxMzc1LDg0OTM0MDE3MiwtMzAxMDYyOTgx
-LC0xODk0ODU1NTQ4XX0=
+eyJoaXN0b3J5IjpbNzI0MTQ5NDA4LDE2OTAwNDE0NjAsLTk1Mj
+kyODM3OCwtMTIxNjE5NTQ1NiwtNjU3ODA3NDE0LDUzOTIzODk5
+MCwtMTU0NDU0NTQ0MywtMTYzNzc4Nzk5OSwyMDc3NzM3MjY3LC
+0xMzM1MDg3MDAyLDE5MTQ3ODg2OTEsLTc3NjAzOTAyMSwtMTQ4
+MzI2Njc5MywtMTMwMjQwNTc4Niw5MTMzNzQyODksLTEwMTU5MT
+Y5MTUsLTE3NTkxNjEzNzUsODQ5MzQwMTcyLC0zMDEwNjI5ODEs
+LTE4OTQ4NTU1NDhdfQ==
 -->
