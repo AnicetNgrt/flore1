@@ -628,7 +628,7 @@ Here you will find detailed explanations for everything you may want to use from
 	 - [Engine.VirtualScene](#engine.virtualscene) *`Scenes`*
 	 - [Engine.TextAsset](#engine.textasset) *`Assets`*
 		 - [Engine.TextAsset.TextSprite](#engine.textasset.textsprite) *`Sprites`*
-## <a name="flipbook"></a>Flipbook [class](#classes)
+## <a name="flipbook"></a>📜 Flipbook [class](#classes)
 
 
 The Flipbook class lets you easily animate [TextSprites](#textsprites) by computing their texture change rate, function of the Flipbook's [Refresh](#refresh) 's execution rate and the Flipbook frame rate goal. 
@@ -700,7 +700,7 @@ No return value
 A tuple composed with `play`: a function which changes the Flipbook's sprite's texture function of the Flipbook's Refresh and the Flipbook's frame rate goal, and also composed with all of this function's arguments. Feeding a Refresh with `*(Flibook.material)` starts the Flipbook.
 
 
-## <a name="refresh"></a> Refresh [class](#classes)
+## <a name="refresh"></a>📜 Refresh [class](#classes)
 You can "[feed](#refresh-feed)" the Refresh class with a `(function, *args, **kwars)` tuple. It will add it to it's [execution stack](#refresh.stack). Everytime you ask the Refresh to "[do](#refesh-do)" it will call all the `function(*args, **kwargs)` from its stack, compute execution time and wait if the execution time was too fast, or ask all the function that have their attribute `sync` set to `True` in its stack to "skip" frames if it was too slow. Therefore the Refresh class is there for frame stabilisation purposes and speed stabilisation purposes. For more details see the docs on its [methods](#refresh-methods).*
 
 **Note**: I only talk about functions in this class's doc. **Everything also works with `(method, *args, **kwargs)` tuples**.
@@ -798,26 +798,26 @@ No return value
 | self | [Refresh](#refresh) | The Refresh instance that is ran
 | debug | boolean | Whether you want the debug header for this method to show on the top left corner
 ---
-### <a name="refresh.fps"></a> fps [property](#flipbook-props) 
+### <a name="refresh.fps"></a>📌 fps [property](#flipbook-props) 
 ##### Description: 
 The frame rate goal of the Refresh instance. It is meant to be an integer.
 
 ---
-### <a name="refresh.stack"></a> stack [property](#flipbook-props) 
+### <a name="refresh.stack"></a>📌 stack [property](#flipbook-props) 
 ##### Description: 
 A list of `(function, *args, **kwargs)` tuple. It lists all the functions that can be called by the Refresh and all their arguments. This depends on whether the function's `.sync` attribute is set to `True` or `False`, and on whether [Refresh.frame](#refresh.frame) has changed.
 
 ---
-### <a name="refresh.frame"></a> frame [property](#flipbook-props) 
+### <a name="refresh.frame"></a>📌 frame [property](#flipbook-props) 
 ##### Description: 
 The current "frame" (or turn count) of the Refresh. It is equal to the rounded value of [Refresh.i](#refresh.i). When its value changes the synced functions in the [stack](#refresh.stack) get called and their `.i` attribute changes as much as the [Refresh.frame](#refresh.frame) did. 
 
 **Note**: The unsynced functions in the [stack](#refresh.stack) are always called and their `.i` attribute is just incremented by 1 at each call.
 
 ---
-### <a name="refresh.i"></a> i [property](#flipbook-props) 
+### <a name="refresh.i"></a>📌 i [property](#flipbook-props) 
 ##### Description: 
-## <a name="engine"></a>Engine [class](#classes)
+## <a name="engine"></a>📜 Engine [class](#classes)
 
 - [\_\_init\_\_](#engine-init) 
 - [new_scene](#engine-new_scene) 
@@ -860,7 +860,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5ODg3NTg0Miw2ODEwMzUyMTAsLTE2OT
+eyJoaXN0b3J5IjpbMTkwMzg4NzQxNyw2ODEwMzUyMTAsLTE2OT
 YxMTc0NzAsMTM4MTc3MzY5MiwxNjkwMDQxNDYwLC05NTI5Mjgz
 NzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5OTAsLT
 E1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3NzczNzI2NywtMTMz
