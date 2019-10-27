@@ -825,7 +825,10 @@ The Engine takes care of everything from rendering to input and sound, but its u
 It also has subclasses to delimitate its functionnalities:
 ### Subclasses
 -  [VirtualScene](#engine.virtualscene)
--  [TextAsset](#)
+-  [TextAsset](#engine.textasset)
+### <a name="refresh-props"></a>Properties
+-  [vscenes](#engine.vscenes)
+-  [auto_scale]()
 
 ### <a name="refresh-methods"></a>Methods
 
@@ -915,11 +918,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0Njg4ODgxLDQ3MjgwMDAxNCw2ODEwMz
-UyMTAsLTE2OTYxMTc0NzAsMTM4MTc3MzY5MiwxNjkwMDQxNDYw
-LC05NTI5MjgzNzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1Mz
-kyMzg5OTAsLTE1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3Nzcz
-NzI2NywtMTMzNTA4NzAwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMj
-EsLTE0ODMyNjY3OTMsLTEzMDI0MDU3ODYsOTEzMzc0Mjg5LC0x
-MDE1OTE2OTE1XX0=
+eyJoaXN0b3J5IjpbLTYwNTY2NjE5OCw0NzI4MDAwMTQsNjgxMD
+M1MjEwLC0xNjk2MTE3NDcwLDEzODE3NzM2OTIsMTY5MDA0MTQ2
+MCwtOTUyOTI4Mzc4LC0xMjE2MTk1NDU2LC02NTc4MDc0MTQsNT
+M5MjM4OTkwLC0xNTQ0NTQ1NDQzLC0xNjM3Nzg3OTk5LDIwNzc3
+MzcyNjcsLTEzMzUwODcwMDIsMTkxNDc4ODY5MSwtNzc2MDM5MD
+IxLC0xNDgzMjY2NzkzLC0xMzAyNDA1Nzg2LDkxMzM3NDI4OSwt
+MTAxNTkxNjkxNV19
 -->
