@@ -865,7 +865,7 @@ No return value
 def new_scene(self, name, coord_x, coord_y, res_x, res_y, layer_count)
 ```
 ##### - Return value:
-
+[Engine.VirtualScene](#engine.virtualscene): The scene just created.
 ##### - Arguments:
 | [ in ] | type | description
 |--|--|--|
@@ -927,11 +927,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzk0OTA3LC05MDE3MDA3MCwzODkxND
-c0MzMsLTExNTQ2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIxMCwt
-MTY5NjExNzQ3MCwxMzgxNzczNjkyLDE2OTAwNDE0NjAsLTk1Mj
-kyODM3OCwtMTIxNjE5NTQ1NiwtNjU3ODA3NDE0LDUzOTIzODk5
-MCwtMTU0NDU0NTQ0MywtMTYzNzc4Nzk5OSwyMDc3NzM3MjY3LC
-0xMzM1MDg3MDAyLDE5MTQ3ODg2OTEsLTc3NjAzOTAyMSwtMTQ4
-MzI2Njc5M119
+eyJoaXN0b3J5IjpbMTI2MDI4MzA1MCwtOTAxNzAwNzAsMzg5MT
+Q3NDMzLC0xMTU0NjgwMDQ3LDQ3MjgwMDAxNCw2ODEwMzUyMTAs
+LTE2OTYxMTc0NzAsMTM4MTc3MzY5MiwxNjkwMDQxNDYwLC05NT
+I5MjgzNzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5
+OTAsLTE1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3NzczNzI2Ny
+wtMTMzNTA4NzAwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMjEsLTE0
+ODMyNjY3OTNdfQ==
 -->
