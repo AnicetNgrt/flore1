@@ -810,7 +810,7 @@ A list of `(function, *args, **kwargs)` tuple. It lists all the functions that c
 ---
 ### <a name="refresh.frame"></a> frame [property](#flipbook-props) 
 ##### Description: 
-The current "frame" (or turn count) of the Refresh. It is equal to the rounded value of [Refresh.i](#refresh.i). When its value changes the synced functions in the [stack](#refresh.stack) get called. The uns
+The current "frame" (or turn count) of the Refresh. It is equal to the rounded value of [Refresh.i](#refresh.i). When its value changes the synced functions in the [stack](#refresh.stack) get called and their . The unsynced ones are always called and their `.i` attribute is just increment 
 
 ---
 ## <a name="engine"></a>Engine [class](#classes)
@@ -856,11 +856,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0NjI3NzgsLTE2OTYxMTc0NzAsMTM4MT
-c3MzY5MiwxNjkwMDQxNDYwLC05NTI5MjgzNzgsLTEyMTYxOTU0
-NTYsLTY1NzgwNzQxNCw1MzkyMzg5OTAsLTE1NDQ1NDU0NDMsLT
-E2Mzc3ODc5OTksMjA3NzczNzI2NywtMTMzNTA4NzAwMiwxOTE0
-Nzg4NjkxLC03NzYwMzkwMjEsLTE0ODMyNjY3OTMsLTEzMDI0MD
-U3ODYsOTEzMzc0Mjg5LC0xMDE1OTE2OTE1LC0xNzU5MTYxMzc1
-LDg0OTM0MDE3Ml19
+eyJoaXN0b3J5IjpbLTIxNTE0MTY5NiwtMTY5NjExNzQ3MCwxMz
+gxNzczNjkyLDE2OTAwNDE0NjAsLTk1MjkyODM3OCwtMTIxNjE5
+NTQ1NiwtNjU3ODA3NDE0LDUzOTIzODk5MCwtMTU0NDU0NTQ0My
+wtMTYzNzc4Nzk5OSwyMDc3NzM3MjY3LC0xMzM1MDg3MDAyLDE5
+MTQ3ODg2OTEsLTc3NjAzOTAyMSwtMTQ4MzI2Njc5MywtMTMwMj
+QwNTc4Niw5MTMzNzQyODksLTEwMTU5MTY5MTUsLTE3NTkxNjEz
+NzUsODQ5MzQwMTcyXX0=
 -->
