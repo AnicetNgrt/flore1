@@ -474,7 +474,7 @@ Scene.show()
 time.sleep(30)
 ```
 ## <a name="tuto4"></a> Flipbooks: Display a gif on the terminal as an animated text sprite
-#### Disclaimer: featuring free to use assets by [](#http://untiedgames.com)
+***Disclaimer: featuring free to use assets by [Will Tice](#https://www.patreon.com/bePatron?c=165655&rid=201537)***
 ### 🧭 What we will do:
 
 ![60fps flavour](https://imgur.com/Xo6XNs1.gif)
@@ -798,6 +798,7 @@ No return value
 | self | [Refresh](#refresh) | The Refresh instance that is ran
 | debug | boolean | Whether you want the debug header for this method to show on the top left corner
 ---
+
 ## <a name="engine"></a>Engine [class](#classes)
 
 - [\_\_init\_\_](#engine-init) 
@@ -841,11 +842,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NTk0MTcwNSwtMTY5NjExNzQ3MCwxMz
-gxNzczNjkyLDE2OTAwNDE0NjAsLTk1MjkyODM3OCwtMTIxNjE5
-NTQ1NiwtNjU3ODA3NDE0LDUzOTIzODk5MCwtMTU0NDU0NTQ0My
-wtMTYzNzc4Nzk5OSwyMDc3NzM3MjY3LC0xMzM1MDg3MDAyLDE5
-MTQ3ODg2OTEsLTc3NjAzOTAyMSwtMTQ4MzI2Njc5MywtMTMwMj
-QwNTc4Niw5MTMzNzQyODksLTEwMTU5MTY5MTUsLTE3NTkxNjEz
-NzUsODQ5MzQwMTcyXX0=
+eyJoaXN0b3J5IjpbLTExNjE0MjQ4MDAsLTE2OTYxMTc0NzAsMT
+M4MTc3MzY5MiwxNjkwMDQxNDYwLC05NTI5MjgzNzgsLTEyMTYx
+OTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5OTAsLTE1NDQ1NDU0ND
+MsLTE2Mzc3ODc5OTksMjA3NzczNzI2NywtMTMzNTA4NzAwMiwx
+OTE0Nzg4NjkxLC03NzYwMzkwMjEsLTE0ODMyNjY3OTMsLTEzMD
+I0MDU3ODYsOTEzMzc0Mjg5LC0xMDE1OTE2OTE1LC0xNzU5MTYx
+Mzc1LDg0OTM0MDE3Ml19
 -->
