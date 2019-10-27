@@ -750,7 +750,7 @@ No return value
 ### <a name="refresh-feed"></a> feed [method](#methods)
 ##### - Description:
 Adds a `(function, *args, **kwargs)` tuple to the Refresh's execution [stack](#refresh.stack). 
-In other words, it asks the Refresh to call `function(*args, **kwargs)` every time its [run](#refresh-run) method is called, to add its execution time to the total execution latency, and, only if `function.sync = True`, to sync its execution rate with the Refresh's execution latency goal.
+In other words, it asks the Refresh to call `function(*args, **kwargs)` via the [do](#refresh-do) method every time its [run](#refresh-run) method is called, to add its execution time to the total execution latency, and, only if `function.sync = True`, to sync its execution rate with the Refresh's execution latency goal.
 ##### - Prototype:
 ```python
 def feed(self, function, *args, **kwargs)
@@ -767,7 +767,7 @@ No return value
 ---
 ### <a name="refresh-do"></a> do [method](#methods)
 ##### - Description:
-For each ``
+For each `(function, *args, **kwargs)` tuple in the Refresh's [stack](#refresh.stack) it inits 
 ##### - Prototype:
 ```python
 ```
@@ -824,11 +824,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDI3MDcyNzgsMTY5MDA0MTQ2MCwtOT
-UyOTI4Mzc4LC0xMjE2MTk1NDU2LC02NTc4MDc0MTQsNTM5MjM4
-OTkwLC0xNTQ0NTQ1NDQzLC0xNjM3Nzg3OTk5LDIwNzc3MzcyNj
-csLTEzMzUwODcwMDIsMTkxNDc4ODY5MSwtNzc2MDM5MDIxLC0x
-NDgzMjY2NzkzLC0xMzAyNDA1Nzg2LDkxMzM3NDI4OSwtMTAxNT
-kxNjkxNSwtMTc1OTE2MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mjk4
-MSwtMTg5NDg1NTU0OF19
+eyJoaXN0b3J5IjpbNTc3MjUxOTAxLDE2OTAwNDE0NjAsLTk1Mj
+kyODM3OCwtMTIxNjE5NTQ1NiwtNjU3ODA3NDE0LDUzOTIzODk5
+MCwtMTU0NDU0NTQ0MywtMTYzNzc4Nzk5OSwyMDc3NzM3MjY3LC
+0xMzM1MDg3MDAyLDE5MTQ3ODg2OTEsLTc3NjAzOTAyMSwtMTQ4
+MzI2Njc5MywtMTMwMjQwNTc4Niw5MTMzNzQyODksLTEwMTU5MT
+Y5MTUsLTE3NTkxNjEzNzUsODQ5MzQwMTcyLC0zMDEwNjI5ODEs
+LTE4OTQ4NTU1NDhdfQ==
 -->
