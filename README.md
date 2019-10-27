@@ -748,9 +748,10 @@ No return value
 ### <a name="refresh-feed"></a> feed [method](#methods)
 ##### - Description:
 Adds a `(function, *args, **kwargs)` tuple to the Refresh's execution [stack](#refresh.stack). 
-In other words, it asks the Refresh to call `function(*args, **kwargs)` every time it's [do](#refresh-do) method is called, to add its execution time to the total execution time, and, only if . 
+In other words, it asks the Refresh to call `function(*args, **kwargs)` every time its [do](#refresh-do) method is called, to add its execution time to the total execution latency, and, only if `sync = True` to sync its execution rate with the Refresh's execution latency goal.   
 ##### - Prototype:
 ```python
+
 ```
 ##### - Return value:
 
@@ -817,7 +818,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTgwODc5ODIsLTY1NzgwNzQxNCw1Mz
+eyJoaXN0b3J5IjpbLTE5NzU4NDAyMzEsLTY1NzgwNzQxNCw1Mz
 kyMzg5OTAsLTE1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3Nzcz
 NzI2NywtMTMzNTA4NzAwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMj
 EsLTE0ODMyNjY3OTMsLTEzMDI0MDU3ODYsOTEzMzc0Mjg5LC0x
