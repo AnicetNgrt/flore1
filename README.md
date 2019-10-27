@@ -699,6 +699,11 @@ A tuple composed with `play`: a function which changes the Flipbook's sprite's t
 
 ## <a name="refresh"></a>Refresh [class](#classes)
 You can "feed" the Refresh class with a `(function, *args, **kwars)` tuple. It will add it to it's execution stack. Everytime you ask the Refresh to "do" it will call all the `function(*args, **kwargs)` from its stack, compute execution time and wait if the execution time was too fast, or ask all the function that have their attribute `sync` set to `True` in its stack to "skip" frames if it was too slow. Therefore the Refresh class is there for frame stabilisation purposes and speed stabilisation purposes. For more details see the docs on its [methods](#refresh-methods).
+### <a name="refresh-props"></a>Public properties
+- [fps](#refresh.fps)
+- [i](#refresh.i)
+-
+-
 ### <a name="refresh-methods"></a>Methods
 - [\_\_init\_\_](#refresh-init) 
 - [terminate](#refresh-terminate) 
@@ -707,7 +712,7 @@ You can "feed" the Refresh class with a `(function, *args, **kwars)` tuple. It w
 - [run](#refresh-run) 
 ### <a name="refresh-init"></a> \_\_init\_\_ [method](#methods)
 ##### - Description:
-Inits all the [properties](#refre) of Refresh.
+Inits all the [properties](#refresh-props) of Refresh.
 ##### - Prototype:
 ```python
 def __init__(self, fps=35)
@@ -761,11 +766,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2ODQ4NTQwMywtNjU3ODA3NDE0LDUzOT
-IzODk5MCwtMTU0NDU0NTQ0MywtMTYzNzc4Nzk5OSwyMDc3NzM3
-MjY3LC0xMzM1MDg3MDAyLDE5MTQ3ODg2OTEsLTc3NjAzOTAyMS
-wtMTQ4MzI2Njc5MywtMTMwMjQwNTc4Niw5MTMzNzQyODksLTEw
-MTU5MTY5MTUsLTE3NTkxNjEzNzUsODQ5MzQwMTcyLC0zMDEwNj
-I5ODEsLTE4OTQ4NTU1NDgsLTEzNDE0MjQxMzEsLTIxMjIyODMw
-NzgsLTk3MTk0MzU2OF19
+eyJoaXN0b3J5IjpbNzQzMTgwMDM5LC02NTc4MDc0MTQsNTM5Mj
+M4OTkwLC0xNTQ0NTQ1NDQzLC0xNjM3Nzg3OTk5LDIwNzc3Mzcy
+NjcsLTEzMzUwODcwMDIsMTkxNDc4ODY5MSwtNzc2MDM5MDIxLC
+0xNDgzMjY2NzkzLC0xMzAyNDA1Nzg2LDkxMzM3NDI4OSwtMTAx
+NTkxNjkxNSwtMTc1OTE2MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mj
+k4MSwtMTg5NDg1NTU0OCwtMTM0MTQyNDEzMSwtMjEyMjI4MzA3
+OCwtOTcxOTQzNTY4XX0=
 -->
