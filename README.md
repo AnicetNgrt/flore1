@@ -816,18 +816,18 @@ No return value
 [->method](#methods)
 
 # <a name="thanks"></a>Thanks for reading !
-Your h for this project over on reddit.com, or 
+Your interest and enthusiasm for this project over on reddit.com and on github.com is really what motivates me !
  
 # <a name="license"></a>License
 This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU2MTAxNTgzLC0xMjE2MTk1NDU2LC02NT
-c4MDc0MTQsNTM5MjM4OTkwLC0xNTQ0NTQ1NDQzLC0xNjM3Nzg3
-OTk5LDIwNzc3MzcyNjcsLTEzMzUwODcwMDIsMTkxNDc4ODY5MS
-wtNzc2MDM5MDIxLC0xNDgzMjY2NzkzLC0xMzAyNDA1Nzg2LDkx
-MzM3NDI4OSwtMTAxNTkxNjkxNSwtMTc1OTE2MTM3NSw4NDkzND
-AxNzIsLTMwMTA2Mjk4MSwtMTg5NDg1NTU0OCwtMTM0MTQyNDEz
-MSwtMjEyMjI4MzA3OF19
+eyJoaXN0b3J5IjpbMTQzMTE3MzQ2MiwtMTIxNjE5NTQ1NiwtNj
+U3ODA3NDE0LDUzOTIzODk5MCwtMTU0NDU0NTQ0MywtMTYzNzc4
+Nzk5OSwyMDc3NzM3MjY3LC0xMzM1MDg3MDAyLDE5MTQ3ODg2OT
+EsLTc3NjAzOTAyMSwtMTQ4MzI2Njc5MywtMTMwMjQwNTc4Niw5
+MTMzNzQyODksLTEwMTU5MTY5MTUsLTE3NTkxNjEzNzUsODQ5Mz
+QwMTcyLC0zMDEwNjI5ODEsLTE4OTQ4NTU1NDgsLTEzNDE0MjQx
+MzEsLTIxMjIyODMwNzhdfQ==
 -->
