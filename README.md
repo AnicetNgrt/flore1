@@ -666,6 +666,10 @@ No return value
 | transparent_rgb | tuple of integers | RGB of the transparent color in the flipbook's frames 
 | fps | integer | Frame rate goal for the flipbook in frame per second
 | sync | boolean | Whether the flipbook skips frame if the refresh slows down
+##### - Exemple:
+```python
+my_flipbook = flore1.Flipbook(Engine, )
+```
 ---
 ### <a name="flipbook-start"></a>🧰 start [method](#methods)
 ##### - Description:
@@ -925,11 +929,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTgyMzk5NjQsMzg5MTQ3NDMzLC0xMT
-U0NjgwMDQ3LDQ3MjgwMDAxNCw2ODEwMzUyMTAsLTE2OTYxMTc0
-NzAsMTM4MTc3MzY5MiwxNjkwMDQxNDYwLC05NTI5MjgzNzgsLT
-EyMTYxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5OTAsLTE1NDQ1
-NDU0NDMsLTE2Mzc3ODc5OTksMjA3NzczNzI2NywtMTMzNTA4Nz
-AwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMjEsLTE0ODMyNjY3OTMs
-LTEzMDI0MDU3ODZdfQ==
+eyJoaXN0b3J5IjpbLTcxOTczODc2MCwzODkxNDc0MzMsLTExNT
+Q2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIxMCwtMTY5NjExNzQ3
+MCwxMzgxNzczNjkyLDE2OTAwNDE0NjAsLTk1MjkyODM3OCwtMT
+IxNjE5NTQ1NiwtNjU3ODA3NDE0LDUzOTIzODk5MCwtMTU0NDU0
+NTQ0MywtMTYzNzc4Nzk5OSwyMDc3NzM3MjY3LC0xMzM1MDg3MD
+AyLDE5MTQ3ODg2OTEsLTc3NjAzOTAyMSwtMTQ4MzI2Njc5Mywt
+MTMwMjQwNTc4Nl19
 -->
