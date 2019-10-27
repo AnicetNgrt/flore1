@@ -748,7 +748,7 @@ No return value
 ### <a name="refresh-feed"></a> feed [method](#methods)
 ##### - Description:
 Adds a `(function, *args, **kwargs)` tuple to the Refresh's execution [stack](#refresh.stack). 
-In other words, it asks the Refresh to call `function(*args, **kwargs)` every time it's [do](#refresh-do) method is called. 
+In other words, it asks the Refresh to call `function(*args, **kwargs)` every time it's [do](#refresh-do) method is called, to add its execution time to the total execution time, and, only if . 
 ##### - Prototype:
 ```python
 ```
@@ -817,11 +817,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNDIzNTIxOCwtNjU3ODA3NDE0LDUzOT
-IzODk5MCwtMTU0NDU0NTQ0MywtMTYzNzc4Nzk5OSwyMDc3NzM3
-MjY3LC0xMzM1MDg3MDAyLDE5MTQ3ODg2OTEsLTc3NjAzOTAyMS
-wtMTQ4MzI2Njc5MywtMTMwMjQwNTc4Niw5MTMzNzQyODksLTEw
-MTU5MTY5MTUsLTE3NTkxNjEzNzUsODQ5MzQwMTcyLC0zMDEwNj
-I5ODEsLTE4OTQ4NTU1NDgsLTEzNDE0MjQxMzEsLTIxMjIyODMw
-NzgsLTk3MTk0MzU2OF19
+eyJoaXN0b3J5IjpbLTE0NTgwODc5ODIsLTY1NzgwNzQxNCw1Mz
+kyMzg5OTAsLTE1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3Nzcz
+NzI2NywtMTMzNTA4NzAwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMj
+EsLTE0ODMyNjY3OTMsLTEzMDI0MDU3ODYsOTEzMzc0Mjg5LC0x
+MDE1OTE2OTE1LC0xNzU5MTYxMzc1LDg0OTM0MDE3MiwtMzAxMD
+YyOTgxLC0xODk0ODU1NTQ4LC0xMzQxNDI0MTMxLC0yMTIyMjgz
+MDc4LC05NzE5NDM1NjhdfQ==
 -->
