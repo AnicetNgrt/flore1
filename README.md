@@ -822,13 +822,12 @@ A float variable that accumulates the frame latency and the frame advance in ord
 ---
 ## <a name="engine"></a>📜 Engine [class](#classes)
 The Engine takes care of everything from rendering to input and sound, but its usage is a bit barebone from time to time. That's why it is not the only flore1 top level class. 
-It also has subclasses to delimitate its functionnalities:
 ### Subclasses
 -  [VirtualScene](#engine.virtualscene)
 -  [TextAsset](#engine.textasset)
 ### <a name="refresh-props"></a>Properties
 -  [vscenes](#engine.vscenes)
--  [auto_scale]()
+-  [auto_scale](#engine.auto_scale)
 
 ### <a name="refresh-methods"></a>Methods
 
@@ -918,11 +917,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNTY2NjE5OCw0NzI4MDAwMTQsNjgxMD
-M1MjEwLC0xNjk2MTE3NDcwLDEzODE3NzM2OTIsMTY5MDA0MTQ2
-MCwtOTUyOTI4Mzc4LC0xMjE2MTk1NDU2LC02NTc4MDc0MTQsNT
-M5MjM4OTkwLC0xNTQ0NTQ1NDQzLC0xNjM3Nzg3OTk5LDIwNzc3
-MzcyNjcsLTEzMzUwODcwMDIsMTkxNDc4ODY5MSwtNzc2MDM5MD
-IxLC0xNDgzMjY2NzkzLC0xMzAyNDA1Nzg2LDkxMzM3NDI4OSwt
-MTAxNTkxNjkxNV19
+eyJoaXN0b3J5IjpbLTExNTQ2ODAwNDcsNDcyODAwMDE0LDY4MT
+AzNTIxMCwtMTY5NjExNzQ3MCwxMzgxNzczNjkyLDE2OTAwNDE0
+NjAsLTk1MjkyODM3OCwtMTIxNjE5NTQ1NiwtNjU3ODA3NDE0LD
+UzOTIzODk5MCwtMTU0NDU0NTQ0MywtMTYzNzc4Nzk5OSwyMDc3
+NzM3MjY3LC0xMzM1MDg3MDAyLDE5MTQ3ODg2OTEsLTc3NjAzOT
+AyMSwtMTQ4MzI2Njc5MywtMTMwMjQwNTc4Niw5MTMzNzQyODks
+LTEwMTU5MTY5MTVdfQ==
 -->
