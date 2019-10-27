@@ -876,16 +876,17 @@ def new_scene(self, name, coord_x, coord_y, res_x, res_y, layer_count)
 ---
 ### <a name="engine-del_scene"></a>🧰 del_scene [method](#methods)
 ##### - Description:
-Deletes the entry in [Engine.vscenes]
+Deletes an entry in [Engine.vscenes](#engine.vscenes).
 ##### - Prototype:
 ```python
+def del_scene(self, name)
 ```
 ##### - Return value:
-
+No return value
 ##### - Arguments:
-| [ in ] | type | description
-|--|--|--|
-|  |  |
+| [ in ] | type | condition | description
+|--|--|--|--|
+| name | string | != "" | The key of the entry to delete.
 ---
 ### <a name="engine-new_sprite"></a>🧰 new_sprite [method](#methods)
 ##### - Description:
@@ -931,7 +932,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MTg5MzIwMSw4OTEyMDk2ODAsLTkwMT
+eyJoaXN0b3J5IjpbLTk3OTU4NjA0MCw4OTEyMDk2ODAsLTkwMT
 cwMDcwLDM4OTE0NzQzMywtMTE1NDY4MDA0Nyw0NzI4MDAwMTQs
 NjgxMDM1MjEwLC0xNjk2MTE3NDcwLDEzODE3NzM2OTIsMTY5MD
 A0MTQ2MCwtOTUyOTI4Mzc4LC0xMjE2MTk1NDU2LC02NTc4MDc0
