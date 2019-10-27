@@ -650,7 +650,7 @@ Inits the Flipbook:
 
 ##### - Prototype:
 ```python
-def __init__(self, Engine, Refresh, Sprite, path="", size=[32, 32], transparent_rgb=(-1, -1, -1), fps=24, sync="True")
+def __init__(self, Engine, Refresh, Sprite, path="", size=[32, 32], transparent_rgb=(-1, -1, -1), fps=24, sync=True)
 ```
 ##### - Return value:
 No return value
@@ -666,17 +666,7 @@ No return value
 | transparent_rgb | tuple of integers | RGB of the transparent color in the flipbook's frames 
 | fps | integer | Frame rate goal for the flipbook in frame per second
 | sync | boolean | Whether the flipbook skips frame if the refresh slows down
-##### - Exemple:
-```python
-my_flipbook = flore1.Flipbook(
-	Engine, 
-	Refresh, 
-	empty_sprite,
-	path="./super_folder/",
-	size=[32,32],
-	transparent_rgb=(0, 0,0)
-	)
-```
+
 ---
 ### <a name="flipbook-start"></a>🧰 start [method](#methods)
 ##### - Description:
@@ -936,11 +926,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MzAyNzE3MCwzODkxNDc0MzMsLTExNT
-Q2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIxMCwtMTY5NjExNzQ3
-MCwxMzgxNzczNjkyLDE2OTAwNDE0NjAsLTk1MjkyODM3OCwtMT
-IxNjE5NTQ1NiwtNjU3ODA3NDE0LDUzOTIzODk5MCwtMTU0NDU0
-NTQ0MywtMTYzNzc4Nzk5OSwyMDc3NzM3MjY3LC0xMzM1MDg3MD
-AyLDE5MTQ3ODg2OTEsLTc3NjAzOTAyMSwtMTQ4MzI2Njc5Mywt
-MTMwMjQwNTc4Nl19
+eyJoaXN0b3J5IjpbLTkwMTcwMDcwLDM4OTE0NzQzMywtMTE1ND
+Y4MDA0Nyw0NzI4MDAwMTQsNjgxMDM1MjEwLC0xNjk2MTE3NDcw
+LDEzODE3NzM2OTIsMTY5MDA0MTQ2MCwtOTUyOTI4Mzc4LC0xMj
+E2MTk1NDU2LC02NTc4MDc0MTQsNTM5MjM4OTkwLC0xNTQ0NTQ1
+NDQzLC0xNjM3Nzg3OTk5LDIwNzc3MzcyNjcsLTEzMzUwODcwMD
+IsMTkxNDc4ODY5MSwtNzc2MDM5MDIxLC0xNDgzMjY2NzkzLC0x
+MzAyNDA1Nzg2XX0=
 -->
