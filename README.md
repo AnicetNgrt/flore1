@@ -732,9 +732,10 @@ Removes a specific `(function, *args, **kwargs)` tuple from the Refresh's execut
 In other words, the Refresh stops calling `function(*args, **kwargs)` when it's [do](#refresh-do) method is called.
 ##### - Prototype:
 ```python
+def terminate(self, func, *args, **kwargs)
 ```
 ##### - Return value:
-
+No return value
 ##### - Arguments:
 | [ in ] | type | description
 |--|--|--|
@@ -746,6 +747,7 @@ In other words, the Refresh stops calling `function(*args, **kwargs)` when it's 
 ---
 ### <a name="refresh-feed"></a> feed [method](#methods)
 ##### - Description:
+Adds a `(function, *args, **kwargs)` tuple to the Refresh's execution [stack]
 ##### - Prototype:
 ```python
 ```
@@ -814,7 +816,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NzMwNTk2NSwtNjU3ODA3NDE0LDUzOT
+eyJoaXN0b3J5IjpbLTQzNzA2NDQwNSwtNjU3ODA3NDE0LDUzOT
 IzODk5MCwtMTU0NDU0NTQ0MywtMTYzNzc4Nzk5OSwyMDc3NzM3
 MjY3LC0xMzM1MDg3MDAyLDE5MTQ3ODg2OTEsLTc3NjAzOTAyMS
 wtMTQ4MzI2Njc5MywtMTMwMjQwNTc4Niw5MTMzNzQyODksLTEw
