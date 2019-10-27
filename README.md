@@ -767,7 +767,7 @@ No return value
 ---
 ### <a name="refresh-do"></a> do [method](#methods)
 ##### - Description:
-For each `(function, *args, **kwargs)` tuple in the Refresh's [stack](#refresh.stack) it may call `function(*args, **kwargs)` (d)
+For each `(function, *args, **kwargs)` tuple in the Refresh's [stack](#refresh.stack) it may call `function(*args, **kwargs)` (if `function.sync` is True, it only calls it on frame change). If `function.i` does not exist it sets it to `0`, if `function.sync` does no
 ##### - Prototype:
 ```python
 ```
@@ -824,11 +824,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTczOTE4ODcsMTY5MDA0MTQ2MCwtOT
-UyOTI4Mzc4LC0xMjE2MTk1NDU2LC02NTc4MDc0MTQsNTM5MjM4
-OTkwLC0xNTQ0NTQ1NDQzLC0xNjM3Nzg3OTk5LDIwNzc3MzcyNj
-csLTEzMzUwODcwMDIsMTkxNDc4ODY5MSwtNzc2MDM5MDIxLC0x
-NDgzMjY2NzkzLC0xMzAyNDA1Nzg2LDkxMzM3NDI4OSwtMTAxNT
-kxNjkxNSwtMTc1OTE2MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mjk4
-MSwtMTg5NDg1NTU0OF19
+eyJoaXN0b3J5IjpbMTY4MjAwMTcwMSwxNjkwMDQxNDYwLC05NT
+I5MjgzNzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5
+OTAsLTE1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3NzczNzI2Ny
+wtMTMzNTA4NzAwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMjEsLTE0
+ODMyNjY3OTMsLTEzMDI0MDU3ODYsOTEzMzc0Mjg5LC0xMDE1OT
+E2OTE1LC0xNzU5MTYxMzc1LDg0OTM0MDE3MiwtMzAxMDYyOTgx
+LC0xODk0ODU1NTQ4XX0=
 -->
