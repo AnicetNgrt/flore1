@@ -756,14 +756,14 @@ In other words, it asks the Refresh to call `function(*args, **kwargs)` every ti
 def feed(self, function, *args, **kwargs)
 ```
 ##### - Return value:
-
+No return value
 ##### - Arguments:
 | [ in ] | type | description
 |--|--|--|
-| self | [Refresh](#refresh) | The Refresh instance which [stack](#refresh.stack) gets the tuple removed from
-| func | function | Function type element of the tuple to remove from the [stack](#refresh.stack)
-| *args | *args | Arguments type element of the tuple to remove from the [stack](#refresh.stack) 
-| **kwargs | **kwargs | Keyworded arguments type element of the tuple to remove from the [stack](#refresh.stack)
+| self | [Refresh](#refresh) | The Refresh instance which [stack](#refresh.stack) gets appended with the tuple
+| func | function | Function type element of the tuple to append the [stack](#refresh.stack) with
+| *args | *args | Arguments type element of the tuple to append the [stack](#refresh.stack) with 
+| **kwargs | **kwargs | Keyworded arguments type element of the tuple to append the [stack](#refresh.stack) with
 ---
 ### <a name="refresh-do"></a> do [method](#methods)
 ##### - Description:
@@ -823,11 +823,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk3NDgwMjM0LC0xMjE2MTk1NDU2LC02NT
-c4MDc0MTQsNTM5MjM4OTkwLC0xNTQ0NTQ1NDQzLC0xNjM3Nzg3
-OTk5LDIwNzc3MzcyNjcsLTEzMzUwODcwMDIsMTkxNDc4ODY5MS
-wtNzc2MDM5MDIxLC0xNDgzMjY2NzkzLC0xMzAyNDA1Nzg2LDkx
-MzM3NDI4OSwtMTAxNTkxNjkxNSwtMTc1OTE2MTM3NSw4NDkzND
-AxNzIsLTMwMTA2Mjk4MSwtMTg5NDg1NTU0OCwtMTM0MTQyNDEz
-MSwtMjEyMjI4MzA3OF19
+eyJoaXN0b3J5IjpbMTU2NjU4MzU1MywtMTIxNjE5NTQ1NiwtNj
+U3ODA3NDE0LDUzOTIzODk5MCwtMTU0NDU0NTQ0MywtMTYzNzc4
+Nzk5OSwyMDc3NzM3MjY3LC0xMzM1MDg3MDAyLDE5MTQ3ODg2OT
+EsLTc3NjAzOTAyMSwtMTQ4MzI2Njc5MywtMTMwMjQwNTc4Niw5
+MTMzNzQyODksLTEwMTU5MTY5MTUsLTE3NTkxNjEzNzUsODQ5Mz
+QwMTcyLC0zMDEwNjI5ODEsLTE4OTQ4NTU1NDgsLTEzNDE0MjQx
+MzEsLTIxMjIyODMwNzhdfQ==
 -->
