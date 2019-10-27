@@ -777,7 +777,7 @@ No return value
 ##### - Arguments:
 | [ in ] | type | description
 |--|--|--|
-| self | [Refresh](#) |
+| self | [Refresh](#refresh) | The Refresh instance which [stack](#refresh.stack) is being iterated though
 ---
 ### <a name="refresh-run"></a> run [method](#methods)
 ##### - Description:
@@ -825,7 +825,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMjg1MDM2MiwxNjkwMDQxNDYwLC05NT
+eyJoaXN0b3J5IjpbLTcyNDA2NTk5NiwxNjkwMDQxNDYwLC05NT
 I5MjgzNzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5
 OTAsLTE1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3NzczNzI2Ny
 wtMTMzNTA4NzAwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMjEsLTE0
