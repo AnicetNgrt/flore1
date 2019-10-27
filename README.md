@@ -695,7 +695,7 @@ No return value
 |--|--|--|
 | self | [Flipbook](#flipbook) | Flipbook instance that stops playing
 ---
-### <a name="flipbook.material"></a> material [property](#flipbook-props)
+### <a name="flipbook.material"></a> material [property](#flipbook-props) 
 ##### Description:
 A tuple composed with `play`: a function which changes the Flipbook's sprite's texture function of the Flipbook's Refresh and the Flipbook's frame rate goal, and also composed with all of this function's arguments. Feeding a Refresh with `*(Flibook.material)` starts the Flipbook.
 
@@ -798,8 +798,8 @@ No return value
 | self | [Refresh](#refresh) | The Refresh instance that is ran
 | debug | boolean | Whether you want the debug header for this method to show on the top left corner
 ---
-### <a name="refresh.fps"></a> *[integer]* fps [property](#flipbook-props)
-##### Description:
+### <a name="refresh.fps"></a> fps [property](#flipbook-props) *[integer]*
+##### Description: 
 The frame rate goal of the Refresh instance.
 
 ---
@@ -846,7 +846,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjM2MzYxMDgsLTE2OTYxMTc0NzAsMT
+eyJoaXN0b3J5IjpbLTIxMDg5NzM2ODQsLTE2OTYxMTc0NzAsMT
 M4MTc3MzY5MiwxNjkwMDQxNDYwLC05NTI5MjgzNzgsLTEyMTYx
 OTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5OTAsLTE1NDQ1NDU0ND
 MsLTE2Mzc3ODc5OTksMjA3NzczNzI2NywtMTMzNTA4NzAwMiwx
