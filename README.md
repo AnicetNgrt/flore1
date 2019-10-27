@@ -867,7 +867,7 @@ def new_scene(self, name, coord_x, coord_y, res_x, res_y, layer_count)
 | coord_y | integer | The distance of the scene frome the terminal's top border in chars  
 | res_x | integer | The width of the scene in chars
 | res_y | integer | The height of the scene in chars
-**Note**: With most fonts 1 char width = 1/2 char height, always keep this in mind.
+**Note**: With most fonts 1 char width = 1/2 char height, always keep this in mind for `coord_x` and `coord_y`.
  
 ---
 ### <a name="engine-del_scene"></a>🧰 del_scene [method](#methods)
@@ -926,7 +926,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM4OTcxMTY5LC05MDE3MDA3MCwzODkxND
+eyJoaXN0b3J5IjpbNDQ3OTc4NDM2LC05MDE3MDA3MCwzODkxND
 c0MzMsLTExNTQ2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIxMCwt
 MTY5NjExNzQ3MCwxMzgxNzczNjkyLDE2OTAwNDE0NjAsLTk1Mj
 kyODM3OCwtMTIxNjE5NTQ1NiwtNjU3ODA3NDE0LDUzOTIzODk5
