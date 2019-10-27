@@ -785,13 +785,14 @@ No return value
 Calls the [do](#refresh-do) method and computes its execution time (the latency caused by it). Then it computes the [Refresh.i](#refresh.i) property function of the latency and the [Refresh.fps](#refresh.fps) property. The point is that this property  always augments at the same speed regardless of the low or high latency. Then [Refresh.frame](#refresh.frame) is 
 ##### - Prototype:
 ```python
+def run(self, debug=False)
 ```
 ##### - Return value:
-
+No return value
 ##### - Arguments:
 | [ in ] | type | description
 |--|--|--|
-|  |  |
+| self | [Refresh](#refresh) | The 
 ---
 ## <a name="engine"></a>Engine [class](#classes)
 
@@ -836,11 +837,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MTc3MzY5MiwxNjkwMDQxNDYwLC05NT
-I5MjgzNzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5
-OTAsLTE1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3NzczNzI2Ny
-wtMTMzNTA4NzAwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMjEsLTE0
-ODMyNjY3OTMsLTEzMDI0MDU3ODYsOTEzMzc0Mjg5LC0xMDE1OT
-E2OTE1LC0xNzU5MTYxMzc1LDg0OTM0MDE3MiwtMzAxMDYyOTgx
-LC0xODk0ODU1NTQ4XX0=
+eyJoaXN0b3J5IjpbMjAxOTk3NzMyOSwxMzgxNzczNjkyLDE2OT
+AwNDE0NjAsLTk1MjkyODM3OCwtMTIxNjE5NTQ1NiwtNjU3ODA3
+NDE0LDUzOTIzODk5MCwtMTU0NDU0NTQ0MywtMTYzNzc4Nzk5OS
+wyMDc3NzM3MjY3LC0xMzM1MDg3MDAyLDE5MTQ3ODg2OTEsLTc3
+NjAzOTAyMSwtMTQ4MzI2Njc5MywtMTMwMjQwNTc4Niw5MTMzNz
+QyODksLTEwMTU5MTY5MTUsLTE3NTkxNjEzNzUsODQ5MzQwMTcy
+LC0zMDEwNjI5ODFdfQ==
 -->
