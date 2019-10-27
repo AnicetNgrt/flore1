@@ -67,13 +67,13 @@ Therefore, please consider donating, it will greatly support this project !
 
  0. [Getting started](#tuto0)
  1. [Displaying a static text sprite in a scene](#tuto1)
- 2. [Introduction to game loops: Moving a sprite across it's scene](#tuto2)
+ 2. [Introduction to game loops: Moving a sprite across its scene](#tuto2)
  3. [Converting a picture to a sprite and displaying it](#tuto3)
  4. [Flipbooks: Display a gif on the terminal as an animated text sprite](#tuto4)
  
 ## <a name="tuto0"></a>0/ Getting started:
 ### 💿 Installation with pip:
-  If you don't have python (3.67 or above) and pip installed, install them first.
+  If you don't have python (3.7 or above) and pip installed, install them first.
   
   **Then, type one of thoses in your favorite terminal**:
   - *universal, may not work:* `pip install flore1`  
@@ -105,7 +105,7 @@ This will be the very foundation for all the following tutorials !
 ## <a name="tuto1"></a>1/ Displaying a static text sprite:
 ### 🧭 What we will do:
 ![enter image description here](https://imgur.com/XVbCCmJ.png)
-This tutorial is about displaying a text sprite in a scene with color and defined (x, y) position.
+This tutorial is about displaying a text sprite in a scene with colors and defined (x, y) position.
 [-> I just want the code thanks.](#tuto1_code)
 
 ### 🎨 Creating a text sprite:
@@ -146,7 +146,7 @@ Scene = Engine.new_scene("super cool name",
     layer_count = 15 # a layer is where your sprite goes: 1 sprite displayed = 1 layer
     )
 ```
-Now let's put the sprite in and refresh:
+Now let's put the sprite in the scene and refresh:
 ```python
 # following the previously given code:
 # This puts the sprite in the scene
@@ -164,12 +164,12 @@ In order to have color you must edit your building manual by putting specific co
 
  - `"bc:<code>"` This puts background color on any text following it
  - `"fc:<code>"` This changes font color on any text following it
- - `"cc:0"` This stops both background color and font color *(due to limitation you can't seem to stop only one)*
+ - `"cc:0"` This stops both background color and font color *(due to limitation you do not seem to be able to stop only one)*
 
 And if you want to know which `<code>` gives you which color, here you go:
 ![terminal colors](http://www.lihaoyi.com/post/Ansi/Rainbow256.png)*picture credit: http://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html*
 
-Ok, now that you know this, let's tweak our asset'sinsert codes inside our building manual with codes:
+Ok, now that you know this, let's tweak our asset's by adding codes inside our building manual:
 ```python
 building_manual = [
 	"bc:195fc:127MY SUPER TEXT SPRITE LOOKS DAMN COOLcc:0",
@@ -213,17 +213,19 @@ Scene.show()
 
 time.sleep(15)
 ```
-## <a name="tuto2"></a>2/ Introduction to game loops: Moving a sprite across it's scene:
+## <a name="tuto2"></a>2/ Introduction to game loops: Moving a sprite across its scene:
 ### 🧭 What we will do:
 ![fastboi](https://imgur.com/BRbsNUR.gif)
 This tutorial is about moving a sprite across the scene.
 [-> I just want the code thanks.](#tuto2_code)
 ### 🚠Introduction:
 -So how does moving works in your mind ? 
--We can put sprites at some coordinates and refresh the scene. So why not doing this in a loop ?
--**Correct !** 
 
-With flore1 there is a very elegafficient way of doing that thanks to the `flore1.Refresh` class. Let me show you:
+-We can put sprites at some coordinates and refresh the scene. So why not doing this in a loop ?
+
+-**That's correct !** 
+
+With flore1 there is a very efficient way of doing that thanks to the `flore1.Refresh` class. Let me show you:
 
 #### The code you will start with:
 ```python
@@ -271,18 +273,18 @@ Ok, but where is Refresh, and what is meant to be "too slow" ?:
 # following the previously given code:
 Refresh = flore1.Refresh(fps = 24)
 ```
-So what we did here is that we created our Refresh instance, and asked it to run at 24 frames per second. Which means that our `game_loop.i` will try to sync with the Refresh in order to be incremented 24 times per second. If you decide to display so many sprites that the Refresh slows down to 12 frames per second, then `game_loop.i` will increment by 2 on every frame, in order to keep up with it's 24 fps objective. 
+So what we did here is that we created our Refresh instance, and asked it to run at 24 frames per second. Which means that our `game_loop.i` will try to sync with the Refresh in order to be incremented 24 times per second. If you decide to display so many sprites that the Refresh slows down to 12 frames per second, then `game_loop.i` will be incremented by 2 on every frame, in order to keep up with it's 24 fps objective. 
 What I mean by that is that your sprite will always move at the same speed regardless of the lag (in theory).
 ```python
 # following the previously given code:
 loop_tuple = (game_loop, Scene, super_sprite)
 Refresh.feed(*loop_tuple) # don't forget the *
 ```
-Here we formed a tuple composed with the function `game_loop` itself, and all the variables we want to give as inputs for its keyword arguments.
+Here we formed a tuple composed with the function `game_loop` itself, and all the variables we want to give as input for its keyword arguments.
 
 **Note**: If your `game_loop` function has default arguments, I advice you see tutorial 4 for a more in depth explanation of the `Refresh.feed` method's syntax.
 ### 😵 While I loop the loop:
-Now you have a super cool refresh, which task is to run `game_loop(Refresh, Scene, super_sprite)` at 24 fps.
+Now you have a super cool refresh, which task is to run `game_loop(Scene, super_sprite)` at 24 fps.
 But you still need to run it ! And this can't loop itself sadly...
 ```python
 # following the previously given code:
@@ -370,11 +372,12 @@ Scene = Engine.new_scene("super cool name",
 **Very important:** Most terminal have large font size by default. It will be necessary to lower this size in your terminal's settings in order to display bigger than 100*100px pictures. Mine is at 6 now for instance.
 ### 🧾 From pictures to text and... no vice-versa 
 The Engine class can convert `.png`, `.jpg` and `.svg` pictures to text Assets with the help of `pillow`, a very known python image manipulation library.
-But here comes the issue: **size**. Because even if you ask your terminal to go 14px font style, it won't be easy to display anything bigger than 300*300px. So, yeah, tThis is more of a pixel-art engine than a fancy graphical library. But come on, it's on the terminal :D !
+But here comes the issue: **size**. Because even if you ask your terminal to go 14px font style, it won't be easy to display anything bigger than 300*300px. This is more of a pixelart engine than a fancy graphical library. But come on, it's on the terminal :D !
 Ok let's try to display `anicet.jpg` (resized of course) in the terminal:
 ```python
 # following the previously given code:
-anicet_asset = Engine.pic_to_textAsset('assets/anicet.jpg', 
+anicet_asset = Engine.pic_to_textAsset(
+    path='assets/anicet.jpg', 
 	new_size="AUTO", #or: [width,height]
 	)
 ```
@@ -389,14 +392,15 @@ time.sleep(30)
 ```
 ![me but pixelated](https://imgur.com/PNXPVtc.png)
 Hey, that's me ! *(I feel like I will hate myself for taking this picture in a few years)*
-As you can see, the originaly 1024*1024px picture got quite resized ! FilVery detailed pictures almost never downscale without ugly artifacts everywhere. This is due to the limited n=255 terminal's color range... so I have no other choice. ¯\\\_(ツ)_/¯
+As you can see, the originaly 1024*1024px picture got quite resized ! Note that detailed pictures almost never downscale without ugly artifacts everywhere. This is due to the limited n=255 terminal's color range... so we have no other choices. ¯\\\_(ツ)_/¯
 ### 📚 Displaying more pictures
 Now let's repeat the process in order to display more pictures.
 Don't forget to erase the `time.sleep(30)` you put previously, unless you like waiting a lot.
 #### a. Let's display a picture with transparency:
 ```python
 # following the previously given code
-bow_icon_asset = Engine.pic_to_textAsset('assets/archer.png', 
+bow_icon_asset = Engine.pic_to_textAsset(
+    path='assets/archer.png', 
 	new_size=["32","32"], # we ask it to resize this picture to 32*32px
 	transparent_rgb=(238, 195, 154) # The color in the picture that is meant to be transparent
 	)
@@ -407,7 +411,8 @@ By puting `(238, 195, 154)` in the `transparent_rgb` optionnal argument, we ask 
 #### b. Let's display a picture without transparency:
 ```python
 # following the previously given code
-avatar_asset = Engine.pic_to_textAsset('assets/aniss.png', 
+avatar_asset = Engine.pic_to_textAsset(
+    path='assets/aniss.png', 
 	new_size=["50","50"] # resize to 50*50px
 	# here we do not put anything, this way the scene
 	# knows there is no transparency for this picture
@@ -451,15 +456,15 @@ Scene = Engine.new_scene("super cool name",
     layer_count = 15
     )
 
-anicet_asset = Engine.pic_to_textAsset('assets/anicet.jpg', new_size="AUTO")
+anicet_asset = Engine.pic_to_textAsset(path='assets/anicet.jpg', new_size="AUTO")
 anicet_sprite = anicet_asset.to_sprite()
 Scene.put(anicet_sprite, 10, 10, 1)
 
-bow_icon_asset = Engine.pic_to_textAsset('assets/archer.png', new_size=["32","32"], transparent_rgb=(238, 195, 154))
+bow_icon_asset = Engine.pic_to_textAsset(path='assets/archer.png', new_size=["32","32"], transparent_rgb=(238, 195, 154))
 bow_icon_sprite = bow_icon_asset.to_sprite()
 Scene.put(bow_icon_sprite, 10, 60, 2)
 
-avatar_asset = Engine.pic_to_textAsset('assets/aniss.png', new_size=["50","50"])
+avatar_asset = Engine.pic_to_textAsset(path='assets/aniss.png', new_size=["50","50"])
 avatar_sprite = avatar_asset.to_sprite()
 Scene.put(avatar_sprite, 60, 20, 3)
 
@@ -480,7 +485,7 @@ Personnaly, I'm not a pro pixel art animator so I took my GIF [here](#https://un
 
 ![explosion](https://imgur.com/8kXy0FB.gif)
 #### You need to convert your GIF to a folder containing it's frames as PNG files
-Note that the original source I gave lets you download a folder containing all individuals frames as png. Which is exactly what the engine needs. But I case you only have a `.gif` file, such as the one above go to [https://ezgif.com/split](https://ezgif.com/split), import your gif, download the `.zip` containing the frames, and extract it in a folder in your project.
+Note that the original source I gave lets you download a folder containing all individuals frames as png. Which is exactly what the engine needs. But I case you only have a `.gif` file, such as the one above go to [this online tool](https://ezgif.com/split), import your gif, download the `.zip` containing the frames, and extract it in a folder in your project.
 #### This tutorial's folder:
 ```
 📁 my_super_game/
@@ -492,7 +497,7 @@ Note that the original source I gave lets you download a folder containing all i
                    :
 |-----|-----|-----📼 frame0063.png
 ```
-**Note**: You need your frame's to be ranked in lexicographic order accordingly to their order of appearance in your original GIF.
+**Note**: You need your frames to be ranked in lexicographic order accordingly to their order of appearance in your original GIF.
 #### The `main.py` we will start with:
 ```python
 import flore1
@@ -529,7 +534,7 @@ explosion_fb = flore1.Flipbook(
 	Engine, # our engine instance
 	Refresh, # the refresh instance that will run the sprite
 	explosion_sprt, # the empty sprite that will be animated by our flipbook
-	'assets/explosion/', # the path to all our frames 
+	path='assets/explosion/', # the path to the folder containing our frames 
 	size=[100, 100], # the (new)size of our frames
 	transparent_rgb=(0, 0, 0), # the transparent color for our frames
 	fps=60, # the frame rate of our animation 
@@ -549,9 +554,10 @@ Do you remember when we built a loop function that we fed our refresh with ? Her
 # following the previously given code
 Refresh.feed(Scene.show,*(),**{})
 ```
-Here, we are feeding it a bit differently than on tutorial 2, so let me explain hwo it works:
+Here, we are feeding it a bit differently than on tutorial 2, so let me explain how it works:
 #### `Refresh.feed`'s syntax:
 The first argument must be a function or a method (ex: `my_function`, or `Object.method`), the second argument must be a tuple of keyword arguments for the function (ex: `(x,y,0,18,"ok")`), and the third one must be a dictionnary of default arguments for the function (ex: `{"name"="Anicet","favorite_color"="yellow"}`).
+Dont forget to put `*` before your tuple and `**` before your dictionnary.
 
 #### Now let's loop our `Refresh.run()` as we did in tutorial 2:
 ```python
@@ -597,7 +603,7 @@ explosion_fb = flore1.Flipbook(
 	Engine, 
 	Refresh, 
 	explosion_sprt, 
-	'assets/explosion/', 
+	path='assets/explosion/', 
 	size=[100, 100], 
 	transparent_rgb=(0, 0, 0), 
 	fps=60, 
@@ -743,11 +749,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMj
-A3NzczNzI2NywtMTMzNTA4NzAwMiwxOTE0Nzg4NjkxLC03NzYw
-MzkwMjEsLTE0ODMyNjY3OTMsLTEzMDI0MDU3ODYsOTEzMzc0Mj
-g5LC0xMDE1OTE2OTE1LC0xNzU5MTYxMzc1LDg0OTM0MDE3Miwt
-MzAxMDYyOTgxLC0xODk0ODU1NTQ4LC0xMzQxNDI0MTMxLC0yMT
-IyMjgzMDc4LC05NzE5NDM1NjgsLTcwMjczOTEwNCwtNzAyNzM5
-MTA0LDEwNTE5MjM2MF19
+eyJoaXN0b3J5IjpbNTM5MjM4OTkwLC0xNTQ0NTQ1NDQzLC0xNj
+M3Nzg3OTk5LDIwNzc3MzcyNjcsLTEzMzUwODcwMDIsMTkxNDc4
+ODY5MSwtNzc2MDM5MDIxLC0xNDgzMjY2NzkzLC0xMzAyNDA1Nz
+g2LDkxMzM3NDI4OSwtMTAxNTkxNjkxNSwtMTc1OTE2MTM3NSw4
+NDkzNDAxNzIsLTMwMTA2Mjk4MSwtMTg5NDg1NTU0OCwtMTM0MT
+QyNDEzMSwtMjEyMjI4MzA3OCwtOTcxOTQzNTY4LC03MDI3Mzkx
+MDQsLTcwMjczOTEwNF19
 -->
