@@ -1,18 +1,16 @@
  
-# Flore 1 - pre alpha 
+# Flore 1 - ⚙🌸 
  The first **python** 2D game engine/graphical library **rendering in the terminal**.
 
 
-### Note:
-Thanks a lot for paying attention to my work. 
-My name is Anicet Nougaret, I am a french IT student, and I am doing all of this alone. 
-This project will always remain open source and free.
+**[Quick start](#tuto0)**
+
+**Note**: Thanks a lot for paying attention to my work. 
+My name is Anicet Nougaret, I am a french IT student, and I am doing all of this alone. This project will always remain open source and free.
 Therefore, please consider donating, it will greatly support this project ! 
 \\(●'◡'●)/
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg) ](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=56G94VB5RYGKN&source=url) 
 
----
-**[Quick start](#tuto0)**
 # Table of contents:
 
  1. [**Features**](#features)
@@ -825,7 +823,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MjMwNzY3MCwtMTIxNjE5NTQ1NiwtNj
+eyJoaXN0b3J5IjpbMTU2NTI5NDA0MCwtMTIxNjE5NTQ1NiwtNj
 U3ODA3NDE0LDUzOTIzODk5MCwtMTU0NDU0NTQ0MywtMTYzNzc4
 Nzk5OSwyMDc3NzM3MjY3LC0xMzM1MDg3MDAyLDE5MTQ3ODg2OT
 EsLTc3NjAzOTAyMSwtMTQ4MzI2Njc5MywtMTMwMjQwNTc4Niw5
