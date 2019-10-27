@@ -723,7 +723,8 @@ No return value
 ##### - Arguments:
 | [ in ] | type | description
 |--|--|--|
-| self | [Refresh](#refresh) | Refresh instant to initi
+| self | [Refresh](#refresh) | Refresh instant to initialize
+| fps | integer | Execution rate goal of the Refresh 
 ---
 ### <a name="refresh-terminate"></a> terminate [method](#methods)
 ---
@@ -767,7 +768,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NTU0MDEyLC02NTc4MDc0MTQsNTM5Mj
+eyJoaXN0b3J5IjpbNjQ0MjY3NjY4LC02NTc4MDc0MTQsNTM5Mj
 M4OTkwLC0xNTQ0NTQ1NDQzLC0xNjM3Nzg3OTk5LDIwNzc3Mzcy
 NjcsLTEzMzUwODcwMDIsMTkxNDc4ODY5MSwtNzc2MDM5MDIxLC
 0xNDgzMjY2NzkzLC0xMzAyNDA1Nzg2LDkxMzM3NDI4OSwtMTAx
