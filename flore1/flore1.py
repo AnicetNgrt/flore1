@@ -22,7 +22,7 @@ from .ansiRGB import ANSI_RGB
 # ------------------    FLIPBOOK CLASS   ---------------------
 # ------------------------------------------------------------
 class Flipbook:
-    def __init__(self, Engine, Refresh, Sprite, path="", size=[32, 32], transparent_rgb=(-1, -1, -1), fps=24, sync="True"):
+    def __init__(self, Engine, Refresh, Sprite, path="", size=[32, 32], transparent_rgb=(-1, -1, -1), fps=24, sync=True):
         self.Refresh = Refresh
         self.asset_list = []
         if not os.path.exists(path): return
