@@ -852,6 +852,7 @@ def __init__(self, auto_scale=False, win_mode=False, logo=False)
 | [ in ] | type | description
 |--|--|--|
 | self | [Engine](#engine) | The Engine instance that is initialized
+| auto_scale | boolean | whether the Engine should try to resize the terminal when a [Engine.VirtualScene](#engine.virtualscene) instance is created. May cause the program to 
 ---
 ### <a name="engine-new_scene"></a>🧰 new_scene [method](#methods)
 ##### - Description:
@@ -921,11 +922,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAwMjgwNTY2LDM4OTE0NzQzMywtMTE1ND
-Y4MDA0Nyw0NzI4MDAwMTQsNjgxMDM1MjEwLC0xNjk2MTE3NDcw
-LDEzODE3NzM2OTIsMTY5MDA0MTQ2MCwtOTUyOTI4Mzc4LC0xMj
-E2MTk1NDU2LC02NTc4MDc0MTQsNTM5MjM4OTkwLC0xNTQ0NTQ1
-NDQzLC0xNjM3Nzg3OTk5LDIwNzc3MzcyNjcsLTEzMzUwODcwMD
-IsMTkxNDc4ODY5MSwtNzc2MDM5MDIxLC0xNDgzMjY2NzkzLC0x
-MzAyNDA1Nzg2XX0=
+eyJoaXN0b3J5IjpbLTE4MDI1NDk5OCwzODkxNDc0MzMsLTExNT
+Q2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIxMCwtMTY5NjExNzQ3
+MCwxMzgxNzczNjkyLDE2OTAwNDE0NjAsLTk1MjkyODM3OCwtMT
+IxNjE5NTQ1NiwtNjU3ODA3NDE0LDUzOTIzODk5MCwtMTU0NDU0
+NTQ0MywtMTYzNzc4Nzk5OSwyMDc3NzM3MjY3LC0xMzM1MDg3MD
+AyLDE5MTQ3ODg2OTEsLTc3NjAzOTAyMSwtMTQ4MzI2Njc5Mywt
+MTMwMjQwNTc4Nl19
 -->
