@@ -698,7 +698,7 @@ A tuple composed with `play`: a function which changes the Flipbook's sprite's t
 
 
 ## <a name="refresh"></a>Refresh [class](#classes)
-You can "feed" the Refresh class with a `()`
+You can "feed" the Refresh class with a `(function, *args, **kwars)` tuple. It will add it to it's execution stack. Everytime you ask the Refresh to "do" it will call all the `function(*args, **kwargs)`
 ### <a name="refresh-methods"></a>Methods
 - [\_\_init\_\_](#refresh-init) 
 - [terminate](#refresh-terminate) 
@@ -749,11 +749,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3OTU2Mjc0LDUzOTIzODk5MCwtMTU0ND
-U0NTQ0MywtMTYzNzc4Nzk5OSwyMDc3NzM3MjY3LC0xMzM1MDg3
-MDAyLDE5MTQ3ODg2OTEsLTc3NjAzOTAyMSwtMTQ4MzI2Njc5My
-wtMTMwMjQwNTc4Niw5MTMzNzQyODksLTEwMTU5MTY5MTUsLTE3
-NTkxNjEzNzUsODQ5MzQwMTcyLC0zMDEwNjI5ODEsLTE4OTQ4NT
-U1NDgsLTEzNDE0MjQxMzEsLTIxMjIyODMwNzgsLTk3MTk0MzU2
-OCwtNzAyNzM5MTA0XX0=
+eyJoaXN0b3J5IjpbLTE3MzA2NTgyMjQsNTM5MjM4OTkwLC0xNT
+Q0NTQ1NDQzLC0xNjM3Nzg3OTk5LDIwNzc3MzcyNjcsLTEzMzUw
+ODcwMDIsMTkxNDc4ODY5MSwtNzc2MDM5MDIxLC0xNDgzMjY2Nz
+kzLC0xMzAyNDA1Nzg2LDkxMzM3NDI4OSwtMTAxNTkxNjkxNSwt
+MTc1OTE2MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mjk4MSwtMTg5ND
+g1NTU0OCwtMTM0MTQyNDEzMSwtMjEyMjI4MzA3OCwtOTcxOTQz
+NTY4LC03MDI3MzkxMDRdfQ==
 -->
