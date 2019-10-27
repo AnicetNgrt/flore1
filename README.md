@@ -876,7 +876,7 @@ def new_scene(self, name, coord_x, coord_y, res_x, res_y, layer_count)
 ---
 ### <a name="engine-del_scene"></a>🧰 del_scene [method](#methods)
 ##### - Description:
-Deletes an entry in [Engine.vscenes](#engine.vscenes).
+Deletes an entry in [Engine.vscenes](#engine.vscenes). **This will delete the [Engine.VirtualScene](#engine.virtualscene) instance itself.**
 ##### - Prototype:
 ```python
 def del_scene(self, name)
@@ -932,11 +932,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3OTU4NjA0MCw4OTEyMDk2ODAsLTkwMT
-cwMDcwLDM4OTE0NzQzMywtMTE1NDY4MDA0Nyw0NzI4MDAwMTQs
-NjgxMDM1MjEwLC0xNjk2MTE3NDcwLDEzODE3NzM2OTIsMTY5MD
-A0MTQ2MCwtOTUyOTI4Mzc4LC0xMjE2MTk1NDU2LC02NTc4MDc0
-MTQsNTM5MjM4OTkwLC0xNTQ0NTQ1NDQzLC0xNjM3Nzg3OTk5LD
-IwNzc3MzcyNjcsLTEzMzUwODcwMDIsMTkxNDc4ODY5MSwtNzc2
-MDM5MDIxXX0=
+eyJoaXN0b3J5IjpbLTE3OTA3MzYwMjIsODkxMjA5NjgwLC05MD
+E3MDA3MCwzODkxNDc0MzMsLTExNTQ2ODAwNDcsNDcyODAwMDE0
+LDY4MTAzNTIxMCwtMTY5NjExNzQ3MCwxMzgxNzczNjkyLDE2OT
+AwNDE0NjAsLTk1MjkyODM3OCwtMTIxNjE5NTQ1NiwtNjU3ODA3
+NDE0LDUzOTIzODk5MCwtMTU0NDU0NTQ0MywtMTYzNzc4Nzk5OS
+wyMDc3NzM3MjY3LC0xMzM1MDg3MDAyLDE5MTQ3ODg2OTEsLTc3
+NjAzOTAyMV19
 -->
