@@ -841,13 +841,14 @@ The Engine takes care of everything from rendering to input and sound, but its u
 ##### - Description:
 - Inits the Engine instance:
 	- Inits its [auto_scale](#engine.auto_scale) property
-	- Inits
+	- Inits its [vvscenes](#engine.vscenes) property
+- Displays the flore1's logo if `logo == True`
 ##### - Prototype:
 ```python
 def __init__(self, auto_scale=False, win_mode=False, logo=False)
 ```
 ##### - Return value:
-
+No return value
 ##### - Arguments:
 | [ in ] | type | description
 |--|--|--|
@@ -924,11 +925,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1ODk3ODUwMiwzODkxNDc0MzMsLTExNT
-Q2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIxMCwtMTY5NjExNzQ3
-MCwxMzgxNzczNjkyLDE2OTAwNDE0NjAsLTk1MjkyODM3OCwtMT
-IxNjE5NTQ1NiwtNjU3ODA3NDE0LDUzOTIzODk5MCwtMTU0NDU0
-NTQ0MywtMTYzNzc4Nzk5OSwyMDc3NzM3MjY3LC0xMzM1MDg3MD
-AyLDE5MTQ3ODg2OTEsLTc3NjAzOTAyMSwtMTQ4MzI2Njc5Mywt
-MTMwMjQwNTc4Nl19
+eyJoaXN0b3J5IjpbLTE5NTgyMzk5NjQsMzg5MTQ3NDMzLC0xMT
+U0NjgwMDQ3LDQ3MjgwMDAxNCw2ODEwMzUyMTAsLTE2OTYxMTc0
+NzAsMTM4MTc3MzY5MiwxNjkwMDQxNDYwLC05NTI5MjgzNzgsLT
+EyMTYxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5OTAsLTE1NDQ1
+NDU0NDMsLTE2Mzc3ODc5OTksMjA3NzczNzI2NywtMTMzNTA4Nz
+AwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMjEsLTE0ODMyNjY3OTMs
+LTEzMDI0MDU3ODZdfQ==
 -->
