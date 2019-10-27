@@ -641,7 +641,7 @@ The Flipbook class lets you easily animate [TextSprites](#textsprites) by comput
 - [start](#flipbook-start) 
 - [stop](#flipbook-stop) 
 ---
-### <a name="flipbook-init"></a> \_\_init\_\_ [method](#methods)
+### <a name="flipbook-init"></a>🧰 \_\_init\_\_ [method](#methods)
 
 ##### - Description:
 Inits the Flipbook: 
@@ -667,7 +667,7 @@ No return value
 | fps | integer | Frame rate goal for the flipbook in frame per second
 | sync | boolean | Whether the flipbook skips frame if the refresh slows down
 ---
-### <a name="flipbook-start"></a> start [method](#methods)
+### <a name="flipbook-start"></a>🧰 start [method](#methods)
 ##### - Description:
 Feeds the Flipbook's Refresh instance with the Flipbook's [material](#flipbook.material) property.
 ##### - Prototype:
@@ -681,7 +681,7 @@ No return value
 |--|--|--|
 | self | [Flipbook](#flipbook) | Flipbook instance that starts playing
 ---
-### <a name="flipbook-stop"></a> stop [method](#methods)
+### <a name="flipbook-stop"></a>🧰 stop [method](#methods)
 ##### - Description:
 Terminates the Flipbook's [material](#flipbook.material) property's function execution within the Flipbook's Refresh instance.
 ##### - Prototype:
@@ -695,7 +695,7 @@ No return value
 |--|--|--|
 | self | [Flipbook](#flipbook) | Flipbook instance that stops playing
 ---
-### <a name="flipbook.material"></a> material [property](#flipbook-props) 
+### <a name="flipbook.material"></a>📌 material [property](#flipbook-props) 
 ##### Description:
 A tuple composed with `play`: a function which changes the Flipbook's sprite's texture function of the Flipbook's Refresh and the Flipbook's frame rate goal, and also composed with all of this function's arguments. Feeding a Refresh with `*(Flibook.material)` starts the Flipbook.
 
@@ -860,11 +860,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMjg3OTcyMyw2ODEwMzUyMTAsLTE2OT
-YxMTc0NzAsMTM4MTc3MzY5MiwxNjkwMDQxNDYwLC05NTI5Mjgz
-NzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5OTAsLT
-E1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3NzczNzI2NywtMTMz
-NTA4NzAwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMjEsLTE0ODMyNj
-Y3OTMsLTEzMDI0MDU3ODYsOTEzMzc0Mjg5LC0xMDE1OTE2OTE1
-LC0xNzU5MTYxMzc1XX0=
+eyJoaXN0b3J5IjpbNDcyODAwMDE0LDY4MTAzNTIxMCwtMTY5Nj
+ExNzQ3MCwxMzgxNzczNjkyLDE2OTAwNDE0NjAsLTk1MjkyODM3
+OCwtMTIxNjE5NTQ1NiwtNjU3ODA3NDE0LDUzOTIzODk5MCwtMT
+U0NDU0NTQ0MywtMTYzNzc4Nzk5OSwyMDc3NzM3MjY3LC0xMzM1
+MDg3MDAyLDE5MTQ3ODg2OTEsLTc3NjAzOTAyMSwtMTQ4MzI2Nj
+c5MywtMTMwMjQwNTc4Niw5MTMzNzQyODksLTEwMTU5MTY5MTUs
+LTE3NTkxNjEzNzVdfQ==
 -->
