@@ -694,7 +694,7 @@ No return value
 ---
 ### <a name="flipbook.material"></a> material [property](#flipbook-props)
 ##### Description:
-A tuple composed with a function which changes the Flipbook's sprite's texture at some rate function of the Flipbook's Refresh and the Flipbook's frame rate goal, and also composed of all this function's arguments. Feeding a Refresh with `*(Flibook.material)` starts the Flipbook.
+A tuple composed with `play`: a function which changes the Flipbook's sprite's texture function of the Flipbook's Refresh and the Flipbook's frame rate goal, and also composed with all of this function's arguments. Feeding a Refresh with `*(Flibook.material)` starts the Flipbook.
 
 
 ## <a name="refresh"></a>Refresh [class](#classes)
@@ -749,7 +749,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDYxMzU0MjAsNTM5MjM4OTkwLC0xNT
+eyJoaXN0b3J5IjpbLTExMDY5NzA4OTksNTM5MjM4OTkwLC0xNT
 Q0NTQ1NDQzLC0xNjM3Nzg3OTk5LDIwNzc3MzcyNjcsLTEzMzUw
 ODcwMDIsMTkxNDc4ODY5MSwtNzc2MDM5MDIxLC0xNDgzMjY2Nz
 kzLC0xMzAyNDA1Nzg2LDkxMzM3NDI4OSwtMTAxNTkxNjkxNSwt
