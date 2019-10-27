@@ -698,7 +698,9 @@ A tuple composed with `play`: a function which changes the Flipbook's sprite's t
 
 
 ## <a name="refresh"></a>Refresh [class](#classes)
-You can "[feed](#refresh-feed)" the Refresh class with a `(function, *args, **kwars)` tuple. It will add it to it's [execution stack](#refresh.stack). Everytime you ask the Refresh to "[do](#refesh-do)" it will call all the `function(*args, **kwargs)` from its stack, compute execution time and wait if the execution time was too fast, or ask all the function that have their attribute `sync` set to `True` in its stack to "skip" frames if it was too slow. Therefore the Refresh class is there for frame stabilisation purposes and speed stabilisation purposes. For more details see the docs on its [methods](#refresh-methods).
+You can "[feed](#refresh-feed)" the Refresh class with a `(function, *args, **kwars)` tuple. It will add it to it's [execution stack](#refresh.stack). Everytime you ask the Refresh to "[do](#refesh-do)" it will call all the `function(*args, **kwargs)` from its stack, compute execution time and wait if the execution time was too fast, or ask all the function that have their attribute `sync` set to `True` in its stack to "skip" frames if it was too slow. Therefore the Refresh class is there for frame stabilisation purposes and speed stabilisation purposes. For more details see the docs on its [methods](#refresh-methods).*
+
+**Note**: I 
 ### <a name="refresh-props"></a>Properties
 - [fps](#refresh.fps)
 - [stack](#refresh.stack)
@@ -740,7 +742,7 @@ No return value
 | [ in ] | type | description
 |--|--|--|
 | self | [Refresh](#refresh) | The Refresh instance which [stack](#refresh.stack) gets the tuple removed from
-| func | function | Function type element of the tuple to remove from the [stack](#refresh.stack)
+| func | function (or method) | Function type element of the tuple to remove from the [stack](#refresh.stack)
 | *args | *args | Arguments type element of the tuple to remove from the [stack](#refresh.stack) 
 | **kwargs | **kwargs | Keyworded arguments type element of the tuple to remove from the [stack](#refresh.stack)
 
@@ -748,7 +750,7 @@ No return value
 ### <a name="refresh-feed"></a> feed [method](#methods)
 ##### - Description:
 Adds a `(function, *args, **kwargs)` tuple to the Refresh's execution [stack](#refresh.stack). 
-In other words, it asks the Refresh to call `function(*args, **kwargs)` every time its [do](#refresh-do) method is called, to add its execution time to the total execution latency, and, only if `sync = True` to sync its execution rate with the Refresh's execution latency goal.   
+In other words, it asks the Refresh to call `function(*args, **kwargs)` every time its [do](#refresh-do) method is called, to add its execution time to the total execution latency, and, only if `function.sync = True` to sync its execution rate with the Refresh's execution latency goal.
 ##### - Prototype:
 ```python
 
@@ -818,7 +820,7 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzU4NDAyMzEsLTY1NzgwNzQxNCw1Mz
+eyJoaXN0b3J5IjpbLTE3Mjg3NjAxNzksLTY1NzgwNzQxNCw1Mz
 kyMzg5OTAsLTE1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3Nzcz
 NzI2NywtMTMzNTA4NzAwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMj
 EsLTE0ODMyNjY3OTMsLTEzMDI0MDU3ODYsOTEzMzc0Mjg5LC0x
