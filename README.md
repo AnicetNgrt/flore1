@@ -769,7 +769,7 @@ No return value
 | *args | *args | Arguments type element of the tuple to append the [stack](#refresh.stack) with 
 | **kwargs | **kwargs | Keyworded arguments type element of the tuple to append the [stack](#refresh.stack) with
 ---
-### <a name="refresh-do"></a> do [method](#methods)
+### <a name="refresh-do"></a> Refresh\\.do [method](#methods)
 ##### - Description:
 For each `(function, *args, **kwargs)` tuple in the Refresh's [stack](#refresh.stack) it may call `function(*args, **kwargs)` (if `function.sync` is True, it only calls it on frame change). But before, if `function.i` does not exist it sets it to `0`, if `function.sync` does not exist, it sets it to `True`, and if `function.refresh` does not exist, it sets it to `self`.
 ##### - Prototype:
@@ -783,7 +783,7 @@ No return value
 |--|--|--|
 | self | [Refresh](#refresh) | The Refresh instance which [stack](#refresh.stack) is being reviewed
 ---
-### <a name="refresh-run"></a> run [method](#methods)
+### <a name="refresh-run"></a> Refresh.run [method](#methods)
 ##### - Description:
 Calls the [do](#refresh-do) method and computes its execution time (the latency caused by it). Then it computes the [Refresh.i](#refresh.i) property function of the latency and the [Refresh.fps](#refresh.fps) property. The point is that this property  always augments at the same speed regardless of the low or high latency. Then [Refresh.frame](#refresh.frame) is 
 ##### - Prototype:
@@ -798,23 +798,25 @@ No return value
 | self | [Refresh](#refresh) | The Refresh instance that is ran
 | debug | boolean | Whether you want the debug header for this method to show on the top left corner
 ---
-### <a name="refresh.fps"></a> fps [property](#flipbook-props) 
+### <a name="refresh.fps"></a> Refresh.fps [property](#flipbook-props) 
 ##### Description: 
 The frame rate goal of the Refresh instance. It is meant to be an integer.
 
 ---
-### <a name="refresh.stack"></a> stack [property](#flipbook-props) 
+### <a name="refresh.stack"></a> Refresh.stack [property](#flipbook-props) 
 ##### Description: 
 A list of `(function, *args, **kwargs)` tuple. It lists all the functions that can be called by the Refresh and all their arguments. This depends on whether the function's `.sync` attribute is set to `True` or `False`, and on whether [Refresh.frame](#refresh.frame) has changed.
 
 ---
-### <a name="refresh.frame"></a> frame [property](#flipbook-props) 
+### <a name="refresh.frame"></a> Refresh.frame [property](#flipbook-props) 
 ##### Description: 
 The current "frame" (or turn count) of the Refresh. It is equal to the rounded value of [Refresh.i](#refresh.i). When its value changes the synced functions in the [stack](#refresh.stack) get called and their `.i` attribute changes as much as the [Refresh.frame](#refresh.frame) did. 
 
 **Note**: The unsynced functions in the [stack](#refresh.stack) are always called and their `.i` attribute is just incremented by 1 at each call.
 
 ---
+### <a name="refresh.i"></a> Refresh.i [property](#flipbook-props) 
+##### Description: 
 ## <a name="engine"></a>Engine [class](#classes)
 
 - [\_\_init\_\_](#engine-init) 
@@ -858,11 +860,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgxMDM1MjEwLC0xNjk2MTE3NDcwLDEzOD
-E3NzM2OTIsMTY5MDA0MTQ2MCwtOTUyOTI4Mzc4LC0xMjE2MTk1
-NDU2LC02NTc4MDc0MTQsNTM5MjM4OTkwLC0xNTQ0NTQ1NDQzLC
-0xNjM3Nzg3OTk5LDIwNzc3MzcyNjcsLTEzMzUwODcwMDIsMTkx
-NDc4ODY5MSwtNzc2MDM5MDIxLC0xNDgzMjY2NzkzLC0xMzAyND
-A1Nzg2LDkxMzM3NDI4OSwtMTAxNTkxNjkxNSwtMTc1OTE2MTM3
-NSw4NDkzNDAxNzJdfQ==
+eyJoaXN0b3J5IjpbLTQ0NTAxODIzNCw2ODEwMzUyMTAsLTE2OT
+YxMTc0NzAsMTM4MTc3MzY5MiwxNjkwMDQxNDYwLC05NTI5Mjgz
+NzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5OTAsLT
+E1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3NzczNzI2NywtMTMz
+NTA4NzAwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMjEsLTE0ODMyNj
+Y3OTMsLTEzMDI0MDU3ODYsOTEzMzc0Mjg5LC0xMDE1OTE2OTE1
+LC0xNzU5MTYxMzc1XX0=
 -->
