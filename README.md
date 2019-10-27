@@ -706,6 +706,7 @@ You can "feed" the Refresh class with a `(function, *args, **kwars)` tuple. It w
 - [do](#refresh-do) 
 - [run](#refresh-run) 
 ### <a name="refresh-init"></a> \_\_init\_\_ [method](#methods)
+
 ---
 ### <a name="refresh-terminate"></a> terminate [method](#methods)
 ---
@@ -749,11 +750,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NzgwNzQxNCw1MzkyMzg5OTAsLTE1ND
-Q1NDU0NDMsLTE2Mzc3ODc5OTksMjA3NzczNzI2NywtMTMzNTA4
-NzAwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMjEsLTE0ODMyNjY3OT
-MsLTEzMDI0MDU3ODYsOTEzMzc0Mjg5LC0xMDE1OTE2OTE1LC0x
-NzU5MTYxMzc1LDg0OTM0MDE3MiwtMzAxMDYyOTgxLC0xODk0OD
-U1NTQ4LC0xMzQxNDI0MTMxLC0yMTIyMjgzMDc4LC05NzE5NDM1
-NjgsLTcwMjczOTEwNF19
+eyJoaXN0b3J5IjpbNTUwMjgxMjA4LC02NTc4MDc0MTQsNTM5Mj
+M4OTkwLC0xNTQ0NTQ1NDQzLC0xNjM3Nzg3OTk5LDIwNzc3Mzcy
+NjcsLTEzMzUwODcwMDIsMTkxNDc4ODY5MSwtNzc2MDM5MDIxLC
+0xNDgzMjY2NzkzLC0xMzAyNDA1Nzg2LDkxMzM3NDI4OSwtMTAx
+NTkxNjkxNSwtMTc1OTE2MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mj
+k4MSwtMTg5NDg1NTU0OCwtMTM0MTQyNDEzMSwtMjEyMjI4MzA3
+OCwtOTcxOTQzNTY4XX0=
 -->
