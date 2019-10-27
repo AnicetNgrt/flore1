@@ -622,7 +622,8 @@ while True:
 Here you will find detailed explanations for everything you may want to use from this library.
 
 **Notes**: 
-- With most fonts, 1 char width = 1/2 char height, always keep this in mind. If the docs don't talk about a `width` parameter or a `x` parameter being "1/2 of its true value" or "multiplied by 2" it means your width may be the half of what you expect.
+- With most fonts, 1 char width = 1/2 char height, always keep this in mind. If the docs don't talk about a `width` parameter or a `x` parameter being "1/2 of its true value" or "multiplied by 2" it means your `width` or your `x` may be the half of what you expect.
+- Never give the `self` argument
 ## <a name="classes"></a>Classes
  
  - [Flipbook](#flipbook) 
@@ -928,7 +929,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MTc1NjA2MiwtOTAxNzAwNzAsMzg5MT
+eyJoaXN0b3J5IjpbMTYyNDY0MzE4NiwtOTAxNzAwNzAsMzg5MT
 Q3NDMzLC0xMTU0NjgwMDQ3LDQ3MjgwMDAxNCw2ODEwMzUyMTAs
 LTE2OTYxMTc0NzAsMTM4MTc3MzY5MiwxNjkwMDQxNDYwLC05NT
 I5MjgzNzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5
