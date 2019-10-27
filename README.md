@@ -659,16 +659,16 @@ def __init__(self, Engine, Refresh, Sprite, path="", size=[32, 32], transparent_
 ##### - Return value:
 No return value
 ##### - Arguments:
-| [ in ] | type  | description |
-|--|--|--|
-| Engine | [Engine](#engine) | Engine instance that computes for the creation of the flipbook from its set of pictures
-| Refresh | [Refresh](#refresh) | Refresh instance that runs the flipbook 
-| Sprite | [Sprite](#engine.textasset.textsprite) | TextSprite instance that has its texture animated by the flipbook 
-| path | string | Path to a folder containing all the frames for the animation in lexicographical order 
-| size | array of integers | [width, height] for the animated sprite 
-| transparent_rgb | tuple of integers | RGB of the transparent color in the flipbook's frames 
-| fps | integer | Frame rate goal for the flipbook in frame per second
-| sync | boolean | Whether the flipbook skips frame if the refresh slows down
+| [ in ] | type  | condition | description |
+|--|--|--|--|
+| Engine | [Engine](#engine) | None | Engine instance that computes for the creation of the flipbook from its set of pictures
+| Refresh | [Refresh](#refresh) | None| Refresh instance that runs the flipbook 
+| Sprite | [Sprite](#engine.textasset.textsprite) | None| TextSprite instance that has its texture animated by the flipbook 
+| path | string | Path exists| Path to a folder containing all the frames for the animation in lexicographical order. **Relative to the .py file at the origin of the call**
+| size | array of integers |  | [width, height] for the animated sprite 
+| transparent_rgb | tuple of integers || RGB of the transparent color in the flipbook's frames 
+| fps | integer || Frame rate goal for the flipbook in frame per second
+| sync | boolean || Whether the flipbook skips frame if the refresh slows down
 
 ---
 ### <a name="flipbook-start"></a>🧰 start [method](#methods)
@@ -930,11 +930,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Nzk4MDU4ODgsODkxMjA5NjgwLC05MD
-E3MDA3MCwzODkxNDc0MzMsLTExNTQ2ODAwNDcsNDcyODAwMDE0
-LDY4MTAzNTIxMCwtMTY5NjExNzQ3MCwxMzgxNzczNjkyLDE2OT
-AwNDE0NjAsLTk1MjkyODM3OCwtMTIxNjE5NTQ1NiwtNjU3ODA3
-NDE0LDUzOTIzODk5MCwtMTU0NDU0NTQ0MywtMTYzNzc4Nzk5OS
-wyMDc3NzM3MjY3LC0xMzM1MDg3MDAyLDE5MTQ3ODg2OTEsLTc3
-NjAzOTAyMV19
+eyJoaXN0b3J5IjpbMTAyOTk2NzAxMSw4OTEyMDk2ODAsLTkwMT
+cwMDcwLDM4OTE0NzQzMywtMTE1NDY4MDA0Nyw0NzI4MDAwMTQs
+NjgxMDM1MjEwLC0xNjk2MTE3NDcwLDEzODE3NzM2OTIsMTY5MD
+A0MTQ2MCwtOTUyOTI4Mzc4LC0xMjE2MTk1NDU2LC02NTc4MDc0
+MTQsNTM5MjM4OTkwLC0xNTQ0NTQ1NDQzLC0xNjM3Nzg3OTk5LD
+IwNzc3MzcyNjcsLTEzMzUwODcwMDIsMTkxNDc4ODY5MSwtNzc2
+MDM5MDIxXX0=
 -->
