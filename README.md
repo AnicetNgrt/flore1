@@ -728,6 +728,7 @@ No return value
 ---
 ### <a name="refresh-terminate"></a> terminate [method](#methods)
 ##### - Description:
+Remove a specific `(function, *args, **kwargs)` tuple from the execution [stack](#refresh.stack).
 ##### - Prototype:
 ```python
 ```
@@ -740,10 +741,40 @@ No return value
 
 ---
 ### <a name="refresh-feed"></a> feed [method](#methods)
+##### - Description:
+##### - Prototype:
+```python
+```
+##### - Return value:
+
+##### - Arguments:
+| [ in ] | type | description
+|--|--|--|
+|  |  |
 ---
 ### <a name="refresh-do"></a> do [method](#methods)
+##### - Description:
+##### - Prototype:
+```python
+```
+##### - Return value:
+
+##### - Arguments:
+| [ in ] | type | description
+|--|--|--|
+|  |  |
 ---
 ### <a name="refresh-run"></a> run [method](#methods)
+##### - Description:
+##### - Prototype:
+```python
+```
+##### - Return value:
+
+##### - Arguments:
+| [ in ] | type | description
+|--|--|--|
+|  |  |
 ---
 ## <a name="engine"></a>Engine [class](#classes)
 
@@ -779,11 +810,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTc5MDM0LC02NTc4MDc0MTQsNTM5Mj
-M4OTkwLC0xNTQ0NTQ1NDQzLC0xNjM3Nzg3OTk5LDIwNzc3Mzcy
-NjcsLTEzMzUwODcwMDIsMTkxNDc4ODY5MSwtNzc2MDM5MDIxLC
-0xNDgzMjY2NzkzLC0xMzAyNDA1Nzg2LDkxMzM3NDI4OSwtMTAx
-NTkxNjkxNSwtMTc1OTE2MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mj
-k4MSwtMTg5NDg1NTU0OCwtMTM0MTQyNDEzMSwtMjEyMjI4MzA3
-OCwtOTcxOTQzNTY4XX0=
+eyJoaXN0b3J5IjpbLTE0Mjg5MDc1MjgsLTY1NzgwNzQxNCw1Mz
+kyMzg5OTAsLTE1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3Nzcz
+NzI2NywtMTMzNTA4NzAwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMj
+EsLTE0ODMyNjY3OTMsLTEzMDI0MDU3ODYsOTEzMzc0Mjg5LC0x
+MDE1OTE2OTE1LC0xNzU5MTYxMzc1LDg0OTM0MDE3MiwtMzAxMD
+YyOTgxLC0xODk0ODU1NTQ4LC0xMzQxNDI0MTMxLC0yMTIyMjgz
+MDc4LC05NzE5NDM1NjhdfQ==
 -->
