@@ -817,7 +817,7 @@ The current "frame" (or turn count) of the Refresh. It is equal to the rounded v
 ---
 ### <a name="refresh.i"></a>📌 i [property](#flipbook-props) 
 ##### Description: 
-A float variable that accumulates the frame latency or frame advance in order to compute an accurate frame count.
+A float variable that accumulates the frame latency and the frame advance in order to count the [frame](#refresh.frame) count more accuratly.
 
 ---
 ## <a name="engine"></a>📜 Engine [class](#classes)
@@ -863,11 +863,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMzE4Mjk3OCw0NzI4MDAwMTQsNjgxMD
-M1MjEwLC0xNjk2MTE3NDcwLDEzODE3NzM2OTIsMTY5MDA0MTQ2
-MCwtOTUyOTI4Mzc4LC0xMjE2MTk1NDU2LC02NTc4MDc0MTQsNT
-M5MjM4OTkwLC0xNTQ0NTQ1NDQzLC0xNjM3Nzg3OTk5LDIwNzc3
-MzcyNjcsLTEzMzUwODcwMDIsMTkxNDc4ODY5MSwtNzc2MDM5MD
-IxLC0xNDgzMjY2NzkzLC0xMzAyNDA1Nzg2LDkxMzM3NDI4OSwt
-MTAxNTkxNjkxNV19
+eyJoaXN0b3J5IjpbLTIxMzc5OTQ0NTgsNDcyODAwMDE0LDY4MT
+AzNTIxMCwtMTY5NjExNzQ3MCwxMzgxNzczNjkyLDE2OTAwNDE0
+NjAsLTk1MjkyODM3OCwtMTIxNjE5NTQ1NiwtNjU3ODA3NDE0LD
+UzOTIzODk5MCwtMTU0NDU0NTQ0MywtMTYzNzc4Nzk5OSwyMDc3
+NzM3MjY3LC0xMzM1MDg3MDAyLDE5MTQ3ODg2OTEsLTc3NjAzOT
+AyMSwtMTQ4MzI2Njc5MywtMTMwMjQwNTc4Niw5MTMzNzQyODks
+LTEwMTU5MTY5MTVdfQ==
 -->
