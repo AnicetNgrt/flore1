@@ -698,7 +698,7 @@ A tuple composed with `play`: a function which changes the Flipbook's sprite's t
 
 
 ## <a name="refresh"></a>Refresh [class](#classes)
-You can "feed" the Refresh class with a `(function, *args, **kwars)` tuple. It will add it to it's execution stack. Everytime you ask the Refresh to "do" it will call all the `function(*args, **kwargs)` from its stack, compute execution time and wait if the execution time was too fast, or ask all the function that have their attribute `sync` set to `True` in its stack to "skip" frames if it was too slow. Therefore the Refresh class is there for frame stabilisation purposes and speed stabilisation purposes. For more details see [R]
+You can "feed" the Refresh class with a `(function, *args, **kwars)` tuple. It will add it to it's execution stack. Everytime you ask the Refresh to "do" it will call all the `function(*args, **kwargs)` from its stack, compute execution time and wait if the execution time was too fast, or ask all the function that have their attribute `sync` set to `True` in its stack to "skip" frames if it was too slow. Therefore the Refresh class is there for frame stabilisation purposes and speed stabilisation purposes. For more details see the docs on its [methods](#refresh-methods).
 ### <a name="refresh-methods"></a>Methods
 - [\_\_init\_\_](#refresh-init) 
 - [terminate](#refresh-terminate) 
@@ -749,11 +749,11 @@ This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTY0OTAyOTksNTM5MjM4OTkwLC0xNT
-Q0NTQ1NDQzLC0xNjM3Nzg3OTk5LDIwNzc3MzcyNjcsLTEzMzUw
-ODcwMDIsMTkxNDc4ODY5MSwtNzc2MDM5MDIxLC0xNDgzMjY2Nz
-kzLC0xMzAyNDA1Nzg2LDkxMzM3NDI4OSwtMTAxNTkxNjkxNSwt
-MTc1OTE2MTM3NSw4NDkzNDAxNzIsLTMwMTA2Mjk4MSwtMTg5ND
-g1NTU0OCwtMTM0MTQyNDEzMSwtMjEyMjI4MzA3OCwtOTcxOTQz
-NTY4LC03MDI3MzkxMDRdfQ==
+eyJoaXN0b3J5IjpbLTY1NzgwNzQxNCw1MzkyMzg5OTAsLTE1ND
+Q1NDU0NDMsLTE2Mzc3ODc5OTksMjA3NzczNzI2NywtMTMzNTA4
+NzAwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMjEsLTE0ODMyNjY3OT
+MsLTEzMDI0MDU3ODYsOTEzMzc0Mjg5LC0xMDE1OTE2OTE1LC0x
+NzU5MTYxMzc1LDg0OTM0MDE3MiwtMzAxMDYyOTgxLC0xODk0OD
+U1NTQ4LC0xMzQxNDI0MTMxLC0yMTIyMjgzMDc4LC05NzE5NDM1
+NjgsLTcwMjczOTEwNF19
 -->
