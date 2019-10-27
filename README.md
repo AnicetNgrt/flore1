@@ -828,7 +828,7 @@ A float variable that accumulates the frame latency and the frame advance in ord
 - [new_sprite](#engine-new_sprite) 
 - [find_trsprt_index](#engine-find_trsprt_index) 
 - [pic_to_textAsset](#engine-pic_to_textasset) 
-### <a name="engine-init"></a> \_\_init\_\_ [method](#methods)
+### <a name="engine-init"></a>🧰 \_\_init\_\_ [method](#methods)
 ##### - Description:
 ##### - Prototype:
 ```python
@@ -840,34 +840,33 @@ A float variable that accumulates the frame latency and the frame advance in ord
 |--|--|--|
 |  |  |
 ---
-### <a name="engine-new_scene"></a> new_scene
+### <a name="engine-new_scene"></a>🧰 new_scene
 [->method](#methods)
 
-### <a name="engine-del_scene"></a> del_scene
+### <a name="engine-del_scene"></a>🧰 del_scene
 [->method](#methods)
 
-### <a name="engine-new_sprite"></a> new_sprite
+### <a name="engine-new_sprite"></a>🧰 new_sprite
 [->method](#methods)
 
-### <a name="engine-find_trsprt_index"></a> find_trsprt_index
+### <a name="engine-find_trsprt_index"></a>🧰 find_trsprt_index
 [->method](#methods)
 
-### <a name="engine-pic_to_textasset"></a> pic_to_textAsset
+### <a name="engine-pic_to_textasset"></a>🧰 pic_to_textAsset
 [->method](#methods)
 
-# <a name="thanks"></a>Thanks for reading !
-Your interest and enthusiasm for this project over on reddit.com and on github.com is really what motivates me !
  
 # <a name="license"></a>License
 This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
+## <a name="thanks"></a>Thanks for reading !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzc5OTQ0NTgsNDcyODAwMDE0LDY4MT
-AzNTIxMCwtMTY5NjExNzQ3MCwxMzgxNzczNjkyLDE2OTAwNDE0
-NjAsLTk1MjkyODM3OCwtMTIxNjE5NTQ1NiwtNjU3ODA3NDE0LD
-UzOTIzODk5MCwtMTU0NDU0NTQ0MywtMTYzNzc4Nzk5OSwyMDc3
-NzM3MjY3LC0xMzM1MDg3MDAyLDE5MTQ3ODg2OTEsLTc3NjAzOT
-AyMSwtMTQ4MzI2Njc5MywtMTMwMjQwNTc4Niw5MTMzNzQyODks
-LTEwMTU5MTY5MTVdfQ==
+eyJoaXN0b3J5IjpbNDM1NzQ5NDU4LDQ3MjgwMDAxNCw2ODEwMz
+UyMTAsLTE2OTYxMTc0NzAsMTM4MTc3MzY5MiwxNjkwMDQxNDYw
+LC05NTI5MjgzNzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1Mz
+kyMzg5OTAsLTE1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3Nzcz
+NzI2NywtMTMzNTA4NzAwMiwxOTE0Nzg4NjkxLC03NzYwMzkwMj
+EsLTE0ODMyNjY3OTMsLTEzMDI0MDU3ODYsOTEzMzc0Mjg5LC0x
+MDE1OTE2OTE1XX0=
 -->
