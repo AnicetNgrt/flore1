@@ -920,6 +920,8 @@ None
 | [ in ] | type | condition | description
 |--|--|--|--|
 | path | string | path exists | the path to the picture to convert.
+| new_size | [integer, integer] | [> 0, > 0] | Resize width and height in pixels. 
+|  |  | 
 ---
  
 # <a name="license"></a>License
@@ -929,11 +931,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NDc3MzIyOCw2NjYzNzQ0MjksLTI4MT
-k3MTY2LC0xMjc1NDQ2MDIwLDEzMTg1MTUzMDcsLTE3OTA3MzYw
-MjIsODkxMjA5NjgwLC05MDE3MDA3MCwzODkxNDc0MzMsLTExNT
-Q2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIxMCwtMTY5NjExNzQ3
-MCwxMzgxNzczNjkyLDE2OTAwNDE0NjAsLTk1MjkyODM3OCwtMT
-IxNjE5NTQ1NiwtNjU3ODA3NDE0LDUzOTIzODk5MCwtMTU0NDU0
-NTQ0M119
+eyJoaXN0b3J5IjpbNDQ5Nzk5MTQwLDY2NjM3NDQyOSwtMjgxOT
+cxNjYsLTEyNzU0NDYwMjAsMTMxODUxNTMwNywtMTc5MDczNjAy
+Miw4OTEyMDk2ODAsLTkwMTcwMDcwLDM4OTE0NzQzMywtMTE1ND
+Y4MDA0Nyw0NzI4MDAwMTQsNjgxMDM1MjEwLC0xNjk2MTE3NDcw
+LDEzODE3NzM2OTIsMTY5MDA0MTQ2MCwtOTUyOTI4Mzc4LC0xMj
+E2MTk1NDU2LC02NTc4MDc0MTQsNTM5MjM4OTkwLC0xNTQ0NTQ1
+NDQzXX0=
 -->
