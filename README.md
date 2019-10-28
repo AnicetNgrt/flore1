@@ -1023,8 +1023,8 @@ With `<color>` being a number between 0 and 255
 Cells data generated from the textAsset's building manual which makes printing sprites more manageable and therefore more optimised.
 
 ---
-## <a name="textasset.textsprite"></a>📜 Engine.TextAsset.TextSprite [(sub)class](#classes)
-
+## <a name="engine.textasset.textsprite"></a>📜 Engine.TextAsset.TextSprite [(sub)class](#classes)
+TextSprites (or Sprites) are basically what the [Engine.VirtualScene
 
 
 ---
@@ -1035,7 +1035,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0OTY3MDUzNiwtMTc4OTAzNzgyNiwxND
+eyJoaXN0b3J5IjpbLTIwOTM1ODk3MiwtMTc4OTAzNzgyNiwxND
 E1MjAxNzAxLC0xNTMyMDAyOTU5LDc3NDM3MTY2MCwtMTU1Mjk2
 NzY2MSwxNDY0OTkyNjMsLTIwNTY0NTQyNDAsLTg3NjkyMTA4OS
 wxMTExODMxNTMzLC0xODA0NjQyMDU2LDY2NjM3NDQyOSwtMjgx
