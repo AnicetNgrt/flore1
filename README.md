@@ -622,6 +622,8 @@ while True:
 Here you will find detailed explanations for everything you may want to use from this library.
 
 **Notes**: 
+
+- Some methods and properties are not useful for using this library from the outside, that is why 
 - With most fonts, 1 char width = 1/2 char height, always keep this in mind. If the docs don't talk about a `width` parameter or a `x` parameter being "1/2 of its true value" or "multiplied by 2" it means your `width` or your `x` may be the half of what you expect.
 - Never give the `self` argument when calling methods.
 ## <a name="classes"></a>Classes
@@ -833,7 +835,6 @@ The Engine takes care of everything from rendering to input and sound, but its u
 - [new_scene](#engine-new_scene) 
 - [del_scene](#engine-del_scene) 
 - [new_sprite](#engine-new_sprite) 
-- [find_trsprt_index](#engine-find_trsprt_index) 
 - [pic_to_textAsset](#engine-pic_to_textasset) 
 ### <a name="engine-init"></a>🧰 \_\_init\_\_ [method](#methods)
 ##### - Description:
@@ -896,24 +897,12 @@ Creates and return an empty [Engine.TextAsset.TextSprite](#engine.textasset.text
 def new_sprite(self)
 ```
 ##### - Return value:
-
+[Engine.TextAsset.TextSprite](#engine.textasset.textsprite) An empty sprite
 ##### - Arguments:
-| [ in ] | type | description
-|--|--|--|
-|  |  |
----
-### <a name="engine-find_trsprt_index"></a>🧰 find_trsprt_index [method](#methods)
-##### - Description:
-##### - Prototype:
-```python
-```
-##### - Return value:
+None
 
-##### - Arguments:
-| [ in ] | type | description
-|--|--|--|
-|  |  |
 ---
+
 ### <a name="engine-pic_to_textasset"></a>🧰 pic_to_textAsset [method](#methods)
 ##### - Description:
 ##### - Prototype:
@@ -934,11 +923,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MjM4OTc1NCwxMzE4NTE1MzA3LC0xNz
-kwNzM2MDIyLDg5MTIwOTY4MCwtOTAxNzAwNzAsMzg5MTQ3NDMz
-LC0xMTU0NjgwMDQ3LDQ3MjgwMDAxNCw2ODEwMzUyMTAsLTE2OT
-YxMTc0NzAsMTM4MTc3MzY5MiwxNjkwMDQxNDYwLC05NTI5Mjgz
-NzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5OTAsLT
-E1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3NzczNzI2NywtMTMz
-NTA4NzAwMl19
+eyJoaXN0b3J5IjpbMTgxOTI2MjgyLDEzMTg1MTUzMDcsLTE3OT
+A3MzYwMjIsODkxMjA5NjgwLC05MDE3MDA3MCwzODkxNDc0MzMs
+LTExNTQ2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIxMCwtMTY5Nj
+ExNzQ3MCwxMzgxNzczNjkyLDE2OTAwNDE0NjAsLTk1MjkyODM3
+OCwtMTIxNjE5NTQ1NiwtNjU3ODA3NDE0LDUzOTIzODk5MCwtMT
+U0NDU0NTQ0MywtMTYzNzc4Nzk5OSwyMDc3NzM3MjY3LC0xMzM1
+MDg3MDAyXX0=
 -->
