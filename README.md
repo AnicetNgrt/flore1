@@ -980,13 +980,13 @@ None
 Creates an empty [TextSprite](#engine.textasset.textsprite) instance, sets its Asset property to `self` and returns it.
 ##### - Prototype:
 ```python
-def
+def to_sprite(self)
 ```
 ##### - Return value:
-[TextSprite](#engine.textasset.textsprite) A sprite which cha
+[TextSprite](#engine.textasset.textsprite) A sprite which chart will be the copy of this Asset's [chart](#textasset.chart).
 ##### - Arguments:
-| [ in ] | type | condition | description
-|--|--|--|--|
+None
+
 ---
 # <a name="license"></a>License
 This library is distributed under a CC-BY-SA license.
@@ -995,11 +995,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTA5NDk3MjksLTE1NTI5Njc2NjEsMT
-Q2NDk5MjYzLC0yMDU2NDU0MjQwLC04NzY5MjEwODksMTExMTgz
-MTUzMywtMTgwNDY0MjA1Niw2NjYzNzQ0MjksLTI4MTk3MTY2LC
-0xMjc1NDQ2MDIwLDEzMTg1MTUzMDcsLTE3OTA3MzYwMjIsODkx
-MjA5NjgwLC05MDE3MDA3MCwzODkxNDc0MzMsLTExNTQ2ODAwND
-csNDcyODAwMDE0LDY4MTAzNTIxMCwtMTY5NjExNzQ3MCwxMzgx
-NzczNjkyXX0=
+eyJoaXN0b3J5IjpbNzc0MzcxNjYwLC0xNTUyOTY3NjYxLDE0Nj
+Q5OTI2MywtMjA1NjQ1NDI0MCwtODc2OTIxMDg5LDExMTE4MzE1
+MzMsLTE4MDQ2NDIwNTYsNjY2Mzc0NDI5LC0yODE5NzE2NiwtMT
+I3NTQ0NjAyMCwxMzE4NTE1MzA3LC0xNzkwNzM2MDIyLDg5MTIw
+OTY4MCwtOTAxNzAwNzAsMzg5MTQ3NDMzLC0xMTU0NjgwMDQ3LD
+Q3MjgwMDAxNCw2ODEwMzUyMTAsLTE2OTYxMTc0NzAsMTM4MTc3
+MzY5Ml19
 -->
