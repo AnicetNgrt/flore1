@@ -906,7 +906,7 @@ None
 
 ### <a name="engine-pic_to_textasset"></a>🧰 pic_to_textAsset [method](#methods)
 ##### - Description:
-Converts a p
+Opens, rescale if needed, and gathers the color palette for a picture with the `Pillow` library, and then converts it to an array of strings. Then it calls 
 ##### - Prototype:
 ```python
 ```
@@ -925,7 +925,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU2NjI3MjAxLC0yODE5NzE2NiwtMTI3NT
+eyJoaXN0b3J5IjpbNjY2Mzc0NDI5LC0yODE5NzE2NiwtMTI3NT
 Q0NjAyMCwxMzE4NTE1MzA3LC0xNzkwNzM2MDIyLDg5MTIwOTY4
 MCwtOTAxNzAwNzAsMzg5MTQ3NDMzLC0xMTU0NjgwMDQ3LDQ3Mj
 gwMDAxNCw2ODEwMzUyMTAsLTE2OTYxMTc0NzAsMTM4MTc3MzY5
