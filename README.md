@@ -6,6 +6,8 @@
 
 **[Quick start](#tuto0)**
 
+**[Discord server](https://discord.gg/7GE5Zfy)**
+
 **Note**: Thanks a lot for paying attention to my work. 
 My name is Anicet Nougaret, I am a french IT student, and I am doing all of this alone. This project will always remain open source and free.
 Therefore, please consider donating, it will greatly support this project ! 
@@ -923,7 +925,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTMzMjY0MiwtMTI3NTQ0NjAyMCwxMz
+eyJoaXN0b3J5IjpbLTc4NTc4Mjg3OSwtMTI3NTQ0NjAyMCwxMz
 E4NTE1MzA3LC0xNzkwNzM2MDIyLDg5MTIwOTY4MCwtOTAxNzAw
 NzAsMzg5MTQ3NDMzLC0xMTU0NjgwMDQ3LDQ3MjgwMDAxNCw2OD
 EwMzUyMTAsLTE2OTYxMTc0NzAsMTM4MTc3MzY5MiwxNjkwMDQx
