@@ -999,16 +999,20 @@ A square made of `a` chars:
 "aaaaaaaa" 
 ]
 ```
+A menu (just a sprite, not functional):
 ```python
 [
 "=== MENU ===",
 "|-choice 1 |",
 "|-choice 2 |",
-"|-choice",
-"|",
+"|-choice 3 |",
+"|-exit     |",
 "============"
 ]
 ```
+You can add `style codes` to your building manual. Thoses codes are the following:
+- 
+- 
 
 ---
 # <a name="license"></a>License
@@ -1018,7 +1022,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNDAxMTEzNiwtMTUzMjAwMjk1OSw3Nz
+eyJoaXN0b3J5IjpbLTE5MTE0MTkyMCwtMTUzMjAwMjk1OSw3Nz
 QzNzE2NjAsLTE1NTI5Njc2NjEsMTQ2NDk5MjYzLC0yMDU2NDU0
 MjQwLC04NzY5MjEwODksMTExMTgzMTUzMywtMTgwNDY0MjA1Ni
 w2NjYzNzQ0MjksLTI4MTk3MTY2LC0xMjc1NDQ2MDIwLDEzMTg1
