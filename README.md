@@ -1019,7 +1019,8 @@ With `<color>` being a number between 0 and 255
 
 ---
 ### <a name="textasset.chart"></a>📌 chart [property](#textasset-props)
-Pixel data of the textAsset's building manual
+##### Description:
+Cells data generated from the textAsset's building manual which makes printing sprites more manageable and therefore more optimised.
 
 ---
 # <a name="license"></a>License
@@ -1029,11 +1030,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NjUzNTMzOSwxNDE1MjAxNzAxLC0xNT
-MyMDAyOTU5LDc3NDM3MTY2MCwtMTU1Mjk2NzY2MSwxNDY0OTky
-NjMsLTIwNTY0NTQyNDAsLTg3NjkyMTA4OSwxMTExODMxNTMzLC
-0xODA0NjQyMDU2LDY2NjM3NDQyOSwtMjgxOTcxNjYsLTEyNzU0
-NDYwMjAsMTMxODUxNTMwNywtMTc5MDczNjAyMiw4OTEyMDk2OD
-AsLTkwMTcwMDcwLDM4OTE0NzQzMywtMTE1NDY4MDA0Nyw0NzI4
-MDAwMTRdfQ==
+eyJoaXN0b3J5IjpbLTE3ODkwMzc4MjYsMTQxNTIwMTcwMSwtMT
+UzMjAwMjk1OSw3NzQzNzE2NjAsLTE1NTI5Njc2NjEsMTQ2NDk5
+MjYzLC0yMDU2NDU0MjQwLC04NzY5MjEwODksMTExMTgzMTUzMy
+wtMTgwNDY0MjA1Niw2NjYzNzQ0MjksLTI4MTk3MTY2LC0xMjc1
+NDQ2MDIwLDEzMTg1MTUzMDcsLTE3OTA3MzYwMjIsODkxMjA5Nj
+gwLC05MDE3MDA3MCwzODkxNDc0MzMsLTExNTQ2ODAwNDcsNDcy
+ODAwMDE0XX0=
 -->
