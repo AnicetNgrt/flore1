@@ -950,7 +950,7 @@ Dictionnary of all the [Engine.VirtualScene(s)](#engine.virtualscene) instances 
 ---
 ### <a name="textasset-init"></a>🧰 \_\_init\_\_ [method](#textasset-methods)
 ##### - Description:
-Inits the TextAsset instance and call its [generate_chart](#textasset.ge)
+Inits the TextAsset instance and call its [generate_chart](#textasset-generate_chart)  method.
 ##### - Prototype:
 ```python
 def __init__(self, building_manual)
@@ -990,11 +990,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODQ0MDU5MywtMjA1NjQ1NDI0MCwtOD
-c2OTIxMDg5LDExMTE4MzE1MzMsLTE4MDQ2NDIwNTYsNjY2Mzc0
-NDI5LC0yODE5NzE2NiwtMTI3NTQ0NjAyMCwxMzE4NTE1MzA3LC
-0xNzkwNzM2MDIyLDg5MTIwOTY4MCwtOTAxNzAwNzAsMzg5MTQ3
-NDMzLC0xMTU0NjgwMDQ3LDQ3MjgwMDAxNCw2ODEwMzUyMTAsLT
-E2OTYxMTc0NzAsMTM4MTc3MzY5MiwxNjkwMDQxNDYwLC05NTI5
-MjgzNzhdfQ==
+eyJoaXN0b3J5IjpbMTQ2NDk5MjYzLC0yMDU2NDU0MjQwLC04Nz
+Y5MjEwODksMTExMTgzMTUzMywtMTgwNDY0MjA1Niw2NjYzNzQ0
+MjksLTI4MTk3MTY2LC0xMjc1NDQ2MDIwLDEzMTg1MTUzMDcsLT
+E3OTA3MzYwMjIsODkxMjA5NjgwLC05MDE3MDA3MCwzODkxNDc0
+MzMsLTExNTQ2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIxMCwtMT
+Y5NjExNzQ3MCwxMzgxNzczNjkyLDE2OTAwNDE0NjAsLTk1Mjky
+ODM3OF19
 -->
