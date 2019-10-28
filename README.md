@@ -890,6 +890,7 @@ No return value
 ---
 ### <a name="engine-new_sprite"></a>🧰 new_sprite [method](#methods)
 ##### - Description:
+Creates and return an [Engine.TextAsset.TextSprite](#engine.textasset.textsprite) (sprite) instance with no texture.
 ##### - Prototype:
 ```python
 ```
@@ -932,11 +933,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTA3MzYwMjIsODkxMjA5NjgwLC05MD
-E3MDA3MCwzODkxNDc0MzMsLTExNTQ2ODAwNDcsNDcyODAwMDE0
-LDY4MTAzNTIxMCwtMTY5NjExNzQ3MCwxMzgxNzczNjkyLDE2OT
-AwNDE0NjAsLTk1MjkyODM3OCwtMTIxNjE5NTQ1NiwtNjU3ODA3
-NDE0LDUzOTIzODk5MCwtMTU0NDU0NTQ0MywtMTYzNzc4Nzk5OS
-wyMDc3NzM3MjY3LC0xMzM1MDg3MDAyLDE5MTQ3ODg2OTEsLTc3
-NjAzOTAyMV19
+eyJoaXN0b3J5IjpbMTk4NDM4NjU0MiwtMTc5MDczNjAyMiw4OT
+EyMDk2ODAsLTkwMTcwMDcwLDM4OTE0NzQzMywtMTE1NDY4MDA0
+Nyw0NzI4MDAwMTQsNjgxMDM1MjEwLC0xNjk2MTE3NDcwLDEzOD
+E3NzM2OTIsMTY5MDA0MTQ2MCwtOTUyOTI4Mzc4LC0xMjE2MTk1
+NDU2LC02NTc4MDc0MTQsNTM5MjM4OTkwLC0xNTQ0NTQ1NDQzLC
+0xNjM3Nzg3OTk5LDIwNzc3MzcyNjcsLTEzMzUwODcwMDIsMTkx
+NDc4ODY5MV19
 -->
