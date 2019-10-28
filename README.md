@@ -1024,7 +1024,9 @@ Cells data generated from the textAsset's building manual which makes printing s
 
 ---
 ## <a name="engine.textasset.textsprite"></a>📜 Engine.TextAsset.TextSprite [(sub)class](#classes)
-TextSprites (or Sprites) are basically what the [Engine.VirtualScene](#engine.virtualscene) instances can display. They have many properties that one can change in order to change how a sprite is displayed. Whether it is its texture itself, its scene, its layer on the scene, or its (x, y) position on the scene.
+TextSprites (or Sprites) are basically what the [Engine.VirtualScene](#engine.virtualscene) instances can display. They have many properties that one can tweak in order to change how the sprite instance is displayed. Whether it is its texture, its scene, its layer on the scene, or its (x, y) position on the scene.
+### <a></a>Properties:
+### Methods:
 
 
 ---
@@ -1035,7 +1037,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwOTcyNTYwNywtMTc4OTAzNzgyNiwxND
+eyJoaXN0b3J5IjpbMTkxMjkwNTEyMSwtMTc4OTAzNzgyNiwxND
 E1MjAxNzAxLC0xNTMyMDAyOTU5LDc3NDM3MTY2MCwtMTU1Mjk2
 NzY2MSwxNDY0OTkyNjMsLTIwNTY0NTQyNDAsLTg3NjkyMTA4OS
 wxMTExODMxNTMzLC0xODA0NjQyMDU2LDY2NjM3NDQyOSwtMjgx
