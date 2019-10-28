@@ -948,7 +948,16 @@ Dictionnary of all the [Engine.VirtualScene(s)](#engine.virtualscene) instances 
 - [\_\_init\_\_](#textasset.init)
 - [generate_chart](#textasset.generate_chart)
 - [to_sprite](#textasset.to_sprite)
- 
+---
+### <a name="engine-pic_to_textasset"></a>🧰 \_\_init\_\_ [method](#textasset-methods)
+##### - Description:
+##### - Prototype:
+```python
+def
+```
+##### - Return value:
+##### - Arguments:
+| | 
 ---
 # <a name="license"></a>License
 This library is distributed under a CC-BY-SA license.
@@ -957,11 +966,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NjkyMTA4OSwxMTExODMxNTMzLC0xOD
-A0NjQyMDU2LDY2NjM3NDQyOSwtMjgxOTcxNjYsLTEyNzU0NDYw
-MjAsMTMxODUxNTMwNywtMTc5MDczNjAyMiw4OTEyMDk2ODAsLT
-kwMTcwMDcwLDM4OTE0NzQzMywtMTE1NDY4MDA0Nyw0NzI4MDAw
-MTQsNjgxMDM1MjEwLC0xNjk2MTE3NDcwLDEzODE3NzM2OTIsMT
-Y5MDA0MTQ2MCwtOTUyOTI4Mzc4LC0xMjE2MTk1NDU2LC02NTc4
-MDc0MTRdfQ==
+eyJoaXN0b3J5IjpbMTY3NzQwNzYzNCwtODc2OTIxMDg5LDExMT
+E4MzE1MzMsLTE4MDQ2NDIwNTYsNjY2Mzc0NDI5LC0yODE5NzE2
+NiwtMTI3NTQ0NjAyMCwxMzE4NTE1MzA3LC0xNzkwNzM2MDIyLD
+g5MTIwOTY4MCwtOTAxNzAwNzAsMzg5MTQ3NDMzLC0xMTU0Njgw
+MDQ3LDQ3MjgwMDAxNCw2ODEwMzUyMTAsLTE2OTYxMTc0NzAsMT
+M4MTc3MzY5MiwxNjkwMDQxNDYwLC05NTI5MjgzNzgsLTEyMTYx
+OTU0NTZdfQ==
 -->
