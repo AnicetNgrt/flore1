@@ -964,7 +964,7 @@ No return value
 ---
 ### <a name="textasset-generate_chart"></a>🧰 generate_chart [method](#textasset-methods)
 ##### - Description:
-Inits the Asset instance's [chart](#textasset.chart) property by interpreting  
+Generates the Asset instance's [chart](#textasset.chart) property by interpreting its [building_manual](#textasset.building_manual) property. 
 ##### - Prototype:
 ```python
 def generate_chart(self)
@@ -977,6 +977,7 @@ None
 ---
 ### <a name="textasset-to_sprite"></a>🧰 to_sprite [method](#textasset-methods)
 ##### - Description:
+Creates an empty [TextSprite](#engine.textasset.textsprite) insta
 ##### - Prototype:
 ```python
 def
@@ -993,11 +994,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk0MjYxNDU3LC0xNTUyOTY3NjYxLDE0Nj
-Q5OTI2MywtMjA1NjQ1NDI0MCwtODc2OTIxMDg5LDExMTE4MzE1
-MzMsLTE4MDQ2NDIwNTYsNjY2Mzc0NDI5LC0yODE5NzE2NiwtMT
-I3NTQ0NjAyMCwxMzE4NTE1MzA3LC0xNzkwNzM2MDIyLDg5MTIw
-OTY4MCwtOTAxNzAwNzAsMzg5MTQ3NDMzLC0xMTU0NjgwMDQ3LD
-Q3MjgwMDAxNCw2ODEwMzUyMTAsLTE2OTYxMTc0NzAsMTM4MTc3
-MzY5Ml19
+eyJoaXN0b3J5IjpbLTEwMTM0OTAxMDcsLTE1NTI5Njc2NjEsMT
+Q2NDk5MjYzLC0yMDU2NDU0MjQwLC04NzY5MjEwODksMTExMTgz
+MTUzMywtMTgwNDY0MjA1Niw2NjYzNzQ0MjksLTI4MTk3MTY2LC
+0xMjc1NDQ2MDIwLDEzMTg1MTUzMDcsLTE3OTA3MzYwMjIsODkx
+MjA5NjgwLC05MDE3MDA3MCwzODkxNDc0MzMsLTExNTQ2ODAwND
+csNDcyODAwMDE0LDY4MTAzNTIxMCwtMTY5NjExNzQ3MCwxMzgx
+NzczNjkyXX0=
 -->
