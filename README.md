@@ -931,6 +931,7 @@ None
 ---
  ## <a name="engine.textasset"></a>📜 Engine.TextAsset [(sub)class](#classes)
  A TextAsset instance (Asset) is a building manual for creating [TextAsset.TextSprites](#engine.textasset.textsprite). It is mainly here for conveniency since you could create several sprites with the same original `building_manual` string, without having to use textAssets. But more fonctionnalities will be made for TextAssets in the future.
+ 
 # <a name="license"></a>License
 This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
@@ -938,11 +939,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDQ2NDIwNTYsNjY2Mzc0NDI5LC0yOD
-E5NzE2NiwtMTI3NTQ0NjAyMCwxMzE4NTE1MzA3LC0xNzkwNzM2
-MDIyLDg5MTIwOTY4MCwtOTAxNzAwNzAsMzg5MTQ3NDMzLC0xMT
-U0NjgwMDQ3LDQ3MjgwMDAxNCw2ODEwMzUyMTAsLTE2OTYxMTc0
-NzAsMTM4MTc3MzY5MiwxNjkwMDQxNDYwLC05NTI5MjgzNzgsLT
-EyMTYxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5OTAsLTE1NDQ1
-NDU0NDNdfQ==
+eyJoaXN0b3J5IjpbLTg2MzkwNzQ1MCwtMTgwNDY0MjA1Niw2Nj
+YzNzQ0MjksLTI4MTk3MTY2LC0xMjc1NDQ2MDIwLDEzMTg1MTUz
+MDcsLTE3OTA3MzYwMjIsODkxMjA5NjgwLC05MDE3MDA3MCwzOD
+kxNDc0MzMsLTExNTQ2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIx
+MCwtMTY5NjExNzQ3MCwxMzgxNzczNjkyLDE2OTAwNDE0NjAsLT
+k1MjkyODM3OCwtMTIxNjE5NTQ1NiwtNjU3ODA3NDE0LDUzOTIz
+ODk5MF19
 -->
