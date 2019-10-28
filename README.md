@@ -910,17 +910,17 @@ Opens, rescale if needed, and gathers the color palette for a picture with the `
 
 **Notes**:
 - Putting a rgb code that is not part of your picture's color palette is the appropriate way of telling the engine that this picture has no transparency.
-- Letting the `new_size` argument as `"AUTO"` will resize the picture so it 
+- Letting the `new_size` argument as `"AUTO"` will resize the picture so it fits within 128x128px.
 ##### - Prototype:
 ```python
 def pic_to_textAsset(self, path="", new_size="AUTO", transparent_rgb=(-1, -1, -1))
 ```
 ##### - Return value:
-
+None
 ##### - Arguments:
-| [ in ] | type | description
-|--|--|--|
-|  |  |
+| [ in ] | type | condition | description
+|--|--|--|--|
+| path | string | path exists |
 ---
  
 # <a name="license"></a>License
@@ -930,11 +930,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDY5Mzk2OSw2NjYzNzQ0MjksLTI4MT
-k3MTY2LC0xMjc1NDQ2MDIwLDEzMTg1MTUzMDcsLTE3OTA3MzYw
-MjIsODkxMjA5NjgwLC05MDE3MDA3MCwzODkxNDc0MzMsLTExNT
-Q2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIxMCwtMTY5NjExNzQ3
-MCwxMzgxNzczNjkyLDE2OTAwNDE0NjAsLTk1MjkyODM3OCwtMT
-IxNjE5NTQ1NiwtNjU3ODA3NDE0LDUzOTIzODk5MCwtMTU0NDU0
-NTQ0M119
+eyJoaXN0b3J5IjpbLTE1MTkxODMxNjQsNjY2Mzc0NDI5LC0yOD
+E5NzE2NiwtMTI3NTQ0NjAyMCwxMzE4NTE1MzA3LC0xNzkwNzM2
+MDIyLDg5MTIwOTY4MCwtOTAxNzAwNzAsMzg5MTQ3NDMzLC0xMT
+U0NjgwMDQ3LDQ3MjgwMDAxNCw2ODEwMzUyMTAsLTE2OTYxMTc0
+NzAsMTM4MTc3MzY5MiwxNjkwMDQxNDYwLC05NTI5MjgzNzgsLT
+EyMTYxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5OTAsLTE1NDQ1
+NDU0NDNdfQ==
 -->
