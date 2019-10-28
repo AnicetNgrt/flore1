@@ -929,7 +929,7 @@ None
 | new_size | [integer, integer] | [> 0, > 0] | Resize width and height in pixels. 
 | transparent_rgb | (integer, integer, integer) | none | RGB code of the color that is meant to be transparent in the picture.
 ---
- ## <a name="engine"></a>📜 Engine.TextAsset [(sub)class](#classes)
+ ## <a name="engine."></a>📜 Engine.TextAsset [(sub)class](#classes)
  A TextAsset instance (Asset) is a building manual for creating [TextAsset.TextSprites](#engine.textasset.textsprite). It is mainly here for conveniency since you could create several sprites with the same original `building_manual` string, without having to use textAssets. But more fonctionnalities will be made for TextAssets in the future.
 # <a name="license"></a>License
 This library is distributed under a CC-BY-SA license.
@@ -938,7 +938,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNjcyOTQ3NSw2NjYzNzQ0MjksLTI4MT
+eyJoaXN0b3J5IjpbMTk1OTA3MTMwMyw2NjYzNzQ0MjksLTI4MT
 k3MTY2LC0xMjc1NDQ2MDIwLDEzMTg1MTUzMDcsLTE3OTA3MzYw
 MjIsODkxMjA5NjgwLC05MDE3MDA3MCwzODkxNDc0MzMsLTExNT
 Q2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIxMCwtMTY5NjExNzQ3
