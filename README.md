@@ -897,7 +897,7 @@ No return value
 ### <a name="engine-new_sprite"></a>🧰 new_sprite [method](#methods)
 ##### - Description:
 Creates and return an empty [Engine.TextAsset.TextSprite](#engine.textasset.textsprite) (sprite) instance. You can put it in a scene, but if you do not set its texture before showing the scene, it may crash.
-You may feel confused because we short circuit the regular process of creating sprites, which normally includes an Asse
+You may feel confused because we short circuit the regular process of creating sprites, which normally includes a parent Asset instance. But the kind of sublcass that flore1 features, even though some classes respect structural hierarchy between them, their instances **do not respect any kind o
 ##### - Prototype:
 ```python
 def new_sprite(self)
@@ -937,11 +937,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0ODg0OTcsNjY2Mzc0NDI5LC0yODE5Nz
-E2NiwtMTI3NTQ0NjAyMCwxMzE4NTE1MzA3LC0xNzkwNzM2MDIy
-LDg5MTIwOTY4MCwtOTAxNzAwNzAsMzg5MTQ3NDMzLC0xMTU0Nj
-gwMDQ3LDQ3MjgwMDAxNCw2ODEwMzUyMTAsLTE2OTYxMTc0NzAs
-MTM4MTc3MzY5MiwxNjkwMDQxNDYwLC05NTI5MjgzNzgsLTEyMT
-YxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5OTAsLTE1NDQ1NDU0
-NDNdfQ==
+eyJoaXN0b3J5IjpbLTI5MjkzNTE1Miw2NjYzNzQ0MjksLTI4MT
+k3MTY2LC0xMjc1NDQ2MDIwLDEzMTg1MTUzMDcsLTE3OTA3MzYw
+MjIsODkxMjA5NjgwLC05MDE3MDA3MCwzODkxNDc0MzMsLTExNT
+Q2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIxMCwtMTY5NjExNzQ3
+MCwxMzgxNzczNjkyLDE2OTAwNDE0NjAsLTk1MjkyODM3OCwtMT
+IxNjE5NTQ1NiwtNjU3ODA3NDE0LDUzOTIzODk5MCwtMTU0NDU0
+NTQ0M119
 -->
