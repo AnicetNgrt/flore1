@@ -929,6 +929,13 @@ None
 | new_size | [integer, integer] | [> 0, > 0] | Resize width and height in pixels. 
 | transparent_rgb | (integer, integer, integer) | none | RGB code of the color that is meant to be transparent in the picture.
 ---
+### <a name="engine.auto_scale"></a>📌 auto_scale [property](#engine-props) 
+##### Description: 
+Whether the 
+### <a name="engine.vscenes"></a>📌 vscenes [property](#engine-props) 
+##### Description: 
+
+---
  ## <a name="engine.textasset"></a>📜 Engine.TextAsset [(sub)class](#classes)
  A TextAsset instance (Asset) is a building manual for creating [TextAsset.TextSprites](#engine.textasset.textsprite). It is mainly here for conveniency since you could create several sprites with the same original `building_manual` string, without having to use textAssets. But more fonctionnalities will be made for TextAssets in the future.
  ### Subclass
@@ -949,11 +956,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI3MTM4ODM1LC0xODA0NjQyMDU2LDY2Nj
-M3NDQyOSwtMjgxOTcxNjYsLTEyNzU0NDYwMjAsMTMxODUxNTMw
-NywtMTc5MDczNjAyMiw4OTEyMDk2ODAsLTkwMTcwMDcwLDM4OT
-E0NzQzMywtMTE1NDY4MDA0Nyw0NzI4MDAwMTQsNjgxMDM1MjEw
-LC0xNjk2MTE3NDcwLDEzODE3NzM2OTIsMTY5MDA0MTQ2MCwtOT
-UyOTI4Mzc4LC0xMjE2MTk1NDU2LC02NTc4MDc0MTQsNTM5MjM4
-OTkwXX0=
+eyJoaXN0b3J5IjpbLTkyNzUxMTgwNiwtMTgwNDY0MjA1Niw2Nj
+YzNzQ0MjksLTI4MTk3MTY2LC0xMjc1NDQ2MDIwLDEzMTg1MTUz
+MDcsLTE3OTA3MzYwMjIsODkxMjA5NjgwLC05MDE3MDA3MCwzOD
+kxNDc0MzMsLTExNTQ2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIx
+MCwtMTY5NjExNzQ3MCwxMzgxNzczNjkyLDE2OTAwNDE0NjAsLT
+k1MjkyODM3OCwtMTIxNjE5NTQ1NiwtNjU3ODA3NDE0LDUzOTIz
+ODk5MF19
 -->
