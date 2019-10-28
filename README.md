@@ -953,7 +953,7 @@ Dictionnary of all the [Engine.VirtualScene(s)](#engine.virtualscene) instances 
 ##### - Description:
 ##### - Prototype:
 ```python
-def
+def __init__(self)
 ```
 ##### - Return value:
 ##### - Arguments:
@@ -989,11 +989,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTY0NTQyNDAsLTg3NjkyMTA4OSwxMT
-ExODMxNTMzLC0xODA0NjQyMDU2LDY2NjM3NDQyOSwtMjgxOTcx
-NjYsLTEyNzU0NDYwMjAsMTMxODUxNTMwNywtMTc5MDczNjAyMi
-w4OTEyMDk2ODAsLTkwMTcwMDcwLDM4OTE0NzQzMywtMTE1NDY4
-MDA0Nyw0NzI4MDAwMTQsNjgxMDM1MjEwLC0xNjk2MTE3NDcwLD
-EzODE3NzM2OTIsMTY5MDA0MTQ2MCwtOTUyOTI4Mzc4LC0xMjE2
-MTk1NDU2XX0=
+eyJoaXN0b3J5IjpbLTE2NDU1MDYwODEsLTIwNTY0NTQyNDAsLT
+g3NjkyMTA4OSwxMTExODMxNTMzLC0xODA0NjQyMDU2LDY2NjM3
+NDQyOSwtMjgxOTcxNjYsLTEyNzU0NDYwMjAsMTMxODUxNTMwNy
+wtMTc5MDczNjAyMiw4OTEyMDk2ODAsLTkwMTcwMDcwLDM4OTE0
+NzQzMywtMTE1NDY4MDA0Nyw0NzI4MDAwMTQsNjgxMDM1MjEwLC
+0xNjk2MTE3NDcwLDEzODE3NzM2OTIsMTY5MDA0MTQ2MCwtOTUy
+OTI4Mzc4XX0=
 -->
