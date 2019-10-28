@@ -654,6 +654,10 @@ The Flipbook class lets you easily animate [TextSprites](#textsprites) by comput
 Inits the Flipbook: 
 - Inits its [material](#flipbook.material) property
 	- Creates the `play` function. See [material](#flipbook.material)  for more details.
+-  **About picture conversion:**
+	- Compatible with `.png`, `.jpg`, `.jpeg`, static `.gif`, and `.svg` pictures.
+	- Putting a rgb code that is not part of your picture's color palette is the appropriate way of telling the engine that this picture has no transparency.
+	- Putting the `"AUTO"` value in your `size` argument will resize the picture so it fits within 128x128px.
 
 ##### - Prototype:
 ```python
@@ -931,11 +935,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgwMjU1Njc4LDY2NjM3NDQyOSwtMjgxOT
-cxNjYsLTEyNzU0NDYwMjAsMTMxODUxNTMwNywtMTc5MDczNjAy
-Miw4OTEyMDk2ODAsLTkwMTcwMDcwLDM4OTE0NzQzMywtMTE1ND
-Y4MDA0Nyw0NzI4MDAwMTQsNjgxMDM1MjEwLC0xNjk2MTE3NDcw
-LDEzODE3NzM2OTIsMTY5MDA0MTQ2MCwtOTUyOTI4Mzc4LC0xMj
-E2MTk1NDU2LC02NTc4MDc0MTQsNTM5MjM4OTkwLC0xNTQ0NTQ1
-NDQzXX0=
+eyJoaXN0b3J5IjpbLTc1ODc0OTY2Nyw2NjYzNzQ0MjksLTI4MT
+k3MTY2LC0xMjc1NDQ2MDIwLDEzMTg1MTUzMDcsLTE3OTA3MzYw
+MjIsODkxMjA5NjgwLC05MDE3MDA3MCwzODkxNDc0MzMsLTExNT
+Q2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIxMCwtMTY5NjExNzQ3
+MCwxMzgxNzczNjkyLDE2OTAwNDE0NjAsLTk1MjkyODM3OCwtMT
+IxNjE5NTQ1NiwtNjU3ODA3NDE0LDUzOTIzODk5MCwtMTU0NDU0
+NTQ0M119
 -->
