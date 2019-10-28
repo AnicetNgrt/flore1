@@ -986,7 +986,7 @@ def to_sprite(self)
 [TextSprite](#engine.textasset.textsprite) A sprite which chart will be the copy of this Asset's [chart](#textasset.chart).
 ##### - Arguments:
 None
-
+### <a name="engine.vscenes"></a>📌 vscenes [property](#engine-props) 
 ---
 # <a name="license"></a>License
 This library is distributed under a CC-BY-SA license.
@@ -995,11 +995,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc0MzcxNjYwLC0xNTUyOTY3NjYxLDE0Nj
-Q5OTI2MywtMjA1NjQ1NDI0MCwtODc2OTIxMDg5LDExMTE4MzE1
-MzMsLTE4MDQ2NDIwNTYsNjY2Mzc0NDI5LC0yODE5NzE2NiwtMT
-I3NTQ0NjAyMCwxMzE4NTE1MzA3LC0xNzkwNzM2MDIyLDg5MTIw
-OTY4MCwtOTAxNzAwNzAsMzg5MTQ3NDMzLC0xMTU0NjgwMDQ3LD
-Q3MjgwMDAxNCw2ODEwMzUyMTAsLTE2OTYxMTc0NzAsMTM4MTc3
-MzY5Ml19
+eyJoaXN0b3J5IjpbLTE1MzIwMDI5NTksNzc0MzcxNjYwLC0xNT
+UyOTY3NjYxLDE0NjQ5OTI2MywtMjA1NjQ1NDI0MCwtODc2OTIx
+MDg5LDExMTE4MzE1MzMsLTE4MDQ2NDIwNTYsNjY2Mzc0NDI5LC
+0yODE5NzE2NiwtMTI3NTQ0NjAyMCwxMzE4NTE1MzA3LC0xNzkw
+NzM2MDIyLDg5MTIwOTY4MCwtOTAxNzAwNzAsMzg5MTQ3NDMzLC
+0xMTU0NjgwMDQ3LDQ3MjgwMDAxNCw2ODEwMzUyMTAsLTE2OTYx
+MTc0NzBdfQ==
 -->
