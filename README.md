@@ -841,7 +841,7 @@ The Engine takes care of everything from rendering to input and sound, but its u
 - [del_scene](#engine-del_scene) 
 - [new_sprite](#engine-new_sprite) 
 - [pic_to_textAsset](#engine-pic_to_textasset) 
-### <a name="engine-init"></a>🧰 \_\_init\_\_ [method](#methods)
+### <a name="engine-init"></a>🧰 \_\_init\_\_ [method](#engine-methods)
 ##### - Description:
 - Inits the Engine instance:
 	- Inits its [auto_scale](#engine.auto_scale) property
@@ -860,7 +860,7 @@ No return value
 | win_mode | boolean | Whether to realize a compatibility manipulation which may fix rendering issue on some terminals.
 | logo | boolean | Whether to display flore1's logo on start.
 ---
-### <a name="engine-new_scene"></a>🧰 new_scene [method](#methods)
+### <a name="engine-new_scene"></a>🧰 new_scene [method](#engine-methods)
 ##### - Description:
 Creates an [Engine.VirtualScene](#engine.virtualscene) instance, puts it inside the Engine's [vscenes](#engine.vscenes) dictionnary at the `name` entry, and returns it.
 ##### - Prototype:
@@ -880,7 +880,7 @@ def new_scene(self, name, coord_x, coord_y, res_x, res_y, layer_count)
 | layer_count | integer | > 0 | The number of layers in the scene, in other words, how many level of superposition the scene tries to manage.
  
 ---
-### <a name="engine-del_scene"></a>🧰 del_scene [method](#methods)
+### <a name="engine-del_scene"></a>🧰 del_scene [method](#engine-methods)
 ##### - Description:
 Deletes an entry in [Engine.vscenes](#engine.vscenes). **This will delete the [Engine.VirtualScene](#engine.virtualscene) instance itself.**
 ##### - Prototype:
@@ -894,7 +894,7 @@ No return value
 |--|--|--|--|
 | name | string | != "" | The key of the entry to delete.
 ---
-### <a name="engine-new_sprite"></a>🧰 new_sprite [method](#methods)
+### <a name="engine-new_sprite"></a>🧰 new_sprite [method](#engine-methods)
 ##### - Description:
 Creates and return an empty [Engine.TextAsset.TextSprite](#engine.textasset.textsprite) (sprite) instance. You can put it in a scene, but if you do not set its texture before showing the scene, it may crash.
 
@@ -910,7 +910,7 @@ None
 
 ---
 
-### <a name="engine-pic_to_textasset"></a>🧰 pic_to_textAsset [method](#methods)
+### <a name="engine-pic_to_textasset"></a>🧰 pic_to_textAsset [method](#engine-methods)
 ##### - Description:
 Opens, rescale if needed, and gathers the color palette for a picture with the `Pillow` library, and then converts it to an array of strings called a "building manual". Then it calls [`Engine.TextAsset(building_manual)`](#Engine.TextAsset) and returns the Asset resulting from this.
 - Compatible with `.png`, `.jpg`, `.jpeg`, static `.gif`, and `.svg` pictures.
@@ -933,13 +933,13 @@ None
  A TextAsset instance (Asset) is a building manual for creating [TextAsset.TextSprites](#engine.textasset.textsprite). It is mainly here for conveniency since you could create several sprites with the same original `building_manual` string, without having to use textAssets. But more fonctionnalities will be made for TextAssets in the future.
  ### Subclass
 -  [TextSprite](#engine.textasset.textsprite)
-### <a name="refresh-props"></a>Property
+### <a name="textasset-props"></a>Property
 -  [building_manual](#textasset.building_manual)
 
-### <a name="refresh-methods"></a>Methods
+### <a name="textasset-methods"></a>Methods
 - [\_\_init\_\_](#textasset.init)
-- [generate](#)
-- [](#)
+- [generate_chart](#textasset.generate_chart)
+- [to_sprite](#textasset.to_sprite)
  
 ---
 # <a name="license"></a>License
@@ -949,11 +949,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMTUyNzIwOCwtMTgwNDY0MjA1Niw2Nj
-YzNzQ0MjksLTI4MTk3MTY2LC0xMjc1NDQ2MDIwLDEzMTg1MTUz
-MDcsLTE3OTA3MzYwMjIsODkxMjA5NjgwLC05MDE3MDA3MCwzOD
-kxNDc0MzMsLTExNTQ2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIx
-MCwtMTY5NjExNzQ3MCwxMzgxNzczNjkyLDE2OTAwNDE0NjAsLT
-k1MjkyODM3OCwtMTIxNjE5NTQ1NiwtNjU3ODA3NDE0LDUzOTIz
-ODk5MF19
+eyJoaXN0b3J5IjpbLTE0MjQyODM0NzgsLTE4MDQ2NDIwNTYsNj
+Y2Mzc0NDI5LC0yODE5NzE2NiwtMTI3NTQ0NjAyMCwxMzE4NTE1
+MzA3LC0xNzkwNzM2MDIyLDg5MTIwOTY4MCwtOTAxNzAwNzAsMz
+g5MTQ3NDMzLC0xMTU0NjgwMDQ3LDQ3MjgwMDAxNCw2ODEwMzUy
+MTAsLTE2OTYxMTc0NzAsMTM4MTc3MzY5MiwxNjkwMDQxNDYwLC
+05NTI5MjgzNzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1Mzky
+Mzg5OTBdfQ==
 -->
