@@ -648,7 +648,7 @@ The Flipbook class lets you easily animate [TextSprites](#textsprites) by comput
 - [start](#flipbook-start) 
 - [stop](#flipbook-stop) 
 ---
-### <a name="flipbook-init"></a>🧰 \_\_init\_\_ [method](#methods)
+### <a name="flipbook-init"></a>🧰 \_\_init\_\_ [method](#flipbook-methods)
 
 ##### - Description:
 Inits the Flipbook: 
@@ -678,7 +678,7 @@ No return value
 | sync | boolean | None | Whether the flipbook skips frame if the refresh slows down
 
 ---
-### <a name="flipbook-start"></a>🧰 start [method](#methods)
+### <a name="flipbook-start"></a>🧰 start [method](#flipbook-methods)
 ##### - Description:
 Feeds the Flipbook's Refresh instance with the Flipbook's [material](#flipbook.material) property.
 ##### - Prototype:
@@ -691,7 +691,7 @@ No return value
 None
 
 ---
-### <a name="flipbook-stop"></a>🧰 stop [method](#methods)
+### <a name="flipbook-stop"></a>🧰 stop [method](#flipbook-methods)
 ##### - Description:
 Terminates the Flipbook's [material](#flipbook.material) property's function execution within the Flipbook's Refresh instance.
 ##### - Prototype:
@@ -726,7 +726,7 @@ You can "[feed](#refresh-feed)" the Refresh class with a `(function, *args, **kw
 - [do](#refresh-do) 
 - [run](#refresh-run) 
 - ---
-### <a name="refresh-init"></a>🧰 \_\_init\_\_ [method](#methods)
+### <a name="refresh-init"></a>🧰 \_\_init\_\_ [method](#refresh-methods)
 ##### - Description:
 Inits all the [properties](#refresh-props) of Refresh.
 ##### - Prototype:
@@ -740,7 +740,7 @@ No return value
 |--|--|--|--|
 | fps | integer | > 0 | Execution rate goal of the Refresh 
 ---
-### <a name="refresh-terminate"></a>🧰 terminate [method](#methods)
+### <a name="refresh-terminate"></a>🧰 terminate [method](#refresh-methods)
 ##### - Description:
 Removes a specific `(function, *args, **kwargs)` tuple from the Refresh's execution [stack](#refresh.stack).
 In other words, the Refresh stops calling `function(*args, **kwargs)` when it's [do](#refresh-do) method is called.
@@ -758,7 +758,7 @@ No return value
 | **kwargs | **kwargs | Keyworded arguments type element of the tuple to remove from the [stack](#refresh.stack)
 
 ---
-### <a name="refresh-feed"></a>🧰 feed [method](#methods)
+### <a name="refresh-feed"></a>🧰 feed [method](#refresh-methods)
 ##### - Description:
 Adds a `(function, *args, **kwargs)` tuple to the Refresh's execution [stack](#refresh.stack). 
 In other words, it asks the Refresh to call `function(*args, **kwargs)` via the [do](#refresh-do) method every time its [run](#refresh-run) method is called, to add its execution time to the total execution latency, and, only if `function.sync = True`, to sync its execution rate with the Refresh's execution latency goal.
@@ -775,7 +775,7 @@ No return value
 | *args | *args | Arguments type element of the tuple to append the [stack](#refresh.stack) with 
 | **kwargs | **kwargs | Keyworded arguments type element of the tuple to append the [stack](#refresh.stack) with
 ---
-### <a name="refresh-do"></a>🧰 do [method](#methods)
+### <a name="refresh-do"></a>🧰 do [method](#refresh-methods)
 ##### - Description:
 For each `(function, *args, **kwargs)` tuple in the Refresh's [stack](#refresh.stack) it may call `function(*args, **kwargs)` (if `function.sync` is True, it only calls it on frame change). But before, if `function.i` does not exist it sets it to `0`, if `function.sync` does not exist, it sets it to `True`, and if `function.refresh` does not exist, it sets it to `self`.
 ##### - Prototype:
@@ -788,7 +788,7 @@ No return value
 No arguments
 
 ---
-### <a name="refresh-run"></a>🧰 run [method](#methods)
+### <a name="refresh-run"></a>🧰 run [method](#refresh-methods)
 ##### - Description:
 Calls the [do](#refresh-do) method and computes its execution time (the latency caused by it). Then it computes the [Refresh.i](#refresh.i) property function of the latency and the [Refresh.fps](#refresh.fps) property. The point is that this property  always augments at the same speed regardless of the low or high latency. Then [Refresh.frame](#refresh.frame) is 
 ##### - Prototype:
@@ -803,24 +803,24 @@ No return value
 | self | [Refresh](#refresh) | The Refresh instance that is ran
 | debug | boolean | Whether you want the debug header for this method to show on the top left corner
 ---
-### <a name="refresh.fps"></a>📌 fps [property](#flipbook-props) 
+### <a name="refresh.fps"></a>📌 fps [property](#refresh-props) 
 ##### Description: 
 The frame rate goal of the Refresh instance. It is meant to be an integer.
 
 ---
-### <a name="refresh.stack"></a>📌 stack [property](#flipbook-props) 
+### <a name="refresh.stack"></a>📌 stack [property](#refresh-props) 
 ##### Description: 
 A list of `(function, *args, **kwargs)` tuple. It lists all the functions that can be called by the Refresh and all their arguments. This depends on whether the function's `.sync` attribute is set to `True` or `False`, and on whether [Refresh.frame](#refresh.frame) has changed.
 
 ---
-### <a name="refresh.frame"></a>📌 frame [property](#flipbook-props) 
+### <a name="refresh.frame"></a>📌 frame [property](#refresh-props) 
 ##### Description: 
 The current "frame" (or turn count) of the Refresh. It is equal to the rounded value of [Refresh.i](#refresh.i). When its value changes the synced functions in the [stack](#refresh.stack) get called and their `.i` attribute changes as much as the [Refresh.frame](#refresh.frame) did. 
 
 **Note**: The unsynced functions in the [stack](#refresh.stack) are always called and their `.i` attribute is just incremented by 1 at each call.
 
 ---
-### <a name="refresh.i"></a>📌 i [property](#flipbook-props) 
+### <a name="refresh.i"></a>📌 i [property](#refresh-props) 
 ##### Description: 
 A float variable that accumulates the frame latency and the frame advance in order to count the [frame](#refresh.frame) count more accuratly.
 
@@ -830,11 +830,11 @@ The Engine takes care of everything from rendering to input and sound, but its u
 ### Subclasses
 -  [VirtualScene](#engine.virtualscene)
 -  [TextAsset](#engine.textasset)
-### <a name="refresh-props"></a>Properties
+### <a name="engine-props"></a>Properties
 -  [vscenes](#engine.vscenes)
 -  [auto_scale](#engine.auto_scale)
 
-### <a name="refresh-methods"></a>Methods
+### <a name="engine-methods"></a>Methods
 
 - [\_\_init\_\_](#engine-init) 
 - [new_scene](#engine-new_scene) 
@@ -949,11 +949,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjQyODM0NzgsLTE4MDQ2NDIwNTYsNj
-Y2Mzc0NDI5LC0yODE5NzE2NiwtMTI3NTQ0NjAyMCwxMzE4NTE1
-MzA3LC0xNzkwNzM2MDIyLDg5MTIwOTY4MCwtOTAxNzAwNzAsMz
-g5MTQ3NDMzLC0xMTU0NjgwMDQ3LDQ3MjgwMDAxNCw2ODEwMzUy
-MTAsLTE2OTYxMTc0NzAsMTM4MTc3MzY5MiwxNjkwMDQxNDYwLC
-05NTI5MjgzNzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1Mzky
-Mzg5OTBdfQ==
+eyJoaXN0b3J5IjpbNzI3MTM4ODM1LC0xODA0NjQyMDU2LDY2Nj
+M3NDQyOSwtMjgxOTcxNjYsLTEyNzU0NDYwMjAsMTMxODUxNTMw
+NywtMTc5MDczNjAyMiw4OTEyMDk2ODAsLTkwMTcwMDcwLDM4OT
+E0NzQzMywtMTE1NDY4MDA0Nyw0NzI4MDAwMTQsNjgxMDM1MjEw
+LC0xNjk2MTE3NDcwLDEzODE3NzM2OTIsMTY5MDA0MTQ2MCwtOT
+UyOTI4Mzc4LC0xMjE2MTk1NDU2LC02NTc4MDc0MTQsNTM5MjM4
+OTkwXX0=
 -->
