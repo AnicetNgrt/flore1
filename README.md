@@ -897,6 +897,7 @@ No return value
 ### <a name="engine-new_sprite"></a>🧰 new_sprite [method](#methods)
 ##### - Description:
 Creates and return an empty [Engine.TextAsset.TextSprite](#engine.textasset.textsprite) (sprite) instance. You can put it in a scene, but if you do not set its texture before showing the scene, it may crash.
+You may feel confused because we short circuit the regular process of creating sprites, which normally includes an Asse
 ##### - Prototype:
 ```python
 def new_sprite(self)
@@ -928,7 +929,7 @@ None
 | transparent_rgb | (integer, integer, integer) | none | RGB code of the color that is meant to be transparent in the picture.
 ---
  ## <a name="engine"></a>📜 Engine.TextAsset [(sub)class](#classes)
- A TextAsset instance (Asset) is a bulding manual for creating [TextAsset.TextSprites](#eng)
+ A TextAsset instance (Asset) is a bulding manual for creating [TextAsset.TextSprites](#engine.textasset.textsprite)
 # <a name="license"></a>License
 This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
@@ -936,11 +937,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NDI2NDY5LDY2NjM3NDQyOSwtMjgxOT
-cxNjYsLTEyNzU0NDYwMjAsMTMxODUxNTMwNywtMTc5MDczNjAy
-Miw4OTEyMDk2ODAsLTkwMTcwMDcwLDM4OTE0NzQzMywtMTE1ND
-Y4MDA0Nyw0NzI4MDAwMTQsNjgxMDM1MjEwLC0xNjk2MTE3NDcw
-LDEzODE3NzM2OTIsMTY5MDA0MTQ2MCwtOTUyOTI4Mzc4LC0xMj
-E2MTk1NDU2LC02NTc4MDc0MTQsNTM5MjM4OTkwLC0xNTQ0NTQ1
-NDQzXX0=
+eyJoaXN0b3J5IjpbMTk0ODg0OTcsNjY2Mzc0NDI5LC0yODE5Nz
+E2NiwtMTI3NTQ0NjAyMCwxMzE4NTE1MzA3LC0xNzkwNzM2MDIy
+LDg5MTIwOTY4MCwtOTAxNzAwNzAsMzg5MTQ3NDMzLC0xMTU0Nj
+gwMDQ3LDQ3MjgwMDAxNCw2ODEwMzUyMTAsLTE2OTYxMTc0NzAs
+MTM4MTc3MzY5MiwxNjkwMDQxNDYwLC05NTI5MjgzNzgsLTEyMT
+YxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5OTAsLTE1NDQ1NDU0
+NDNdfQ==
 -->
