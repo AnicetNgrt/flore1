@@ -896,9 +896,7 @@ No return value
 ---
 ### <a name="engine-new_sprite"></a>🧰 new_sprite [method](#engine-methods)
 ##### - Description:
-Creates and return an empty [Engine.TextAsset.TextSprite](#engine.textasset.textsprite) (sprite) instance. You can put it in a scene, but if you do not set its texture before showing the scene, it may crash.
-
-You may feel confused because we short circuit the regular process of creating sprites, which you may think normally implies a parent Asset instance. But even though classes respect structural hierarchy between them, **their instances do not respect any kind of parent/child hierarchy**. Don't expect to get your sprites instances from an asset instance. Access to the classes respects hierarchy, and the parent class always feature methods to create an instance of the child classes. But this is only for structure conveniency. **After an instance is created, it is structuraly independent from everything else**.
+Creates and return an empty [Engine.TextAsset.TextSprite](#engine.textasset.textsprite) (sprite) instance. You can put it in a scene, but if you do not set its asset property before showing the scene, it may crash.
 ##### - Prototype:
 ```python
 def new_sprite(self)
@@ -938,7 +936,7 @@ Dictionnary of all the [Engine.VirtualScene(s)](#engine.virtualscene) instances 
 
 ---
  ## <a name="engine.textasset"></a>📜 Engine.TextAsset [(sub)class](#classes)
- A TextAsset instance (Asset) is a building manual for creating [TextAsset.TextSprites](#engine.textasset.textsprite). It is mainly here for conveniency since you could create several sprites with the same original `building_manual` string, without having to use textAssets. But more fonctionnalities will be made for TextAssets in the future.
+ A TextAsset instance (Asset) is a building manual for creating [TextAsset.TextSprites](#engine.textasset.textsprite). It can convert an easy syntax for c to a format more suitable for display.
  ### Subclass
 -  [TextSprite](#engine.textasset.textsprite)
 ### <a name="textasset-props"></a>Property
@@ -991,11 +989,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODUzNTkxOTAsLTIwNTY0NTQyNDAsLT
-g3NjkyMTA4OSwxMTExODMxNTMzLC0xODA0NjQyMDU2LDY2NjM3
-NDQyOSwtMjgxOTcxNjYsLTEyNzU0NDYwMjAsMTMxODUxNTMwNy
-wtMTc5MDczNjAyMiw4OTEyMDk2ODAsLTkwMTcwMDcwLDM4OTE0
-NzQzMywtMTE1NDY4MDA0Nyw0NzI4MDAwMTQsNjgxMDM1MjEwLC
-0xNjk2MTE3NDcwLDEzODE3NzM2OTIsMTY5MDA0MTQ2MCwtOTUy
-OTI4Mzc4XX0=
+eyJoaXN0b3J5IjpbLTYyNTUyMDM5NiwtMjA1NjQ1NDI0MCwtOD
+c2OTIxMDg5LDExMTE4MzE1MzMsLTE4MDQ2NDIwNTYsNjY2Mzc0
+NDI5LC0yODE5NzE2NiwtMTI3NTQ0NjAyMCwxMzE4NTE1MzA3LC
+0xNzkwNzM2MDIyLDg5MTIwOTY4MCwtOTAxNzAwNzAsMzg5MTQ3
+NDMzLC0xMTU0NjgwMDQ3LDQ3MjgwMDAxNCw2ODEwMzUyMTAsLT
+E2OTYxMTc0NzAsMTM4MTc3MzY5MiwxNjkwMDQxNDYwLC05NTI5
+MjgzNzhdfQ==
 -->
