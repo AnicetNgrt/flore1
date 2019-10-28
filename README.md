@@ -933,10 +933,13 @@ None
  A TextAsset instance (Asset) is a building manual for creating [TextAsset.TextSprites](#engine.textasset.textsprite). It is mainly here for conveniency since you could create several sprites with the same original `building_manual` string, without having to use textAssets. But more fonctionnalities will be made for TextAssets in the future.
  ### Subclass
 -  [TextSprite](#engine.textasset.textsprite)
-### <a name="refresh-props"></a>Properties
--  [building_manual](#asset.buildi)
+### <a name="refresh-props"></a>Property
+-  [building_manual](#textasset.building_manual)
 
 ### <a name="refresh-methods"></a>Methods
+- [\_\_init\_\_](#textasset.init)
+- [generate](#)
+- [](#)
  
 ---
 # <a name="license"></a>License
@@ -946,7 +949,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMTc0OTEwMCwtMTgwNDY0MjA1Niw2Nj
+eyJoaXN0b3J5IjpbLTMzMTUyNzIwOCwtMTgwNDY0MjA1Niw2Nj
 YzNzQ0MjksLTI4MTk3MTY2LC0xMjc1NDQ2MDIwLDEzMTg1MTUz
 MDcsLTE3OTA3MzYwMjIsODkxMjA5NjgwLC05MDE3MDA3MCwzOD
 kxNDc0MzMsLTExNTQ2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIx
