@@ -109,7 +109,7 @@ This tutorial is about displaying a text sprite in a scene with colors and defin
 [-> I just want the code thanks.](#tuto1_code)
 
 ### 🎨 Creating a text sprite:
-First, you need the basic usage code I gave 
+First, you need the basic usage code I gave [here](#tuto0).
 In order to create our text sprite we need to create a "building manual" for the sprite. Don't worry it is just an array of strings.
 ```python
 # following the previously given code:
@@ -923,7 +923,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MTUwMTAyMywtMjgxOTcxNjYsLTEyNz
+eyJoaXN0b3J5IjpbLTc2NTU2MDkwOSwtMjgxOTcxNjYsLTEyNz
 U0NDYwMjAsMTMxODUxNTMwNywtMTc5MDczNjAyMiw4OTEyMDk2
 ODAsLTkwMTcwMDcwLDM4OTE0NzQzMywtMTE1NDY4MDA0Nyw0Nz
 I4MDAwMTQsNjgxMDM1MjEwLC0xNjk2MTE3NDcwLDEzODE3NzM2
