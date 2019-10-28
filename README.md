@@ -931,10 +931,10 @@ None
 ---
 ### <a name="engine.auto_scale"></a>📌 auto_scale [property](#engine-props) 
 ##### Description: 
-Boolean: Whether the [Engine.VirtualScene(s)](#engine.virtualscene) created with this engine instance's [`new_scene()`](#engine.new_scene) method will try to rescale the terminal window.
+Boolean: Whether the [Engine.VirtualScene(s)](#engine.virtualscene) created with this [Engine](#engine) instance's [`new_scene()`](#engine.new_scene) method will try to rescale the terminal window.
 ### <a name="engine.vscenes"></a>📌 vscenes [property](#engine-props) 
 ##### Description: 
-Dictionnary of all the [Engine.VirtualScene(s)](#engine.virtualscene) created with this engine instance's [`new_scene()`](#engine.new_scene) method mapped by their names.
+Dictionnary of all the [Engine.VirtualScene(s)](#engine.virtualscene) instances created with this [Engine](#engine) instance's [`new_scene()`](#engine.new_scene) method mapped by their names.
 
 ---
  ## <a name="engine.textasset"></a>📜 Engine.TextAsset [(sub)class](#classes)
@@ -957,11 +957,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMTgzMTUzMywtMTgwNDY0MjA1Niw2Nj
-YzNzQ0MjksLTI4MTk3MTY2LC0xMjc1NDQ2MDIwLDEzMTg1MTUz
-MDcsLTE3OTA3MzYwMjIsODkxMjA5NjgwLC05MDE3MDA3MCwzOD
-kxNDc0MzMsLTExNTQ2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIx
-MCwtMTY5NjExNzQ3MCwxMzgxNzczNjkyLDE2OTAwNDE0NjAsLT
-k1MjkyODM3OCwtMTIxNjE5NTQ1NiwtNjU3ODA3NDE0LDUzOTIz
-ODk5MF19
+eyJoaXN0b3J5IjpbLTg3NjkyMTA4OSwxMTExODMxNTMzLC0xOD
+A0NjQyMDU2LDY2NjM3NDQyOSwtMjgxOTcxNjYsLTEyNzU0NDYw
+MjAsMTMxODUxNTMwNywtMTc5MDczNjAyMiw4OTEyMDk2ODAsLT
+kwMTcwMDcwLDM4OTE0NzQzMywtMTE1NDY4MDA0Nyw0NzI4MDAw
+MTQsNjgxMDM1MjEwLC0xNjk2MTE3NDcwLDEzODE3NzM2OTIsMT
+Y5MDA0MTQ2MCwtOTUyOTI4Mzc4LC0xMjE2MTk1NDU2LC02NTc4
+MDc0MTRdfQ==
 -->
