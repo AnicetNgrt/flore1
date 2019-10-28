@@ -993,13 +993,22 @@ A building_manual is an array of strings which represents each line needed in or
 A square made of `a` chars:
 ```python
 [
-"aaaaaaaa"
-"aaaaaaaa"
-"aaaaaaaa"
+"aaaaaaaa",
+"aaaaaaaa",
+"aaaaaaaa",
 "aaaaaaaa" 
 ]
 ```
 ```python
+[
+"=== MENU ===",
+"|-choice 1 |",
+"|-choice 2 |",
+"|-choice",
+"|",
+"============"
+]
+```
 
 ---
 # <a name="license"></a>License
@@ -1009,11 +1018,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzgzOTg4NDAsLTE1MzIwMDI5NTksNz
-c0MzcxNjYwLC0xNTUyOTY3NjYxLDE0NjQ5OTI2MywtMjA1NjQ1
-NDI0MCwtODc2OTIxMDg5LDExMTE4MzE1MzMsLTE4MDQ2NDIwNT
-YsNjY2Mzc0NDI5LC0yODE5NzE2NiwtMTI3NTQ0NjAyMCwxMzE4
-NTE1MzA3LC0xNzkwNzM2MDIyLDg5MTIwOTY4MCwtOTAxNzAwNz
-AsMzg5MTQ3NDMzLC0xMTU0NjgwMDQ3LDQ3MjgwMDAxNCw2ODEw
-MzUyMTBdfQ==
+eyJoaXN0b3J5IjpbLTkxNDAxMTEzNiwtMTUzMjAwMjk1OSw3Nz
+QzNzE2NjAsLTE1NTI5Njc2NjEsMTQ2NDk5MjYzLC0yMDU2NDU0
+MjQwLC04NzY5MjEwODksMTExMTgzMTUzMywtMTgwNDY0MjA1Ni
+w2NjYzNzQ0MjksLTI4MTk3MTY2LC0xMjc1NDQ2MDIwLDEzMTg1
+MTUzMDcsLTE3OTA3MzYwMjIsODkxMjA5NjgwLC05MDE3MDA3MC
+wzODkxNDc0MzMsLTExNTQ2ODAwNDcsNDcyODAwMDE0LDY4MTAz
+NTIxMF19
 -->
