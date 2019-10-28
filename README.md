@@ -47,11 +47,11 @@ Therefore, please consider donating, it will greatly support this project !
 
 #  <a name="compat"></a>Known compatible terminals
 **According to the latest tests**:
- 1. `good perf.` `medium rendering` `Windows 10` `CPU`- **Powershell**
- 2. `good perf.` `good rendering` `Windows 10` `CPU`- **cmd.exe**
- 3. `good perf.` `bad rendering` `Windows 10` `GPU`- **new terminal**
- 4. `good perf.` `good rendering` `Windows 10` `CPU`- **python terminal**
- 5. `bad perf.` `good rendering` `Linux` `CPU`- **repl.it terminal emulator**
+1. `good perf.` `good rendering` `Cross platform` `CPU`- **python terminal**
+1. `good perf.` `good rendering` `Windows 10` `CPU`- **Powershell**
+2. `good perf.` `good rendering` `Windows 10` `CPU`- **cmd.exe**
+3. `good perf.` `bad rendering` `Windows 10` `GPU`- **new terminal**
+5. `bad perf.` `good rendering` `Linux` `CPU`- **repl.it terminal emulator**
  
 **Notes**: 
 - It has great probability of rendering well on any modern terminal which supports the following escapes codes:
@@ -923,11 +923,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MTk3MTY2LC0xMjc1NDQ2MDIwLDEzMT
-g1MTUzMDcsLTE3OTA3MzYwMjIsODkxMjA5NjgwLC05MDE3MDA3
-MCwzODkxNDc0MzMsLTExNTQ2ODAwNDcsNDcyODAwMDE0LDY4MT
-AzNTIxMCwtMTY5NjExNzQ3MCwxMzgxNzczNjkyLDE2OTAwNDE0
-NjAsLTk1MjkyODM3OCwtMTIxNjE5NTQ1NiwtNjU3ODA3NDE0LD
-UzOTIzODk5MCwtMTU0NDU0NTQ0MywtMTYzNzc4Nzk5OSwyMDc3
-NzM3MjY3XX0=
+eyJoaXN0b3J5IjpbMTU3MDI3NjMyMiwtMjgxOTcxNjYsLTEyNz
+U0NDYwMjAsMTMxODUxNTMwNywtMTc5MDczNjAyMiw4OTEyMDk2
+ODAsLTkwMTcwMDcwLDM4OTE0NzQzMywtMTE1NDY4MDA0Nyw0Nz
+I4MDAwMTQsNjgxMDM1MjEwLC0xNjk2MTE3NDcwLDEzODE3NzM2
+OTIsMTY5MDA0MTQ2MCwtOTUyOTI4Mzc4LC0xMjE2MTk1NDU2LC
+02NTc4MDc0MTQsNTM5MjM4OTkwLC0xNTQ0NTQ1NDQzLC0xNjM3
+Nzg3OTk5XX0=
 -->
