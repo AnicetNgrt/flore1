@@ -977,12 +977,13 @@ None
 ---
 ### <a name="textasset-to_sprite"></a>🧰 to_sprite [method](#textasset-methods)
 ##### - Description:
-Creates an empty [TextSprite](#engine.textasset.textsprite) insta
+Creates an empty [TextSprite](#engine.textasset.textsprite) instance, sets its Asset property to `self` and returns it.
 ##### - Prototype:
 ```python
 def
 ```
 ##### - Return value:
+[TextSprite](#engine.textasset.textsprite) A sprite which cha
 ##### - Arguments:
 | [ in ] | type | condition | description
 |--|--|--|--|
@@ -994,7 +995,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTM0OTAxMDcsLTE1NTI5Njc2NjEsMT
+eyJoaXN0b3J5IjpbLTE2MTA5NDk3MjksLTE1NTI5Njc2NjEsMT
 Q2NDk5MjYzLC0yMDU2NDU0MjQwLC04NzY5MjEwODksMTExMTgz
 MTUzMywtMTgwNDY0MjA1Niw2NjYzNzQ0MjksLTI4MTk3MTY2LC
 0xMjc1NDQ2MDIwLDEzMTg1MTUzMDcsLTE3OTA3MzYwMjIsODkx
