@@ -898,7 +898,7 @@ No return value
 ##### - Description:
 Creates and return an empty [Engine.TextAsset.TextSprite](#engine.textasset.textsprite) (sprite) instance. You can put it in a scene, but if you do not set its texture before showing the scene, it may crash.
 
-You may feel confused because we short circuit the regular process of creating sprites, which you may think normally implies a parent Asset instance. But even though classes respect structural hierarchy between them, **their instances do not respect any kind of parent/child hierarchy**. Don't expect to get your sprites instances from an asset instance. Access to the classes respects hierarchy, and the parent class always feature methods to create an instance of the child class. But this is o
+You may feel confused because we short circuit the regular process of creating sprites, which you may think normally implies a parent Asset instance. But even though classes respect structural hierarchy between them, **their instances do not respect any kind of parent/child hierarchy**. Don't expect to get your sprites instances from an asset instance. Access to the classes respects hierarchy, and the parent class always feature methods to create an instance of the child classes. But this is only for structure conveniency. **After an instance is created, it is structuraly independent from everything else**.
 ##### - Prototype:
 ```python
 def new_sprite(self)
@@ -938,7 +938,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyOTMyOTE0Miw2NjYzNzQ0MjksLTI4MT
+eyJoaXN0b3J5IjpbLTc4OTY4OTc1NSw2NjYzNzQ0MjksLTI4MT
 k3MTY2LC0xMjc1NDQ2MDIwLDEzMTg1MTUzMDcsLTE3OTA3MzYw
 MjIsODkxMjA5NjgwLC05MDE3MDA3MCwzODkxNDc0MzMsLTExNT
 Q2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIxMCwtMTY5NjExNzQ3
