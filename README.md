@@ -1012,8 +1012,9 @@ A menu (just a sprite, not functional):
 ```
 You can add `style codes` to your building manual. Thoses codes are the following:
 - `bc:<color>` Puts a colored background to everything following it. 
-- `fc:<color>`
-- `cc:0`
+- `fc:<color>` Puts a font color to everything following it.
+- `cc:0` Stops both background and font color.
+
 With `<color>` being a number between 0 and 255 
 
 ---
@@ -1024,11 +1025,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUyMDMyMDEsLTE1MzIwMDI5NTksNzc0Mz
-cxNjYwLC0xNTUyOTY3NjYxLDE0NjQ5OTI2MywtMjA1NjQ1NDI0
-MCwtODc2OTIxMDg5LDExMTE4MzE1MzMsLTE4MDQ2NDIwNTYsNj
-Y2Mzc0NDI5LC0yODE5NzE2NiwtMTI3NTQ0NjAyMCwxMzE4NTE1
-MzA3LC0xNzkwNzM2MDIyLDg5MTIwOTY4MCwtOTAxNzAwNzAsMz
-g5MTQ3NDMzLC0xMTU0NjgwMDQ3LDQ3MjgwMDAxNCw2ODEwMzUy
-MTBdfQ==
+eyJoaXN0b3J5IjpbMTQxNTIwMTcwMSwtMTUzMjAwMjk1OSw3Nz
+QzNzE2NjAsLTE1NTI5Njc2NjEsMTQ2NDk5MjYzLC0yMDU2NDU0
+MjQwLC04NzY5MjEwODksMTExMTgzMTUzMywtMTgwNDY0MjA1Ni
+w2NjYzNzQ0MjksLTI4MTk3MTY2LC0xMjc1NDQ2MDIwLDEzMTg1
+MTUzMDcsLTE3OTA3MzYwMjIsODkxMjA5NjgwLC05MDE3MDA3MC
+wzODkxNDc0MzMsLTExNTQ2ODAwNDcsNDcyODAwMDE0LDY4MTAz
+NTIxMF19
 -->
