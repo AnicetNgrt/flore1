@@ -101,7 +101,7 @@ Engine = flore1.Engine(
     )
 
 ```
-This will be the very foundation for all the following tutorials !
+This will be the very foundation for the following tutorials.
 ## <a name="tuto1"></a>1/ Displaying a static text sprite:
 ### 🧭 What we will do:
 ![enter image description here](https://imgur.com/XVbCCmJ.png)
@@ -109,6 +109,7 @@ This tutorial is about displaying a text sprite in a scene with colors and defin
 [-> I just want the code thanks.](#tuto1_code)
 
 ### 🎨 Creating a text sprite:
+First, you need the basic usage code I gave 
 In order to create our text sprite we need to create a "building manual" for the sprite. Don't worry it is just an array of strings.
 ```python
 # following the previously given code:
@@ -922,7 +923,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5Mjk5MzIyMywtMjgxOTcxNjYsLTEyNz
+eyJoaXN0b3J5IjpbMjE0MTUwMTAyMywtMjgxOTcxNjYsLTEyNz
 U0NDYwMjAsMTMxODUxNTMwNywtMTc5MDczNjAyMiw4OTEyMDk2
 ODAsLTkwMTcwMDcwLDM4OTE0NzQzMywtMTE1NDY4MDA0Nyw0Nz
 I4MDAwMTQsNjgxMDM1MjEwLC0xNjk2MTE3NDcwLDEzODE3NzM2
