@@ -935,7 +935,7 @@ Boolean: Whether the [Engine.VirtualScene(s)](#engine.virtualscene) created with
 Dictionnary of all the [Engine.VirtualScene(s)](#engine.virtualscene) instances created with this [Engine](#engine) instance's [`new_scene()`](#engine.new_scene) method mapped by their names.
 
 ---
- ## <a name="engine.textasset"></a>📜 Engine.TextAsset [(sub)class](#classes)
+## <a name="engine.textasset"></a>📜 Engine.TextAsset [(sub)class](#classes)
  A TextAsset instance (Asset) is a building manual for creating [TextAsset.TextSprites](#engine.textasset.textsprite). It can convert an easy syntax for creating text based sprites into a format more suitable for the [Engine.VirtualScene](#engine.virtualscene) instance.
  ### Subclass
 -  [TextSprite](#engine.textasset.textsprite)
@@ -1023,6 +1023,11 @@ With `<color>` being a number between 0 and 255
 Cells data generated from the textAsset's building manual which makes printing sprites more manageable and therefore more optimised.
 
 ---
+## <a name="textasset.textsprite"></a>📜 Engine.TextAsset.TextSprite [(sub)class](#classes)
+
+
+
+---
 # <a name="license"></a>License
 This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
@@ -1030,11 +1035,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODkwMzc4MjYsMTQxNTIwMTcwMSwtMT
-UzMjAwMjk1OSw3NzQzNzE2NjAsLTE1NTI5Njc2NjEsMTQ2NDk5
-MjYzLC0yMDU2NDU0MjQwLC04NzY5MjEwODksMTExMTgzMTUzMy
-wtMTgwNDY0MjA1Niw2NjYzNzQ0MjksLTI4MTk3MTY2LC0xMjc1
-NDQ2MDIwLDEzMTg1MTUzMDcsLTE3OTA3MzYwMjIsODkxMjA5Nj
-gwLC05MDE3MDA3MCwzODkxNDc0MzMsLTExNTQ2ODAwNDcsNDcy
-ODAwMDE0XX0=
+eyJoaXN0b3J5IjpbLTU0OTY3MDUzNiwtMTc4OTAzNzgyNiwxND
+E1MjAxNzAxLC0xNTMyMDAyOTU5LDc3NDM3MTY2MCwtMTU1Mjk2
+NzY2MSwxNDY0OTkyNjMsLTIwNTY0NTQyNDAsLTg3NjkyMTA4OS
+wxMTExODMxNTMzLC0xODA0NjQyMDU2LDY2NjM3NDQyOSwtMjgx
+OTcxNjYsLTEyNzU0NDYwMjAsMTMxODUxNTMwNywtMTc5MDczNj
+AyMiw4OTEyMDk2ODAsLTkwMTcwMDcwLDM4OTE0NzQzMywtMTE1
+NDY4MDA0N119
 -->
