@@ -623,7 +623,7 @@ Here you will find detailed explanations for everything you may want to use from
 
 **Notes**: 
 
-- Some methods and properties are not useful for using this library from the outside, that is why 
+- Some methods and properties are not useful for using this library from the outside, that is why everything is not documented. If you want to get info on something not listed here head to our discord server.
 - With most fonts, 1 char width = 1/2 char height, always keep this in mind. If the docs don't talk about a `width` parameter or a `x` parameter being "1/2 of its true value" or "multiplied by 2" it means your `width` or your `x` may be the half of what you expect.
 - Never give the `self` argument when calling methods.
 ## <a name="classes"></a>Classes
@@ -923,11 +923,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxOTI2MjgyLDEzMTg1MTUzMDcsLTE3OT
-A3MzYwMjIsODkxMjA5NjgwLC05MDE3MDA3MCwzODkxNDc0MzMs
-LTExNTQ2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIxMCwtMTY5Nj
-ExNzQ3MCwxMzgxNzczNjkyLDE2OTAwNDE0NjAsLTk1MjkyODM3
-OCwtMTIxNjE5NTQ1NiwtNjU3ODA3NDE0LDUzOTIzODk5MCwtMT
-U0NDU0NTQ0MywtMTYzNzc4Nzk5OSwyMDc3NzM3MjY3LC0xMzM1
-MDg3MDAyXX0=
+eyJoaXN0b3J5IjpbLTEyNzU0NDYwMjAsMTMxODUxNTMwNywtMT
+c5MDczNjAyMiw4OTEyMDk2ODAsLTkwMTcwMDcwLDM4OTE0NzQz
+MywtMTE1NDY4MDA0Nyw0NzI4MDAwMTQsNjgxMDM1MjEwLC0xNj
+k2MTE3NDcwLDEzODE3NzM2OTIsMTY5MDA0MTQ2MCwtOTUyOTI4
+Mzc4LC0xMjE2MTk1NDU2LC02NTc4MDc0MTQsNTM5MjM4OTkwLC
+0xNTQ0NTQ1NDQzLC0xNjM3Nzg3OTk5LDIwNzc3MzcyNjcsLTEz
+MzUwODcwMDJdfQ==
 -->
