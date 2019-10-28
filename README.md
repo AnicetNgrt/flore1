@@ -1026,13 +1026,13 @@ Cells data generated from the textAsset's building manual which makes printing s
 ## <a name="engine.textasset.textsprite"></a>📜 Engine.TextAsset.TextSprite [(sub)class](#classes)
 TextSprites (or Sprites) are basically what the [Engine.VirtualScene](#engine.virtualscene) instances can display. They have many properties that one can tweak in order to change how the sprite instance is displayed. Whether it is its texture, its scene, its layer on the scene, or its (x, y) position on the scene.
 ### <a name="textasset-props"></a>Properties:
-- [](#textsprite.)
-- [](#textsprite.)
-- [](#textsprite.)
-- [](#textsprite.)
-- [](#textsprite.)
-- [](#textsprite.)
-- [](#textsprite.)
+- [chart](#textsprite.)
+- [prtcrd](#textsprite.)
+- [act_prtcrd](#textsprite.)
+- [scene](#textsprite.)
+- [layer](#textsprite.)
+- [x](#textsprite.)
+- [y](#textsprite.)
 ### <a name="textasset-methods"></a>Methods:
 
 
@@ -1044,11 +1044,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNzQzNzgyMSwtMTc4OTAzNzgyNiwxND
-E1MjAxNzAxLC0xNTMyMDAyOTU5LDc3NDM3MTY2MCwtMTU1Mjk2
-NzY2MSwxNDY0OTkyNjMsLTIwNTY0NTQyNDAsLTg3NjkyMTA4OS
-wxMTExODMxNTMzLC0xODA0NjQyMDU2LDY2NjM3NDQyOSwtMjgx
-OTcxNjYsLTEyNzU0NDYwMjAsMTMxODUxNTMwNywtMTc5MDczNj
-AyMiw4OTEyMDk2ODAsLTkwMTcwMDcwLDM4OTE0NzQzMywtMTE1
-NDY4MDA0N119
+eyJoaXN0b3J5IjpbMzM5NjE5NDAwLC0xNzg5MDM3ODI2LDE0MT
+UyMDE3MDEsLTE1MzIwMDI5NTksNzc0MzcxNjYwLC0xNTUyOTY3
+NjYxLDE0NjQ5OTI2MywtMjA1NjQ1NDI0MCwtODc2OTIxMDg5LD
+ExMTE4MzE1MzMsLTE4MDQ2NDIwNTYsNjY2Mzc0NDI5LC0yODE5
+NzE2NiwtMTI3NTQ0NjAyMCwxMzE4NTE1MzA3LC0xNzkwNzM2MD
+IyLDg5MTIwOTY4MCwtOTAxNzAwNzAsMzg5MTQ3NDMzLC0xMTU0
+NjgwMDQ3XX0=
 -->
