@@ -960,7 +960,7 @@ No return value
 ##### - Arguments:
 | [ in ] | type | description
 |--|--|--|
-| building_manual | Array of strings | The building manual for the Asset. See [building_manual](#textasset.building_manual) for more 
+| building_manual | Array of strings | The building manual for the Asset. See [building_manual](#textasset.building_manual) for more details. 
 ---
 ### <a name="textasset-generate_chart"></a>🧰 generate_chart [method](#textasset-methods)
 ##### - Description:
@@ -991,7 +991,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzQ3MjY0NDksMTQ2NDk5MjYzLC0yMD
+eyJoaXN0b3J5IjpbLTE1NTI5Njc2NjEsMTQ2NDk5MjYzLC0yMD
 U2NDU0MjQwLC04NzY5MjEwODksMTExMTgzMTUzMywtMTgwNDY0
 MjA1Niw2NjYzNzQ0MjksLTI4MTk3MTY2LC0xMjc1NDQ2MDIwLD
 EzMTg1MTUzMDcsLTE3OTA3MzYwMjIsODkxMjA5NjgwLC05MDE3
