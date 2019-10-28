@@ -48,9 +48,9 @@ Therefore, please consider donating, it will greatly support this project !
 #  <a name="compat"></a>Known compatible terminals
 **According to the latest tests**:
 1. `good perf.` `good rendering` `Cross platform` `CPU`- **python terminal**
-1. `good perf.` `good rendering` `Windows 10` `CPU`- **Powershell**
 2. `good perf.` `good rendering` `Windows 10` `CPU`- **cmd.exe**
-3. `good perf.` `bad rendering` `Windows 10` `GPU`- **new terminal**
+3. `good perf.` `good rendering` `Windows 10` `CPU`- **Powershell**
+4. `good perf.` `bad rendering` `Windows 10` `GPU`- **new terminal**
 5. `bad perf.` `good rendering` `Linux` `CPU`- **repl.it terminal emulator**
  
 **Notes**: 
@@ -923,11 +923,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MDI3NjMyMiwtMjgxOTcxNjYsLTEyNz
-U0NDYwMjAsMTMxODUxNTMwNywtMTc5MDczNjAyMiw4OTEyMDk2
-ODAsLTkwMTcwMDcwLDM4OTE0NzQzMywtMTE1NDY4MDA0Nyw0Nz
-I4MDAwMTQsNjgxMDM1MjEwLC0xNjk2MTE3NDcwLDEzODE3NzM2
-OTIsMTY5MDA0MTQ2MCwtOTUyOTI4Mzc4LC0xMjE2MTk1NDU2LC
-02NTc4MDc0MTQsNTM5MjM4OTkwLC0xNTQ0NTQ1NDQzLC0xNjM3
-Nzg3OTk5XX0=
+eyJoaXN0b3J5IjpbLTEwOTU0ODc2NTcsLTI4MTk3MTY2LC0xMj
+c1NDQ2MDIwLDEzMTg1MTUzMDcsLTE3OTA3MzYwMjIsODkxMjA5
+NjgwLC05MDE3MDA3MCwzODkxNDc0MzMsLTExNTQ2ODAwNDcsND
+cyODAwMDE0LDY4MTAzNTIxMCwtMTY5NjExNzQ3MCwxMzgxNzcz
+NjkyLDE2OTAwNDE0NjAsLTk1MjkyODM3OCwtMTIxNjE5NTQ1Ni
+wtNjU3ODA3NDE0LDUzOTIzODk5MCwtMTU0NDU0NTQ0MywtMTYz
+Nzc4Nzk5OV19
 -->
