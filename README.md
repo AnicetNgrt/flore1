@@ -960,6 +960,7 @@ No return value
 ##### - Arguments:
 | [ in ] | type | description
 |--|--|--|
+| building_manual | Array of strings | The building manual for the Asset. See [building_manual](#textasset.building_manual) for more 
 ---
 ### <a name="textasset-generate_chart"></a>🧰 generate_chart [method](#textasset-methods)
 ##### - Description:
@@ -990,11 +991,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NDk5MjYzLC0yMDU2NDU0MjQwLC04Nz
-Y5MjEwODksMTExMTgzMTUzMywtMTgwNDY0MjA1Niw2NjYzNzQ0
-MjksLTI4MTk3MTY2LC0xMjc1NDQ2MDIwLDEzMTg1MTUzMDcsLT
-E3OTA3MzYwMjIsODkxMjA5NjgwLC05MDE3MDA3MCwzODkxNDc0
-MzMsLTExNTQ2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIxMCwtMT
-Y5NjExNzQ3MCwxMzgxNzczNjkyLDE2OTAwNDE0NjAsLTk1Mjky
-ODM3OF19
+eyJoaXN0b3J5IjpbLTEyMzQ3MjY0NDksMTQ2NDk5MjYzLC0yMD
+U2NDU0MjQwLC04NzY5MjEwODksMTExMTgzMTUzMywtMTgwNDY0
+MjA1Niw2NjYzNzQ0MjksLTI4MTk3MTY2LC0xMjc1NDQ2MDIwLD
+EzMTg1MTUzMDcsLTE3OTA3MzYwMjIsODkxMjA5NjgwLC05MDE3
+MDA3MCwzODkxNDc0MzMsLTExNTQ2ODAwNDcsNDcyODAwMDE0LD
+Y4MTAzNTIxMCwtMTY5NjExNzQ3MCwxMzgxNzczNjkyLDE2OTAw
+NDE0NjBdfQ==
 -->
