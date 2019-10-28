@@ -951,14 +951,16 @@ Dictionnary of all the [Engine.VirtualScene(s)](#engine.virtualscene) instances 
 ---
 ### <a name="textasset-init"></a>🧰 \_\_init\_\_ [method](#textasset-methods)
 ##### - Description:
+Inits the TextAsset instance and call its [generate_chart]
 ##### - Prototype:
 ```python
-def __init__(self)
+def __init__(self, building_manual)
 ```
 ##### - Return value:
+No return value
 ##### - Arguments:
-| [ in ] | type | condition | description
-|--|--|--|--|
+| [ in ] | type | description
+|--|--|--|
 ---
 ### <a name="textasset-generate_chart"></a>🧰 generate_chart [method](#textasset-methods)
 ##### - Description:
@@ -989,7 +991,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDU1MDYwODEsLTIwNTY0NTQyNDAsLT
+eyJoaXN0b3J5IjpbLTE2ODUzNTkxOTAsLTIwNTY0NTQyNDAsLT
 g3NjkyMTA4OSwxMTExODMxNTMzLC0xODA0NjQyMDU2LDY2NjM3
 NDQyOSwtMjgxOTcxNjYsLTEyNzU0NDYwMjAsMTMxODUxNTMwNy
 wtMTc5MDczNjAyMiw4OTEyMDk2ODAsLTkwMTcwMDcwLDM4OTE0
