@@ -890,7 +890,7 @@ No return value
 ---
 ### <a name="engine-new_sprite"></a>🧰 new_sprite [method](#methods)
 ##### - Description:
-Creates and return an [Engine.TextAsset.TextSprite](#engine.textasset.textsprite) (sprite) instance with no texture.
+Creates and return an empty [Engine.TextAsset.TextSprite](#engine.textasset.textsprite) (sprite) instance. You can put it in a scene, but if you do not set its texture before showing the 
 ##### - Prototype:
 ```python
 ```
@@ -933,7 +933,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NDM4NjU0MiwtMTc5MDczNjAyMiw4OT
+eyJoaXN0b3J5IjpbMTMxODUxNTMwNywtMTc5MDczNjAyMiw4OT
 EyMDk2ODAsLTkwMTcwMDcwLDM4OTE0NzQzMywtMTE1NDY4MDA0
 Nyw0NzI4MDAwMTQsNjgxMDM1MjEwLC0xNjk2MTE3NDcwLDEzOD
 E3NzM2OTIsMTY5MDA0MTQ2MCwtOTUyOTI4Mzc4LC0xMjE2MTk1
