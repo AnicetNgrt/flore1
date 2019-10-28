@@ -921,7 +921,7 @@ None
 |--|--|--|--|
 | path | string | path exists | the path to the picture to convert.
 | new_size | [integer, integer] | [> 0, > 0] | Resize width and height in pixels. 
-|  |  | 
+| transparent_rgb | (integer, integer, integer) | none | RGB code of the color that is meant to be transparent in the picture.
 ---
  
 # <a name="license"></a>License
@@ -931,7 +931,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ5Nzk5MTQwLDY2NjM3NDQyOSwtMjgxOT
+eyJoaXN0b3J5IjpbNTgwMjU1Njc4LDY2NjM3NDQyOSwtMjgxOT
 cxNjYsLTEyNzU0NDYwMjAsMTMxODUxNTMwNywtMTc5MDczNjAy
 Miw4OTEyMDk2ODAsLTkwMTcwMDcwLDM4OTE0NzQzMywtMTE1ND
 Y4MDA0Nyw0NzI4MDAwMTQsNjgxMDM1MjEwLC0xNjk2MTE3NDcw
