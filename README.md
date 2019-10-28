@@ -945,9 +945,31 @@ Dictionnary of all the [Engine.VirtualScene(s)](#engine.virtualscene) instances 
 -  [building_manual](#textasset.building_manual)
 
 ### <a name="textasset-methods"></a>Methods
-- [\_\_init\_\_](#textasset.init)
-- [generate_chart](#textasset.generate_chart)
-- [to_sprite](#textasset.to_sprite)
+- [\_\_init\_\_](#textasset-init)
+- [generate_chart](#textasset-generate_chart)
+- [to_sprite](#textasset-to_sprite)
+---
+### <a name="textasset-init"></a>🧰 \_\_init\_\_ [method](#textasset-methods)
+##### - Description:
+##### - Prototype:
+```python
+def
+```
+##### - Return value:
+##### - Arguments:
+| [ in ] | type | condition | description
+|--|--|--|--|
+---
+### <a name="engine-pic_to_textasset"></a>🧰 generate_chart [method](#textasset-methods)
+##### - Description:
+##### - Prototype:
+```python
+def
+```
+##### - Return value:
+##### - Arguments:
+| [ in ] | type | condition | description
+|--|--|--|--|
 ---
 ### <a name="engine-pic_to_textasset"></a>🧰 \_\_init\_\_ [method](#textasset-methods)
 ##### - Description:
@@ -957,7 +979,8 @@ def
 ```
 ##### - Return value:
 ##### - Arguments:
-| | 
+| [ in ] | type | condition | description
+|--|--|--|--|
 ---
 # <a name="license"></a>License
 This library is distributed under a CC-BY-SA license.
@@ -966,7 +989,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NzQwNzYzNCwtODc2OTIxMDg5LDExMT
+eyJoaXN0b3J5IjpbMTgxOTU4ODQ1MiwtODc2OTIxMDg5LDExMT
 E4MzE1MzMsLTE4MDQ2NDIwNTYsNjY2Mzc0NDI5LC0yODE5NzE2
 NiwtMTI3NTQ0NjAyMCwxMzE4NTE1MzA3LC0xNzkwNzM2MDIyLD
 g5MTIwOTY4MCwtOTAxNzAwNzAsMzg5MTQ3NDMzLC0xMTU0Njgw
