@@ -966,9 +966,10 @@ No return value
 ##### - Description:
 ##### - Prototype:
 ```python
-def
+def generate_chart(self)
 ```
 ##### - Return value:
+No return value
 ##### - Arguments:
 | [ in ] | type | condition | description
 |--|--|--|--|
@@ -991,11 +992,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTI5Njc2NjEsMTQ2NDk5MjYzLC0yMD
-U2NDU0MjQwLC04NzY5MjEwODksMTExMTgzMTUzMywtMTgwNDY0
-MjA1Niw2NjYzNzQ0MjksLTI4MTk3MTY2LC0xMjc1NDQ2MDIwLD
-EzMTg1MTUzMDcsLTE3OTA3MzYwMjIsODkxMjA5NjgwLC05MDE3
-MDA3MCwzODkxNDc0MzMsLTExNTQ2ODAwNDcsNDcyODAwMDE0LD
-Y4MTAzNTIxMCwtMTY5NjExNzQ3MCwxMzgxNzczNjkyLDE2OTAw
-NDE0NjBdfQ==
+eyJoaXN0b3J5IjpbMjU0NDM3MDg4LC0xNTUyOTY3NjYxLDE0Nj
+Q5OTI2MywtMjA1NjQ1NDI0MCwtODc2OTIxMDg5LDExMTE4MzE1
+MzMsLTE4MDQ2NDIwNTYsNjY2Mzc0NDI5LC0yODE5NzE2NiwtMT
+I3NTQ0NjAyMCwxMzE4NTE1MzA3LC0xNzkwNzM2MDIyLDg5MTIw
+OTY4MCwtOTAxNzAwNzAsMzg5MTQ3NDMzLC0xMTU0NjgwMDQ3LD
+Q3MjgwMDAxNCw2ODEwMzUyMTAsLTE2OTYxMTc0NzAsMTM4MTc3
+MzY5Ml19
 -->
