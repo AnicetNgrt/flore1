@@ -936,11 +936,12 @@ Dictionnary of all the [Engine.VirtualScene(s)](#engine.virtualscene) instances 
 
 ---
  ## <a name="engine.textasset"></a>📜 Engine.TextAsset [(sub)class](#classes)
- A TextAsset instance (Asset) is a building manual for creating [TextAsset.TextSprites](#engine.textasset.textsprite). It can convert an easy syntax for c to a format more suitable for display.
+ A TextAsset instance (Asset) is a building manual for creating [TextAsset.TextSprites](#engine.textasset.textsprite). It can convert an easy syntax for creating text based sprites into a format more suitable for the [Engine.VirtualScene](#engine.virtualscene) instance.
  ### Subclass
 -  [TextSprite](#engine.textasset.textsprite)
-### <a name="textasset-props"></a>Property
+### <a name="textasset-props"></a>Properties
 -  [building_manual](#textasset.building_manual)
+-  [chart](#textasset.building_manual)
 
 ### <a name="textasset-methods"></a>Methods
 - [\_\_init\_\_](#textasset-init)
@@ -949,7 +950,7 @@ Dictionnary of all the [Engine.VirtualScene(s)](#engine.virtualscene) instances 
 ---
 ### <a name="textasset-init"></a>🧰 \_\_init\_\_ [method](#textasset-methods)
 ##### - Description:
-Inits the TextAsset instance and call its [generate_chart]
+Inits the TextAsset instance and call its [generate_chart](#textasset.ge)
 ##### - Prototype:
 ```python
 def __init__(self, building_manual)
@@ -989,7 +990,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNTUyMDM5NiwtMjA1NjQ1NDI0MCwtOD
+eyJoaXN0b3J5IjpbLTIxODQ0MDU5MywtMjA1NjQ1NDI0MCwtOD
 c2OTIxMDg5LDExMTE4MzE1MzMsLTE4MDQ2NDIwNTYsNjY2Mzc0
 NDI5LC0yODE5NzE2NiwtMTI3NTQ0NjAyMCwxMzE4NTE1MzA3LC
 0xNzkwNzM2MDIyLDg5MTIwOTY4MCwtOTAxNzAwNzAsMzg5MTQ3
