@@ -909,7 +909,8 @@ None
 Opens, rescale if needed, and gathers the color palette for a picture with the `Pillow` library, and then converts it to an array of strings called a "building manual". Then it calls [`Engine.TextAsset(building_manual)`](#Engine.TextAsset) and returns the Asset resulting from this.
 
 **Notes**:
-- Putting a rgb code that is not part of your picture's color palette is the appropriate way of telling
+- Putting a rgb code that is not part of your picture's color palette is the appropriate way of telling the engine that this picture has no transparency.
+- Letting the `new_size` argument as `"AUTO"` will resize the picture so it 
 ##### - Prototype:
 ```python
 def pic_to_textAsset(self, path="", new_size="AUTO", transparent_rgb=(-1, -1, -1))
@@ -929,11 +930,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE2NDM0NTkzLDY2NjM3NDQyOSwtMjgxOT
-cxNjYsLTEyNzU0NDYwMjAsMTMxODUxNTMwNywtMTc5MDczNjAy
-Miw4OTEyMDk2ODAsLTkwMTcwMDcwLDM4OTE0NzQzMywtMTE1ND
-Y4MDA0Nyw0NzI4MDAwMTQsNjgxMDM1MjEwLC0xNjk2MTE3NDcw
-LDEzODE3NzM2OTIsMTY5MDA0MTQ2MCwtOTUyOTI4Mzc4LC0xMj
-E2MTk1NDU2LC02NTc4MDc0MTQsNTM5MjM4OTkwLC0xNTQ0NTQ1
-NDQzXX0=
+eyJoaXN0b3J5IjpbLTcwMDY5Mzk2OSw2NjYzNzQ0MjksLTI4MT
+k3MTY2LC0xMjc1NDQ2MDIwLDEzMTg1MTUzMDcsLTE3OTA3MzYw
+MjIsODkxMjA5NjgwLC05MDE3MDA3MCwzODkxNDc0MzMsLTExNT
+Q2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIxMCwtMTY5NjExNzQ3
+MCwxMzgxNzczNjkyLDE2OTAwNDE0NjAsLTk1MjkyODM3OCwtMT
+IxNjE5NTQ1NiwtNjU3ODA3NDE0LDUzOTIzODk5MCwtMTU0NDU0
+NTQ0M119
 -->
