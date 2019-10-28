@@ -986,7 +986,10 @@ def to_sprite(self)
 [TextSprite](#engine.textasset.textsprite) A sprite which chart will be the copy of this Asset's [chart](#textasset.chart).
 ##### - Arguments:
 None
-### <a name="engine.vscenes"></a>📌 vscenes [property](#engine-props) 
+### <a name="engine.vscenes"></a>📌 building_manual [property](#textasset-props)
+##### Description: 
+A building_manual is an array of strings which represents each line needed in order to draw your text sprite. 
+
 ---
 # <a name="license"></a>License
 This library is distributed under a CC-BY-SA license.
@@ -995,11 +998,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzIwMDI5NTksNzc0MzcxNjYwLC0xNT
-UyOTY3NjYxLDE0NjQ5OTI2MywtMjA1NjQ1NDI0MCwtODc2OTIx
-MDg5LDExMTE4MzE1MzMsLTE4MDQ2NDIwNTYsNjY2Mzc0NDI5LC
-0yODE5NzE2NiwtMTI3NTQ0NjAyMCwxMzE4NTE1MzA3LC0xNzkw
-NzM2MDIyLDg5MTIwOTY4MCwtOTAxNzAwNzAsMzg5MTQ3NDMzLC
-0xMTU0NjgwMDQ3LDQ3MjgwMDAxNCw2ODEwMzUyMTAsLTE2OTYx
-MTc0NzBdfQ==
+eyJoaXN0b3J5IjpbLTE3NjU1NTQ5OTEsLTE1MzIwMDI5NTksNz
+c0MzcxNjYwLC0xNTUyOTY3NjYxLDE0NjQ5OTI2MywtMjA1NjQ1
+NDI0MCwtODc2OTIxMDg5LDExMTE4MzE1MzMsLTE4MDQ2NDIwNT
+YsNjY2Mzc0NDI5LC0yODE5NzE2NiwtMTI3NTQ0NjAyMCwxMzE4
+NTE1MzA3LC0xNzkwNzM2MDIyLDg5MTIwOTY4MCwtOTAxNzAwNz
+AsMzg5MTQ3NDMzLC0xMTU0NjgwMDQ3LDQ3MjgwMDAxNCw2ODEw
+MzUyMTBdfQ==
 -->
