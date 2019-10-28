@@ -988,7 +988,18 @@ def to_sprite(self)
 None
 ### <a name="engine.vscenes"></a>📌 building_manual [property](#textasset-props)
 ##### Description: 
-A building_manual is an array of strings which represents each line needed in order to draw your text sprite. 
+A building_manual is an array of strings which represents each line needed in order to draw your text sprite. Here come some examples:
+
+A square made of `a` chars:
+```python
+[
+"aaaaaaaa"
+"aaaaaaaa"
+"aaaaaaaa"
+"aaaaaaaa" 
+]
+```
+```python
 
 ---
 # <a name="license"></a>License
@@ -998,7 +1009,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjU1NTQ5OTEsLTE1MzIwMDI5NTksNz
+eyJoaXN0b3J5IjpbLTE3MzgzOTg4NDAsLTE1MzIwMDI5NTksNz
 c0MzcxNjYwLC0xNTUyOTY3NjYxLDE0NjQ5OTI2MywtMjA1NjQ1
 NDI0MCwtODc2OTIxMDg5LDExMTE4MzE1MzMsLTE4MDQ2NDIwNT
 YsNjY2Mzc0NDI5LC0yODE5NzE2NiwtMTI3NTQ0NjAyMCwxMzE4
