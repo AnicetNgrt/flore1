@@ -890,9 +890,10 @@ No return value
 ---
 ### <a name="engine-new_sprite"></a>🧰 new_sprite [method](#methods)
 ##### - Description:
-Creates and return an empty [Engine.TextAsset.TextSprite](#engine.textasset.textsprite) (sprite) instance. You can put it in a scene, but if you do not set its texture before showing the 
+Creates and return an empty [Engine.TextAsset.TextSprite](#engine.textasset.textsprite) (sprite) instance. You can put it in a scene, but if you do not set its texture before showing the scene, it may crash.
 ##### - Prototype:
 ```python
+def new_sprite(self)
 ```
 ##### - Return value:
 
@@ -933,11 +934,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxODUxNTMwNywtMTc5MDczNjAyMiw4OT
-EyMDk2ODAsLTkwMTcwMDcwLDM4OTE0NzQzMywtMTE1NDY4MDA0
-Nyw0NzI4MDAwMTQsNjgxMDM1MjEwLC0xNjk2MTE3NDcwLDEzOD
-E3NzM2OTIsMTY5MDA0MTQ2MCwtOTUyOTI4Mzc4LC0xMjE2MTk1
-NDU2LC02NTc4MDc0MTQsNTM5MjM4OTkwLC0xNTQ0NTQ1NDQzLC
-0xNjM3Nzg3OTk5LDIwNzc3MzcyNjcsLTEzMzUwODcwMDIsMTkx
-NDc4ODY5MV19
+eyJoaXN0b3J5IjpbMTg2MjM4OTc1NCwxMzE4NTE1MzA3LC0xNz
+kwNzM2MDIyLDg5MTIwOTY4MCwtOTAxNzAwNzAsMzg5MTQ3NDMz
+LC0xMTU0NjgwMDQ3LDQ3MjgwMDAxNCw2ODEwMzUyMTAsLTE2OT
+YxMTc0NzAsMTM4MTc3MzY5MiwxNjkwMDQxNDYwLC05NTI5Mjgz
+NzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5OTAsLT
+E1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3NzczNzI2NywtMTMz
+NTA4NzAwMl19
 -->
