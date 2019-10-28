@@ -109,7 +109,8 @@ This tutorial is about displaying a text sprite in a scene with colors and defin
 [-> I just want the code thanks.](#tuto1_code)
 
 ### 🎨 Creating a text sprite:
-First, you need the basic usage code I gave [here](#tuto0).
+First, you need the basic code I gave [here](#tuto0).
+
 In order to create our text sprite we need to create a "building manual" for the sprite. Don't worry it is just an array of strings.
 ```python
 # following the previously given code:
@@ -905,6 +906,7 @@ None
 
 ### <a name="engine-pic_to_textasset"></a>🧰 pic_to_textAsset [method](#methods)
 ##### - Description:
+Converts a p
 ##### - Prototype:
 ```python
 ```
@@ -923,11 +925,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NTU2MDkwOSwtMjgxOTcxNjYsLTEyNz
-U0NDYwMjAsMTMxODUxNTMwNywtMTc5MDczNjAyMiw4OTEyMDk2
-ODAsLTkwMTcwMDcwLDM4OTE0NzQzMywtMTE1NDY4MDA0Nyw0Nz
-I4MDAwMTQsNjgxMDM1MjEwLC0xNjk2MTE3NDcwLDEzODE3NzM2
-OTIsMTY5MDA0MTQ2MCwtOTUyOTI4Mzc4LC0xMjE2MTk1NDU2LC
-02NTc4MDc0MTQsNTM5MjM4OTkwLC0xNTQ0NTQ1NDQzLC0xNjM3
-Nzg3OTk5XX0=
+eyJoaXN0b3J5IjpbNjU2NjI3MjAxLC0yODE5NzE2NiwtMTI3NT
+Q0NjAyMCwxMzE4NTE1MzA3LC0xNzkwNzM2MDIyLDg5MTIwOTY4
+MCwtOTAxNzAwNzAsMzg5MTQ3NDMzLC0xMTU0NjgwMDQ3LDQ3Mj
+gwMDAxNCw2ODEwMzUyMTAsLTE2OTYxMTc0NzAsMTM4MTc3MzY5
+MiwxNjkwMDQxNDYwLC05NTI5MjgzNzgsLTEyMTYxOTU0NTYsLT
+Y1NzgwNzQxNCw1MzkyMzg5OTAsLTE1NDQ1NDU0NDMsLTE2Mzc3
+ODc5OTldfQ==
 -->
