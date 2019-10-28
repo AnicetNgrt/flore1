@@ -906,9 +906,10 @@ None
 
 ### <a name="engine-pic_to_textasset"></a>🧰 pic_to_textAsset [method](#methods)
 ##### - Description:
-Opens, rescale if needed, and gathers the color palette for a picture with the `Pillow` library, and then converts it to an array of strings. Then it calls [Engine.TextAsset(building)]
+Opens, rescale if needed, and gathers the color palette for a picture with the `Pillow` library, and then converts it to an array of strings called a "building manual". Then it calls [`Engine.TextAsset(building_manual)`](#Engine.TextAsset) and returns the Asset resulting from this.
 ##### - Prototype:
 ```python
+def pic_to_textAsset(self, path="", new_siz)
 ```
 ##### - Return value:
 
@@ -925,11 +926,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MTMxNjE5MSw2NjYzNzQ0MjksLTI4MT
-k3MTY2LC0xMjc1NDQ2MDIwLDEzMTg1MTUzMDcsLTE3OTA3MzYw
-MjIsODkxMjA5NjgwLC05MDE3MDA3MCwzODkxNDc0MzMsLTExNT
-Q2ODAwNDcsNDcyODAwMDE0LDY4MTAzNTIxMCwtMTY5NjExNzQ3
-MCwxMzgxNzczNjkyLDE2OTAwNDE0NjAsLTk1MjkyODM3OCwtMT
-IxNjE5NTQ1NiwtNjU3ODA3NDE0LDUzOTIzODk5MCwtMTU0NDU0
-NTQ0M119
+eyJoaXN0b3J5IjpbLTE4NTk4MTE4MTIsNjY2Mzc0NDI5LC0yOD
+E5NzE2NiwtMTI3NTQ0NjAyMCwxMzE4NTE1MzA3LC0xNzkwNzM2
+MDIyLDg5MTIwOTY4MCwtOTAxNzAwNzAsMzg5MTQ3NDMzLC0xMT
+U0NjgwMDQ3LDQ3MjgwMDAxNCw2ODEwMzUyMTAsLTE2OTYxMTc0
+NzAsMTM4MTc3MzY5MiwxNjkwMDQxNDYwLC05NTI5MjgzNzgsLT
+EyMTYxOTU0NTYsLTY1NzgwNzQxNCw1MzkyMzg5OTAsLTE1NDQ1
+NDU0NDNdfQ==
 -->
