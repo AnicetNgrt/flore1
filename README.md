@@ -986,7 +986,7 @@ def to_sprite(self)
 [TextSprite](#engine.textasset.textsprite) A sprite which chart will be the copy of this Asset's [chart](#textasset.chart).
 ##### - Arguments:
 None
-### <a name="engine.vscenes"></a>📌 building_manual [property](#textasset-props)
+### <a name="textasset.building_manual"></a>📌 building_manual [property](#textasset-props)
 ##### Description: 
 A building_manual is an array of strings which represents each line needed in order to draw your text sprite. Here come some examples:
 
@@ -1018,6 +1018,10 @@ You can add `style codes` to your building manual. Thoses codes are the followin
 With `<color>` being a number between 0 and 255 
 
 ---
+### <a name="textasset.chart"></a>📌 chart [property](#textasset-props)
+Pixel data of the textAsset's building manual
+
+---
 # <a name="license"></a>License
 This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
@@ -1025,11 +1029,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNTIwMTcwMSwtMTUzMjAwMjk1OSw3Nz
-QzNzE2NjAsLTE1NTI5Njc2NjEsMTQ2NDk5MjYzLC0yMDU2NDU0
-MjQwLC04NzY5MjEwODksMTExMTgzMTUzMywtMTgwNDY0MjA1Ni
-w2NjYzNzQ0MjksLTI4MTk3MTY2LC0xMjc1NDQ2MDIwLDEzMTg1
-MTUzMDcsLTE3OTA3MzYwMjIsODkxMjA5NjgwLC05MDE3MDA3MC
-wzODkxNDc0MzMsLTExNTQ2ODAwNDcsNDcyODAwMDE0LDY4MTAz
-NTIxMF19
+eyJoaXN0b3J5IjpbMTA4NjUzNTMzOSwxNDE1MjAxNzAxLC0xNT
+MyMDAyOTU5LDc3NDM3MTY2MCwtMTU1Mjk2NzY2MSwxNDY0OTky
+NjMsLTIwNTY0NTQyNDAsLTg3NjkyMTA4OSwxMTExODMxNTMzLC
+0xODA0NjQyMDU2LDY2NjM3NDQyOSwtMjgxOTcxNjYsLTEyNzU0
+NDYwMjAsMTMxODUxNTMwNywtMTc5MDczNjAyMiw4OTEyMDk2OD
+AsLTkwMTcwMDcwLDM4OTE0NzQzMywtMTE1NDY4MDA0Nyw0NzI4
+MDAwMTRdfQ==
 -->
