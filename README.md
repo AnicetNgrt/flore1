@@ -3,10 +3,8 @@
  This is the first **python** 2D game engine/graphical library **rendering in the terminal**.
  This library features the engine class itself, along with some utilitary classes for a more efficient use of it.
 
-
-**[Quick start](#tuto0)**
-
-**[Discord server](https://discord.gg/7GE5Zfy)**
+- **[Quick start](#tuto0)**
+- **[Support Discord server](https://discord.gg/7GE5Zfy)**
 
 **Note**: Thanks a lot for paying attention to my work. 
 My name is Anicet Nougaret, I am a french IT student, and I am doing all of this alone. This project will always remain open source and free.
@@ -925,11 +923,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NTc4Mjg3OSwtMTI3NTQ0NjAyMCwxMz
-E4NTE1MzA3LC0xNzkwNzM2MDIyLDg5MTIwOTY4MCwtOTAxNzAw
-NzAsMzg5MTQ3NDMzLC0xMTU0NjgwMDQ3LDQ3MjgwMDAxNCw2OD
-EwMzUyMTAsLTE2OTYxMTc0NzAsMTM4MTc3MzY5MiwxNjkwMDQx
-NDYwLC05NTI5MjgzNzgsLTEyMTYxOTU0NTYsLTY1NzgwNzQxNC
-w1MzkyMzg5OTAsLTE1NDQ1NDU0NDMsLTE2Mzc3ODc5OTksMjA3
-NzczNzI2N119
+eyJoaXN0b3J5IjpbLTI4MTk3MTY2LC0xMjc1NDQ2MDIwLDEzMT
+g1MTUzMDcsLTE3OTA3MzYwMjIsODkxMjA5NjgwLC05MDE3MDA3
+MCwzODkxNDc0MzMsLTExNTQ2ODAwNDcsNDcyODAwMDE0LDY4MT
+AzNTIxMCwtMTY5NjExNzQ3MCwxMzgxNzczNjkyLDE2OTAwNDE0
+NjAsLTk1MjkyODM3OCwtMTIxNjE5NTQ1NiwtNjU3ODA3NDE0LD
+UzOTIzODk5MCwtMTU0NDU0NTQ0MywtMTYzNzc4Nzk5OSwyMDc3
+NzM3MjY3XX0=
 -->
