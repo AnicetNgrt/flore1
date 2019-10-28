@@ -960,7 +960,7 @@ def
 | [ in ] | type | condition | description
 |--|--|--|--|
 ---
-### <a name="engine-pic_to_textasset"></a>🧰 generate_chart [method](#textasset-methods)
+### <a name="textasset-generate_chart"></a>🧰 generate_chart [method](#textasset-methods)
 ##### - Description:
 ##### - Prototype:
 ```python
@@ -971,7 +971,7 @@ def
 | [ in ] | type | condition | description
 |--|--|--|--|
 ---
-### <a name="engine-pic_to_textasset"></a>🧰 \_\_init\_\_ [method](#textasset-methods)
+### <a name="textasset-to_sprite"></a>🧰 to_sprite [method](#textasset-methods)
 ##### - Description:
 ##### - Prototype:
 ```python
@@ -989,11 +989,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxOTU4ODQ1MiwtODc2OTIxMDg5LDExMT
-E4MzE1MzMsLTE4MDQ2NDIwNTYsNjY2Mzc0NDI5LC0yODE5NzE2
-NiwtMTI3NTQ0NjAyMCwxMzE4NTE1MzA3LC0xNzkwNzM2MDIyLD
-g5MTIwOTY4MCwtOTAxNzAwNzAsMzg5MTQ3NDMzLC0xMTU0Njgw
-MDQ3LDQ3MjgwMDAxNCw2ODEwMzUyMTAsLTE2OTYxMTc0NzAsMT
-M4MTc3MzY5MiwxNjkwMDQxNDYwLC05NTI5MjgzNzgsLTEyMTYx
-OTU0NTZdfQ==
+eyJoaXN0b3J5IjpbLTIwNTY0NTQyNDAsLTg3NjkyMTA4OSwxMT
+ExODMxNTMzLC0xODA0NjQyMDU2LDY2NjM3NDQyOSwtMjgxOTcx
+NjYsLTEyNzU0NDYwMjAsMTMxODUxNTMwNywtMTc5MDczNjAyMi
+w4OTEyMDk2ODAsLTkwMTcwMDcwLDM4OTE0NzQzMywtMTE1NDY4
+MDA0Nyw0NzI4MDAwMTQsNjgxMDM1MjEwLC0xNjk2MTE3NDcwLD
+EzODE3NzM2OTIsMTY5MDA0MTQ2MCwtOTUyOTI4Mzc4LC0xMjE2
+MTk1NDU2XX0=
 -->
