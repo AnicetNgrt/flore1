@@ -1038,6 +1038,11 @@ TextSprites (or Sprites) are what the [Engine.VirtualScene](#engine.virtualscene
 - [set_asset](#textsprite-set_asset)
 ---
 ### <a name="textsprite-init"></a> 🧰 \_\_init\_\_ [method](#textsprite-methods)
+##### Description:
+##### Prototype:
+##### Return value:
+###### Arguments:
+| |||
 
 ---
 ### <a name="textsprite-set_asset"></a> 🧰 set_asset [method](#textsprite-methods)
@@ -1053,11 +1058,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEzNDYxMzc3LC0xNzgxODg3MzU5LC0xNz
-g5MDM3ODI2LDE0MTUyMDE3MDEsLTE1MzIwMDI5NTksNzc0Mzcx
-NjYwLC0xNTUyOTY3NjYxLDE0NjQ5OTI2MywtMjA1NjQ1NDI0MC
-wtODc2OTIxMDg5LDExMTE4MzE1MzMsLTE4MDQ2NDIwNTYsNjY2
-Mzc0NDI5LC0yODE5NzE2NiwtMTI3NTQ0NjAyMCwxMzE4NTE1Mz
-A3LC0xNzkwNzM2MDIyLDg5MTIwOTY4MCwtOTAxNzAwNzAsMzg5
-MTQ3NDMzXX0=
+eyJoaXN0b3J5IjpbLTkzMDQ2MjE5OSw5MTM0NjEzNzcsLTE3OD
+E4ODczNTksLTE3ODkwMzc4MjYsMTQxNTIwMTcwMSwtMTUzMjAw
+Mjk1OSw3NzQzNzE2NjAsLTE1NTI5Njc2NjEsMTQ2NDk5MjYzLC
+0yMDU2NDU0MjQwLC04NzY5MjEwODksMTExMTgzMTUzMywtMTgw
+NDY0MjA1Niw2NjYzNzQ0MjksLTI4MTk3MTY2LC0xMjc1NDQ2MD
+IwLDEzMTg1MTUzMDcsLTE3OTA3MzYwMjIsODkxMjA5NjgwLC05
+MDE3MDA3MF19
 -->
