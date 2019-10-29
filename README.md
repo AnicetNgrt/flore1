@@ -947,7 +947,9 @@ The VirtualScene (or you could say "Scene") instance's job is to display [TextSp
 - [generate_chart](#textasset-generate_chart)
 - [to_sprite](#textasset-to_sprite)
 ---
-### <a name="virtualscene-init"></a>🧰 \_\_init\_\_
+### <a name="virtualscene-init"></a>🧰 \_\_init\_\_ [method](#virtualscene-methods)
+##### Description:
+
 
 ---
 ## <a name="engine.textasset"></a>📜 Engine.TextAsset [(sub)class](#classes)
@@ -1143,11 +1145,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTY2MTQ2OTMsLTY0MjYxNzU1NywtNz
-I2NTY3Njg2LC04NDgzOTg2ODMsOTEzNDYxMzc3LC0xNzgxODg3
-MzU5LC0xNzg5MDM3ODI2LDE0MTUyMDE3MDEsLTE1MzIwMDI5NT
-ksNzc0MzcxNjYwLC0xNTUyOTY3NjYxLDE0NjQ5OTI2MywtMjA1
-NjQ1NDI0MCwtODc2OTIxMDg5LDExMTE4MzE1MzMsLTE4MDQ2ND
-IwNTYsNjY2Mzc0NDI5LC0yODE5NzE2NiwtMTI3NTQ0NjAyMCwx
-MzE4NTE1MzA3XX0=
+eyJoaXN0b3J5IjpbLTE0ODQ3ODc1MSwtNjQyNjE3NTU3LC03Mj
+Y1Njc2ODYsLTg0ODM5ODY4Myw5MTM0NjEzNzcsLTE3ODE4ODcz
+NTksLTE3ODkwMzc4MjYsMTQxNTIwMTcwMSwtMTUzMjAwMjk1OS
+w3NzQzNzE2NjAsLTE1NTI5Njc2NjEsMTQ2NDk5MjYzLC0yMDU2
+NDU0MjQwLC04NzY5MjEwODksMTExMTgzMTUzMywtMTgwNDY0Mj
+A1Niw2NjYzNzQ0MjksLTI4MTk3MTY2LC0xMjc1NDQ2MDIwLDEz
+MTg1MTUzMDddfQ==
 -->
