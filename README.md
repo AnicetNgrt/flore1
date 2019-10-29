@@ -952,8 +952,14 @@ The VirtualScene (or you could say "Scene") instance's job is to display [TextSp
 
 ##### Prototype:
 ```python
-
+def __init__(self, coord_x=0, coord_y=0, res_x=64, res_y=64, layer_count=10, scale=True)
 ```
+##### Return value:
+No return value
+##### Arguments:
+| [ in ] | type | condition | description |
+|--|--|--|--|
+| coord_x | int | none | Distance in
 
 ---
 ## <a name="engine.textasset"></a>📜 Engine.TextAsset [(sub)class](#classes)
@@ -1149,11 +1155,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAyNDUxMzk1LC0yMDcwMjU0ODYzLC02ND
-I2MTc1NTcsLTcyNjU2NzY4NiwtODQ4Mzk4NjgzLDkxMzQ2MTM3
-NywtMTc4MTg4NzM1OSwtMTc4OTAzNzgyNiwxNDE1MjAxNzAxLC
-0xNTMyMDAyOTU5LDc3NDM3MTY2MCwtMTU1Mjk2NzY2MSwxNDY0
-OTkyNjMsLTIwNTY0NTQyNDAsLTg3NjkyMTA4OSwxMTExODMxNT
-MzLC0xODA0NjQyMDU2LDY2NjM3NDQyOSwtMjgxOTcxNjYsLTEy
-NzU0NDYwMjBdfQ==
+eyJoaXN0b3J5IjpbLTU2ODM4NjY3NSwtMjA3MDI1NDg2MywtNj
+QyNjE3NTU3LC03MjY1Njc2ODYsLTg0ODM5ODY4Myw5MTM0NjEz
+NzcsLTE3ODE4ODczNTksLTE3ODkwMzc4MjYsMTQxNTIwMTcwMS
+wtMTUzMjAwMjk1OSw3NzQzNzE2NjAsLTE1NTI5Njc2NjEsMTQ2
+NDk5MjYzLC0yMDU2NDU0MjQwLC04NzY5MjEwODksMTExMTgzMT
+UzMywtMTgwNDY0MjA1Niw2NjYzNzQ0MjksLTI4MTk3MTY2LC0x
+Mjc1NDQ2MDIwXX0=
 -->
