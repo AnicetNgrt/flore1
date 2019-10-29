@@ -1039,11 +1039,20 @@ TextSprites (or Sprites) are what the [Engine.VirtualScene](#engine.virtualscene
 ---
 ### <a name="textsprite-init"></a> 🧰 \_\_init\_\_ [method](#textsprite-methods)
 ##### Description:
+Inits the TextSprite:
+- Sets its [chart](#textsprite.chart)
+- Sets its [prtcrd](#textsprite.prtcrd)
+- Sets its [act_prtcrd](#textsprite.act_prtcrd)
+- Sets its [scene](#textsprite.scene)
+- Sets its [layer](#textsprite.layer)
+- Sets its [x](#textsprite.x)
+- Sets its [y](#textsprite.y)
 ##### Prototype:
 ```python
-
+def __init__(self)
 ```
 ##### Return value:
+No return value
 ##### Arguments:
 None
 
@@ -1061,7 +1070,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MzgyMzQzOCw5MTM0NjEzNzcsLTE3OD
+eyJoaXN0b3J5IjpbLTQyNjIyMTQ5NCw5MTM0NjEzNzcsLTE3OD
 E4ODczNTksLTE3ODkwMzc4MjYsMTQxNTIwMTcwMSwtMTUzMjAw
 Mjk1OSw3NzQzNzE2NjAsLTE1NTI5Njc2NjEsMTQ2NDk5MjYzLC
 0yMDU2NDU0MjQwLC04NzY5MjEwODksMTExMTgzMTUzMywtMTgw
