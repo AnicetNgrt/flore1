@@ -1113,17 +1113,21 @@ The distance in character height of the Sprite to its [Scene](#textsprite.scene)
 
 ---
 # <a name="license"></a>License
-This library is distributed under a CC-BY-SA license.
+This library is distributed under a CC-BY-SA license:
+- You can:
+	- **Share** — copy and redistribute the material in any medium or format
+	- -   **Adapt** — remix, transform, and build upon the material
+-   for any purpose, even commercially. 
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYwNDE2MTQzLC03MjY1Njc2ODYsLTg0OD
-M5ODY4Myw5MTM0NjEzNzcsLTE3ODE4ODczNTksLTE3ODkwMzc4
-MjYsMTQxNTIwMTcwMSwtMTUzMjAwMjk1OSw3NzQzNzE2NjAsLT
-E1NTI5Njc2NjEsMTQ2NDk5MjYzLC0yMDU2NDU0MjQwLC04NzY5
-MjEwODksMTExMTgzMTUzMywtMTgwNDY0MjA1Niw2NjYzNzQ0Mj
-ksLTI4MTk3MTY2LC0xMjc1NDQ2MDIwLDEzMTg1MTUzMDcsLTE3
-OTA3MzYwMjJdfQ==
+eyJoaXN0b3J5IjpbMTc0MDUzMTI5NiwtNzI2NTY3Njg2LC04ND
+gzOTg2ODMsOTEzNDYxMzc3LC0xNzgxODg3MzU5LC0xNzg5MDM3
+ODI2LDE0MTUyMDE3MDEsLTE1MzIwMDI5NTksNzc0MzcxNjYwLC
+0xNTUyOTY3NjYxLDE0NjQ5OTI2MywtMjA1NjQ1NDI0MCwtODc2
+OTIxMDg5LDExMTE4MzE1MzMsLTE4MDQ2NDIwNTYsNjY2Mzc0ND
+I5LC0yODE5NzE2NiwtMTI3NTQ0NjAyMCwxMzE4NTE1MzA3LC0x
+NzkwNzM2MDIyXX0=
 -->
