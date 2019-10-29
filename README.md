@@ -1059,22 +1059,17 @@ None
 ---
 ### <a name="textsprite-set_asset"></a> 🧰 set_asset [method](#textsprite-methods)
 ##### Description:
-Inits the TextSprite:
-- Sets its [chart](#textsprite.chart) property to `None`
-- Sets its [prtcrd](#textsprite.prtcrd) property to `set()`
-- Sets its [act_prtcrd](#textsprite.act_prtcrd) property to `set()`
-- Sets its [scene](#textsprite.scene) property to `None`
-- Sets its [layer](#textsprite.layer) property to `None`
-- Sets its [x](#textsprite.x) property to `0`
-- Sets its [y](#textsprite.y) property to `0`
+
 ##### Prototype:
 ```python
-def __init__(self)
+def set_asset(self, asset)
 ```
 ##### Return value:
 No return value
 ##### Arguments:
-None
+| [ in ] | type | description
+|--|--|--|
+| asset | [Engine.TextAsset](#engine.textasset)  |  |
 
 ---
 ### <a name="textsprite."></a>
@@ -1087,11 +1082,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxMDMwNzM1LDkxMzQ2MTM3NywtMTc4MT
-g4NzM1OSwtMTc4OTAzNzgyNiwxNDE1MjAxNzAxLC0xNTMyMDAy
-OTU5LDc3NDM3MTY2MCwtMTU1Mjk2NzY2MSwxNDY0OTkyNjMsLT
-IwNTY0NTQyNDAsLTg3NjkyMTA4OSwxMTExODMxNTMzLC0xODA0
-NjQyMDU2LDY2NjM3NDQyOSwtMjgxOTcxNjYsLTEyNzU0NDYwMj
-AsMTMxODUxNTMwNywtMTc5MDczNjAyMiw4OTEyMDk2ODAsLTkw
-MTcwMDcwXX0=
+eyJoaXN0b3J5IjpbMTc3MzI5NTU2MSw5MTM0NjEzNzcsLTE3OD
+E4ODczNTksLTE3ODkwMzc4MjYsMTQxNTIwMTcwMSwtMTUzMjAw
+Mjk1OSw3NzQzNzE2NjAsLTE1NTI5Njc2NjEsMTQ2NDk5MjYzLC
+0yMDU2NDU0MjQwLC04NzY5MjEwODksMTExMTgzMTUzMywtMTgw
+NDY0MjA1Niw2NjYzNzQ0MjksLTI4MTk3MTY2LC0xMjc1NDQ2MD
+IwLDEzMTg1MTUzMDcsLTE3OTA3MzYwMjIsODkxMjA5NjgwLC05
+MDE3MDA3MF19
 -->
