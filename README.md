@@ -1025,7 +1025,7 @@ Cells data generated from the textAsset's building manual which makes printing s
 ---
 ### <a name="textasset.prtcrd"></a>📌 prtcrd [property](#textasset-props)
 ##### Description:
-A python set of (x, y) tuples representing all the coordinates in the chart. In other words, it is the set of all the cells covered by a [Sprite](#engine.textasset.textsprite) instance resulting of this Asset instance. Note that thoses coordinates are relative to the 
+A python set of (x, y) tuples representing all the coordinates in the chart. In other words, it is the set of all the cells covered by a [Sprite](#engine.textasset.textsprite) instance resulting of this Asset instance.
 
 ---
 ## <a name="engine.textasset.textsprite"></a>📜 Engine.TextAsset.TextSprite [(sub)class](#classes)
@@ -1087,6 +1087,11 @@ Exactly the same as [TextAsset.chart](#textasset.chart)
 Exactly the same as [TextAsset.prtcrd](#textasset.prtcrd)
 
 ---
+### <a name="textsprite.chart"></a>📌 act_prtcrd [property](#textsprite-props)
+##### Description:
+Similar to [TextAsset.prtcrd](#textasset.prtcrd), but here it is a set of all the cells covered by the Sprite **relative to its cu
+
+---
 # <a name="license"></a>License
 This library is distributed under a CC-BY-SA license.
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
@@ -1094,7 +1099,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0OTUwMzkwNywtODQ4Mzk4NjgzLDkxMz
+eyJoaXN0b3J5IjpbMTE1NTU3MjE0OSwtODQ4Mzk4NjgzLDkxMz
 Q2MTM3NywtMTc4MTg4NzM1OSwtMTc4OTAzNzgyNiwxNDE1MjAx
 NzAxLC0xNTMyMDAyOTU5LDc3NDM3MTY2MCwtMTU1Mjk2NzY2MS
 wxNDY0OTkyNjMsLTIwNTY0NTQyNDAsLTg3NjkyMTA4OSwxMTEx
