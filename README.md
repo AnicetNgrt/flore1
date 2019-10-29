@@ -1064,7 +1064,7 @@ None
 ---
 ### <a name="textsprite-set_asset"></a> 🧰 set_asset [method](#textsprite-methods)
 ##### Description:
-
+Copies an Asset's [chart](#textasset.chart) property and [prtcrd](#textasset.prtcrd) property into the Sprite's [chart](#textsprite.chart) property and [prtcrd](#textsprite.prtcrd) property, and generates 
 ##### Prototype:
 ```python
 def set_asset(self, asset)
@@ -1087,11 +1087,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2Nzc1OTc2NCw5MTM0NjEzNzcsLTE3OD
-E4ODczNTksLTE3ODkwMzc4MjYsMTQxNTIwMTcwMSwtMTUzMjAw
-Mjk1OSw3NzQzNzE2NjAsLTE1NTI5Njc2NjEsMTQ2NDk5MjYzLC
-0yMDU2NDU0MjQwLC04NzY5MjEwODksMTExMTgzMTUzMywtMTgw
-NDY0MjA1Niw2NjYzNzQ0MjksLTI4MTk3MTY2LC0xMjc1NDQ2MD
-IwLDEzMTg1MTUzMDcsLTE3OTA3MzYwMjIsODkxMjA5NjgwLC05
-MDE3MDA3MF19
+eyJoaXN0b3J5IjpbLTEwODIyNzY4NDEsOTEzNDYxMzc3LC0xNz
+gxODg3MzU5LC0xNzg5MDM3ODI2LDE0MTUyMDE3MDEsLTE1MzIw
+MDI5NTksNzc0MzcxNjYwLC0xNTUyOTY3NjYxLDE0NjQ5OTI2My
+wtMjA1NjQ1NDI0MCwtODc2OTIxMDg5LDExMTE4MzE1MzMsLTE4
+MDQ2NDIwNTYsNjY2Mzc0NDI5LC0yODE5NzE2NiwtMTI3NTQ0Nj
+AyMCwxMzE4NTE1MzA3LC0xNzkwNzM2MDIyLDg5MTIwOTY4MCwt
+OTAxNzAwNzBdfQ==
 -->
