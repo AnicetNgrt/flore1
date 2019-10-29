@@ -38,8 +38,10 @@ Therefore, please consider donating, it will greatly support this project !
 
 #  <a name="roadmap"></a>What is planned ?
 - `Gradually` Documentation and tutorials
+- `Gradually` Quality of life improvements
 - `Gradually` Optimization
 - `High priority` Input management
+- `High priority` GUI helper classes
 - `Medium priority` Basic server/client fonctionnalities 
 - `Low priority` Sound management  
 - `Low priority` Remote SSH rendering  
@@ -1208,11 +1210,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc5MTI5OTYsMTA5ODkxNzA4OSwtMjA0Mz
-UxMTU5MywtMTIwODkxMDQxMiwtNzI4NzE3MjQyLDE5MDA5MTU3
-MjEsLTEyNjk0MTMzMDYsLTEyNTA4MjE3MTEsLTIwNzAyNTQ4Nj
-MsLTY0MjYxNzU1NywtNzI2NTY3Njg2LC04NDgzOTg2ODMsOTEz
-NDYxMzc3LC0xNzgxODg3MzU5LC0xNzg5MDM3ODI2LDE0MTUyMD
-E3MDEsLTE1MzIwMDI5NTksNzc0MzcxNjYwLC0xNTUyOTY3NjYx
-LDE0NjQ5OTI2M119
+eyJoaXN0b3J5IjpbMTEyMDE1MDkxOSw4NzkxMjk5NiwxMDk4OT
+E3MDg5LC0yMDQzNTExNTkzLC0xMjA4OTEwNDEyLC03Mjg3MTcy
+NDIsMTkwMDkxNTcyMSwtMTI2OTQxMzMwNiwtMTI1MDgyMTcxMS
+wtMjA3MDI1NDg2MywtNjQyNjE3NTU3LC03MjY1Njc2ODYsLTg0
+ODM5ODY4Myw5MTM0NjEzNzcsLTE3ODE4ODczNTksLTE3ODkwMz
+c4MjYsMTQxNTIwMTcwMSwtMTUzMjAwMjk1OSw3NzQzNzE2NjAs
+LTE1NTI5Njc2NjFdfQ==
 -->
