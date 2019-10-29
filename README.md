@@ -947,6 +947,8 @@ The VirtualScene (or you could say "Scene") instance's job is to display [TextSp
 - [generate_chart](#textasset-generate_chart)
 - [to_sprite](#textasset-to_sprite)
 ---
+### <a name="virtualscene-init"></a>🧰 \_\_init\_\_
+
 ---
 ## <a name="engine.textasset"></a>📜 Engine.TextAsset [(sub)class](#classes)
  A TextAsset instance (Asset) is a building manual for creating [TextAsset.TextSprites](#engine.textasset.textsprite). It can convert an easy syntax for creating text based sprites into a format more suitable for the [Engine.VirtualScene](#engine.virtualscene) instance.
@@ -1141,11 +1143,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MjYxNzU1NywtNzI2NTY3Njg2LC04ND
-gzOTg2ODMsOTEzNDYxMzc3LC0xNzgxODg3MzU5LC0xNzg5MDM3
-ODI2LDE0MTUyMDE3MDEsLTE1MzIwMDI5NTksNzc0MzcxNjYwLC
-0xNTUyOTY3NjYxLDE0NjQ5OTI2MywtMjA1NjQ1NDI0MCwtODc2
-OTIxMDg5LDExMTE4MzE1MzMsLTE4MDQ2NDIwNTYsNjY2Mzc0ND
-I5LC0yODE5NzE2NiwtMTI3NTQ0NjAyMCwxMzE4NTE1MzA3LC0x
-NzkwNzM2MDIyXX0=
+eyJoaXN0b3J5IjpbLTExMTY2MTQ2OTMsLTY0MjYxNzU1NywtNz
+I2NTY3Njg2LC04NDgzOTg2ODMsOTEzNDYxMzc3LC0xNzgxODg3
+MzU5LC0xNzg5MDM3ODI2LDE0MTUyMDE3MDEsLTE1MzIwMDI5NT
+ksNzc0MzcxNjYwLC0xNTUyOTY3NjYxLDE0NjQ5OTI2MywtMjA1
+NjQ1NDI0MCwtODc2OTIxMDg5LDExMTE4MzE1MzMsLTE4MDQ2ND
+IwNTYsNjY2Mzc0NDI5LC0yODE5NzE2NiwtMTI3NTQ0NjAyMCwx
+MzE4NTE1MzA3XX0=
 -->
