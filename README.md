@@ -959,7 +959,9 @@ No return value
 ##### Arguments:
 | [ in ] | type | condition | description |
 |--|--|--|--|
-| coord_x | int | none | Distance in
+| coord_x | int | none | Distance of the Scene instance in character width to the terminal window's left border.
+| coord_y | int | none | Distance of the Scene instance in character height to the terminal window's top border.
+| res_x |  |  |
 
 ---
 ## <a name="engine.textasset"></a>📜 Engine.TextAsset [(sub)class](#classes)
@@ -1155,11 +1157,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2ODM4NjY3NSwtMjA3MDI1NDg2MywtNj
-QyNjE3NTU3LC03MjY1Njc2ODYsLTg0ODM5ODY4Myw5MTM0NjEz
-NzcsLTE3ODE4ODczNTksLTE3ODkwMzc4MjYsMTQxNTIwMTcwMS
-wtMTUzMjAwMjk1OSw3NzQzNzE2NjAsLTE1NTI5Njc2NjEsMTQ2
-NDk5MjYzLC0yMDU2NDU0MjQwLC04NzY5MjEwODksMTExMTgzMT
-UzMywtMTgwNDY0MjA1Niw2NjYzNzQ0MjksLTI4MTk3MTY2LC0x
-Mjc1NDQ2MDIwXX0=
+eyJoaXN0b3J5IjpbLTEyNTA4MjE3MTEsLTIwNzAyNTQ4NjMsLT
+Y0MjYxNzU1NywtNzI2NTY3Njg2LC04NDgzOTg2ODMsOTEzNDYx
+Mzc3LC0xNzgxODg3MzU5LC0xNzg5MDM3ODI2LDE0MTUyMDE3MD
+EsLTE1MzIwMDI5NTksNzc0MzcxNjYwLC0xNTUyOTY3NjYxLDE0
+NjQ5OTI2MywtMjA1NjQ1NDI0MCwtODc2OTIxMDg5LDExMTE4Mz
+E1MzMsLTE4MDQ2NDIwNTYsNjY2Mzc0NDI5LC0yODE5NzE2Niwt
+MTI3NTQ0NjAyMF19
 -->
