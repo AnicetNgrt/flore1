@@ -940,17 +940,15 @@ The VirtualScene (or you could say "Scene") instance's job is to display [TextSp
 
 ### <a name="virtualscene-props"></a>Properties
 -  [building_manual](#textasset.building_manual)
--  [chart](#textasset.building_manual)
 
 ### <a name="virtualscene-methods"></a>Methods
-- [\_\_init\_\_](#textasset-init)
-- [generate_chart](#textasset-generate_chart)
-- [to_sprite](#textasset-to_sprite)
+- [\_\_init\_\_](#virtualscene-init)
+
 ---
 ### <a name="virtualscene-init"></a>🧰 \_\_init\_\_ [method](#virtualscene-methods)
 ##### Description:
 - Inits the Scene instance:
-	- 
+	- Inits all its parameters to 
 	- 	
 
 ---
@@ -1147,7 +1145,7 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNzMwNjM1NywtNjQyNjE3NTU3LC03Mj
+eyJoaXN0b3J5IjpbMjEyNzE1ODI3NSwtNjQyNjE3NTU3LC03Mj
 Y1Njc2ODYsLTg0ODM5ODY4Myw5MTM0NjEzNzcsLTE3ODE4ODcz
 NTksLTE3ODkwMzc4MjYsMTQxNTIwMTcwMSwtMTUzMjAwMjk1OS
 w3NzQzNzE2NjAsLTE1NTI5Njc2NjEsMTQ2NDk5MjYzLC0yMDU2
