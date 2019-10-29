@@ -1077,9 +1077,15 @@ No return value
 | asset | [Engine.TextAsset](#engine.textasset) | The Asset instance which [chart](#textasset.chart) property and [prtcrd](#textasset.prtcrd) property will be copied into the Sprite's [chart](#textsprite.chart) property and [prtcrd](#textsprite.prtcrd) property.|
 
 ---
-### <a name="textasset.prtcrd"></a>📌 prtcrd [property](#textasset-props)
+### <a name="textsprite.chart"></a>📌 chart [property](#textsprite-props)
 ##### Description:
-A python set of (x, y) tuples representing the coordinates for all the Sprite intance's cells.
+Exactly the same as [TextAsset.chart](#textasset.chart)
+
+---
+### <a name="textsprite.chart"></a>📌 prtcrd [property](#textsprite-props)
+##### Description:
+Exactly the same as [TextAsset.prtcrd](#textasset.prtcrd)
+
 ---
 # <a name="license"></a>License
 This library is distributed under a CC-BY-SA license.
@@ -1088,11 +1094,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODYzODQ0OSwtODQ4Mzk4NjgzLDkxMz
-Q2MTM3NywtMTc4MTg4NzM1OSwtMTc4OTAzNzgyNiwxNDE1MjAx
-NzAxLC0xNTMyMDAyOTU5LDc3NDM3MTY2MCwtMTU1Mjk2NzY2MS
-wxNDY0OTkyNjMsLTIwNTY0NTQyNDAsLTg3NjkyMTA4OSwxMTEx
-ODMxNTMzLC0xODA0NjQyMDU2LDY2NjM3NDQyOSwtMjgxOTcxNj
-YsLTEyNzU0NDYwMjAsMTMxODUxNTMwNywtMTc5MDczNjAyMiw4
-OTEyMDk2ODBdfQ==
+eyJoaXN0b3J5IjpbLTEwMTQ3MzI0MzMsLTg0ODM5ODY4Myw5MT
+M0NjEzNzcsLTE3ODE4ODczNTksLTE3ODkwMzc4MjYsMTQxNTIw
+MTcwMSwtMTUzMjAwMjk1OSw3NzQzNzE2NjAsLTE1NTI5Njc2Nj
+EsMTQ2NDk5MjYzLC0yMDU2NDU0MjQwLC04NzY5MjEwODksMTEx
+MTgzMTUzMywtMTgwNDY0MjA1Niw2NjYzNzQ0MjksLTI4MTk3MT
+Y2LC0xMjc1NDQ2MDIwLDEzMTg1MTUzMDcsLTE3OTA3MzYwMjIs
+ODkxMjA5NjgwXX0=
 -->
