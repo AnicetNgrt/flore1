@@ -1023,6 +1023,11 @@ With `<color>` being a number between 0 and 255
 Cells data generated from the textAsset's building manual which makes printing sprites more manageable and therefore more optimised.
 
 ---
+### <a name="textasset.prtcrd"></a>📌 prtcrd [property](#textasset-props)
+##### Description:
+A python set of (x, y) tuples representing all the Sprite's printed cells' coordinates 
+
+---
 ## <a name="engine.textasset.textsprite"></a>📜 Engine.TextAsset.TextSprite [(sub)class](#classes)
 TextSprites (or Sprites) are what the [Engine.VirtualScene](#engine.virtualscene) instances can display. They have many properties that one can tweak in order to change how the sprite instance is displayed. Whether it is its texture, its scene, its layer on the scene, or its (x, y) position on the scene.
 ### <a name="textasset-props"></a>Properties:
@@ -1082,7 +1087,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc3OTI2ODIyLDkxMzQ2MTM3NywtMTc4MT
+eyJoaXN0b3J5IjpbMjAzNzc2OTA2LDkxMzQ2MTM3NywtMTc4MT
 g4NzM1OSwtMTc4OTAzNzgyNiwxNDE1MjAxNzAxLC0xNTMyMDAy
 OTU5LDc3NDM3MTY2MCwtMTU1Mjk2NzY2MSwxNDY0OTkyNjMsLT
 IwNTY0NTQyNDAsLTg3NjkyMTA4OSwxMTExODMxNTMzLC0xODA0
