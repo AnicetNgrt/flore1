@@ -1116,18 +1116,20 @@ The distance in character height of the Sprite to its [Scene](#textsprite.scene)
 This library is distributed under a CC-BY-SA license:
 - You can:
 	- **Share** — copy and redistribute the material in any medium or format
-	- -   **Adapt** — remix, transform, and build upon the material
--   for any purpose, even commercially. 
+	- **Adapt** — remix, transform, and build upon the material for any purpose, **even commercially.**
+- Under the following terms:
+	- **Attribution** — You must give [appropriate credit](https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en#), provide a link to the license, and [indicate if changes were made](https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en#). You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+	- 
 Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MDUzMTI5NiwtNzI2NTY3Njg2LC04ND
-gzOTg2ODMsOTEzNDYxMzc3LC0xNzgxODg3MzU5LC0xNzg5MDM3
-ODI2LDE0MTUyMDE3MDEsLTE1MzIwMDI5NTksNzc0MzcxNjYwLC
-0xNTUyOTY3NjYxLDE0NjQ5OTI2MywtMjA1NjQ1NDI0MCwtODc2
-OTIxMDg5LDExMTE4MzE1MzMsLTE4MDQ2NDIwNTYsNjY2Mzc0ND
-I5LC0yODE5NzE2NiwtMTI3NTQ0NjAyMCwxMzE4NTE1MzA3LC0x
-NzkwNzM2MDIyXX0=
+eyJoaXN0b3J5IjpbLTIxMDcwOTQzMzksLTcyNjU2NzY4NiwtOD
+Q4Mzk4NjgzLDkxMzQ2MTM3NywtMTc4MTg4NzM1OSwtMTc4OTAz
+NzgyNiwxNDE1MjAxNzAxLC0xNTMyMDAyOTU5LDc3NDM3MTY2MC
+wtMTU1Mjk2NzY2MSwxNDY0OTkyNjMsLTIwNTY0NTQyNDAsLTg3
+NjkyMTA4OSwxMTExODMxNTMzLC0xODA0NjQyMDU2LDY2NjM3ND
+QyOSwtMjgxOTcxNjYsLTEyNzU0NDYwMjAsMTMxODUxNTMwNywt
+MTc5MDczNjAyMl19
 -->
