@@ -945,18 +945,18 @@ The VirtualScene (or you could say "Scene") instance's job is to display [TextSp
 
 ---
 ### <a name="virtualscene-init"></a>🧰 \_\_init\_\_ [method](#virtualscene-methods)
-##### Description:
+##### - Description:
 - Inits the Scene instance:
 	- Inits all its properties to their default values.
 	- Rescales the terminal window if [Engine.auto_scale](#engine.auto_scale) is set to `True`.
 
-##### Prototype:
+##### - Prototype:
 ```python
 def __init__(self, coord_x=0, coord_y=0, res_x=64, res_y=64, layer_count=10, scale=True)
 ```
-##### Return value:
+##### - Return value:
 No return value
-##### Arguments:
+##### - Arguments:
 | [ in ] | type | condition | description |
 |--|--|--|--|
 | coord_x | int | none | Distance of the Scene instance in character width to the terminal window's left border.
@@ -967,7 +967,8 @@ No return value
 
 ---
 ### <a name="virtualscene-put"></a>🧰 put [method](#virtualscene-methods)
-
+##### - Description:
+Puts a Sprite in on
 
 ---
 ## <a name="engine.textasset"></a>📜 Engine.TextAsset [(sub)class](#classes)
@@ -1078,7 +1079,7 @@ TextSprites (or Sprites) are what the [Engine.VirtualScene](#engine.virtualscene
 - [set_asset](#textsprite-set_asset)
 ---
 ### <a name="textsprite-init"></a> 🧰 \_\_init\_\_ [method](#textsprite-methods)
-##### Description:
+##### - Description:
 Inits the TextSprite:
 - Sets its [chart](#textsprite.chart) property to `None`
 - Sets its [prtcrd](#textsprite.prtcrd) property to `set()`
@@ -1087,26 +1088,26 @@ Inits the TextSprite:
 - Sets its [layer](#textsprite.layer) property to `None`
 - Sets its [x](#textsprite.x) property to `0`
 - Sets its [y](#textsprite.y) property to `0`
-##### Prototype:
+##### - Prototype:
 ```python
 def __init__(self)
 ```
-##### Return value:
+##### - Return value:
 No return value
-##### Arguments:
+##### - Arguments:
 None
 
 ---
 ### <a name="textsprite-set_asset"></a> 🧰 set_asset [method](#textsprite-methods)
-##### Description:
+##### - Description:
 Copies an Asset's [chart](#textasset.chart) property and [prtcrd](#textasset.prtcrd) property into the Sprite's [chart](#textsprite.chart) property and [prtcrd](#textsprite.prtcrd) property, and regenerates its [act_prtcrd](#textsprite.act_prtcrd) if its coordinates have changed, or if the Asset's "set of printed coordinates" is different from the sprite's previous one.
-##### Prototype:
+##### - Prototype:
 ```python
 def set_asset(self, asset)
 ```
 ##### Return value:
 No return value
-##### Arguments:
+##### - Arguments:
 | [ in ] | type | description
 |--|--|--|
 | asset | [Engine.TextAsset](#engine.textasset) | The Asset instance which [chart](#textasset.chart) property and [prtcrd](#textasset.prtcrd) property will be copied into the Sprite's [chart](#textsprite.chart) property and [prtcrd](#textsprite.prtcrd) property.|
@@ -1163,11 +1164,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMTcyMzg1NiwtMTI2OTQxMzMwNiwtMT
-I1MDgyMTcxMSwtMjA3MDI1NDg2MywtNjQyNjE3NTU3LC03MjY1
-Njc2ODYsLTg0ODM5ODY4Myw5MTM0NjEzNzcsLTE3ODE4ODczNT
-ksLTE3ODkwMzc4MjYsMTQxNTIwMTcwMSwtMTUzMjAwMjk1OSw3
-NzQzNzE2NjAsLTE1NTI5Njc2NjEsMTQ2NDk5MjYzLC0yMDU2ND
-U0MjQwLC04NzY5MjEwODksMTExMTgzMTUzMywtMTgwNDY0MjA1
-Niw2NjYzNzQ0MjldfQ==
+eyJoaXN0b3J5IjpbLTIxMTUzMTU0MDMsLTEyNjk0MTMzMDYsLT
+EyNTA4MjE3MTEsLTIwNzAyNTQ4NjMsLTY0MjYxNzU1NywtNzI2
+NTY3Njg2LC04NDgzOTg2ODMsOTEzNDYxMzc3LC0xNzgxODg3Mz
+U5LC0xNzg5MDM3ODI2LDE0MTUyMDE3MDEsLTE1MzIwMDI5NTks
+Nzc0MzcxNjYwLC0xNTUyOTY3NjYxLDE0NjQ5OTI2MywtMjA1Nj
+Q1NDI0MCwtODc2OTIxMDg5LDExMTE4MzE1MzMsLTE4MDQ2NDIw
+NTYsNjY2Mzc0NDI5XX0=
 -->
