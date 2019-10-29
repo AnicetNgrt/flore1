@@ -41,7 +41,7 @@ Therefore, please consider donating, it will greatly support this project !
 - `Gradually` Quality of life improvements
 - `Gradually` Optimization
 - `High priority` Input management
-- `High priority` GUI helper classes
+- `High priority` UI helper classes
 - `Medium priority` Basic server/client fonctionnalities 
 - `Low priority` Sound management  
 - `Low priority` Remote SSH rendering  
@@ -63,6 +63,7 @@ Therefore, please consider donating, it will greatly support this project !
 "\u001b[39;5;<color_code>m"
 ```
 - Terminals that do not support thoses will never be compatibles. 
+- flore1 may use python `curses` in future updates which is not compatible with old terminals (still it will be compat). 
     
 # <a name="tuto"></a>Tutorials
 Theses aim to be a fun and beginner-friendly way of learning how to use flore1.  
@@ -1210,11 +1211,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMDE1MDkxOSw4NzkxMjk5NiwxMDk4OT
-E3MDg5LC0yMDQzNTExNTkzLC0xMjA4OTEwNDEyLC03Mjg3MTcy
-NDIsMTkwMDkxNTcyMSwtMTI2OTQxMzMwNiwtMTI1MDgyMTcxMS
-wtMjA3MDI1NDg2MywtNjQyNjE3NTU3LC03MjY1Njc2ODYsLTg0
-ODM5ODY4Myw5MTM0NjEzNzcsLTE3ODE4ODczNTksLTE3ODkwMz
-c4MjYsMTQxNTIwMTcwMSwtMTUzMjAwMjk1OSw3NzQzNzE2NjAs
-LTE1NTI5Njc2NjFdfQ==
+eyJoaXN0b3J5IjpbLTEyNDIyOTk2OTIsODc5MTI5OTYsMTA5OD
+kxNzA4OSwtMjA0MzUxMTU5MywtMTIwODkxMDQxMiwtNzI4NzE3
+MjQyLDE5MDA5MTU3MjEsLTEyNjk0MTMzMDYsLTEyNTA4MjE3MT
+EsLTIwNzAyNTQ4NjMsLTY0MjYxNzU1NywtNzI2NTY3Njg2LC04
+NDgzOTg2ODMsOTEzNDYxMzc3LC0xNzgxODg3MzU5LC0xNzg5MD
+M3ODI2LDE0MTUyMDE3MDEsLTE1MzIwMDI5NTksNzc0MzcxNjYw
+LC0xNTUyOTY3NjYxXX0=
 -->
