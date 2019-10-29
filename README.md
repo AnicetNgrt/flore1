@@ -984,7 +984,7 @@ No return value
 | sprite | [Engine.TextAsset.TextSprite](#engine.textasset.textsprite) | none | The Sprite instance to put in the Scene
 | crd_x | integer | none | Distance of the Sprite to the Scene instance's left border in character width.
 | crd_y | integer | none | Distance of the Sprite to the Scene instance's top border in character height.
-| layer | integer | 0 < it 
+| layer | integer | > 0 and < `len(scene.layers)` | The index of the layer in which you put the Sprite instance.
 
 ---
 ## <a name="engine.textasset"></a>📜 Engine.TextAsset [(sub)class](#classes)
@@ -1180,11 +1180,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzQ4MDcwNDUsMTkwMDkxNTcyMSwtMT
-I2OTQxMzMwNiwtMTI1MDgyMTcxMSwtMjA3MDI1NDg2MywtNjQy
-NjE3NTU3LC03MjY1Njc2ODYsLTg0ODM5ODY4Myw5MTM0NjEzNz
-csLTE3ODE4ODczNTksLTE3ODkwMzc4MjYsMTQxNTIwMTcwMSwt
-MTUzMjAwMjk1OSw3NzQzNzE2NjAsLTE1NTI5Njc2NjEsMTQ2ND
-k5MjYzLC0yMDU2NDU0MjQwLC04NzY5MjEwODksMTExMTgzMTUz
-MywtMTgwNDY0MjA1Nl19
+eyJoaXN0b3J5IjpbLTcyODcxNzI0MiwxOTAwOTE1NzIxLC0xMj
+Y5NDEzMzA2LC0xMjUwODIxNzExLC0yMDcwMjU0ODYzLC02NDI2
+MTc1NTcsLTcyNjU2NzY4NiwtODQ4Mzk4NjgzLDkxMzQ2MTM3Ny
+wtMTc4MTg4NzM1OSwtMTc4OTAzNzgyNiwxNDE1MjAxNzAxLC0x
+NTMyMDAyOTU5LDc3NDM3MTY2MCwtMTU1Mjk2NzY2MSwxNDY0OT
+kyNjMsLTIwNTY0NTQyNDAsLTg3NjkyMTA4OSwxMTExODMxNTMz
+LC0xODA0NjQyMDU2XX0=
 -->
