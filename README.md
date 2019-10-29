@@ -968,7 +968,11 @@ No return value
 ---
 ### <a name="virtualscene-put"></a>🧰 put [method](#virtualscene-methods)
 ##### - Description:
-Puts a Sprite in on
+Puts a Sprite instance in one of the Scene instance's layers. In order to see it in action, you must [show](#scene-show) the Scene instance again.
+##### - Prototype:
+```python
+def pu
+```
 
 ---
 ## <a name="engine.textasset"></a>📜 Engine.TextAsset [(sub)class](#classes)
@@ -1164,11 +1168,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTUzMTU0MDMsLTEyNjk0MTMzMDYsLT
-EyNTA4MjE3MTEsLTIwNzAyNTQ4NjMsLTY0MjYxNzU1NywtNzI2
-NTY3Njg2LC04NDgzOTg2ODMsOTEzNDYxMzc3LC0xNzgxODg3Mz
-U5LC0xNzg5MDM3ODI2LDE0MTUyMDE3MDEsLTE1MzIwMDI5NTks
-Nzc0MzcxNjYwLC0xNTUyOTY3NjYxLDE0NjQ5OTI2MywtMjA1Nj
-Q1NDI0MCwtODc2OTIxMDg5LDExMTE4MzE1MzMsLTE4MDQ2NDIw
-NTYsNjY2Mzc0NDI5XX0=
+eyJoaXN0b3J5IjpbNTIwNTE5NTQ2LC0xMjY5NDEzMzA2LC0xMj
+UwODIxNzExLC0yMDcwMjU0ODYzLC02NDI2MTc1NTcsLTcyNjU2
+NzY4NiwtODQ4Mzk4NjgzLDkxMzQ2MTM3NywtMTc4MTg4NzM1OS
+wtMTc4OTAzNzgyNiwxNDE1MjAxNzAxLC0xNTMyMDAyOTU5LDc3
+NDM3MTY2MCwtMTU1Mjk2NzY2MSwxNDY0OTkyNjMsLTIwNTY0NT
+QyNDAsLTg3NjkyMTA4OSwxMTExODMxNTMzLC0xODA0NjQyMDU2
+LDY2NjM3NDQyOV19
 -->
