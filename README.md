@@ -997,7 +997,7 @@ def erase(self, sprite)
 ##### - Arguments:
 | [ in ] | type | description |
 |--|--|--|
-| sprite | [Engine.TextAsset.TextSprite](#engine.textasset.textsprite) | The sprite to er
+| sprite | [Engine.TextAsset.TextSprite](#engine.textasset.textsprite) | The Sprite instance to erase from the Scene
 
 ---
 ### <a name="virtualscene-show"></a>🧰 show [method](#virtualscene-methods)
@@ -1008,9 +1008,9 @@ def
 ```
 ##### - Return value:
 ##### - Arguments:
-| [ in ] | type | condition | description |
-|--|--|--|--|
-|  |  |  |  
+| [ in ] | type | description |
+|--|--|--|
+| debug | boolean | Whether the debug overlay for this method should be displayed (show fps and frame latency)
 
 ---
 ## <a name="engine.textasset"></a>📜 Engine.TextAsset [(sub)class](#classes)
@@ -1206,11 +1206,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMDQ0NDA0NCwtNzI4NzE3MjQyLDE5MD
-A5MTU3MjEsLTEyNjk0MTMzMDYsLTEyNTA4MjE3MTEsLTIwNzAy
-NTQ4NjMsLTY0MjYxNzU1NywtNzI2NTY3Njg2LC04NDgzOTg2OD
-MsOTEzNDYxMzc3LC0xNzgxODg3MzU5LC0xNzg5MDM3ODI2LDE0
-MTUyMDE3MDEsLTE1MzIwMDI5NTksNzc0MzcxNjYwLC0xNTUyOT
-Y3NjYxLDE0NjQ5OTI2MywtMjA1NjQ1NDI0MCwtODc2OTIxMDg5
-LDExMTE4MzE1MzNdfQ==
+eyJoaXN0b3J5IjpbLTEyMDg5MTA0MTIsLTcyODcxNzI0MiwxOT
+AwOTE1NzIxLC0xMjY5NDEzMzA2LC0xMjUwODIxNzExLC0yMDcw
+MjU0ODYzLC02NDI2MTc1NTcsLTcyNjU2NzY4NiwtODQ4Mzk4Nj
+gzLDkxMzQ2MTM3NywtMTc4MTg4NzM1OSwtMTc4OTAzNzgyNiwx
+NDE1MjAxNzAxLC0xNTMyMDAyOTU5LDc3NDM3MTY2MCwtMTU1Mj
+k2NzY2MSwxNDY0OTkyNjMsLTIwNTY0NTQyNDAsLTg3NjkyMTA4
+OSwxMTExODMxNTMzXX0=
 -->
