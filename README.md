@@ -936,10 +936,9 @@ Dictionnary of all the [Engine.VirtualScene(s)](#engine.virtualscene) instances 
 
 ---
 ## <a name="engine.virtualscene"></a>📜 Engine.VirtualScene [(sub)class](#classes)
-The VirtualScene (or you could say "Scene") instance's job is to display [TextSprite](#engine.textasset.textsprite) instances correctly, and as fast as possible, in the terminal.
+The VirtualScene (or you could say "Scene") instance's job is to display [TextSprite](#engine.textasset.textsprite) instances correctly, and as fast as possible, in the terminal. Its properties are not documented for now, it is due t
 
-### <a name="virtualscene-props"></a>Properties
--  [building_manual](#textasset.building_manual)
+
 
 ### <a name="virtualscene-methods"></a>Methods
 - [\_\_init\_\_](#virtualscene-init)
@@ -1145,7 +1144,7 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNzE1ODI3NSwtNjQyNjE3NTU3LC03Mj
+eyJoaXN0b3J5IjpbMTk1MzU1NzExMCwtNjQyNjE3NTU3LC03Mj
 Y1Njc2ODYsLTg0ODM5ODY4Myw5MTM0NjEzNzcsLTE3ODE4ODcz
 NTksLTE3ODkwMzc4MjYsMTQxNTIwMTcwMSwtMTUzMjAwMjk1OS
 w3NzQzNzE2NjAsLTE1NTI5Njc2NjEsMTQ2NDk5MjYzLC0yMDU2
