@@ -971,8 +971,12 @@ No return value
 Puts a Sprite instance in one of the Scene instance's layers. In order to see it in action, you must [show](#scene-show) the Scene instance again.
 ##### - Prototype:
 ```python
-def pu
+def put(sefl, sprite, crd_x, crd_y, layer)
 ```
+##### - Return value:
+No return value
+##### - Arguments:
+| [ in ] | type | condition | description 
 
 ---
 ## <a name="engine.textasset"></a>📜 Engine.TextAsset [(sub)class](#classes)
@@ -1168,11 +1172,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIwNTE5NTQ2LC0xMjY5NDEzMzA2LC0xMj
-UwODIxNzExLC0yMDcwMjU0ODYzLC02NDI2MTc1NTcsLTcyNjU2
-NzY4NiwtODQ4Mzk4NjgzLDkxMzQ2MTM3NywtMTc4MTg4NzM1OS
-wtMTc4OTAzNzgyNiwxNDE1MjAxNzAxLC0xNTMyMDAyOTU5LDc3
-NDM3MTY2MCwtMTU1Mjk2NzY2MSwxNDY0OTkyNjMsLTIwNTY0NT
-QyNDAsLTg3NjkyMTA4OSwxMTExODMxNTMzLC0xODA0NjQyMDU2
-LDY2NjM3NDQyOV19
+eyJoaXN0b3J5IjpbMTM2MTE1MjE4MSwtMTI2OTQxMzMwNiwtMT
+I1MDgyMTcxMSwtMjA3MDI1NDg2MywtNjQyNjE3NTU3LC03MjY1
+Njc2ODYsLTg0ODM5ODY4Myw5MTM0NjEzNzcsLTE3ODE4ODczNT
+ksLTE3ODkwMzc4MjYsMTQxNTIwMTcwMSwtMTUzMjAwMjk1OSw3
+NzQzNzE2NjAsLTE1NTI5Njc2NjEsMTQ2NDk5MjYzLC0yMDU2ND
+U0MjQwLC04NzY5MjEwODksMTExMTgzMTUzMywtMTgwNDY0MjA1
+Niw2NjYzNzQ0MjldfQ==
 -->
