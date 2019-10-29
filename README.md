@@ -949,7 +949,9 @@ The VirtualScene (or you could say "Scene") instance's job is to display [TextSp
 ---
 ### <a name="virtualscene-init"></a>🧰 \_\_init\_\_ [method](#virtualscene-methods)
 ##### Description:
-
+- Inits the Scene instance:
+	- 
+	- 	
 
 ---
 ## <a name="engine.textasset"></a>📜 Engine.TextAsset [(sub)class](#classes)
@@ -1145,7 +1147,7 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODQ3ODc1MSwtNjQyNjE3NTU3LC03Mj
+eyJoaXN0b3J5IjpbMTkxNzMwNjM1NywtNjQyNjE3NTU3LC03Mj
 Y1Njc2ODYsLTg0ODM5ODY4Myw5MTM0NjEzNzcsLTE3ODE4ODcz
 NTksLTE3ODkwMzc4MjYsMTQxNTIwMTcwMSwtMTUzMjAwMjk1OS
 w3NzQzNzE2NjAsLTE1NTI5Njc2NjEsMTQ2NDk5MjYzLC0yMDU2
