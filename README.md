@@ -966,6 +966,10 @@ No return value
 | layer_count | int | > 0 | The number of layers that the Scene instance has. In other words, how many different level of supperposition it has to manage. (An empty layer causes no significant lag).
 
 ---
+### <a name="virtualscene-put"></a>🧰 put [method](#virtualscene-methods)
+
+
+---
 ## <a name="engine.textasset"></a>📜 Engine.TextAsset [(sub)class](#classes)
  A TextAsset instance (Asset) is a building manual for creating [TextAsset.TextSprites](#engine.textasset.textsprite). It can convert an easy syntax for creating text based sprites into a format more suitable for the [Engine.VirtualScene](#engine.virtualscene) instance.
  ### Subclass
@@ -1159,11 +1163,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjk0MTMzMDYsLTEyNTA4MjE3MTEsLT
-IwNzAyNTQ4NjMsLTY0MjYxNzU1NywtNzI2NTY3Njg2LC04NDgz
-OTg2ODMsOTEzNDYxMzc3LC0xNzgxODg3MzU5LC0xNzg5MDM3OD
-I2LDE0MTUyMDE3MDEsLTE1MzIwMDI5NTksNzc0MzcxNjYwLC0x
-NTUyOTY3NjYxLDE0NjQ5OTI2MywtMjA1NjQ1NDI0MCwtODc2OT
-IxMDg5LDExMTE4MzE1MzMsLTE4MDQ2NDIwNTYsNjY2Mzc0NDI5
-LC0yODE5NzE2Nl19
+eyJoaXN0b3J5IjpbMjAyMTcyMzg1NiwtMTI2OTQxMzMwNiwtMT
+I1MDgyMTcxMSwtMjA3MDI1NDg2MywtNjQyNjE3NTU3LC03MjY1
+Njc2ODYsLTg0ODM5ODY4Myw5MTM0NjEzNzcsLTE3ODE4ODczNT
+ksLTE3ODkwMzc4MjYsMTQxNTIwMTcwMSwtMTUzMjAwMjk1OSw3
+NzQzNzE2NjAsLTE1NTI5Njc2NjEsMTQ2NDk5MjYzLC0yMDU2ND
+U0MjQwLC04NzY5MjEwODksMTExMTgzMTUzMywtMTgwNDY0MjA1
+Niw2NjYzNzQ0MjldfQ==
 -->
