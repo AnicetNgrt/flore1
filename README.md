@@ -1104,7 +1104,12 @@ The layer in which resides this Sprite instance within its [Scene](#textsprite.s
 ---
 ### <a name="textsprite.x"></a>📌 x [property](#textsprite-props)
 ##### Description:
-The layer in which resides this Sprite instance within its [Scene](#textsprite.scene).
+The distance in character width of the Sprite to its [Scene](#textsprite.scene)'s left border.
+
+---
+### <a name="textsprite.y"></a>📌 y [property](#textsprite-props)
+##### Description:
+The distance in character height of the Sprite to its [Scene](#textsprite.scene)'s top border.
 
 ---
 # <a name="license"></a>License
@@ -1114,7 +1119,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzAwOTk3LC03MjY1Njc2ODYsLTg0OD
+eyJoaXN0b3J5IjpbNjYwNDE2MTQzLC03MjY1Njc2ODYsLTg0OD
 M5ODY4Myw5MTM0NjEzNzcsLTE3ODE4ODczNTksLTE3ODkwMzc4
 MjYsMTQxNTIwMTcwMSwtMTUzMjAwMjk1OSw3NzQzNzE2NjAsLT
 E1NTI5Njc2NjEsMTQ2NDk5MjYzLC0yMDU2NDU0MjQwLC04NzY5
