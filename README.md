@@ -1025,7 +1025,7 @@ Cells data generated from the textAsset's building manual which makes printing s
 ---
 ### <a name="textasset.prtcrd"></a>📌 prtcrd [property](#textasset-props)
 ##### Description:
-A python set of (x, y) tuples representing the coordinates for all the Sprite intance's cells.
+A python set of (x, y) tuples representing all the coordinates in the chart. In other words, it is the set of all the cells covered by 
 
 ---
 ## <a name="engine.textasset.textsprite"></a>📜 Engine.TextAsset.TextSprite [(sub)class](#classes)
@@ -1094,7 +1094,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTQ3MzI0MzMsLTg0ODM5ODY4Myw5MT
+eyJoaXN0b3J5IjpbLTEzMzg1OTk4ODQsLTg0ODM5ODY4Myw5MT
 M0NjEzNzcsLTE3ODE4ODczNTksLTE3ODkwMzc4MjYsMTQxNTIw
 MTcwMSwtMTUzMjAwMjk1OSw3NzQzNzE2NjAsLTE1NTI5Njc2Nj
 EsMTQ2NDk5MjYzLC0yMDU2NDU0MjQwLC04NzY5MjEwODksMTEx
