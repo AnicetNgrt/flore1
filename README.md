@@ -1037,8 +1037,12 @@ TextSprites (or Sprites) are what the [Engine.VirtualScene](#engine.virtualscene
 - [\_\_init\_\_](#textsprite-init)
 - [set_asset](#textsprite-set_asset)
 ---
-### <a name="textsprite.cha"></a> 
-### <a name="textsprite."></a>
+### <a name="textsprite-init"></a> 🧰 \_\_init\_\_ [method](#textsprite-methods)
+
+---
+### <a name="textsprite-set_asset"></a> 🧰 set_asset [method](#textsprite-methods)
+
+---
 ### <a name="textsprite."></a>
 ### <a name="textsprite."></a>
 ---
@@ -1049,11 +1053,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzOTIwNTczOSwtMTc4MTg4NzM1OSwtMT
-c4OTAzNzgyNiwxNDE1MjAxNzAxLC0xNTMyMDAyOTU5LDc3NDM3
-MTY2MCwtMTU1Mjk2NzY2MSwxNDY0OTkyNjMsLTIwNTY0NTQyND
-AsLTg3NjkyMTA4OSwxMTExODMxNTMzLC0xODA0NjQyMDU2LDY2
-NjM3NDQyOSwtMjgxOTcxNjYsLTEyNzU0NDYwMjAsMTMxODUxNT
-MwNywtMTc5MDczNjAyMiw4OTEyMDk2ODAsLTkwMTcwMDcwLDM4
-OTE0NzQzM119
+eyJoaXN0b3J5IjpbOTEzNDYxMzc3LC0xNzgxODg3MzU5LC0xNz
+g5MDM3ODI2LDE0MTUyMDE3MDEsLTE1MzIwMDI5NTksNzc0Mzcx
+NjYwLC0xNTUyOTY3NjYxLDE0NjQ5OTI2MywtMjA1NjQ1NDI0MC
+wtODc2OTIxMDg5LDExMTE4MzE1MzMsLTE4MDQ2NDIwNTYsNjY2
+Mzc0NDI5LC0yODE5NzE2NiwtMTI3NTQ0NjAyMCwxMzE4NTE1Mz
+A3LC0xNzkwNzM2MDIyLDg5MTIwOTY4MCwtOTAxNzAwNzAsMzg5
+MTQ3NDMzXX0=
 -->
