@@ -731,7 +731,7 @@ You can "[feed](#refresh-feed)" the Refresh class with a `(function, *args, **kw
 - ---
 ### <a name="refresh-init"></a>🧰 \_\_init\_\_ [method](#refresh-methods)
 ##### - Description:
-Inits all the [properties](#refresh-props) of Refresh.
+Inits all the [properties](#refresh-props) of the Refresh instance.
 ##### - Prototype:
 ```python
 def __init__(self, fps=35)
@@ -745,8 +745,8 @@ No return value
 ---
 ### <a name="refresh-terminate"></a>🧰 terminate [method](#refresh-methods)
 ##### - Description:
-Removes a specific `(function, *args, **kwargs)` tuple from the Refresh's execution [stack](#refresh.stack).
-In other words, the Refresh stops calling `function(*args, **kwargs)` when it's [do](#refresh-do) method is called.
+Removes a specific `(function, *args, **kwargs)` tuple from the Refresh instance's execution [stack](#refresh.stack).
+In other words, the Refresh instance stops calling `function(*args, **kwargs)` when it's [do](#refresh-do) method is called.
 ##### - Prototype:
 ```python
 def terminate(self, func, *args, **kwargs)
@@ -763,8 +763,8 @@ No return value
 ---
 ### <a name="refresh-feed"></a>🧰 feed [method](#refresh-methods)
 ##### - Description:
-Adds a `(function, *args, **kwargs)` tuple to the Refresh's execution [stack](#refresh.stack). 
-In other words, it asks the Refresh to call `function(*args, **kwargs)` via the [do](#refresh-do) method every time its [run](#refresh-run) method is called, to add its execution time to the total execution latency, and, only if `function.sync = True`, to sync its execution rate with the Refresh's execution latency goal.
+Adds a `(function, *args, **kwargs)` tuple to the Refresh instance's execution [stack](#refresh.stack). 
+In other words, it asks the Refresh instance to call `function(*args, **kwargs)` via the [do](#refresh-do) method every time its [run](#refresh-run) method is called, to add its execution time to the total execution latency, and, only if `function.sync = True`, to sync its execution rate with the Refresh instance's execution latency goal.
 ##### - Prototype:
 ```python
 def feed(self, function, *args, **kwargs)
@@ -780,7 +780,7 @@ No return value
 ---
 ### <a name="refresh-do"></a>🧰 do [method](#refresh-methods)
 ##### - Description:
-For each `(function, *args, **kwargs)` tuple in the Refresh's [stack](#refresh.stack) it may call `function(*args, **kwargs)` (if `function.sync` is True, it only calls it on frame change). But before, if `function.i` does not exist it sets it to `0`, if `function.sync` does not exist, it sets it to `True`, and if `function.refresh` does not exist, it sets it to `self`.
+For each `(function, *args, **kwargs)` tuple in the Refresh instance's [stack](#refresh.stack) it may call `function(*args, **kwargs)` (if `function.sync` is True, it only calls it on frame change). But before, if `function.i` does not exist it sets it to `0`, if `function.sync` does not exist, it sets it to `True`, and if `function.refresh` does not exist, it sets it to `self`.
 ##### - Prototype:
 ```python
 def do(self)
@@ -1211,7 +1211,7 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA1MDI5MzU1LDc0MDkxNjEyMSw4NzkxMj
+eyJoaXN0b3J5IjpbLTQxNTk4MDExLDc0MDkxNjEyMSw4NzkxMj
 k5NiwxMDk4OTE3MDg5LC0yMDQzNTExNTkzLC0xMjA4OTEwNDEy
 LC03Mjg3MTcyNDIsMTkwMDkxNTcyMSwtMTI2OTQxMzMwNiwtMT
 I1MDgyMTcxMSwtMjA3MDI1NDg2MywtNjQyNjE3NTU3LC03MjY1
