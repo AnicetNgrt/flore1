@@ -947,8 +947,13 @@ The VirtualScene (or you could say "Scene") instance's job is to display [TextSp
 ### <a name="virtualscene-init"></a>🧰 \_\_init\_\_ [method](#virtualscene-methods)
 ##### Description:
 - Inits the Scene instance:
-	- Inits all its parameters to 
-	- 	
+	- Inits all its properties to their default values.
+	- Rescales the terminal window if [Engine.auto_scale](#engine.auto_scale) is set to `True`.
+
+##### Prototype:
+```python
+
+```
 
 ---
 ## <a name="engine.textasset"></a>📜 Engine.TextAsset [(sub)class](#classes)
@@ -1144,11 +1149,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzAyNTQ4NjMsLTY0MjYxNzU1NywtNz
-I2NTY3Njg2LC04NDgzOTg2ODMsOTEzNDYxMzc3LC0xNzgxODg3
-MzU5LC0xNzg5MDM3ODI2LDE0MTUyMDE3MDEsLTE1MzIwMDI5NT
-ksNzc0MzcxNjYwLC0xNTUyOTY3NjYxLDE0NjQ5OTI2MywtMjA1
-NjQ1NDI0MCwtODc2OTIxMDg5LDExMTE4MzE1MzMsLTE4MDQ2ND
-IwNTYsNjY2Mzc0NDI5LC0yODE5NzE2NiwtMTI3NTQ0NjAyMCwx
-MzE4NTE1MzA3XX0=
+eyJoaXN0b3J5IjpbOTAyNDUxMzk1LC0yMDcwMjU0ODYzLC02ND
+I2MTc1NTcsLTcyNjU2NzY4NiwtODQ4Mzk4NjgzLDkxMzQ2MTM3
+NywtMTc4MTg4NzM1OSwtMTc4OTAzNzgyNiwxNDE1MjAxNzAxLC
+0xNTMyMDAyOTU5LDc3NDM3MTY2MCwtMTU1Mjk2NzY2MSwxNDY0
+OTkyNjMsLTIwNTY0NTQyNDAsLTg3NjkyMTA4OSwxMTExODMxNT
+MzLC0xODA0NjQyMDU2LDY2NjM3NDQyOSwtMjgxOTcxNjYsLTEy
+NzU0NDYwMjBdfQ==
 -->
