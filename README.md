@@ -1040,9 +1040,12 @@ TextSprites (or Sprites) are what the [Engine.VirtualScene](#engine.virtualscene
 ### <a name="textsprite-init"></a> 🧰 \_\_init\_\_ [method](#textsprite-methods)
 ##### Description:
 ##### Prototype:
+```python
+
+```
 ##### Return value:
-###### Arguments:
-| |||
+##### Arguments:
+None
 
 ---
 ### <a name="textsprite-set_asset"></a> 🧰 set_asset [method](#textsprite-methods)
@@ -1058,7 +1061,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMDQ2MjE5OSw5MTM0NjEzNzcsLTE3OD
+eyJoaXN0b3J5IjpbLTY2MzgyMzQzOCw5MTM0NjEzNzcsLTE3OD
 E4ODczNTksLTE3ODkwMzc4MjYsMTQxNTIwMTcwMSwtMTUzMjAw
 Mjk1OSw3NzQzNzE2NjAsLTE1NTI5Njc2NjEsMTQ2NDk5MjYzLC
 0yMDU2NDU0MjQwLC04NzY5MjEwODksMTExMTgzMTUzMywtMTgw
