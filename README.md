@@ -981,7 +981,8 @@ No return value
 ##### - Arguments:
 | [ in ] | type | condition | description
 |--|--|--|--|
-| sprite | [Engine.TextAsset.TextSprite](#engine.textasset.textsprite) | none | The Sprite instance to put in the Scene 
+| sprite | [Engine.TextAsset.TextSprite](#engine.textasset.textsprite) | none | The Sprite instance to put in the Scene
+| crd_x | integer | none | Distance of th
 
 ---
 ## <a name="engine.textasset"></a>📜 Engine.TextAsset [(sub)class](#classes)
@@ -1177,11 +1178,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMDkxNTcyMSwtMTI2OTQxMzMwNiwtMT
-I1MDgyMTcxMSwtMjA3MDI1NDg2MywtNjQyNjE3NTU3LC03MjY1
-Njc2ODYsLTg0ODM5ODY4Myw5MTM0NjEzNzcsLTE3ODE4ODczNT
-ksLTE3ODkwMzc4MjYsMTQxNTIwMTcwMSwtMTUzMjAwMjk1OSw3
-NzQzNzE2NjAsLTE1NTI5Njc2NjEsMTQ2NDk5MjYzLC0yMDU2ND
-U0MjQwLC04NzY5MjEwODksMTExMTgzMTUzMywtMTgwNDY0MjA1
-Niw2NjYzNzQ0MjldfQ==
+eyJoaXN0b3J5IjpbNjgxMTg0Nzg5LDE5MDA5MTU3MjEsLTEyNj
+k0MTMzMDYsLTEyNTA4MjE3MTEsLTIwNzAyNTQ4NjMsLTY0MjYx
+NzU1NywtNzI2NTY3Njg2LC04NDgzOTg2ODMsOTEzNDYxMzc3LC
+0xNzgxODg3MzU5LC0xNzg5MDM3ODI2LDE0MTUyMDE3MDEsLTE1
+MzIwMDI5NTksNzc0MzcxNjYwLC0xNTUyOTY3NjYxLDE0NjQ5OT
+I2MywtMjA1NjQ1NDI0MCwtODc2OTIxMDg5LDExMTE4MzE1MzMs
+LTE4MDQ2NDIwNTZdfQ==
 -->
