@@ -1008,6 +1008,7 @@ Refreshes the display if the Scene instance got updated.
 def show(self, debug=False)
 ```
 ##### - Return value:
+No return value
 ##### - Arguments:
 | [ in ] | type | description |
 |--|--|--|
@@ -1207,11 +1208,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDM1MTE1OTMsLTEyMDg5MTA0MTIsLT
-cyODcxNzI0MiwxOTAwOTE1NzIxLC0xMjY5NDEzMzA2LC0xMjUw
-ODIxNzExLC0yMDcwMjU0ODYzLC02NDI2MTc1NTcsLTcyNjU2Nz
-Y4NiwtODQ4Mzk4NjgzLDkxMzQ2MTM3NywtMTc4MTg4NzM1OSwt
-MTc4OTAzNzgyNiwxNDE1MjAxNzAxLC0xNTMyMDAyOTU5LDc3ND
-M3MTY2MCwtMTU1Mjk2NzY2MSwxNDY0OTkyNjMsLTIwNTY0NTQy
-NDAsLTg3NjkyMTA4OV19
+eyJoaXN0b3J5IjpbMTA5ODkxNzA4OSwtMjA0MzUxMTU5MywtMT
+IwODkxMDQxMiwtNzI4NzE3MjQyLDE5MDA5MTU3MjEsLTEyNjk0
+MTMzMDYsLTEyNTA4MjE3MTEsLTIwNzAyNTQ4NjMsLTY0MjYxNz
+U1NywtNzI2NTY3Njg2LC04NDgzOTg2ODMsOTEzNDYxMzc3LC0x
+NzgxODg3MzU5LC0xNzg5MDM3ODI2LDE0MTUyMDE3MDEsLTE1Mz
+IwMDI5NTksNzc0MzcxNjYwLC0xNTUyOTY3NjYxLDE0NjQ5OTI2
+MywtMjA1NjQ1NDI0MF19
 -->
