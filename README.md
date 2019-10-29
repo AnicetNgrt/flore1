@@ -1002,9 +1002,10 @@ def erase(self, sprite)
 ---
 ### <a name="virtualscene-show"></a>🧰 show [method](#virtualscene-methods)
 ##### - Description:
+Refreshes the display if the Scene instance got updated.
 ##### - Prototype:
 ```python
-def
+def show(self, debug=False)
 ```
 ##### - Return value:
 ##### - Arguments:
@@ -1206,11 +1207,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDg5MTA0MTIsLTcyODcxNzI0MiwxOT
-AwOTE1NzIxLC0xMjY5NDEzMzA2LC0xMjUwODIxNzExLC0yMDcw
-MjU0ODYzLC02NDI2MTc1NTcsLTcyNjU2NzY4NiwtODQ4Mzk4Nj
-gzLDkxMzQ2MTM3NywtMTc4MTg4NzM1OSwtMTc4OTAzNzgyNiwx
-NDE1MjAxNzAxLC0xNTMyMDAyOTU5LDc3NDM3MTY2MCwtMTU1Mj
-k2NzY2MSwxNDY0OTkyNjMsLTIwNTY0NTQyNDAsLTg3NjkyMTA4
-OSwxMTExODMxNTMzXX0=
+eyJoaXN0b3J5IjpbLTIwNDM1MTE1OTMsLTEyMDg5MTA0MTIsLT
+cyODcxNzI0MiwxOTAwOTE1NzIxLC0xMjY5NDEzMzA2LC0xMjUw
+ODIxNzExLC0yMDcwMjU0ODYzLC02NDI2MTc1NTcsLTcyNjU2Nz
+Y4NiwtODQ4Mzk4NjgzLDkxMzQ2MTM3NywtMTc4MTg4NzM1OSwt
+MTc4OTAzNzgyNiwxNDE1MjAxNzAxLC0xNTMyMDAyOTU5LDc3ND
+M3MTY2MCwtMTU1Mjk2NzY2MSwxNDY0OTkyNjMsLTIwNTY0NTQy
+NDAsLTg3NjkyMTA4OV19
 -->
