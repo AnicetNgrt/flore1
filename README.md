@@ -1110,7 +1110,7 @@ A python set of (x, y) tuples representing all the coordinates in the chart. In 
 ---
 ## <a name="engine.textasset.textsprite"></a>📜 Engine.TextAsset.TextSprite [(sub)class](#classes)
 TextSprites (or Sprites) are what the [Engine.VirtualScene](#engine.virtualscene) instances can display. They have many properties that one can tweak in order to change how the sprite instance is displayed. Whether it is its texture, its scene, its layer on the scene, or its (x, y) position on the scene.
-### <a name="textasset-props"></a>Properties:
+### <a name="textsprite-props"></a>Properties:
 - [chart](#textsprite.chart)
 - [prtcrd](#textsprite.prtcrd)
 - [act_prtcrd](#textsprite.act_prtcrd)
@@ -1208,11 +1208,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5ODkxNzA4OSwtMjA0MzUxMTU5MywtMT
-IwODkxMDQxMiwtNzI4NzE3MjQyLDE5MDA5MTU3MjEsLTEyNjk0
-MTMzMDYsLTEyNTA4MjE3MTEsLTIwNzAyNTQ4NjMsLTY0MjYxNz
-U1NywtNzI2NTY3Njg2LC04NDgzOTg2ODMsOTEzNDYxMzc3LC0x
-NzgxODg3MzU5LC0xNzg5MDM3ODI2LDE0MTUyMDE3MDEsLTE1Mz
-IwMDI5NTksNzc0MzcxNjYwLC0xNTUyOTY3NjYxLDE0NjQ5OTI2
-MywtMjA1NjQ1NDI0MF19
+eyJoaXN0b3J5IjpbODc5MTI5OTYsMTA5ODkxNzA4OSwtMjA0Mz
+UxMTU5MywtMTIwODkxMDQxMiwtNzI4NzE3MjQyLDE5MDA5MTU3
+MjEsLTEyNjk0MTMzMDYsLTEyNTA4MjE3MTEsLTIwNzAyNTQ4Nj
+MsLTY0MjYxNzU1NywtNzI2NTY3Njg2LC04NDgzOTg2ODMsOTEz
+NDYxMzc3LC0xNzgxODg3MzU5LC0xNzg5MDM3ODI2LDE0MTUyMD
+E3MDEsLTE1MzIwMDI5NTksNzc0MzcxNjYwLC0xNTUyOTY3NjYx
+LDE0NjQ5OTI2M119
 -->
