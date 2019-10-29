@@ -990,7 +990,10 @@ No return value
 ### <a name="virtualscene-erase"></a>🧰 put [method](#virtualscene-methods)
 ##### - Description:
 ##### - Prototype:
-####
+##### - Return value:
+##### - Arguments:
+| [ in ] | type | condition | description |
+
 
 ---
 ## <a name="engine.textasset"></a>📜 Engine.TextAsset [(sub)class](#classes)
@@ -1186,11 +1189,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMzNDY4ODUxLC03Mjg3MTcyNDIsMTkwMD
-kxNTcyMSwtMTI2OTQxMzMwNiwtMTI1MDgyMTcxMSwtMjA3MDI1
-NDg2MywtNjQyNjE3NTU3LC03MjY1Njc2ODYsLTg0ODM5ODY4My
-w5MTM0NjEzNzcsLTE3ODE4ODczNTksLTE3ODkwMzc4MjYsMTQx
-NTIwMTcwMSwtMTUzMjAwMjk1OSw3NzQzNzE2NjAsLTE1NTI5Nj
-c2NjEsMTQ2NDk5MjYzLC0yMDU2NDU0MjQwLC04NzY5MjEwODks
-MTExMTgzMTUzM119
+eyJoaXN0b3J5IjpbLTkyNjE3NzU2NiwtNzI4NzE3MjQyLDE5MD
+A5MTU3MjEsLTEyNjk0MTMzMDYsLTEyNTA4MjE3MTEsLTIwNzAy
+NTQ4NjMsLTY0MjYxNzU1NywtNzI2NTY3Njg2LC04NDgzOTg2OD
+MsOTEzNDYxMzc3LC0xNzgxODg3MzU5LC0xNzg5MDM3ODI2LDE0
+MTUyMDE3MDEsLTE1MzIwMDI5NTksNzc0MzcxNjYwLC0xNTUyOT
+Y3NjYxLDE0NjQ5OTI2MywtMjA1NjQ1NDI0MCwtODc2OTIxMDg5
+LDExMTE4MzE1MzNdfQ==
 -->
