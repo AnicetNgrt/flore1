@@ -1092,7 +1092,7 @@ Exactly the same as [TextAsset.prtcrd](#textasset.prtcrd)
 Similar to [TextAsset.prtcrd](#textasset.prtcrd), but here it is a set of all the cells covered by the Sprite **relative to its current position's (x, y) coordinates in its [Scene](#textsprite.scene)**.
 
 ---
-### <a name="textsprite.scene"></a>📌 act_prtcrd [property](#textsprite-props)
+### <a name="textsprite.scene"></a>📌 scene [property](#textsprite-props)
 ##### Description:
 Similar to [TextAsset.prtcrd](#textasset.prtcrd), but here it is a set of all the cells covered by the Sprite **relative to its current position's (x, y) coordinates in its [Scene](#textsprite.scene)**.
 
@@ -1104,11 +1104,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgyMTgwMzM2LC04NDgzOTg2ODMsOTEzND
-YxMzc3LC0xNzgxODg3MzU5LC0xNzg5MDM3ODI2LDE0MTUyMDE3
-MDEsLTE1MzIwMDI5NTksNzc0MzcxNjYwLC0xNTUyOTY3NjYxLD
-E0NjQ5OTI2MywtMjA1NjQ1NDI0MCwtODc2OTIxMDg5LDExMTE4
-MzE1MzMsLTE4MDQ2NDIwNTYsNjY2Mzc0NDI5LC0yODE5NzE2Ni
-wtMTI3NTQ0NjAyMCwxMzE4NTE1MzA3LC0xNzkwNzM2MDIyLDg5
-MTIwOTY4MF19
+eyJoaXN0b3J5IjpbLTcyNjU2NzY4NiwtODQ4Mzk4NjgzLDkxMz
+Q2MTM3NywtMTc4MTg4NzM1OSwtMTc4OTAzNzgyNiwxNDE1MjAx
+NzAxLC0xNTMyMDAyOTU5LDc3NDM3MTY2MCwtMTU1Mjk2NzY2MS
+wxNDY0OTkyNjMsLTIwNTY0NTQyNDAsLTg3NjkyMTA4OSwxMTEx
+ODMxNTMzLC0xODA0NjQyMDU2LDY2NjM3NDQyOSwtMjgxOTcxNj
+YsLTEyNzU0NDYwMjAsMTMxODUxNTMwNywtMTc5MDczNjAyMiw4
+OTEyMDk2ODBdfQ==
 -->
