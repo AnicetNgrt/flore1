@@ -938,6 +938,15 @@ Dictionnary of all the [Engine.VirtualScene(s)](#engine.virtualscene) instances 
 ## <a name="engine.virtualscene"></a>📜 Engine.VirtualScene [(sub)class](#classes)
 The VirtualScene (or you could say "Scene") instance's job is to display [TextSprite](#engine.textasset.textsprite) instances correctly, and as fast as possible, in the terminal.
 
+### <a name="virtualscene-props"></a>Properties
+-  [building_manual](#textasset.building_manual)
+-  [chart](#textasset.building_manual)
+
+### <a name="virtualscene-methods"></a>Methods
+- [\_\_init\_\_](#textasset-init)
+- [generate_chart](#textasset-generate_chart)
+- [to_sprite](#textasset-to_sprite)
+---
 ---
 ## <a name="engine.textasset"></a>📜 Engine.TextAsset [(sub)class](#classes)
  A TextAsset instance (Asset) is a building manual for creating [TextAsset.TextSprites](#engine.textasset.textsprite). It can convert an easy syntax for creating text based sprites into a format more suitable for the [Engine.VirtualScene](#engine.virtualscene) instance.
@@ -1132,11 +1141,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU2ODU1MDg3LC03MjY1Njc2ODYsLTg0OD
-M5ODY4Myw5MTM0NjEzNzcsLTE3ODE4ODczNTksLTE3ODkwMzc4
-MjYsMTQxNTIwMTcwMSwtMTUzMjAwMjk1OSw3NzQzNzE2NjAsLT
-E1NTI5Njc2NjEsMTQ2NDk5MjYzLC0yMDU2NDU0MjQwLC04NzY5
-MjEwODksMTExMTgzMTUzMywtMTgwNDY0MjA1Niw2NjYzNzQ0Mj
-ksLTI4MTk3MTY2LC0xMjc1NDQ2MDIwLDEzMTg1MTUzMDcsLTE3
-OTA3MzYwMjJdfQ==
+eyJoaXN0b3J5IjpbLTY0MjYxNzU1NywtNzI2NTY3Njg2LC04ND
+gzOTg2ODMsOTEzNDYxMzc3LC0xNzgxODg3MzU5LC0xNzg5MDM3
+ODI2LDE0MTUyMDE3MDEsLTE1MzIwMDI5NTksNzc0MzcxNjYwLC
+0xNTUyOTY3NjYxLDE0NjQ5OTI2MywtMjA1NjQ1NDI0MCwtODc2
+OTIxMDg5LDExMTE4MzE1MzMsLTE4MDQ2NDIwNTYsNjY2Mzc0ND
+I5LC0yODE5NzE2NiwtMTI3NTQ0NjAyMCwxMzE4NTE1MzA3LC0x
+NzkwNzM2MDIyXX0=
 -->
