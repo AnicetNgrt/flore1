@@ -935,6 +935,10 @@ Boolean: Whether the [Engine.VirtualScene(s)](#engine.virtualscene) created with
 Dictionnary of all the [Engine.VirtualScene(s)](#engine.virtualscene) instances created with this [Engine](#engine) instance's [`new_scene()`](#engine.new_scene) method mapped by their names.
 
 ---
+## <a name="engine.virtualscene"></a>📜 Engine.VirtualScene [(sub)class](#classes)
+The VirtualScene (or mo
+
+---
 ## <a name="engine.textasset"></a>📜 Engine.TextAsset [(sub)class](#classes)
  A TextAsset instance (Asset) is a building manual for creating [TextAsset.TextSprites](#engine.textasset.textsprite). It can convert an easy syntax for creating text based sprites into a format more suitable for the [Engine.VirtualScene](#engine.virtualscene) instance.
  ### Subclass
@@ -1128,7 +1132,7 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NTIzMzQ0NywtNzI2NTY3Njg2LC04ND
+eyJoaXN0b3J5IjpbLTY1NzY5MjAyMCwtNzI2NTY3Njg2LC04ND
 gzOTg2ODMsOTEzNDYxMzc3LC0xNzgxODg3MzU5LC0xNzg5MDM3
 ODI2LDE0MTUyMDE3MDEsLTE1MzIwMDI5NTksNzc0MzcxNjYwLC
 0xNTUyOTY3NjYxLDE0NjQ5OTI2MywtMjA1NjQ1NDI0MCwtODc2
