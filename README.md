@@ -813,7 +813,7 @@ The frame rate goal of the Refresh instance. It is meant to be an integer.
 ---
 ### <a name="refresh.stack"></a>📌 stack [property](#refresh-props) 
 ##### Description: 
-A list of `(function, *args, **kwargs)` tuple. It lists all the functions that can be called by the Refresh and all their arguments. This depends on whether the function's `.sync` attribute is set to `True` or `False`, and on whether [Refresh.frame](#refresh.frame) has changed.
+A list of `(function, *args, **kwargs)` tuple. It lists all the functions that can be called by the Refresh instance and all their arguments. This depends on whether the function's `.sync` attribute is set to `True` or `False`, and on whether [Refresh.frame](#refresh.frame) has changed.
 
 ---
 ### <a name="refresh.frame"></a>📌 frame [property](#refresh-props) 
@@ -1211,11 +1211,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTEwODAzMCw3NDA5MTYxMjEsODc5MT
-I5OTYsMTA5ODkxNzA4OSwtMjA0MzUxMTU5MywtMTIwODkxMDQx
-MiwtNzI4NzE3MjQyLDE5MDA5MTU3MjEsLTEyNjk0MTMzMDYsLT
-EyNTA4MjE3MTEsLTIwNzAyNTQ4NjMsLTY0MjYxNzU1NywtNzI2
-NTY3Njg2LC04NDgzOTg2ODMsOTEzNDYxMzc3LC0xNzgxODg3Mz
-U5LC0xNzg5MDM3ODI2LDE0MTUyMDE3MDEsLTE1MzIwMDI5NTks
-Nzc0MzcxNjYwXX0=
+eyJoaXN0b3J5IjpbLTE1MTYzNzQ5NjUsNzQwOTE2MTIxLDg3OT
+EyOTk2LDEwOTg5MTcwODksLTIwNDM1MTE1OTMsLTEyMDg5MTA0
+MTIsLTcyODcxNzI0MiwxOTAwOTE1NzIxLC0xMjY5NDEzMzA2LC
+0xMjUwODIxNzExLC0yMDcwMjU0ODYzLC02NDI2MTc1NTcsLTcy
+NjU2NzY4NiwtODQ4Mzk4NjgzLDkxMzQ2MTM3NywtMTc4MTg4Nz
+M1OSwtMTc4OTAzNzgyNiwxNDE1MjAxNzAxLC0xNTMyMDAyOTU5
+LDc3NDM3MTY2MF19
 -->
