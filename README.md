@@ -1069,7 +1069,7 @@ No return value
 ##### Arguments:
 | [ in ] | type | description
 |--|--|--|
-| asset | [Engine.TextAsset](#engine.textasset)  |  |
+| asset | [Engine.TextAsset](#engine.textasset) | The Asset instance which [chart](#textasset.chart) property and [prtcrd]() will be copied into the Sprite's [chart](#textsprite.chart)|
 
 ---
 ### <a name="textsprite."></a>
@@ -1082,7 +1082,7 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MzI5NTU2MSw5MTM0NjEzNzcsLTE3OD
+eyJoaXN0b3J5IjpbMTE1Nzg3MTk1NCw5MTM0NjEzNzcsLTE3OD
 E4ODczNTksLTE3ODkwMzc4MjYsMTQxNTIwMTcwMSwtMTUzMjAw
 Mjk1OSw3NzQzNzE2NjAsLTE1NTI5Njc2NjEsMTQ2NDk5MjYzLC
 0yMDU2NDU0MjQwLC04NzY5MjEwODksMTExMTgzMTUzMywtMTgw
