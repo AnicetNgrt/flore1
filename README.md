@@ -1069,7 +1069,7 @@ No return value
 ##### Arguments:
 | [ in ] | type | description
 |--|--|--|
-| asset | [Engine.TextAsset](#engine.textasset) | The Asset instance which [chart](#textasset.chart) property and [prtcrd]() will be copied into the Sprite's [chart](#textsprite.chart)|
+| asset | [Engine.TextAsset](#engine.textasset) | The Asset instance which [chart](#textasset.chart) property and [prtcrd](#textasset.prtcrd) property will be copied into the Sprite's [chart](#textsprite.chart) property and [prtcrd](#textsprite.prtcrd)|
 
 ---
 ### <a name="textsprite."></a>
@@ -1082,11 +1082,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1Nzg3MTk1NCw5MTM0NjEzNzcsLTE3OD
-E4ODczNTksLTE3ODkwMzc4MjYsMTQxNTIwMTcwMSwtMTUzMjAw
-Mjk1OSw3NzQzNzE2NjAsLTE1NTI5Njc2NjEsMTQ2NDk5MjYzLC
-0yMDU2NDU0MjQwLC04NzY5MjEwODksMTExMTgzMTUzMywtMTgw
-NDY0MjA1Niw2NjYzNzQ0MjksLTI4MTk3MTY2LC0xMjc1NDQ2MD
-IwLDEzMTg1MTUzMDcsLTE3OTA3MzYwMjIsODkxMjA5NjgwLC05
-MDE3MDA3MF19
+eyJoaXN0b3J5IjpbMzc3OTI2ODIyLDkxMzQ2MTM3NywtMTc4MT
+g4NzM1OSwtMTc4OTAzNzgyNiwxNDE1MjAxNzAxLC0xNTMyMDAy
+OTU5LDc3NDM3MTY2MCwtMTU1Mjk2NzY2MSwxNDY0OTkyNjMsLT
+IwNTY0NTQyNDAsLTg3NjkyMTA4OSwxMTExODMxNTMzLC0xODA0
+NjQyMDU2LDY2NjM3NDQyOSwtMjgxOTcxNjYsLTEyNzU0NDYwMj
+AsMTMxODUxNTMwNywtMTc5MDczNjAyMiw4OTEyMDk2ODAsLTkw
+MTcwMDcwXX0=
 -->
