@@ -1024,7 +1024,7 @@ Cells data generated from the textAsset's building manual which makes printing s
 
 ---
 ## <a name="engine.textasset.textsprite"></a>📜 Engine.TextAsset.TextSprite [(sub)class](#classes)
-TextSprites (or Sprites) are basically what the [Engine.VirtualScene](#engine.virtualscene) instances can display. They have many properties that one can tweak in order to change how the sprite instance is displayed. Whether it is its texture, its scene, its layer on the scene, or its (x, y) position on the scene.
+TextSprites (or Sprites) are what the [Engine.VirtualScene](#engine.virtualscene) instances can display. They have many properties that one can tweak in order to change how the sprite instance is displayed. Whether it is its texture, its scene, its layer on the scene, or its (x, y) position on the scene.
 ### <a name="textasset-props"></a>Properties:
 - [chart](#textsprite.chart)
 - [prtcrd](#textsprite.prtcrd)
@@ -1033,8 +1033,9 @@ TextSprites (or Sprites) are basically what the [Engine.VirtualScene](#engine.vi
 - [layer](#textsprite.layer)
 - [x](#textsprite.x)
 - [y](#textsprite.y)
-### <a name="textasset-methods"></a>Methods:
-
+### <a name="textsprite-methods"></a>Methods:
+- [\_\_init\_\_](#textsprite-init)
+- [set_asset](#textsprite-set_asset)
 
 ---
 # <a name="license"></a>License
@@ -1044,11 +1045,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODE4ODczNTksLTE3ODkwMzc4MjYsMT
-QxNTIwMTcwMSwtMTUzMjAwMjk1OSw3NzQzNzE2NjAsLTE1NTI5
-Njc2NjEsMTQ2NDk5MjYzLC0yMDU2NDU0MjQwLC04NzY5MjEwOD
-ksMTExMTgzMTUzMywtMTgwNDY0MjA1Niw2NjYzNzQ0MjksLTI4
-MTk3MTY2LC0xMjc1NDQ2MDIwLDEzMTg1MTUzMDcsLTE3OTA3Mz
-YwMjIsODkxMjA5NjgwLC05MDE3MDA3MCwzODkxNDc0MzMsLTEx
-NTQ2ODAwNDddfQ==
+eyJoaXN0b3J5IjpbODQxNTcwMjEwLC0xNzgxODg3MzU5LC0xNz
+g5MDM3ODI2LDE0MTUyMDE3MDEsLTE1MzIwMDI5NTksNzc0Mzcx
+NjYwLC0xNTUyOTY3NjYxLDE0NjQ5OTI2MywtMjA1NjQ1NDI0MC
+wtODc2OTIxMDg5LDExMTE4MzE1MzMsLTE4MDQ2NDIwNTYsNjY2
+Mzc0NDI5LC0yODE5NzE2NiwtMTI3NTQ0NjAyMCwxMzE4NTE1Mz
+A3LC0xNzkwNzM2MDIyLDg5MTIwOTY4MCwtOTAxNzAwNzAsMzg5
+MTQ3NDMzXX0=
 -->
