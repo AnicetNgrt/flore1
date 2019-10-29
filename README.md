@@ -1094,6 +1094,11 @@ Similar to [TextAsset.prtcrd](#textasset.prtcrd), but here it is a set of all th
 ---
 ### <a name="textsprite.scene"></a>📌 scene [property](#textsprite-props)
 ##### Description:
+The [Engine.VirtualScene](#engine.virtualscene) (Scene) instance in which r
+
+---
+### <a name="textsprite.scene"></a>📌 scene [property](#textsprite-props)
+##### Description:
 Similar to [TextAsset.prtcrd](#textasset.prtcrd), but here it is a set of all the cells covered by the Sprite **relative to its current position's (x, y) coordinates in its [Scene](#textsprite.scene)**.
 
 ---
@@ -1104,11 +1109,11 @@ Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNjU2NzY4NiwtODQ4Mzk4NjgzLDkxMz
-Q2MTM3NywtMTc4MTg4NzM1OSwtMTc4OTAzNzgyNiwxNDE1MjAx
-NzAxLC0xNTMyMDAyOTU5LDc3NDM3MTY2MCwtMTU1Mjk2NzY2MS
-wxNDY0OTkyNjMsLTIwNTY0NTQyNDAsLTg3NjkyMTA4OSwxMTEx
-ODMxNTMzLC0xODA0NjQyMDU2LDY2NjM3NDQyOSwtMjgxOTcxNj
-YsLTEyNzU0NDYwMjAsMTMxODUxNTMwNywtMTc5MDczNjAyMiw4
-OTEyMDk2ODBdfQ==
+eyJoaXN0b3J5IjpbMTQ1Mzk1MjI1OCwtNzI2NTY3Njg2LC04ND
+gzOTg2ODMsOTEzNDYxMzc3LC0xNzgxODg3MzU5LC0xNzg5MDM3
+ODI2LDE0MTUyMDE3MDEsLTE1MzIwMDI5NTksNzc0MzcxNjYwLC
+0xNTUyOTY3NjYxLDE0NjQ5OTI2MywtMjA1NjQ1NDI0MCwtODc2
+OTIxMDg5LDExMTE4MzE1MzMsLTE4MDQ2NDIwNTYsNjY2Mzc0ND
+I5LC0yODE5NzE2NiwtMTI3NTQ0NjAyMCwxMzE4NTE1MzA3LC0x
+NzkwNzM2MDIyXX0=
 -->
