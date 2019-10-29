@@ -713,7 +713,7 @@ A tuple composed with `play`: a function which changes the Flipbook's sprite's t
 
 
 ## <a name="refresh"></a>📜 Refresh [class](#classes)
-You can "[feed](#refresh-feed)" the Refresh class with a `(function, *args, **kwars)` tuple. It will add it to it's [execution stack](#refresh.stack). Everytime you ask the Refresh to "[do](#refesh-do)" it will call all the `function(*args, **kwargs)` from its stack, compute execution time and wait if the execution time was too fast, or ask all the function that have their attribute `sync` set to `True` in its stack to "skip" frames if it was too slow. Therefore the Refresh class is there for frame stabilisation purposes and speed stabilisation purposes. For more details see the docs on its [methods](#refresh-methods).*
+You can "[feed](#refresh-feed)" the Refresh class with a `(function, *args, **kwars)` tuple. It will add it to it's [execution stack](#refresh.stack). Everytime you ask the Refresh to "[do](#refesh-do)" it will call all the `function(*args, **kwargs)` from its stack, compute execution time and wait if the execution time was too fast, or ask all the function that have their attribute `sync` set to `True` in its stack to "skip" frames if it was too slow. Therefore the Refresh class is there for frame stabilisation purposes and speed stabilisation purposes. For more details see the docs on its [methods](#refresh-methods).
 
 **Note**: I only talk about functions in this class's doc. **Everything also works with `(method, *args, **kwargs)` tuples**.
 
@@ -1211,11 +1211,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwOTE2MTIxLDg3OTEyOTk2LDEwOTg5MT
-cwODksLTIwNDM1MTE1OTMsLTEyMDg5MTA0MTIsLTcyODcxNzI0
-MiwxOTAwOTE1NzIxLC0xMjY5NDEzMzA2LC0xMjUwODIxNzExLC
-0yMDcwMjU0ODYzLC02NDI2MTc1NTcsLTcyNjU2NzY4NiwtODQ4
-Mzk4NjgzLDkxMzQ2MTM3NywtMTc4MTg4NzM1OSwtMTc4OTAzNz
-gyNiwxNDE1MjAxNzAxLC0xNTMyMDAyOTU5LDc3NDM3MTY2MCwt
-MTU1Mjk2NzY2MV19
+eyJoaXN0b3J5IjpbOTA1MDI5MzU1LDc0MDkxNjEyMSw4NzkxMj
+k5NiwxMDk4OTE3MDg5LC0yMDQzNTExNTkzLC0xMjA4OTEwNDEy
+LC03Mjg3MTcyNDIsMTkwMDkxNTcyMSwtMTI2OTQxMzMwNiwtMT
+I1MDgyMTcxMSwtMjA3MDI1NDg2MywtNjQyNjE3NTU3LC03MjY1
+Njc2ODYsLTg0ODM5ODY4Myw5MTM0NjEzNzcsLTE3ODE4ODczNT
+ksLTE3ODkwMzc4MjYsMTQxNTIwMTcwMSwtMTUzMjAwMjk1OSw3
+NzQzNzE2NjBdfQ==
 -->
