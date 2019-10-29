@@ -793,7 +793,7 @@ No arguments
 ---
 ### <a name="refresh-run"></a>🧰 run [method](#refresh-methods)
 ##### - Description:
-Calls the [do](#refresh-do) method and computes its execution time (the latency caused by it). Then it computes the [Refresh.i](#refresh.i) property function of the latency and the [Refresh.fps](#refresh.fps) property. The point is that this property  always augments at the same speed regardless of the low or high latency. Then [Refresh.frame](#refresh.frame) is 
+Calls the [do](#refresh-do) method and computes its execution time (the latency caused by it). Then it computes the [Refresh.i](#refresh.i) property, function of the latency and the [Refresh.fps](#refresh.fps) property. The point is that this property always augments at the same speed regardless of the low or high latency. Then [Refresh.frame](#refresh.frame) is assigned the round value of [Refresh.i](#refresh.i).
 ##### - Prototype:
 ```python
 def run(self, debug=False)
@@ -803,8 +803,8 @@ No return value
 ##### - Arguments:
 | [ in ] | type | description
 |--|--|--|
-| self | [Refresh](#refresh) | The Refresh instance that is ran
-| debug | boolean | Whether you want the debug header for this method to show on the top left corner
+| self | [Refresh](#refresh) | The Refresh instance that you run
+| debug | boolean | Whether you want the debug overlay for this method to show on the top left corner
 ---
 ### <a name="refresh.fps"></a>📌 fps [property](#refresh-props) 
 ##### Description: 
@@ -1211,11 +1211,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNTk4MDExLDc0MDkxNjEyMSw4NzkxMj
-k5NiwxMDk4OTE3MDg5LC0yMDQzNTExNTkzLC0xMjA4OTEwNDEy
-LC03Mjg3MTcyNDIsMTkwMDkxNTcyMSwtMTI2OTQxMzMwNiwtMT
-I1MDgyMTcxMSwtMjA3MDI1NDg2MywtNjQyNjE3NTU3LC03MjY1
-Njc2ODYsLTg0ODM5ODY4Myw5MTM0NjEzNzcsLTE3ODE4ODczNT
-ksLTE3ODkwMzc4MjYsMTQxNTIwMTcwMSwtMTUzMjAwMjk1OSw3
-NzQzNzE2NjBdfQ==
+eyJoaXN0b3J5IjpbLTQ4NTEwODAzMCw3NDA5MTYxMjEsODc5MT
+I5OTYsMTA5ODkxNzA4OSwtMjA0MzUxMTU5MywtMTIwODkxMDQx
+MiwtNzI4NzE3MjQyLDE5MDA5MTU3MjEsLTEyNjk0MTMzMDYsLT
+EyNTA4MjE3MTEsLTIwNzAyNTQ4NjMsLTY0MjYxNzU1NywtNzI2
+NTY3Njg2LC04NDgzOTg2ODMsOTEzNDYxMzc3LC0xNzgxODg3Mz
+U5LC0xNzg5MDM3ODI2LDE0MTUyMDE3MDEsLTE1MzIwMDI5NTks
+Nzc0MzcxNjYwXX0=
 -->
