@@ -63,7 +63,7 @@ Therefore, please consider donating, it will greatly support this project !
 "\u001b[39;5;<color_code>m"
 ```
 - Terminals that do not support thoses will never be compatibles. 
-- flore1 may use python `curses` in future updates which is not compatible with old terminals (still it will be compat). 
+- flore1 may use python `curses` in future updates which is not compatible with all terminals (it will still be compatible with windows). 
     
 # <a name="tuto"></a>Tutorials
 Theses aim to be a fun and beginner-friendly way of learning how to use flore1.  
@@ -1211,11 +1211,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDIyOTk2OTIsODc5MTI5OTYsMTA5OD
-kxNzA4OSwtMjA0MzUxMTU5MywtMTIwODkxMDQxMiwtNzI4NzE3
-MjQyLDE5MDA5MTU3MjEsLTEyNjk0MTMzMDYsLTEyNTA4MjE3MT
-EsLTIwNzAyNTQ4NjMsLTY0MjYxNzU1NywtNzI2NTY3Njg2LC04
-NDgzOTg2ODMsOTEzNDYxMzc3LC0xNzgxODg3MzU5LC0xNzg5MD
-M3ODI2LDE0MTUyMDE3MDEsLTE1MzIwMDI5NTksNzc0MzcxNjYw
-LC0xNTUyOTY3NjYxXX0=
+eyJoaXN0b3J5IjpbNzQwOTE2MTIxLDg3OTEyOTk2LDEwOTg5MT
+cwODksLTIwNDM1MTE1OTMsLTEyMDg5MTA0MTIsLTcyODcxNzI0
+MiwxOTAwOTE1NzIxLC0xMjY5NDEzMzA2LC0xMjUwODIxNzExLC
+0yMDcwMjU0ODYzLC02NDI2MTc1NTcsLTcyNjU2NzY4NiwtODQ4
+Mzk4NjgzLDkxMzQ2MTM3NywtMTc4MTg4NzM1OSwtMTc4OTAzNz
+gyNiwxNDE1MjAxNzAxLC0xNTMyMDAyOTU5LDc3NDM3MTY2MCwt
+MTU1Mjk2NzY2MV19
 -->
