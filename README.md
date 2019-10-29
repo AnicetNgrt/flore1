@@ -963,6 +963,7 @@ No return value
 | coord_y | int | none | Distance of the Scene instance in character height to the terminal window's top border.
 | res_x | int | > 0 | The Scene instance's width in pixels.
 | res_y | int | > 0 | The Scene instance's height in pixels.
+| layer_count | int | > 0 | The number of layers that the Scene instance has. In other words, how many different level of supperposition it has to manage. (An empty layer causes no significant lag).
 
 ---
 ## <a name="engine.textasset"></a>📜 Engine.TextAsset [(sub)class](#classes)
@@ -1158,11 +1159,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA3MTUyNTkyLC0xMjUwODIxNzExLC0yMD
-cwMjU0ODYzLC02NDI2MTc1NTcsLTcyNjU2NzY4NiwtODQ4Mzk4
-NjgzLDkxMzQ2MTM3NywtMTc4MTg4NzM1OSwtMTc4OTAzNzgyNi
-wxNDE1MjAxNzAxLC0xNTMyMDAyOTU5LDc3NDM3MTY2MCwtMTU1
-Mjk2NzY2MSwxNDY0OTkyNjMsLTIwNTY0NTQyNDAsLTg3NjkyMT
-A4OSwxMTExODMxNTMzLC0xODA0NjQyMDU2LDY2NjM3NDQyOSwt
-MjgxOTcxNjZdfQ==
+eyJoaXN0b3J5IjpbLTEyNjk0MTMzMDYsLTEyNTA4MjE3MTEsLT
+IwNzAyNTQ4NjMsLTY0MjYxNzU1NywtNzI2NTY3Njg2LC04NDgz
+OTg2ODMsOTEzNDYxMzc3LC0xNzgxODg3MzU5LC0xNzg5MDM3OD
+I2LDE0MTUyMDE3MDEsLTE1MzIwMDI5NTksNzc0MzcxNjYwLC0x
+NTUyOTY3NjYxLDE0NjQ5OTI2MywtMjA1NjQ1NDI0MCwtODc2OT
+IxMDg5LDExMTE4MzE1MzMsLTE4MDQ2NDIwNTYsNjY2Mzc0NDI5
+LC0yODE5NzE2Nl19
 -->
