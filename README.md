@@ -649,7 +649,7 @@ The InputHandler class handles the keyboard and the mouse using the python [keyb
 ##### About key names:
 - Letter keys' name are always the lowercase letters `a key = 'a', b key = 'b'`. 
 - Symbol keys' name are always the lowercase symbols `- key = '-'`
-- Special keys' name can be deduced `space key = "space", escape key = "escape", left control key = "left control"` 
+- Special keys' name can be deduced `space key = "space", escape key = "escape", left control key = "left control"` I haven't found the full list of them yet. 
 
  ### <a name="input-props"></a>Properties
  - [keys](#input.keys)
@@ -1236,11 +1236,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MjY2NTgyNCwtMTY5MDk2MTQwOCwtOT
-A3NzU3ODQ0LC0xNTE2Mzc0OTY1LDc0MDkxNjEyMSw4NzkxMjk5
-NiwxMDk4OTE3MDg5LC0yMDQzNTExNTkzLC0xMjA4OTEwNDEyLC
-03Mjg3MTcyNDIsMTkwMDkxNTcyMSwtMTI2OTQxMzMwNiwtMTI1
-MDgyMTcxMSwtMjA3MDI1NDg2MywtNjQyNjE3NTU3LC03MjY1Nj
-c2ODYsLTg0ODM5ODY4Myw5MTM0NjEzNzcsLTE3ODE4ODczNTks
-LTE3ODkwMzc4MjZdfQ==
+eyJoaXN0b3J5IjpbLTg4MDY4Nzg1LC0xNjkwOTYxNDA4LC05MD
+c3NTc4NDQsLTE1MTYzNzQ5NjUsNzQwOTE2MTIxLDg3OTEyOTk2
+LDEwOTg5MTcwODksLTIwNDM1MTE1OTMsLTEyMDg5MTA0MTIsLT
+cyODcxNzI0MiwxOTAwOTE1NzIxLC0xMjY5NDEzMzA2LC0xMjUw
+ODIxNzExLC0yMDcwMjU0ODYzLC02NDI2MTc1NTcsLTcyNjU2Nz
+Y4NiwtODQ4Mzk4NjgzLDkxMzQ2MTM3NywtMTc4MTg4NzM1OSwt
+MTc4OTAzNzgyNl19
 -->
