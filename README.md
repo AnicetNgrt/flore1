@@ -1,4 +1,3 @@
- 
 # 🌸 Flore 1 
  This is the first **python** 2D game engine **rendering in the terminal**.
  This library features the engine class itself, along with some utilitary classes for a more efficient use of it.
@@ -1246,11 +1245,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjQxMTk1NzksLTg4MDY4Nzg1LC0xNj
-kwOTYxNDA4LC05MDc3NTc4NDQsLTE1MTYzNzQ5NjUsNzQwOTE2
-MTIxLDg3OTEyOTk2LDEwOTg5MTcwODksLTIwNDM1MTE1OTMsLT
-EyMDg5MTA0MTIsLTcyODcxNzI0MiwxOTAwOTE1NzIxLC0xMjY5
-NDEzMzA2LC0xMjUwODIxNzExLC0yMDcwMjU0ODYzLC02NDI2MT
-c1NTcsLTcyNjU2NzY4NiwtODQ4Mzk4NjgzLDkxMzQ2MTM3Nywt
-MTc4MTg4NzM1OV19
+eyJoaXN0b3J5IjpbMTU4ODY4MDE3NSwtODgwNjg3ODUsLTE2OT
+A5NjE0MDgsLTkwNzc1Nzg0NCwtMTUxNjM3NDk2NSw3NDA5MTYx
+MjEsODc5MTI5OTYsMTA5ODkxNzA4OSwtMjA0MzUxMTU5MywtMT
+IwODkxMDQxMiwtNzI4NzE3MjQyLDE5MDA5MTU3MjEsLTEyNjk0
+MTMzMDYsLTEyNTA4MjE3MTEsLTIwNzAyNTQ4NjMsLTY0MjYxNz
+U1NywtNzI2NTY3Njg2LC04NDgzOTg2ODMsOTEzNDYxMzc3LC0x
+NzgxODg3MzU5XX0=
 -->
