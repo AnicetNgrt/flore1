@@ -644,7 +644,7 @@ Here you will find detailed explanations for everything you may want to use from
 		 - [Graphics.TextAsset.TextSprite](#engine.textasset.textsprite) *`Sprites`*
 
 ## <a name="input"></a>📜 InputHandler [class](#classes)
-The InputHandler class l
+The InputHandler class handles the keyboard and the mouse using the python [keyboard](https://github.com/boppreh/keyboard) and mouse packages
 
 
 ---
@@ -1221,11 +1221,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE3MjIyMzczLC05MDc3NTc4NDQsLTE1MT
-YzNzQ5NjUsNzQwOTE2MTIxLDg3OTEyOTk2LDEwOTg5MTcwODks
-LTIwNDM1MTE1OTMsLTEyMDg5MTA0MTIsLTcyODcxNzI0MiwxOT
-AwOTE1NzIxLC0xMjY5NDEzMzA2LC0xMjUwODIxNzExLC0yMDcw
-MjU0ODYzLC02NDI2MTc1NTcsLTcyNjU2NzY4NiwtODQ4Mzk4Nj
-gzLDkxMzQ2MTM3NywtMTc4MTg4NzM1OSwtMTc4OTAzNzgyNiwx
-NDE1MjAxNzAxXX0=
+eyJoaXN0b3J5IjpbLTEzNTQ4NjczMzUsLTkwNzc1Nzg0NCwtMT
+UxNjM3NDk2NSw3NDA5MTYxMjEsODc5MTI5OTYsMTA5ODkxNzA4
+OSwtMjA0MzUxMTU5MywtMTIwODkxMDQxMiwtNzI4NzE3MjQyLD
+E5MDA5MTU3MjEsLTEyNjk0MTMzMDYsLTEyNTA4MjE3MTEsLTIw
+NzAyNTQ4NjMsLTY0MjYxNzU1NywtNzI2NTY3Njg2LC04NDgzOT
+g2ODMsOTEzNDYxMzc3LC0xNzgxODg3MzU5LC0xNzg5MDM3ODI2
+LDE0MTUyMDE3MDFdfQ==
 -->
