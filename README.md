@@ -386,7 +386,7 @@ Ok let's try to display `anicet.jpg` (resized of course) in the terminal:
 ```python
 # following the previously given code:
 anicet_asset = Graphics.pic_to_textAsset(
-    path='assets/anicet.jpg', 
+	path='assets/anicet.jpg', 
 	new_size="AUTO", #or: [width,height]
 	)
 ```
@@ -408,8 +408,8 @@ Don't forget to erase the `time.sleep(30)` you put previously, unless you like w
 #### a. Let's display a picture with transparency:
 ```python
 # following the previously given code
-bow_icon_asset = Engine.pic_to_textAsset(
-    path='assets/archer.png', 
+bow_icon_asset = Graphics.pic_to_textAsset(
+	path='assets/archer.png', 
 	new_size=["32","32"], # we ask it to resize this picture to 32*32px
 	transparent_rgb=(238, 195, 154) # The color in the picture that is meant to be transparent
 	)
@@ -420,8 +420,8 @@ By puting `(238, 195, 154)` in the `transparent_rgb` optionnal argument, we ask 
 #### b. Let's display a picture without transparency:
 ```python
 # following the previously given code
-avatar_asset = Engine.pic_to_textAsset(
-    path='assets/aniss.png', 
+avatar_asset = Graphics.pic_to_textAsset(
+	path='assets/aniss.png', 
 	new_size=["50","50"] # resize to 50*50px
 	# here we do not put anything, this way the scene
 	# knows there is no transparency for this picture
@@ -452,12 +452,12 @@ Now you know how to display pictures with flore1 !
 import flore1
 import time
 
-Engine = flore1.Engine(
+Graphics = flore1.Graphics(
     auto_scale = True, # Wether the terminal should be rescaled
     win_mode = False # If you have display issues, you may want to set this to True
     )
 
-Scene = Engine.new_scene("super cool name",
+Scene = Graphics.new_scene("super cool name",
     res_x = 128,
     res_y = 128,
     coord_x = 1,
@@ -465,15 +465,15 @@ Scene = Engine.new_scene("super cool name",
     layer_count = 15
     )
 
-anicet_asset = Engine.pic_to_textAsset(path='assets/anicet.jpg', new_size="AUTO")
+anicet_asset = Graphics.pic_to_textAsset(path='assets/anicet.jpg', new_size="AUTO")
 anicet_sprite = anicet_asset.to_sprite()
 Scene.put(anicet_sprite, 10, 10, 1)
 
-bow_icon_asset = Engine.pic_to_textAsset(path='assets/archer.png', new_size=["32","32"], transparent_rgb=(238, 195, 154))
+bow_icon_asset = Graphics.pic_to_textAsset(path='assets/archer.png', new_size=["32","32"], transparent_rgb=(238, 195, 154))
 bow_icon_sprite = bow_icon_asset.to_sprite()
 Scene.put(bow_icon_sprite, 10, 60, 2)
 
-avatar_asset = Engine.pic_to_textAsset(path='assets/aniss.png', new_size=["50","50"])
+avatar_asset = Graphics.pic_to_textAsset(path='assets/aniss.png', new_size=["50","50"])
 avatar_sprite = avatar_asset.to_sprite()
 Scene.put(avatar_sprite, 60, 20, 3)
 
@@ -1215,7 +1215,7 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3ODY3MjU3NSwtOTA3NzU3ODQ0LC0xNT
+eyJoaXN0b3J5IjpbLTQ4NzA2MDU2OSwtOTA3NzU3ODQ0LC0xNT
 E2Mzc0OTY1LDc0MDkxNjEyMSw4NzkxMjk5NiwxMDk4OTE3MDg5
 LC0yMDQzNTExNTkzLC0xMjA4OTEwNDEyLC03Mjg3MTcyNDIsMT
 kwMDkxNTcyMSwtMTI2OTQxMzMwNiwtMTI1MDgyMTcxMSwtMjA3
