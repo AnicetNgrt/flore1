@@ -643,13 +643,13 @@ Here you will find detailed explanations for everything you may want to use from
 
  `flore1/VIRTUALSCENE/virtualscene.py`
 
- - [Graphics.VirtualScene](#engine.virtualscene) *`Scenes`*
+ - [Graphics.VirtualScene](#engine.virtualscene) *`aka Scenes`*
 
-`flore1/TEXTASSET/virtualscene.py`
+`flore1/TEXTASSET/textasset.py`
 
-- [Graphics.TextAsset](#engine.textasset) *`Assets`*
+- [Graphics.TextAsset](#engine.textasset) *` = Assets`*
 
-`flore1/flore1.py`
+`flore1/TEXTASSET/TEXTSPRITE/textsprite.py`
 
 - [Graphics.TextAsset.TextSprite](#engine.textasset.textsprite) *`Sprites`*
 
@@ -1246,11 +1246,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzE3Nzk2NzksLTg4MDY4Nzg1LC0xNj
-kwOTYxNDA4LC05MDc3NTc4NDQsLTE1MTYzNzQ5NjUsNzQwOTE2
-MTIxLDg3OTEyOTk2LDEwOTg5MTcwODksLTIwNDM1MTE1OTMsLT
-EyMDg5MTA0MTIsLTcyODcxNzI0MiwxOTAwOTE1NzIxLC0xMjY5
-NDEzMzA2LC0xMjUwODIxNzExLC0yMDcwMjU0ODYzLC02NDI2MT
-c1NTcsLTcyNjU2NzY4NiwtODQ4Mzk4NjgzLDkxMzQ2MTM3Nywt
-MTc4MTg4NzM1OV19
+eyJoaXN0b3J5IjpbMjU5ODI1NTg3LC04ODA2ODc4NSwtMTY5MD
+k2MTQwOCwtOTA3NzU3ODQ0LC0xNTE2Mzc0OTY1LDc0MDkxNjEy
+MSw4NzkxMjk5NiwxMDk4OTE3MDg5LC0yMDQzNTExNTkzLC0xMj
+A4OTEwNDEyLC03Mjg3MTcyNDIsMTkwMDkxNTcyMSwtMTI2OTQx
+MzMwNiwtMTI1MDgyMTcxMSwtMjA3MDI1NDg2MywtNjQyNjE3NT
+U3LC03MjY1Njc2ODYsLTg0ODM5ODY4Myw5MTM0NjEzNzcsLTE3
+ODE4ODczNTldfQ==
 -->
