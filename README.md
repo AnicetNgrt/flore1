@@ -635,13 +635,19 @@ Here you will find detailed explanations for everything you may want to use from
 - With most fonts, 1 char width = 1/2 char height, always keep this in mind. If the docs don't talk about a `width` parameter or a `x` parameter being "1/2 of its true value" or "multiplied by 2" it means your `width` or your `x` may be the half of what you expect.
 - Never give the `self` argument when calling methods.
 ## <a name="classes"></a>Classes
- 
+ - [InputHandler](#input) 
  - [Flipbook](#flipbook) 
  - [Refresh](#refresh)
  - [Graphics](#engine)
 	 - [Graphics.VirtualScene](#engine.virtualscene) *`Scenes`*
 	 - [Graphics.TextAsset](#engine.textasset) *`Assets`*
 		 - [Graphics.TextAsset.TextSprite](#engine.textasset.textsprite) *`Sprites`*
+
+## <a name="input"></a>📜 InputHandler [class](#classes)
+The InputHandler class l
+
+
+---
 ## <a name="flipbook"></a>📜 Flipbook [class](#classes)
 
 
@@ -1215,11 +1221,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNzU1MTk2MCwtOTA3NzU3ODQ0LC0xNT
-E2Mzc0OTY1LDc0MDkxNjEyMSw4NzkxMjk5NiwxMDk4OTE3MDg5
-LC0yMDQzNTExNTkzLC0xMjA4OTEwNDEyLC03Mjg3MTcyNDIsMT
-kwMDkxNTcyMSwtMTI2OTQxMzMwNiwtMTI1MDgyMTcxMSwtMjA3
-MDI1NDg2MywtNjQyNjE3NTU3LC03MjY1Njc2ODYsLTg0ODM5OD
-Y4Myw5MTM0NjEzNzcsLTE3ODE4ODczNTksLTE3ODkwMzc4MjYs
-MTQxNTIwMTcwMV19
+eyJoaXN0b3J5IjpbNTE3MjIyMzczLC05MDc3NTc4NDQsLTE1MT
+YzNzQ5NjUsNzQwOTE2MTIxLDg3OTEyOTk2LDEwOTg5MTcwODks
+LTIwNDM1MTE1OTMsLTEyMDg5MTA0MTIsLTcyODcxNzI0MiwxOT
+AwOTE1NzIxLC0xMjY5NDEzMzA2LC0xMjUwODIxNzExLC0yMDcw
+MjU0ODYzLC02NDI2MTc1NTcsLTcyNjU2NzY4NiwtODQ4Mzk4Nj
+gzLDkxMzQ2MTM3NywtMTc4MTg4NzM1OSwtMTc4OTAzNzgyNiwx
+NDE1MjAxNzAxXX0=
 -->
