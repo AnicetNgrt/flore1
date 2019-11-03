@@ -832,8 +832,8 @@ The current "frame" (or turn count) of the Refresh. It is equal to the rounded v
 A float variable that accumulates the frame latency and the frame advance in order to count the [frame](#refresh.frame) count more accuratly.
 
 ---
-## <a name="engine"></a>📜 Engine [class](#classes)
-The Engine takes care of everything from rendering to input and sound, but its usage is a bit barebone from time to time. That's why it is not the only flore1 top level class. 
+## <a name="engine"></a>📜 Graphics [class](#classes)
+The Graphics takes care of grapgic. 
 ### Subclasses
 -  [VirtualScene](#engine.virtualscene)
 -  [TextAsset](#engine.textasset)
@@ -1215,7 +1215,7 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTA5Mzc1MywtOTA3NzU3ODQ0LC0xNT
+eyJoaXN0b3J5IjpbLTkxMDkzMzkzMSwtOTA3NzU3ODQ0LC0xNT
 E2Mzc0OTY1LDc0MDkxNjEyMSw4NzkxMjk5NiwxMDk4OTE3MDg5
 LC0yMDQzNTExNTkzLC0xMjA4OTEwNDEyLC03Mjg3MTcyNDIsMT
 kwMDkxNTcyMSwtMTI2OTQxMzMwNiwtMTI1MDgyMTcxMSwtMjA3
