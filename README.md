@@ -647,9 +647,9 @@ Here you will find detailed explanations for everything you may want to use from
 The InputHandler class handles the keyboard and the mouse using the python [keyboard](https://github.com/boppreh/keyboard) and [mouse](https://github.com/boppreh/mouse) packages. Although it features many engine exclusive methods to handle them in a way a game engine would need.
 
 **About key names**:
-- Letter keys' name is just the lowercase letters `a key = 'a', b key = 'b'`. 
-- Symbol keys' name a just the lowercase symbols `- key = '-'`
-- Special keys'
+- Letter keys' name is always the lowercase letters `a key = 'a', b key = 'b'`. 
+- Symbol keys' name is always the lowercase symbols `- key = '-'`
+- Special keys' name is oft `space key = "space", escape key = "escape", left control key = "left control"` 
 
  ### <a name="input-props"></a>Properties
  - [keys](#input.keys)
@@ -1234,7 +1234,7 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzYxNDk5MDksLTkwNzc1Nzg0NCwtMT
+eyJoaXN0b3J5IjpbLTIxMTIzMzQzODAsLTkwNzc1Nzg0NCwtMT
 UxNjM3NDk2NSw3NDA5MTYxMjEsODc5MTI5OTYsMTA5ODkxNzA4
 OSwtMjA0MzUxMTU5MywtMTIwODkxMDQxMiwtNzI4NzE3MjQyLD
 E5MDA5MTU3MjEsLTEyNjk0MTMzMDYsLTEyNTA4MjE3MTEsLTIw
