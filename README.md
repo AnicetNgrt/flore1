@@ -635,13 +635,21 @@ Here you will find detailed explanations for everything you may want to use from
 - With most fonts, 1 char width = 1/2 char height, always keep this in mind. If the docs don't talk about a `width` parameter or a `x` parameter being "1/2 of its true value" or "multiplied by 2" it means your `width` or your `x` may be the half of what you expect.
 - Never give the `self` argument when calling methods.
 ## <a name="classes"></a>Classes
- - [InputHandler](#input)  *📁flore1/flore1.py*
- - [Flipbook](#flipbook) *📁flore1/flore1.py*
- - [Refresh](#refresh) *📁flore1/flore1.py*
+*📁flore1/flore1.py*
+ - [InputHandler](#input)  
+ - [Flipbook](#flipbook) 
+ - [Refresh](#refresh) 
  - [Graphics](#engine) 
-	 - [Graphics.VirtualScene](#engine.virtualscene) *`Scenes`* *📁flore1/flore1.py*
-	 - [Graphics.TextAsset](#engine.textasset) *`Assets`*
-		 - [Graphics.TextAsset.TextSprite](#engine.textasset.textsprite) *`Sprites`*
+
+ *📁flore1/flore1.py*
+
+ - [Graphics.VirtualScene](#engine.virtualscene) *`Scenes`*
+
+*📁flore1/flore1.py*
+- [Graphics.TextAsset](#engine.textasset) *`Assets`*
+
+*📁flore1/flore1.py*
+- [Graphics.TextAsset.TextSprite](#engine.textasset.textsprite) *`Sprites`*
 
 ## <a name="input"></a>📜 InputHandler [class](#classes)
 The InputHandler class handles the keyboard and the mouse using the python [keyboard](https://github.com/boppreh/keyboard) and [mouse](https://github.com/boppreh/mouse) packages. Although it features many engine exclusive methods to handle them in a way a game engine would need.
@@ -1236,11 +1244,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU0MTU3MDYxLC04ODA2ODc4NSwtMTY5MD
-k2MTQwOCwtOTA3NzU3ODQ0LC0xNTE2Mzc0OTY1LDc0MDkxNjEy
-MSw4NzkxMjk5NiwxMDk4OTE3MDg5LC0yMDQzNTExNTkzLC0xMj
-A4OTEwNDEyLC03Mjg3MTcyNDIsMTkwMDkxNTcyMSwtMTI2OTQx
-MzMwNiwtMTI1MDgyMTcxMSwtMjA3MDI1NDg2MywtNjQyNjE3NT
-U3LC03MjY1Njc2ODYsLTg0ODM5ODY4Myw5MTM0NjEzNzcsLTE3
-ODE4ODczNTldfQ==
+eyJoaXN0b3J5IjpbLTQ2ODI4ODE3NSwtODgwNjg3ODUsLTE2OT
+A5NjE0MDgsLTkwNzc1Nzg0NCwtMTUxNjM3NDk2NSw3NDA5MTYx
+MjEsODc5MTI5OTYsMTA5ODkxNzA4OSwtMjA0MzUxMTU5MywtMT
+IwODkxMDQxMiwtNzI4NzE3MjQyLDE5MDA5MTU3MjEsLTEyNjk0
+MTMzMDYsLTEyNTA4MjE3MTEsLTIwNzAyNTQ4NjMsLTY0MjYxNz
+U1NywtNzI2NTY3Njg2LC04NDgzOTg2ODMsOTEzNDYxMzc3LC0x
+NzgxODg3MzU5XX0=
 -->
