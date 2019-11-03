@@ -240,7 +240,7 @@ With flore1 there is a very efficient way of doing that thanks to the `flore1.Re
 ```python
 import flore1
 
-Engine = flore1.Engine(auto_scale = True, win_mode = False)
+Engine = flore1.Graphics(auto_scale = True, win_mode = False)
 
 building_manual = [
 	"bc:195fc:127MY SUPER TEXT SPRITE LOOKS DAMN COOLcc:0",
@@ -248,10 +248,10 @@ building_manual = [
 	"Now I will do an ASCII army of squids just for the sake of it:",
 	"fc:200(S 0-o0)S  (S 0-o0)S  (S 0-o0)S  (S 0-o0)S  (S 0-o0)S  (S 0-o0)Scc:0"
 ]
-super_asset = Engine.TextAsset(building_manual)
+super_asset = Graphics.TextAsset(building_manual)
 super_sprite = super_asset.to_sprite()
 
-Scene = Engine.new_scene("super cool name",
+Scene = Graphics.new_scene("super cool name",
     res_x = 64,
     res_y = 32,
     coord_x = 10,
@@ -260,7 +260,7 @@ Scene = Engine.new_scene("super cool name",
     )
 ```
 ### ➰ Creating our game loop:
-Every game is a loop. That's not a philosophical point here, just a truth. If you want a game you want a loop. And looping in python is easy, you have `for` loops and `while` loops.
+Every game is a loop, and looping in python is easy, you have `for` loops and `while` loops.
 Here we just want to move only one sprite, so what we are going to do may seem overkill to you, but believe me, it is necessary that you do it once.
 
 First we will need to create our `game_loop` function:
@@ -311,7 +311,7 @@ This is purely amazing !
 ```python
 import flore1
 
-Engine = flore1.Engine(
+Engine = flore1.Graphics(
     auto_scale = True, # Wether the terminal should be rescaled
     win_mode = False # If you have display issues, you may want to set this to True
     )
@@ -322,7 +322,7 @@ building_manual = [
 	"Now I will do an ASCII army of squids just for the sake of it:",
 	"fc:200(S 0-o0)S  (S 0-o0)S  (S 0-o0)S  (S 0-o0)S  (S 0-o0)S  (S 0-o0)Scc:0"
 ]
-super_asset = Engine.TextAsset(building_manual)
+super_asset = Graphics.TextAsset(building_manual)
 super_sprite = super_asset.to_sprite()
 
 Scene = Engine.new_scene("super cool name",
@@ -1215,11 +1215,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MTgyNzEyNSwtOTA3NzU3ODQ0LC0xNT
-E2Mzc0OTY1LDc0MDkxNjEyMSw4NzkxMjk5NiwxMDk4OTE3MDg5
-LC0yMDQzNTExNTkzLC0xMjA4OTEwNDEyLC03Mjg3MTcyNDIsMT
-kwMDkxNTcyMSwtMTI2OTQxMzMwNiwtMTI1MDgyMTcxMSwtMjA3
-MDI1NDg2MywtNjQyNjE3NTU3LC03MjY1Njc2ODYsLTg0ODM5OD
-Y4Myw5MTM0NjEzNzcsLTE3ODE4ODczNTksLTE3ODkwMzc4MjYs
-MTQxNTIwMTcwMV19
+eyJoaXN0b3J5IjpbLTEwOTY1MzgyNzcsLTkwNzc1Nzg0NCwtMT
+UxNjM3NDk2NSw3NDA5MTYxMjEsODc5MTI5OTYsMTA5ODkxNzA4
+OSwtMjA0MzUxMTU5MywtMTIwODkxMDQxMiwtNzI4NzE3MjQyLD
+E5MDA5MTU3MjEsLTEyNjk0MTMzMDYsLTEyNTA4MjE3MTEsLTIw
+NzAyNTQ4NjMsLTY0MjYxNzU1NywtNzI2NTY3Njg2LC04NDgzOT
+g2ODMsOTEzNDYxMzc3LC0xNzgxODg3MzU5LC0xNzg5MDM3ODI2
+LDE0MTUyMDE3MDFdfQ==
 -->
