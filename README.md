@@ -44,7 +44,7 @@ Therefore, please consider donating, it will greatly support this project !
 - `Gradually` Documentation and tutorials
 - `Gradually` Quality of life improvements
 - `Gradually` Optimization
-- `High priority` Input management
+- `High priority` Mouse handler
 - `High priority` UI helper classes
 - `Medium priority` Basic server/client fonctionnalities 
 - `Low priority` Sound management  
@@ -1215,7 +1215,7 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg2NjY5NjI2LC05MDc3NTc4NDQsLTE1MT
+eyJoaXN0b3J5IjpbMjc3OTI3MjQ4LC05MDc3NTc4NDQsLTE1MT
 YzNzQ5NjUsNzQwOTE2MTIxLDg3OTEyOTk2LDEwOTg5MTcwODks
 LTIwNDM1MTE1OTMsLTEyMDg5MTA0MTIsLTcyODcxNzI0MiwxOT
 AwOTE1NzIxLC0xMjY5NDEzMzA2LC0xMjUwODIxNzExLC0yMDcw
