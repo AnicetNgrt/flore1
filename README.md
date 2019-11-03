@@ -240,7 +240,7 @@ With flore1 there is a very efficient way of doing that thanks to the `flore1.Re
 ```python
 import flore1
 
-Engine = flore1.Graphics(auto_scale = True, win_mode = False)
+Graphics = flore1.Graphics(auto_scale = True, win_mode = False)
 
 building_manual = [
 	"bc:195fc:127MY SUPER TEXT SPRITE LOOKS DAMN COOLcc:0",
@@ -311,7 +311,7 @@ This is purely amazing !
 ```python
 import flore1
 
-Engine = flore1.Graphics(
+Graphics = flore1.Graphics(
     auto_scale = True, # Wether the terminal should be rescaled
     win_mode = False # If you have display issues, you may want to set this to True
     )
@@ -325,7 +325,7 @@ building_manual = [
 super_asset = Graphics.TextAsset(building_manual)
 super_sprite = super_asset.to_sprite()
 
-Scene = Engine.new_scene("super cool name",
+Scene = Graphics.new_scene("super cool name",
     res_x = 64,
     res_y = 32,
     coord_x = 10,
@@ -365,12 +365,12 @@ Here also should be your `main.py` right now:
 import flore1
 import time
 
-Engine = flore1.Engine(
+Graphics = flore1.Graphics(
     auto_scale = True, # Wether the terminal should be rescaled
     win_mode = False # If you have display issues, you may want to set this to True
     )
 
-Scene = Engine.new_scene("super cool name",
+Scene = Graphics.new_scene("super cool name",
     res_x = 128, # For this one we need a bigger scene
     res_y = 128,
     coord_x = 1,
@@ -380,12 +380,12 @@ Scene = Engine.new_scene("super cool name",
 ```
 **Very important:** Most terminal have large font size by default. It will be necessary to lower this size in your terminal's settings in order to display bigger than 100*100px pictures. Mine is at 6 now for instance.
 ### 🧾 From pictures to text and... no vice-versa 
-The Engine class can convert `.png`, `.jpg` and `.svg` pictures to text Assets with the help of `pillow`, a very known python image manipulation library.
+The Graphics class can convert `.png`, `.jpg` and `.svg` pictures to text Assets with the help of `pillow`, a very known python image manipulation library.
 But here comes the issue: **size**. Because even if you ask your terminal to go 14px font style, it won't be easy to display anything bigger than 300*300px. This is more of a pixelart engine than a fancy graphical library. But come on, it's on the terminal :D !
 Ok let's try to display `anicet.jpg` (resized of course) in the terminal:
 ```python
 # following the previously given code:
-anicet_asset = Engine.pic_to_textAsset(
+anicet_asset = Graphics.pic_to_textAsset(
     path='assets/anicet.jpg', 
 	new_size="AUTO", #or: [width,height]
 	)
@@ -1215,11 +1215,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTY1MzgyNzcsLTkwNzc1Nzg0NCwtMT
-UxNjM3NDk2NSw3NDA5MTYxMjEsODc5MTI5OTYsMTA5ODkxNzA4
-OSwtMjA0MzUxMTU5MywtMTIwODkxMDQxMiwtNzI4NzE3MjQyLD
-E5MDA5MTU3MjEsLTEyNjk0MTMzMDYsLTEyNTA4MjE3MTEsLTIw
-NzAyNTQ4NjMsLTY0MjYxNzU1NywtNzI2NTY3Njg2LC04NDgzOT
-g2ODMsOTEzNDYxMzc3LC0xNzgxODg3MzU5LC0xNzg5MDM3ODI2
-LDE0MTUyMDE3MDFdfQ==
+eyJoaXN0b3J5IjpbMTk3ODY3MjU3NSwtOTA3NzU3ODQ0LC0xNT
+E2Mzc0OTY1LDc0MDkxNjEyMSw4NzkxMjk5NiwxMDk4OTE3MDg5
+LC0yMDQzNTExNTkzLC0xMjA4OTEwNDEyLC03Mjg3MTcyNDIsMT
+kwMDkxNTcyMSwtMTI2OTQxMzMwNiwtMTI1MDgyMTcxMSwtMjA3
+MDI1NDg2MywtNjQyNjE3NTU3LC03MjY1Njc2ODYsLTg0ODM5OD
+Y4Myw5MTM0NjEzNzcsLTE3ODE4ODczNTksLTE3ODkwMzc4MjYs
+MTQxNTIwMTcwMV19
 -->
