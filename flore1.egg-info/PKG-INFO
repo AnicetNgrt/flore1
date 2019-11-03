@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: flore1
+Version: 1.1.0
+Summary: The first 2D python game engine rendering in the terminal.
+Home-page: https://github.com/AnicetNgrt/flore1
+Author: Anicet Nougaret
+Author-email: anicet.nougaret@zohomail.eu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Environment :: Console :: Curses
+Classifier: Intended Audience :: Developers
+Requires-Python:  >= 3.7

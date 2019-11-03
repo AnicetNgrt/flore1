@@ -1,20 +1,75 @@
 """/////////////////////////
 ///
-///   File: flore1engine.py
+///   File: flore1.py
 ///   Author: Anicet Nougaret
-///   QuickDesc: The Engine class and the Flow class
 ///   License: CC BY-SA (see FLORE1/license.txt)
 ///
 /////////////////////////"""
 
+# Python native
 import ctypes
 import time
 import math
 import os
+import msvcrt
 
+# PypI
 from PIL import Image
+import keyboard
+
+# Local
 from .util import get_palette_in_rgb, nearest_rgb_to_ansi
 from .ansiRGB import ANSI_RGB
+
+# ------------------------------------------------------------
+
+# ------------------------------------------------------------
+# ------------------  INPUTHANDLER CLASS  --------------------
+# ------------------------------------------------------------
+class InputHandler:
+    def __init__(self, keys={}):
+        self.keys = keys
+
+# ------------------------------------------------------------
+
+    def set_key(self, name, keys = []):
+        self.keys[name] = keys
+
+# ------------------------------------------------------------
+
+    def user_add_key(self, name, keys = []):
+        try:
+            self.keys[name].append(keyboard.read_hotkey(suppress=True))
+        except:
+            pass
+
+# ------------------------------------------------------------
+
+    def add_key(self, name, key):
+        try:
+            self.keys[name].append(key)
+        except:
+            pass
+
+# ------------------------------------------------------------
+
+    def del_key(self, name, key):
+        try:
+            self.keys[name].remove(key)
+        except:
+            pass
+
+# ------------------------------------------------------------
+
+    def is_pressed(self, name):
+        try:
+            for key in self.keys[name]:
+                if keyboard.is_pressed(key):
+                    return True
+        except:
+            pass
+
+        return False
 # ------------------------------------------------------------
 
 
@@ -22,7 +77,7 @@ from .ansiRGB import ANSI_RGB
 # ------------------    FLIPBOOK CLASS   ---------------------
 # ------------------------------------------------------------
 class Flipbook:
-    def __init__(self, Engine, Refresh, Sprite, path="", size=[32, 32], transparent_rgb=(-1, -1, -1), fps=24, sync=True):
+    def __init__(self, Graphics, Refresh, Sprite, path="", size=[32, 32], transparent_rgb=(-1, -1, -1), fps=24, sync=True):
         self.Refresh = Refresh
         self.asset_list = []
         if not os.path.exists(path): return
@@ -31,7 +86,7 @@ class Flipbook:
             filename = os.fsdecode(file)
             if filename.endswith(".png") or filename.endswith(".jpg") or filename.endswith(".gif"):
                 asset_path = os.path.join(path, filename)
-                self.asset_list.append(Engine.pic_to_textAsset(asset_path, size, transparent_rgb))
+                self.asset_list.append(Graphics.pic_to_textAsset(asset_path, size, transparent_rgb))
 
         def play(Sprite, asset_list, fps):
             if not hasattr(play, "last_frame"):
@@ -62,12 +117,20 @@ class Flipbook:
 # ------------------------------------------------------------
 
     def start(self):
-        self.Refresh.feed(*self.material)
+        if not self.Refresh.is_fed_with(*self.material):
+            self.Refresh.feed(*self.material)
+            return True
+        else:
+            return False
 
 # ------------------------------------------------------------
 
     def stop(self):
-        self.Refresh.terminate(*self.material)
+        if self.Refresh.is_fed_with(*self.material):
+            self.Refresh.terminate(*self.material)
+            return True
+        else:
+            return False
 # ------------------------------------------------------------
 
 
@@ -90,6 +153,14 @@ class Refresh:
 
 # ------------------------------------------------------------
 
+    def is_fed_with(self, func, *args, **kwargs):
+        if (func, args, kwargs) in self.stack:
+            return True
+        else:
+            return False
+
+# ------------------------------------------------------------
+
     def feed(self, func, *args, **kwargs):
         self.stack.append((func, args, kwargs))
 
@@ -103,9 +174,13 @@ class Refresh:
                 func.__dict__["sync"] = True
             if not hasattr(func, "i"):
                 func.__dict__["i"] = 0
+            if not hasattr(func, "last_i"):
+                func.__dict__["last_i"] = 0
             else:
+                func.__dict__["last_i"] = func.__dict__["i"]
+
                 if func.sync == True and (self.frame-self.pv_frame) > 0:
-                    func.__dict__["i"] += self.frame-self.pv_frame  
+                    func.__dict__["i"] += self.frame-self.pv_frame
                     func(*args, **kwargs)
                 elif func.sync == False:
                     func.__dict__["i"] += 1
@@ -119,7 +194,7 @@ class Refresh:
         required_fps = self.fps
 
         start_time = time.time()
-        
+
         self.do()
 
         exec_time = time.time()
@@ -135,10 +210,10 @@ class Refresh:
         if fps > required_fps:
             time.sleep(((1 / required_fps) - latency)/1.1)
             self.i += 1
-        
+
         if required_fps >= fps:
             self.i += required_fps / fps
-        
+
         self.frame = round(self.i)
         #print(self.i)
 
@@ -176,14 +251,14 @@ class Refresh:
             total_latency = final_time - start_time
             otp = "\33[0m\033[7;0H|\u001b[38;5;15m\u001b[48;5;16m  STABILISED_FREQUENCY: "
             print("%s%1.2f   " % (otp, (self.i - self.pv_i)/total_latency))
-        
+
 # ------------------------------------------------------------
 
 
 # ------------------------------------------------------------
-# ------------------     ENGINE CLASS    ---------------------
+# ------------------     Graphics CLASS   ---------------------
 # ------------------------------------------------------------
-class Engine:
+class Graphics:
     def __init__(self, auto_scale=False, win_mode=False, logo=False):
         print(chr(27) + "[H" + chr(27) + "[J")
         self.vscenes = {}

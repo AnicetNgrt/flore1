@@ -24,10 +24,10 @@ class VirtualScene:
         for l in range(0, layer_count):
             self.layers.append([])
 
-        self.coord_x = round(coord_x)
-        self.coord_y = round(coord_y)
-        self.res_x = round(res_x * 2)
-        self.res_y = round(res_y)
+        self.coord_x = int(coord_x)
+        self.coord_y = int(coord_y)
+        self.res_x = int(res_x * 2)
+        self.res_y = int(res_y)
 
         self.prtcrd = set()
         self.prtcrd_rv = set()
@@ -56,14 +56,14 @@ class VirtualScene:
         sprite.x = crd_x
         sprite.y = crd_y
         sprite.scene = self
-        sprite.layer = layer
+        sprite.layer = int(layer)
 
         sprite.act_prtcrd = set()
 
         for px in sprite.prtcrd:
             x, y = px
-            if 0 < (x + crd_x) < self.res_x and 0 < (y + crd_y) < self.res_y:
-                sprite.act_prtcrd.add((x + crd_x, y + crd_y))
+            if 0 < (x + int(sprite.x)) < self.res_x and 0 < (y + int(sprite.y)) < self.res_y:
+                sprite.act_prtcrd.add((x + int(sprite.x), y + int(sprite.y)))
 
         self.layers[layer].append(sprite)
 
@@ -103,7 +103,7 @@ class VirtualScene:
                         self.prtcrd.add(px)
                         self.prtcrd_rv.add(xp)
 
-                        crd = str(x - sprite.x) + "|" + str(y - sprite.y)
+                        crd = str(x - int(sprite.x)) + "|" + str(y - int(sprite.y))
 
                         self.chart.add((xp, sprite.chart[crd]))
 
@@ -185,7 +185,7 @@ class VirtualScene:
             end_time = time.time()
             latency = (end_time - genesis_time)
             if latency == 0: latency = 0.00001
-            
+
             if debug:
                 print("\33[0m\033[6;40H| \33[45m\33[37m SYS.STDOUT.WRITE: %9f s" % ((end_time - start_time)))
                 print("\33[0m\033[7;40H| \33[45m\33[37m EXPECTED_FPS: %.2f     " % (round(1 / latency)))

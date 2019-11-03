@@ -88,8 +88,7 @@ class TextAsset:
 
 # ------------------------------------------------------------
 
-    def generate_chart(self, si="α", ei="β"):
-        if si == ei: return
+    def generate_chart(self):
         self.chart = {}
         self.prtcrd = set()
         x = 0

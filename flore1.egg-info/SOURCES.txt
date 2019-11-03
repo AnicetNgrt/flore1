@@ -1,0 +1,17 @@
+README.md
+setup.py
+flore1/__init__.py
+flore1/ansiRGB.py
+flore1/flore1.py
+flore1/util.py
+flore1.egg-info/PKG-INFO
+flore1.egg-info/SOURCES.txt
+flore1.egg-info/dependency_links.txt
+flore1.egg-info/requires.txt
+flore1.egg-info/top_level.txt
+flore1/TEXTASSET/__init__.py
+flore1/TEXTASSET/textAsset.py
+flore1/TEXTASSET/TEXTSPRITE/__init__.py
+flore1/TEXTASSET/TEXTSPRITE/textSprite.py
+flore1/VIRTUALSCENE/__init__.py
+flore1/VIRTUALSCENE/virtualScene.py

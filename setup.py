@@ -2,14 +2,15 @@ import setuptools
 
 setuptools.setup(
     name="flore1",
-    version="1.0.5",
+    version="1.1.0",
     author="Anicet Nougaret",
     author_email="anicet.nougaret@zohomail.eu",
     description="The first 2D python game engine rendering in the terminal.",
     url="https://github.com/AnicetNgrt/flore1",
     packages=setuptools.find_packages(),
     install_requires=[
-          'pillow'
+          'pillow',
+	  'keyboard'
       ],
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
@@ -17,5 +18,5 @@ setuptools.setup(
         "Environment :: Console :: Curses",
         "Intended Audience :: Developers"
     ],
-    python_requires=' >= 3.6',
+    python_requires=' >= 3.7',
 )
