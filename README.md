@@ -645,9 +645,12 @@ Here you will find detailed explanations for everything you may want to use from
 
 ## <a name="input"></a>📜 InputHandler [class](#classes)
 The InputHandler class handles the keyboard and the mouse using the python [keyboard](https://github.com/boppreh/keyboard) and [mouse](https://github.com/boppreh/mouse) packages. Although it features many engine exclusive methods to handle them in a way a game engine would need.
- ### <a name="input-props"></a>Properties
 
- - [material](#flipbook.material)
+**About key names**:
+letters' key names are just 
+
+ ### <a name="input-props"></a>Properties
+ - [keys](#input.keys)
 
 ### <a name="input-methods"></a>Methods
 - [\_\_init\_\_](#flipbook-init) 
@@ -1229,7 +1232,7 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxODYxNzQ5MywtOTA3NzU3ODQ0LC0xNT
+eyJoaXN0b3J5IjpbMTA0NjM0Mjg4OCwtOTA3NzU3ODQ0LC0xNT
 E2Mzc0OTY1LDc0MDkxNjEyMSw4NzkxMjk5NiwxMDk4OTE3MDg5
 LC0yMDQzNTExNTkzLC0xMjA4OTEwNDEyLC03Mjg3MTcyNDIsMT
 kwMDkxNTcyMSwtMTI2OTQxMzMwNiwtMTI1MDgyMTcxMSwtMjA3
