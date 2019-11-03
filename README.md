@@ -635,21 +635,21 @@ Here you will find detailed explanations for everything you may want to use from
 - With most fonts, 1 char width = 1/2 char height, always keep this in mind. If the docs don't talk about a `width` parameter or a `x` parameter being "1/2 of its true value" or "multiplied by 2" it means your `width` or your `x` may be the half of what you expect.
 - Never give the `self` argument when calling methods.
 ## <a name="classes"></a>Classes
-[[->]]() `flore1/flore1.py`
+[[->]](https://github.com/AnicetNgrt/flore1/blob/master/flore1/flore1.py) `flore1/flore1.py`
  - [InputHandler](#input)  
  - [Flipbook](#flipbook) 
  - [Refresh](#refresh) 
  - [Graphics](#engine) 
 
-[[->]]() `flore1/VIRTUALSCENE/virtualscene.py`
+[[->]](https://github.com/AnicetNgrt/flore1/blob/master/flore1/VIRTUALSCENE/virtualScene.py) `flore1/VIRTUALSCENE/virtualScene.py`
 
  - [Graphics.VirtualScene](#engine.virtualscene) *Scenes*
 
-[[->]]() `flore1/TEXTASSET/textasset.py`
+[[->]](https://github.com/AnicetNgrt/flore1/blob/master/flore1/TEXTASSET/textAsset.py) `flore1/TEXTASSET/textAsset.py`
 
 - [Graphics.TextAsset](#engine.textasset) *Assets*
 
-[[->]]() `flore1/TEXTASSET/TEXTSPRITE/textsprite.py`
+[[->]](https://github.com/AnicetNgrt/flore1/blob/master/flore1/TEXTASSET/TEXTSPRITE/textSprite.py) `flore1/TEXTASSET/TEXTSPRITE/textSprite.py`
 
 - [Graphics.TextAsset.TextSprite](#engine.textasset.textsprite) *Sprites*
 
@@ -1246,11 +1246,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ2OTMxMTA1LC04ODA2ODc4NSwtMTY5MD
-k2MTQwOCwtOTA3NzU3ODQ0LC0xNTE2Mzc0OTY1LDc0MDkxNjEy
-MSw4NzkxMjk5NiwxMDk4OTE3MDg5LC0yMDQzNTExNTkzLC0xMj
-A4OTEwNDEyLC03Mjg3MTcyNDIsMTkwMDkxNTcyMSwtMTI2OTQx
-MzMwNiwtMTI1MDgyMTcxMSwtMjA3MDI1NDg2MywtNjQyNjE3NT
-U3LC03MjY1Njc2ODYsLTg0ODM5ODY4Myw5MTM0NjEzNzcsLTE3
-ODE4ODczNTldfQ==
+eyJoaXN0b3J5IjpbLTIxMjQxMTk1NzksLTg4MDY4Nzg1LC0xNj
+kwOTYxNDA4LC05MDc3NTc4NDQsLTE1MTYzNzQ5NjUsNzQwOTE2
+MTIxLDg3OTEyOTk2LDEwOTg5MTcwODksLTIwNDM1MTE1OTMsLT
+EyMDg5MTA0MTIsLTcyODcxNzI0MiwxOTAwOTE1NzIxLC0xMjY5
+NDEzMzA2LC0xMjUwODIxNzExLC0yMDcwMjU0ODYzLC02NDI2MT
+c1NTcsLTcyNjU2NzY4NiwtODQ4Mzk4NjgzLDkxMzQ2MTM3Nywt
+MTc4MTg4NzM1OV19
 -->
