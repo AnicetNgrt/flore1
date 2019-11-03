@@ -23,19 +23,22 @@ Therefore, please consider donating, it will greatly support this project !
 
 # <a name="features"></a>What can it do ?
 *The best thing to do would be to take a look at the [tutorials](#tuto), they tend to cover everything the latest build can do.*
-#### For now, what it does the best is rendering:
- -   Interpret an easy syntax for creating text based sprites with color.
- -   Convert pictures to text based sprites.
- -   Manage picture's transparency.
- -   Create scenes with defined resolution, position and frame rate.
- -   Render sprites in a scene.
- -   Move sprites in a scene.
- -   Convert all the pictures in a directory to a flipbook.
- -   Display sprites with layers, transparency and depth management.
- -   Add custom functions to the game loop.
- -   Sync/unsync the looped functions with render speed (fps stabilisation).
- -  Play flibook in a scene at a desired frame rate. 
+#### Graphics wise:
+-   Interpret an easy syntax for creating text based sprites with color.
+-   Convert pictures to text based sprites.
+-   Manage picture's transparency.
+-   Create scenes with defined resolution, position and frame rate.
+-   Render sprites in a scene.
+-   Move sprites in a scene.
+-   Convert all the pictures in a directory to a flipbook.
+-   Display sprites with layers, transparency and depth management.
+-   Add custom functions to the game loop.
+-   Sync/unsync the looped functions with render speed (fps stabilisation).
+-  Play flibook in a scene at a desired frame rate. 
 
+#### Input handling wise:
+- Input profiles for easy key customization
+- Tell if one key is pressed in the p
 #  <a name="roadmap"></a>What is planned ?
 - `Gradually` Documentation and tutorials
 - `Gradually` Quality of life improvements
@@ -1211,11 +1214,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNzc1Nzg0NCwtMTUxNjM3NDk2NSw3ND
-A5MTYxMjEsODc5MTI5OTYsMTA5ODkxNzA4OSwtMjA0MzUxMTU5
-MywtMTIwODkxMDQxMiwtNzI4NzE3MjQyLDE5MDA5MTU3MjEsLT
-EyNjk0MTMzMDYsLTEyNTA4MjE3MTEsLTIwNzAyNTQ4NjMsLTY0
-MjYxNzU1NywtNzI2NTY3Njg2LC04NDgzOTg2ODMsOTEzNDYxMz
-c3LC0xNzgxODg3MzU5LC0xNzg5MDM3ODI2LDE0MTUyMDE3MDEs
-LTE1MzIwMDI5NTldfQ==
+eyJoaXN0b3J5IjpbLTEyNDkzODc4MjgsLTkwNzc1Nzg0NCwtMT
+UxNjM3NDk2NSw3NDA5MTYxMjEsODc5MTI5OTYsMTA5ODkxNzA4
+OSwtMjA0MzUxMTU5MywtMTIwODkxMDQxMiwtNzI4NzE3MjQyLD
+E5MDA5MTU3MjEsLTEyNjk0MTMzMDYsLTEyNTA4MjE3MTEsLTIw
+NzAyNTQ4NjMsLTY0MjYxNzU1NywtNzI2NTY3Njg2LC04NDgzOT
+g2ODMsOTEzNDYxMzc3LC0xNzgxODg3MzU5LC0xNzg5MDM3ODI2
+LDE0MTUyMDE3MDFdfQ==
 -->
