@@ -646,18 +646,20 @@ Here you will find detailed explanations for everything you may want to use from
 ## <a name="input"></a>📜 InputHandler [class](#classes)
 The InputHandler class handles the keyboard and the mouse using the python [keyboard](https://github.com/boppreh/keyboard) and [mouse](https://github.com/boppreh/mouse) packages. Although it features many engine exclusive methods to handle them in a way a game engine would need.
 
-**About key names**:
+##### About key names:
 - Letter keys' name is always the lowercase letters `a key = 'a', b key = 'b'`. 
 - Symbol keys' name is always the lowercase symbols `- key = '-'`
-- Special keys' name is oft `space key = "space", escape key = "escape", left control key = "left control"` 
+- Special keys' name can be deduced `space key = "space", escape key = "escape", left control key = "left control"` 
 
  ### <a name="input-props"></a>Properties
  - [keys](#input.keys)
 
 ### <a name="input-methods"></a>Methods
-- [\_\_init\_\_](#flipbook-init) 
-- [start](#flipbook-start) 
-- [stop](#flipbook-stop) 
+- [\_\_init\_\_](#input-init) 
+- [set_key](#input-start) 
+- [user_add_key](#input-stop) 
+- [add_key](#input-add_key)
+- 
 
 
 ---
@@ -1234,11 +1236,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTIzMzQzODAsLTkwNzc1Nzg0NCwtMT
-UxNjM3NDk2NSw3NDA5MTYxMjEsODc5MTI5OTYsMTA5ODkxNzA4
-OSwtMjA0MzUxMTU5MywtMTIwODkxMDQxMiwtNzI4NzE3MjQyLD
-E5MDA5MTU3MjEsLTEyNjk0MTMzMDYsLTEyNTA4MjE3MTEsLTIw
-NzAyNTQ4NjMsLTY0MjYxNzU1NywtNzI2NTY3Njg2LC04NDgzOT
-g2ODMsOTEzNDYxMzc3LC0xNzgxODg3MzU5LC0xNzg5MDM3ODI2
-LDE0MTUyMDE3MDFdfQ==
+eyJoaXN0b3J5IjpbLTQzNDcxMjk1NSwtOTA3NzU3ODQ0LC0xNT
+E2Mzc0OTY1LDc0MDkxNjEyMSw4NzkxMjk5NiwxMDk4OTE3MDg5
+LC0yMDQzNTExNTkzLC0xMjA4OTEwNDEyLC03Mjg3MTcyNDIsMT
+kwMDkxNTcyMSwtMTI2OTQxMzMwNiwtMTI1MDgyMTcxMSwtMjA3
+MDI1NDg2MywtNjQyNjE3NTU3LC03MjY1Njc2ODYsLTg0ODM5OD
+Y4Myw5MTM0NjEzNzcsLTE3ODE4ODczNTksLTE3ODkwMzc4MjYs
+MTQxNTIwMTcwMV19
 -->
