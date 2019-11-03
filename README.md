@@ -635,20 +635,22 @@ Here you will find detailed explanations for everything you may want to use from
 - With most fonts, 1 char width = 1/2 char height, always keep this in mind. If the docs don't talk about a `width` parameter or a `x` parameter being "1/2 of its true value" or "multiplied by 2" it means your `width` or your `x` may be the half of what you expect.
 - Never give the `self` argument when calling methods.
 ## <a name="classes"></a>Classes
-*📁flore1/flore1.py*
+`flore1/flore1.py`
  - [InputHandler](#input)  
  - [Flipbook](#flipbook) 
  - [Refresh](#refresh) 
  - [Graphics](#engine) 
 
- *📁flore1/flore1.py*
+ `flore1/VIRTUALSCENE/virtualscene.py`
 
  - [Graphics.VirtualScene](#engine.virtualscene) *`Scenes`*
 
-*📁flore1/flore1.py*
+`flore1/TEXTASSET/virtualscene.py`
+
 - [Graphics.TextAsset](#engine.textasset) *`Assets`*
 
-*📁flore1/flore1.py*
+`flore1/flore1.py`
+
 - [Graphics.TextAsset.TextSprite](#engine.textasset.textsprite) *`Sprites`*
 
 ## <a name="input"></a>📜 InputHandler [class](#classes)
@@ -1244,11 +1246,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2ODI4ODE3NSwtODgwNjg3ODUsLTE2OT
-A5NjE0MDgsLTkwNzc1Nzg0NCwtMTUxNjM3NDk2NSw3NDA5MTYx
-MjEsODc5MTI5OTYsMTA5ODkxNzA4OSwtMjA0MzUxMTU5MywtMT
-IwODkxMDQxMiwtNzI4NzE3MjQyLDE5MDA5MTU3MjEsLTEyNjk0
-MTMzMDYsLTEyNTA4MjE3MTEsLTIwNzAyNTQ4NjMsLTY0MjYxNz
-U1NywtNzI2NTY3Njg2LC04NDgzOTg2ODMsOTEzNDYxMzc3LC0x
-NzgxODg3MzU5XX0=
+eyJoaXN0b3J5IjpbLTE1MzE3Nzk2NzksLTg4MDY4Nzg1LC0xNj
+kwOTYxNDA4LC05MDc3NTc4NDQsLTE1MTYzNzQ5NjUsNzQwOTE2
+MTIxLDg3OTEyOTk2LDEwOTg5MTcwODksLTIwNDM1MTE1OTMsLT
+EyMDg5MTA0MTIsLTcyODcxNzI0MiwxOTAwOTE1NzIxLC0xMjY5
+NDEzMzA2LC0xMjUwODIxNzExLC0yMDcwMjU0ODYzLC02NDI2MT
+c1NTcsLTcyNjU2NzY4NiwtODQ4Mzk4NjgzLDkxMzQ2MTM3Nywt
+MTc4MTg4NzM1OV19
 -->
