@@ -101,7 +101,7 @@ Edit `main.py` to look like this:
 import flore1 # we will need this to access the engine's classes
 import time # will be useful at the end
 
-# let's create our Engine instance !
+# let's create our Graphics instance !
 Graphics = flore1.Graphics(
     auto_scale = True, # Whether the terminal should be rescaled
     win_mode = False # If you have display issues, you may want to set this to True
@@ -127,7 +127,7 @@ building_manual = [
 	"Now I will do an ASCII army of squids just for the sake of it:",
 	"(S 0-o0)S  (S 0-o0)S  (S 0-o0)S  (S 0-o0)S  (S 0-o0)S  (S 0-o0)S"
 ]
-super_asset = Engine.TextAsset(building_manual)
+super_asset = Graphics.TextAsset(building_manual)
  # This is our "Text Asset". Every time we will want to create a sprite
  # with this same building manual, we will create it from this Text Asset
 ```
@@ -143,7 +143,7 @@ In order to display our sprite, we will need a Scene instance to put it in.
 So let's create it too:
 ```python
 # following the previously given code:
-Scene = Engine.new_scene("super cool name",
+Scene = Graphics.new_scene("super cool name",
     res_x = 64, # don't mind thoses for now
     res_y = 32,
     coord_x = 10,
@@ -195,7 +195,7 @@ Let's look at it:
 import flore1
 import time
 
-Engine = flore1.Engine(
+Graphics = flore1.Graphics(
     auto_scale = True, # Wether the terminal should be rescaled
     win_mode = False # If you have display issues, you may want to set this to True
     )
@@ -206,10 +206,10 @@ building_manual = [
 	"Now I will do an ASCII army of squids just for the sake of it:",
 	"fc:200(S 0-o0)S  (S 0-o0)S  (S 0-o0)S  (S 0-o0)S  (S 0-o0)S  (S 0-o0)Scc:0"
 ]
-super_asset = Engine.TextAsset(building_manual)
+super_asset = Graphics.TextAsset(building_manual)
 super_sprite = super_asset.to_sprite()
 
-Scene = Engine.new_scene("super cool name",
+Scene = Graphics.new_scene("super cool name",
     res_x = 64,
     res_y = 32,
     coord_x = 10,
@@ -1215,7 +1215,7 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNDEyMTE4MiwtOTA3NzU3ODQ0LC0xNT
+eyJoaXN0b3J5IjpbMTc2MTgyNzEyNSwtOTA3NzU3ODQ0LC0xNT
 E2Mzc0OTY1LDc0MDkxNjEyMSw4NzkxMjk5NiwxMDk4OTE3MDg5
 LC0yMDQzNTExNTkzLC0xMjA4OTEwNDEyLC03Mjg3MTcyNDIsMT
 kwMDkxNTcyMSwtMTI2OTQxMzMwNiwtMTI1MDgyMTcxMSwtMjA3
