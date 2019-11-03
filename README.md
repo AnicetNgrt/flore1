@@ -635,23 +635,23 @@ Here you will find detailed explanations for everything you may want to use from
 - With most fonts, 1 char width = 1/2 char height, always keep this in mind. If the docs don't talk about a `width` parameter or a `x` parameter being "1/2 of its true value" or "multiplied by 2" it means your `width` or your `x` may be the half of what you expect.
 - Never give the `self` argument when calling methods.
 ## <a name="classes"></a>Classes
-`flore1/flore1.py`
+[[->]]() `flore1/flore1.py`
  - [InputHandler](#input)  
  - [Flipbook](#flipbook) 
  - [Refresh](#refresh) 
  - [Graphics](#engine) 
 
- `flore1/VIRTUALSCENE/virtualscene.py`
+[[->]]() `flore1/VIRTUALSCENE/virtualscene.py`
 
- - [Graphics.VirtualScene](#engine.virtualscene) *`aka Scenes`*
+ - [Graphics.VirtualScene](#engine.virtualscene) *Scenes*
 
-`flore1/TEXTASSET/textasset.py`
+[[->]]() `flore1/TEXTASSET/textasset.py`
 
-- [Graphics.TextAsset](#engine.textasset) *` = Assets`*
+- [Graphics.TextAsset](#engine.textasset) *Assets*
 
-`flore1/TEXTASSET/TEXTSPRITE/textsprite.py`
+[[->]]() `flore1/TEXTASSET/TEXTSPRITE/textsprite.py`
 
-- [Graphics.TextAsset.TextSprite](#engine.textasset.textsprite) *`Sprites`*
+- [Graphics.TextAsset.TextSprite](#engine.textasset.textsprite) *Sprites*
 
 ## <a name="input"></a>📜 InputHandler [class](#classes)
 The InputHandler class handles the keyboard and the mouse using the python [keyboard](https://github.com/boppreh/keyboard) and [mouse](https://github.com/boppreh/mouse) packages. Although it features many engine exclusive methods to handle them in a way a game engine would need.
@@ -1246,7 +1246,7 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU5ODI1NTg3LC04ODA2ODc4NSwtMTY5MD
+eyJoaXN0b3J5IjpbMzQ2OTMxMTA1LC04ODA2ODc4NSwtMTY5MD
 k2MTQwOCwtOTA3NzU3ODQ0LC0xNTE2Mzc0OTY1LDc0MDkxNjEy
 MSw4NzkxMjk5NiwxMDk4OTE3MDg5LC0yMDQzNTExNTkzLC0xMj
 A4OTEwNDEyLC03Mjg3MTcyNDIsMTkwMDkxNTcyMSwtMTI2OTQx
