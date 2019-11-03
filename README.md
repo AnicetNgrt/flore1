@@ -638,10 +638,10 @@ Here you will find detailed explanations for everything you may want to use from
  
  - [Flipbook](#flipbook) 
  - [Refresh](#refresh)
- - [Engine](#engine)
-	 - [Engine.VirtualScene](#engine.virtualscene) *`Scenes`*
-	 - [Engine.TextAsset](#engine.textasset) *`Assets`*
-		 - [Engine.TextAsset.TextSprite](#engine.textasset.textsprite) *`Sprites`*
+ - [Graphics](#engine)
+	 - [Graphics.VirtualScene](#engine.virtualscene) *`Scenes`*
+	 - [Graphics.TextAsset](#engine.textasset) *`Assets`*
+		 - [Graphics.TextAsset.TextSprite](#engine.textasset.textsprite) *`Sprites`*
 ## <a name="flipbook"></a>📜 Flipbook [class](#classes)
 
 
@@ -668,14 +668,14 @@ Inits the Flipbook:
 
 ##### - Prototype:
 ```python
-def __init__(self, Engine, Refresh, Sprite, path="", size=[32, 32], transparent_rgb=(-1, -1, -1), fps=24, sync=True)
+def __init__(self, Graphics, Refresh, Sprite, path="", size=[32, 32], transparent_rgb=(-1, -1, -1), fps=24, sync=True)
 ```
 ##### - Return value:
 No return value
 ##### - Arguments:
 | [ in ] | type  | condition | description |
 |--|--|--|--|
-| Engine | [Engine](#engine) | None | Engine instance that computes for the creation of the flipbook from its set of pictures
+| Graphics | [Graphics](#engine) | None | Graphics instance that computes for the creation of the flipbook from its set of pictures
 | Refresh | [Refresh](#refresh) | None| Refresh instance that runs the flipbook 
 | Sprite | [Sprite](#engine.textasset.textsprite) | None| TextSprite instance that has its texture animated by the flipbook 
 | path | string | Path exists| Path to a folder containing all the frames for the animation in lexicographical order. **Relative to the .py file at the root of the call.**
@@ -1215,11 +1215,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzY4MDk2MjksLTkwNzc1Nzg0NCwtMT
-UxNjM3NDk2NSw3NDA5MTYxMjEsODc5MTI5OTYsMTA5ODkxNzA4
-OSwtMjA0MzUxMTU5MywtMTIwODkxMDQxMiwtNzI4NzE3MjQyLD
-E5MDA5MTU3MjEsLTEyNjk0MTMzMDYsLTEyNTA4MjE3MTEsLTIw
-NzAyNTQ4NjMsLTY0MjYxNzU1NywtNzI2NTY3Njg2LC04NDgzOT
-g2ODMsOTEzNDYxMzc3LC0xNzgxODg3MzU5LC0xNzg5MDM3ODI2
-LDE0MTUyMDE3MDFdfQ==
+eyJoaXN0b3J5IjpbLTY0NTA5Mzc1MywtOTA3NzU3ODQ0LC0xNT
+E2Mzc0OTY1LDc0MDkxNjEyMSw4NzkxMjk5NiwxMDk4OTE3MDg5
+LC0yMDQzNTExNTkzLC0xMjA4OTEwNDEyLC03Mjg3MTcyNDIsMT
+kwMDkxNTcyMSwtMTI2OTQxMzMwNiwtMTI1MDgyMTcxMSwtMjA3
+MDI1NDg2MywtNjQyNjE3NTU3LC03MjY1Njc2ODYsLTg0ODM5OD
+Y4Myw5MTM0NjEzNzcsLTE3ODE4ODczNTksLTE3ODkwMzc4MjYs
+MTQxNTIwMTcwMV19
 -->
