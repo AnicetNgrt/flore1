@@ -512,12 +512,12 @@ Note that the original source I gave lets you download a folder containing all i
 ```python
 import flore1
 
-Engine = flore1.Engine(
+Graphics = flore1.Graphics(
 	auto_scale=True, 
 	win_mode=False
 	)
 	
-Scene = Engine.new_scene('main', 
+Scene = Graphics.new_scene('main', 
 	res_x=100, # we need a large scene
 	res_y=100, # for our 100*100px gif
 	coord_x=1, 
@@ -530,7 +530,7 @@ Scene = Engine.new_scene('main',
 In order to create a flipbook, you first need to create an empty sprite for your flipbook:
 ```python
 # following the previously given code:
-explosion_sprt = Engine.new_sprite() 
+explosion_sprt = Graphics.new_sprite() 
 ```
 But you also need to create a Refresh which will run our animation:
 ```python
@@ -541,7 +541,7 @@ Now let's create our flipbook, it requires many parameters, I advice you read my
 ```python
 # following the previously given code:
 explosion_fb = flore1.Flipbook(
-	Engine, # our engine instance
+	Graphics, # our graphics instance
 	Refresh, # the refresh instance that will run the sprite
 	explosion_sprt, # the empty sprite that will be animated by our flipbook
 	path='assets/explosion/', # the path to the folder containing our frames 
@@ -595,7 +595,7 @@ In order to get the frames, I advice you read at least the very beginning of thi
 
 import flore1
 
-Engine = flore1.Engine(auto_scale=True, win_mode=False)
+Graphics = flore1.Graphics(auto_scale=True, win_mode=False)
 Scene = Engine.new_scene(
 	'main', 
 	res_x=100, 
@@ -607,10 +607,10 @@ Scene = Engine.new_scene(
 
 Refresh = flore1.Refresh(fps=60)
 
-explosion_sprt = Engine.new_sprite()
+explosion_sprt = Graphics.new_sprite()
 Scene.put(explosion_sprt, -10, -5, 3)
 explosion_fb = flore1.Flipbook(
-	Engine, 
+	Graphics, 
 	Refresh, 
 	explosion_sprt, 
 	path='assets/explosion/', 
@@ -1215,11 +1215,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NzA2MDU2OSwtOTA3NzU3ODQ0LC0xNT
-E2Mzc0OTY1LDc0MDkxNjEyMSw4NzkxMjk5NiwxMDk4OTE3MDg5
-LC0yMDQzNTExNTkzLC0xMjA4OTEwNDEyLC03Mjg3MTcyNDIsMT
-kwMDkxNTcyMSwtMTI2OTQxMzMwNiwtMTI1MDgyMTcxMSwtMjA3
-MDI1NDg2MywtNjQyNjE3NTU3LC03MjY1Njc2ODYsLTg0ODM5OD
-Y4Myw5MTM0NjEzNzcsLTE3ODE4ODczNTksLTE3ODkwMzc4MjYs
-MTQxNTIwMTcwMV19
+eyJoaXN0b3J5IjpbLTEzNzY4MDk2MjksLTkwNzc1Nzg0NCwtMT
+UxNjM3NDk2NSw3NDA5MTYxMjEsODc5MTI5OTYsMTA5ODkxNzA4
+OSwtMjA0MzUxMTU5MywtMTIwODkxMDQxMiwtNzI4NzE3MjQyLD
+E5MDA5MTU3MjEsLTEyNjk0MTMzMDYsLTEyNTA4MjE3MTEsLTIw
+NzAyNTQ4NjMsLTY0MjYxNzU1NywtNzI2NTY3Njg2LC04NDgzOT
+g2ODMsOTEzNDYxMzc3LC0xNzgxODg3MzU5LC0xNzg5MDM3ODI2
+LDE0MTUyMDE3MDFdfQ==
 -->
