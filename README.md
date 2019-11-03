@@ -875,11 +875,11 @@ Creates an [Graphics.VirtualScene](#engine.virtualscene) instance, puts it insid
 def new_scene(self, name, coord_x, coord_y, res_x, res_y, layer_count)
 ```
 ##### - Return value:
-[Engine.VirtualScene](#engine.virtualscene): The scene just created.
+[Graphics.VirtualScene](#engine.virtualscene): The scene just created.
 ##### - Arguments:
 | [ in ] | type | condition | description
 |--|--|--|--|
-| name | string | != "" | The key of the scene in the [Engine.vscenes](#engine.vscenes) dictionnary
+| name | string | != "" | The key of the scene in the [Graphics.vscenes](#engine.vscenes) dictionnary
 | coord_x | integer | > 0 | The distance of the scene from the terminal's left border in chars
 | coord_y | integer | > 0 | The distance of the scene frome the terminal's top border in chars  
 | res_x | float | > 0 | 1/2 of the width of the scene in chars. (multiplied by 2 and then  rounded)
@@ -889,7 +889,7 @@ def new_scene(self, name, coord_x, coord_y, res_x, res_y, layer_count)
 ---
 ### <a name="engine-del_scene"></a>🧰 del_scene [method](#engine-methods)
 ##### - Description:
-Deletes an entry in [Engine.vscenes](#engine.vscenes). **This will delete the [Engine.VirtualScene](#engine.virtualscene) instance itself.**
+Deletes an entry in [Graphics.vscenes](#engine.vscenes). **This will delete the [Graphics.VirtualScene](#engine.virtualscene) instance itself.**
 ##### - Prototype:
 ```python
 def del_scene(self, name)
@@ -903,13 +903,13 @@ No return value
 ---
 ### <a name="engine-new_sprite"></a>🧰 new_sprite [method](#engine-methods)
 ##### - Description:
-Creates and return an empty [Engine.TextAsset.TextSprite](#engine.textasset.textsprite) (sprite) instance. You can put it in a scene, but if you do not set its asset property before showing the scene, it may crash.
+Creates and return an empty [Graphics.TextAsset.TextSprite](#engine.textasset.textsprite) (sprite) instance. You can put it in a scene, but if you do not set its asset property before showing the scene, it may crash.
 ##### - Prototype:
 ```python
 def new_sprite(self)
 ```
 ##### - Return value:
-[Engine.TextAsset.TextSprite](#engine.textasset.textsprite) An empty sprite
+[Graphics.TextAsset.TextSprite](#engine.textasset.textsprite) An empty sprite
 ##### - Arguments:
 None
 
@@ -917,7 +917,7 @@ None
 
 ### <a name="engine-pic_to_textasset"></a>🧰 pic_to_textAsset [method](#engine-methods)
 ##### - Description:
-Opens, rescale if needed, and gathers the color palette for a picture with the `Pillow` library, and then converts it to an array of strings called a "building manual". Then it calls [`Engine.TextAsset(building_manual)`](#Engine.TextAsset) and returns the Asset resulting from this.
+Opens, rescale if needed, and gathers the color palette for a picture with the `Pillow` library, and then converts it to an array of strings called a "building manual". Then it calls [`Graphics.TextAsset(building_manual)`](#Engine.TextAsset) and returns the Asset resulting from this.
 - Compatible with `.png`, `.jpg`, `.jpeg`, static `.gif`, and `.svg` pictures.
 - Putting a rgb code that is not part of your picture's color palette is the appropriate way of telling the engine that this picture has no transparency.
 - Letting the `new_size` argument as `"AUTO"` will resize the picture so it fits within 128x128px.
@@ -936,7 +936,7 @@ None
 ---
 ### <a name="engine.auto_scale"></a>📌 auto_scale [property](#engine-props) 
 ##### Description: 
-Boolean: Whether the [Engine.VirtualScene(s)](#engine.virtualscene) created with this [Engine](#engine) instance's [`new_scene()`](#engine.new_scene) method will try to rescale the terminal window.
+Boolean: Whether the [Graphics.VirtualScene(s)](#engine.virtualscene) created with this [Graphics](#engine) instance's [`new_scene()`](#engine.new_scene) method will try to rescale the terminal window.
 ### <a name="engine.vscenes"></a>📌 vscenes [property](#engine-props) 
 ##### Description: 
 Dictionnary of all the [Engine.VirtualScene(s)](#engine.virtualscene) instances created with this [Engine](#engine) instance's [`new_scene()`](#engine.new_scene) method mapped by their names.
@@ -1215,11 +1215,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDUwNjQ3NjUsLTkwNzc1Nzg0NCwtMT
-UxNjM3NDk2NSw3NDA5MTYxMjEsODc5MTI5OTYsMTA5ODkxNzA4
-OSwtMjA0MzUxMTU5MywtMTIwODkxMDQxMiwtNzI4NzE3MjQyLD
-E5MDA5MTU3MjEsLTEyNjk0MTMzMDYsLTEyNTA4MjE3MTEsLTIw
-NzAyNTQ4NjMsLTY0MjYxNzU1NywtNzI2NTY3Njg2LC04NDgzOT
-g2ODMsOTEzNDYxMzc3LC0xNzgxODg3MzU5LC0xNzg5MDM3ODI2
-LDE0MTUyMDE3MDFdfQ==
+eyJoaXN0b3J5IjpbLTYxOTE2MzI4MCwtOTA3NzU3ODQ0LC0xNT
+E2Mzc0OTY1LDc0MDkxNjEyMSw4NzkxMjk5NiwxMDk4OTE3MDg5
+LC0yMDQzNTExNTkzLC0xMjA4OTEwNDEyLC03Mjg3MTcyNDIsMT
+kwMDkxNTcyMSwtMTI2OTQxMzMwNiwtMTI1MDgyMTcxMSwtMjA3
+MDI1NDg2MywtNjQyNjE3NTU3LC03MjY1Njc2ODYsLTg0ODM5OD
+Y4Myw5MTM0NjEzNzcsLTE3ODE4ODczNTksLTE3ODkwMzc4MjYs
+MTQxNTIwMTcwMV19
 -->
