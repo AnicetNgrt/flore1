@@ -102,7 +102,7 @@ import flore1 # we will need this to access the engine's classes
 import time # will be useful at the end
 
 # let's create our Engine instance !
-Engine = flore1.Engine(
+Graphics = flore1.Graphics(
     auto_scale = True, # Whether the terminal should be rescaled
     win_mode = False # If you have display issues, you may want to set this to True
     )
@@ -1215,11 +1215,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc3OTI3MjQ4LC05MDc3NTc4NDQsLTE1MT
-YzNzQ5NjUsNzQwOTE2MTIxLDg3OTEyOTk2LDEwOTg5MTcwODks
-LTIwNDM1MTE1OTMsLTEyMDg5MTA0MTIsLTcyODcxNzI0MiwxOT
-AwOTE1NzIxLC0xMjY5NDEzMzA2LC0xMjUwODIxNzExLC0yMDcw
-MjU0ODYzLC02NDI2MTc1NTcsLTcyNjU2NzY4NiwtODQ4Mzk4Nj
-gzLDkxMzQ2MTM3NywtMTc4MTg4NzM1OSwtMTc4OTAzNzgyNiwx
-NDE1MjAxNzAxXX0=
+eyJoaXN0b3J5IjpbLTgxNDEyMTE4MiwtOTA3NzU3ODQ0LC0xNT
+E2Mzc0OTY1LDc0MDkxNjEyMSw4NzkxMjk5NiwxMDk4OTE3MDg5
+LC0yMDQzNTExNTkzLC0xMjA4OTEwNDEyLC03Mjg3MTcyNDIsMT
+kwMDkxNTcyMSwtMTI2OTQxMzMwNiwtMTI1MDgyMTcxMSwtMjA3
+MDI1NDg2MywtNjQyNjE3NTU3LC03MjY1Njc2ODYsLTg0ODM5OD
+Y4Myw5MTM0NjEzNzcsLTE3ODE4ODczNTksLTE3ODkwMzc4MjYs
+MTQxNTIwMTcwMV19
 -->
