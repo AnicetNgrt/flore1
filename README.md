@@ -833,7 +833,7 @@ A float variable that accumulates the frame latency and the frame advance in ord
 
 ---
 ## <a name="engine"></a>📜 Graphics [class](#classes)
-The Graphics takes care of grapgic. 
+The Graphics instance takes care of what is being displayed. 
 ### Subclasses
 -  [VirtualScene](#engine.virtualscene)
 -  [TextAsset](#engine.textasset)
@@ -850,7 +850,7 @@ The Graphics takes care of grapgic.
 - [pic_to_textAsset](#engine-pic_to_textasset) 
 ### <a name="engine-init"></a>🧰 \_\_init\_\_ [method](#engine-methods)
 ##### - Description:
-- Inits the Engine instance:
+- Inits the Graphics instance:
 	- Inits its [auto_scale](#engine.auto_scale) property
 	- Inits its [vvscenes](#engine.vscenes) property
 - Displays the flore1's logo if `logo == True`
@@ -869,7 +869,7 @@ No return value
 ---
 ### <a name="engine-new_scene"></a>🧰 new_scene [method](#engine-methods)
 ##### - Description:
-Creates an [Engine.VirtualScene](#engine.virtualscene) instance, puts it inside the Engine's [vscenes](#engine.vscenes) dictionnary at the `name` entry, and returns it.
+Creates an [Graphics.VirtualScene](#engine.virtualscene) instance, puts it inside the Graphics instance's [vscenes](#engine.vscenes) dictionnary at the `name` entry, and returns it.
 ##### - Prototype:
 ```python
 def new_scene(self, name, coord_x, coord_y, res_x, res_y, layer_count)
@@ -1215,11 +1215,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDkzMzkzMSwtOTA3NzU3ODQ0LC0xNT
-E2Mzc0OTY1LDc0MDkxNjEyMSw4NzkxMjk5NiwxMDk4OTE3MDg5
-LC0yMDQzNTExNTkzLC0xMjA4OTEwNDEyLC03Mjg3MTcyNDIsMT
-kwMDkxNTcyMSwtMTI2OTQxMzMwNiwtMTI1MDgyMTcxMSwtMjA3
-MDI1NDg2MywtNjQyNjE3NTU3LC03MjY1Njc2ODYsLTg0ODM5OD
-Y4Myw5MTM0NjEzNzcsLTE3ODE4ODczNTksLTE3ODkwMzc4MjYs
-MTQxNTIwMTcwMV19
+eyJoaXN0b3J5IjpbLTE1NDUwNjQ3NjUsLTkwNzc1Nzg0NCwtMT
+UxNjM3NDk2NSw3NDA5MTYxMjEsODc5MTI5OTYsMTA5ODkxNzA4
+OSwtMjA0MzUxMTU5MywtMTIwODkxMDQxMiwtNzI4NzE3MjQyLD
+E5MDA5MTU3MjEsLTEyNjk0MTMzMDYsLTEyNTA4MjE3MTEsLTIw
+NzAyNTQ4NjMsLTY0MjYxNzU1NywtNzI2NTY3Njg2LC04NDgzOT
+g2ODMsOTEzNDYxMzc3LC0xNzgxODg3MzU5LC0xNzg5MDM3ODI2
+LDE0MTUyMDE3MDFdfQ==
 -->
