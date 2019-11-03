@@ -939,10 +939,10 @@ None
 Boolean: Whether the [Graphics.VirtualScene(s)](#engine.virtualscene) created with this [Graphics](#engine) instance's [`new_scene()`](#engine.new_scene) method will try to rescale the terminal window.
 ### <a name="engine.vscenes"></a>📌 vscenes [property](#engine-props) 
 ##### Description: 
-Dictionnary of all the [Engine.VirtualScene(s)](#engine.virtualscene) instances created with this [Engine](#engine) instance's [`new_scene()`](#engine.new_scene) method mapped by their names.
+Dictionnary of all the [Graphics.VirtualScene(s)](#engine.virtualscene) instances created with this [Graphics](#engine) instance's [`new_scene()`](#engine.new_scene) method mapped by their names.
 
 ---
-## <a name="engine.virtualscene"></a>📜 Engine.VirtualScene [(sub)class](#classes)
+## <a name="engine.virtualscene"></a>📜 Graphics.VirtualScene [(sub)class](#classes)
 The VirtualScene (or you could say "Scene") instance's job is to display [TextSprite](#engine.textasset.textsprite) instances correctly, and as fast as possible, in the terminal.
 ### <a name="virtualscene-methods"></a>Methods
 - [\_\_init\_\_](#virtualscene-init)
@@ -955,7 +955,7 @@ The VirtualScene (or you could say "Scene") instance's job is to display [TextSp
 ##### - Description:
 - Inits the Scene instance:
 	- Inits all its properties to their default values.
-	- Rescales the terminal window if [Engine.auto_scale](#engine.auto_scale) is set to `True`.
+	- Rescales the terminal window if [Graphics.auto_scale](#engine.auto_scale) is set to `True`.
 
 ##### - Prototype:
 ```python
@@ -988,7 +988,7 @@ No return value
 ##### - Arguments:
 | [ in ] | type | condition | description
 |--|--|--|--|
-| sprite | [Engine.TextAsset.TextSprite](#engine.textasset.textsprite) | none | The Sprite instance to put in the Scene
+| sprite | [Graphics.TextAsset.TextSprite](#engine.textasset.textsprite) | none | The Sprite instance to put in the Scene
 | crd_x | integer | none | Distance of the Sprite to the Scene instance's left border in character width.
 | crd_y | integer | none | Distance of the Sprite to the Scene instance's top border in character height.
 | layer | integer | > 0 and < `len(scene.layers)` | The index of the layer in which you put the Sprite instance.
@@ -1004,7 +1004,7 @@ def erase(self, sprite)
 ##### - Arguments:
 | [ in ] | type | description |
 |--|--|--|
-| sprite | [Engine.TextAsset.TextSprite](#engine.textasset.textsprite) | The Sprite instance to erase from the Scene
+| sprite | [Graphics.TextAsset.TextSprite](#engine.textasset.textsprite) | The Sprite instance to erase from the Scene
 
 ---
 ### <a name="virtualscene-show"></a>🧰 show [method](#virtualscene-methods)
@@ -1022,8 +1022,8 @@ No return value
 | debug | boolean | Whether the debug overlay for this method should be displayed (show fps and frame latency)
 
 ---
-## <a name="engine.textasset"></a>📜 Engine.TextAsset [(sub)class](#classes)
- A TextAsset instance (Asset) is a building manual for creating [TextAsset.TextSprites](#engine.textasset.textsprite). It can convert an easy syntax for creating text based sprites into a format more suitable for the [Engine.VirtualScene](#engine.virtualscene) instance.
+## <a name="engine.textasset"></a>📜 Graphics.TextAsset [(sub)class](#classes)
+ A TextAsset instance (Asset) is a building manual for creating [TextAsset.TextSprites](#engine.textasset.textsprite). It can convert an easy syntax for creating text based sprites into a format more suitable for the [Graphics.VirtualScene](#engine.virtualscene) instance.
  ### Subclass
 -  [TextSprite](#engine.textasset.textsprite)
 ### <a name="textasset-props"></a>Properties
@@ -1215,11 +1215,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxOTE2MzI4MCwtOTA3NzU3ODQ0LC0xNT
-E2Mzc0OTY1LDc0MDkxNjEyMSw4NzkxMjk5NiwxMDk4OTE3MDg5
-LC0yMDQzNTExNTkzLC0xMjA4OTEwNDEyLC03Mjg3MTcyNDIsMT
-kwMDkxNTcyMSwtMTI2OTQxMzMwNiwtMTI1MDgyMTcxMSwtMjA3
-MDI1NDg2MywtNjQyNjE3NTU3LC03MjY1Njc2ODYsLTg0ODM5OD
-Y4Myw5MTM0NjEzNzcsLTE3ODE4ODczNTksLTE3ODkwMzc4MjYs
-MTQxNTIwMTcwMV19
+eyJoaXN0b3J5IjpbLTE5NDA5ODg5OTQsLTkwNzc1Nzg0NCwtMT
+UxNjM3NDk2NSw3NDA5MTYxMjEsODc5MTI5OTYsMTA5ODkxNzA4
+OSwtMjA0MzUxMTU5MywtMTIwODkxMDQxMiwtNzI4NzE3MjQyLD
+E5MDA5MTU3MjEsLTEyNjk0MTMzMDYsLTEyNTA4MjE3MTEsLTIw
+NzAyNTQ4NjMsLTY0MjYxNzU1NywtNzI2NTY3Njg2LC04NDgzOT
+g2ODMsOTEzNDYxMzc3LC0xNzgxODg3MzU5LC0xNzg5MDM3ODI2
+LDE0MTUyMDE3MDFdfQ==
 -->
