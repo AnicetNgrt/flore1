@@ -72,13 +72,13 @@ Therefore, please consider donating, it will greatly support this project !
 # <a name="tuto"></a>Tutorials
 Theses aim to be a fun and beginner-friendly way of learning how to use flore1.  
 ### Table of content:
- 0. [Getting started](#tuto0)
- 1. [Displaying a static text sprite in a scene](#tuto1)
- 2. [Introduction to game loops: Moving a sprite across its scene](#tuto2)
- 3. [Converting a picture to a sprite and displaying it](#tuto3)
- 4. [Flipbooks: Display a gif on the terminal as an animated text sprite](#tuto4)
+ 0. [Getting started](#tuto0) `deprecated needs update`
+ 1. [Displaying a static text sprite in a scene](#tuto1) `deprecated needs update`
+ 2. [Introduction to game loops: Moving a sprite across its scene](#tuto2) `deprecated needs update`
+ 3. [Converting a picture to a sprite and displaying it](#tuto3) `deprecated needs update`
+ 4. [Flipbooks: Display a gif on the terminal as an animated text sprite](#tuto4) `deprecated needs update`
  
-## <a name="tuto0"></a>0/ Getting started:
+## <a name="tuto0"></a>`deprecated needs update` 0/ Getting started: 
 ### 💿 Installation with pip:
   If you don't have python (3.7 or above) and pip installed, install them first.
   
@@ -109,7 +109,7 @@ Graphics = flore1.Graphics(
 
 ```
 This will be the very foundation for the following tutorials.
-## <a name="tuto1"></a>1/ Displaying a static text sprite:
+## <a name="tuto1"></a>`deprecated needs update` 1/ Displaying a static text sprite:
 ### 🧭 What we will do:
 ![enter image description here](https://imgur.com/XVbCCmJ.png)
 This tutorial is about displaying a text sprite in a scene with colors and defined (x, y) position.
@@ -222,7 +222,7 @@ Scene.show()
 
 time.sleep(15)
 ```
-## <a name="tuto2"></a>2/ Introduction to game loops: Moving a sprite across its scene:
+## <a name="tuto2"></a>`deprecated needs update` 2/ Introduction to game loops: Moving a sprite across its scene:
 ### 🧭 What we will do:
 ![fastboi](https://imgur.com/BRbsNUR.gif)
 This tutorial is about moving a sprite across the scene.
@@ -346,7 +346,7 @@ Refresh.feed(*loop_tuple)
 while True:
     Refresh.run()
 ```
-## <a name="tuto3"></a>3/ Converting a picture with transparency to a sprite and displaying it:
+## <a name="tuto3"></a>`deprecated needs update` 3/ Converting a picture with transparency to a sprite and displaying it:
 ### 🧭 What we will do:
 ![wow](https://imgur.com/X3xpstQ.png)This tutorial is about displaying pictures on top of one another with transparency, after having them converted to (text) sprites.
 [-> I just want the code thanks.](#tuto3_code)
@@ -481,7 +481,7 @@ Scene.show()
 
 time.sleep(30)
 ```
-## <a name="tuto4"></a> Flipbooks: Display a gif on the terminal as an animated text sprite
+## <a name="tuto4"></a>`deprecated needs update` Flipbooks: Display a gif on the terminal as an animated text sprite
 ***Disclaimer: featuring free to use assets by [Will Tice](#https://www.patreon.com/bePatron?c=165655&rid=201537)***
 ### 🧭 What we will do:
 
@@ -626,7 +626,7 @@ Refresh.feed(Scene.show,*(),**{})
 while True:
     Refresh.run()
 ```
-#  <a name="doc"></a> Documentation
+#  <a name="doc"></a> Documentation `deprecated needs update`
 Here you will find detailed explanations for everything you may want to use from this library.
 
 **Notes**: 
@@ -1246,11 +1246,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIxMzE0NDIxLDE1ODg2ODAxNzUsLTg4MD
-Y4Nzg1LC0xNjkwOTYxNDA4LC05MDc3NTc4NDQsLTE1MTYzNzQ5
-NjUsNzQwOTE2MTIxLDg3OTEyOTk2LDEwOTg5MTcwODksLTIwND
-M1MTE1OTMsLTEyMDg5MTA0MTIsLTcyODcxNzI0MiwxOTAwOTE1
-NzIxLC0xMjY5NDEzMzA2LC0xMjUwODIxNzExLC0yMDcwMjU0OD
-YzLC02NDI2MTc1NTcsLTcyNjU2NzY4NiwtODQ4Mzk4NjgzLDkx
-MzQ2MTM3N119
+eyJoaXN0b3J5IjpbMTA2MDg0NjQ3Niw5MjEzMTQ0MjEsMTU4OD
+Y4MDE3NSwtODgwNjg3ODUsLTE2OTA5NjE0MDgsLTkwNzc1Nzg0
+NCwtMTUxNjM3NDk2NSw3NDA5MTYxMjEsODc5MTI5OTYsMTA5OD
+kxNzA4OSwtMjA0MzUxMTU5MywtMTIwODkxMDQxMiwtNzI4NzE3
+MjQyLDE5MDA5MTU3MjEsLTEyNjk0MTMzMDYsLTEyNTA4MjE3MT
+EsLTIwNzAyNTQ4NjMsLTY0MjYxNzU1NywtNzI2NTY3Njg2LC04
+NDgzOTg2ODNdfQ==
 -->
