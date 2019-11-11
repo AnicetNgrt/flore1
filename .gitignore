@@ -1,2 +1,11 @@
 /assets/*
+/build/*
+/dist/*
+/flore1.egg-info/*
+/twitch/*
+/__flore1cache__/*
+/palette/*
+/test/*
+/twitch/*
+/.vs/*
 main.py

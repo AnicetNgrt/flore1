@@ -1,8 +1,9 @@
 import setuptools
 
 setuptools.setup(
+    include_package_data=True,
     name="flore1",
-    version="1.5.0",
+    version="1.5.1",
     author="Anicet Nougaret",
     author_email="anicet.nougaret@zohomail.eu",
     description="The first 2D python game engine rendering in the terminal.",
