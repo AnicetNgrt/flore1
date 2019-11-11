@@ -38,8 +38,8 @@ Therefore, please consider donating, it will greatly support this project !
 #### Input handling wise:
 - Input profiles for easy key customization
 - Tell if one of the actions in the input profile has one of its corresponding key pressed.
-- Alternative to `input()` with custom input box
-- No simultaneous key press support for now (coming soon)
+- `alt_input()` Alternative to `input()` which is very customizable
+- Simultaneous / shortcut detection support
 #  <a name="roadmap"></a>What is planned ?
 - `Gradually` Documentation and tutorials
 - `Gradually` Quality of life improvements
@@ -1246,7 +1246,7 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDY1Mzg5NDYsOTIxMzE0NDIxLDE1OD
+eyJoaXN0b3J5IjpbLTIwMDAwODc4MDksOTIxMzE0NDIxLDE1OD
 g2ODAxNzUsLTg4MDY4Nzg1LC0xNjkwOTYxNDA4LC05MDc3NTc4
 NDQsLTE1MTYzNzQ5NjUsNzQwOTE2MTIxLDg3OTEyOTk2LDEwOT
 g5MTcwODksLTIwNDM1MTE1OTMsLTEyMDg5MTA0MTIsLTcyODcx
