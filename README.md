@@ -1,6 +1,9 @@
 # 🌸 Flore 1 
  This is the first **python** 2D game engine **rendering in the terminal**.
  This library features the engine class itself, along with some utilitary classes for a more efficient use of it.
+ ```
+ pip install flore1
+ ```
 
 - **[Quick start](#tuto0)**
 - **[Support Discord server](https://discord.gg/7GE5Zfy)**
@@ -16,10 +19,11 @@ Therefore, please consider donating, it will greatly support this project !
  1. [**Features**](#features)
  2. [**Roadmap**](#roadmap) 
  3. [**Compatibility**](#compat)
- 4. [**Tutorials**](#tuto)
- 5. [**Documentation**](#doc)
- 6. [**Tools**](#tools)
- 7. [**License**](#license)
+ 4. [**Examples**](#examples)
+ 5. [**Tutorials**](#tuto)
+ 6. [**Documentation**](#doc)
+ 7. [**Tools**](#tools)
+ 8. [**License**](#license)
 
 # <a name="features"></a>What can it do ?
 *The best thing to do would be to take a look at the [tutorials](#tuto), they tend to cover everything the latest build can do.*
@@ -627,7 +631,7 @@ Refresh.feed(Scene.show,*(),**{})
 while True:
     Refresh.run()
 ```
-#  <a name="doc"></a> Documentation `deprecated needs update`
+#  <a name="doc"></a> Documentation 
 
 # <a name="tools"></a>Tools
 - [flore1-paint](https://github.com/AnicetNgrt/flore1-paint) An open source paint software for drawing and animating flore1 TextAssets
@@ -648,11 +652,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTA3ODMyMjIsOTIxMzE0NDIxLDE1OD
-g2ODAxNzUsLTg4MDY4Nzg1LC0xNjkwOTYxNDA4LC05MDc3NTc4
-NDQsLTE1MTYzNzQ5NjUsNzQwOTE2MTIxLDg3OTEyOTk2LDEwOT
-g5MTcwODksLTIwNDM1MTE1OTMsLTEyMDg5MTA0MTIsLTcyODcx
-NzI0MiwxOTAwOTE1NzIxLC0xMjY5NDEzMzA2LC0xMjUwODIxNz
-ExLC0yMDcwMjU0ODYzLC02NDI2MTc1NTcsLTcyNjU2NzY4Niwt
-ODQ4Mzk4NjgzXX0=
+eyJoaXN0b3J5IjpbLTg2MjQ5NTQyLC0xODUwNzgzMjIyLDkyMT
+MxNDQyMSwxNTg4NjgwMTc1LC04ODA2ODc4NSwtMTY5MDk2MTQw
+OCwtOTA3NzU3ODQ0LC0xNTE2Mzc0OTY1LDc0MDkxNjEyMSw4Nz
+kxMjk5NiwxMDk4OTE3MDg5LC0yMDQzNTExNTkzLC0xMjA4OTEw
+NDEyLC03Mjg3MTcyNDIsMTkwMDkxNTcyMSwtMTI2OTQxMzMwNi
+wtMTI1MDgyMTcxMSwtMjA3MDI1NDg2MywtNjQyNjE3NTU3LC03
+MjY1Njc2ODZdfQ==
 -->
