@@ -1231,7 +1231,8 @@ The distance in character width of the Sprite to its [Scene](#textsprite.scene)'
 The distance in character height of the Sprite to its [Scene](#textsprite.scene)'s top border.
 
 ---
-# <a name="tools"></a>
+# <a name="tools"></a>Tools
+- [flore1-paint](https://github.com/AnicetNgrt/flore1-paint) An open source paint software for drawing and animating flore1 TextAssets
 ---
 # <a name="license"></a>License
 This library is distributed under a CC-BY-SA license:
@@ -1249,11 +1250,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NDc0MTg3Niw5MjEzMTQ0MjEsMTU4OD
-Y4MDE3NSwtODgwNjg3ODUsLTE2OTA5NjE0MDgsLTkwNzc1Nzg0
-NCwtMTUxNjM3NDk2NSw3NDA5MTYxMjEsODc5MTI5OTYsMTA5OD
-kxNzA4OSwtMjA0MzUxMTU5MywtMTIwODkxMDQxMiwtNzI4NzE3
-MjQyLDE5MDA5MTU3MjEsLTEyNjk0MTMzMDYsLTEyNTA4MjE3MT
-EsLTIwNzAyNTQ4NjMsLTY0MjYxNzU1NywtNzI2NTY3Njg2LC04
-NDgzOTg2ODNdfQ==
+eyJoaXN0b3J5IjpbMjQ3MzUyMTgzLDkyMTMxNDQyMSwxNTg4Nj
+gwMTc1LC04ODA2ODc4NSwtMTY5MDk2MTQwOCwtOTA3NzU3ODQ0
+LC0xNTE2Mzc0OTY1LDc0MDkxNjEyMSw4NzkxMjk5NiwxMDk4OT
+E3MDg5LC0yMDQzNTExNTkzLC0xMjA4OTEwNDEyLC03Mjg3MTcy
+NDIsMTkwMDkxNTcyMSwtMTI2OTQxMzMwNiwtMTI1MDgyMTcxMS
+wtMjA3MDI1NDg2MywtNjQyNjE3NTU3LC03MjY1Njc2ODYsLTg0
+ODM5ODY4M119
 -->
