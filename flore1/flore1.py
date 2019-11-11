@@ -8,368 +8,324 @@
 
 # Python native
 import ctypes
-import time
+import sys
 import math
+import time
 import os
-import msvcrt
+from functools import lru_cache
 
-# PypI
-from PIL import Image
+# pypI
 import keyboard
+import clipboard
 
-# Local
-from .util import get_palette_in_rgb, nearest_rgb_to_ansi
-from .ansiRGB import ANSI_RGB
+# local
+from .engine_classes import *
 
-# ------------------------------------------------------------
+# -----------------------------------------------------------
 
-# ------------------------------------------------------------
-# ------------------  INPUTHANDLER CLASS  --------------------
-# ------------------------------------------------------------
-class InputHandler:
-    def __init__(self, keys={}):
-        self.keys = keys
+def resize_console(col, row):
+    os.system('mode con: cols=' + str(col) + ' lines=' + str(row) + '')
 
-# ------------------------------------------------------------
+def create_dir_and_file(dir, name):
+    path = os.path.join(dir, name)
+    if not os.path.exists(dir):
+        os.makedirs(dir, exist_ok=True)
+    open(path, 'a').close()
+    return path
 
-    def set_key(self, name, keys = []):
-        self.keys[name] = keys
+def save_var_as(var, dir, filename, ext):
+    if not filename.endswith(ext):
+        path = create_dir_and_file(dir, filename+ext)
+    else:
+        path = create_dir_and_file(dir, filename)
+    with open(path, "r+") as f:
+        if os.path.getsize(path) == 0:
+            f.write(str(var))
+    return path
 
-# ------------------------------------------------------------
-
-    def user_add_key(self, name, keys = []):
-        try:
-            self.keys[name].append(keyboard.read_hotkey(suppress=True))
-        except:
-            pass
-
-# ------------------------------------------------------------
-
-    def add_key(self, name, key):
-        try:
-            self.keys[name].append(key)
-        except:
-            pass
-
-# ------------------------------------------------------------
-
-    def del_key(self, name, key):
-        try:
-            self.keys[name].remove(key)
-        except:
-            pass
-
-# ------------------------------------------------------------
-
-    def is_pressed(self, name):
-        try:
-            for key in self.keys[name]:
-                if keyboard.is_pressed(key):
-                    return True
-        except:
-            pass
-
-        return False
-# ------------------------------------------------------------
-
-
-# ------------------------------------------------------------
-# ------------------    FLIPBOOK CLASS   ---------------------
-# ------------------------------------------------------------
-class Flipbook:
-    def __init__(self, Graphics, Refresh, Sprite, path="", size=[32, 32], transparent_rgb=(-1, -1, -1), fps=24, sync=True):
-        self.Refresh = Refresh
-        self.asset_list = []
-        if not os.path.exists(path): return
-
-        for file in sorted(os.listdir(path)):
-            filename = os.fsdecode(file)
-            if filename.endswith(".png") or filename.endswith(".jpg") or filename.endswith(".gif"):
-                asset_path = os.path.join(path, filename)
-                self.asset_list.append(Graphics.pic_to_textAsset(asset_path, size, transparent_rgb))
-
-        def play(Sprite, asset_list, fps):
-            if not hasattr(play, "last_frame"):
-                play.last_frame = -1
-            if not hasattr(play, "frame"):
-                play.frame = 0
-            if not hasattr(play, "speed"):
-                fps_ratio = play.refresh.fps / fps
-                if fps_ratio > 1:
-                    play.speed = 1 / fps_ratio
-                else:
-                    play.speed = fps_ratio
-
-            #print("\033["+str(len(asset_list)-1)+";1H "+("%2s" % str(play.speed)))
-            #print("\033["+str(len(asset_list))+";1H "+("%2s" % str(play.last_frame)))
-
-            play.frame = play.speed * play.i
-            crt_frame = math.floor(play.frame) % len(asset_list)
-
-            if crt_frame != play.last_frame:
-                Sprite.set_asset(asset_list[crt_frame])
-
-            play.last_frame = crt_frame
-
-        play.sync = sync
-        self.material = (play, Sprite, self.asset_list, fps)
-
-# ------------------------------------------------------------
-
-    def start(self):
-        if not self.Refresh.is_fed_with(*self.material):
-            self.Refresh.feed(*self.material)
-            return True
+def load_var_from(path):
+    if not os.path.exists(path):
+        print("PATH DOES NOT EXIST")
+        time.sleep(2)
+        return None
+    with open(path, "r") as f:
+        if os.path.getsize(path) <= 999999999:
+            return eval(f.read())
         else:
-            return False
-
-# ------------------------------------------------------------
-
-    def stop(self):
-        if self.Refresh.is_fed_with(*self.material):
-            self.Refresh.terminate(*self.material)
-            return True
-        else:
-            return False
-# ------------------------------------------------------------
-
-
-# ------------------------------------------------------------
-# ------------------    REFRESH CLASS    ---------------------
-# ------------------------------------------------------------
-class Refresh:
-    def __init__(self, fps=35):
-        self.fps = fps
-        self.pv_i = 0
-        self.i = 0
-        self.pv_frame = 0
-        self.frame = 0
-        self.stack = []
-
-# ------------------------------------------------------------
-
-    def terminate(self, func, *args, **kwargs):
-        self.stack.remove((func, args, kwargs))
-
-# ------------------------------------------------------------
-
-    def is_fed_with(self, func, *args, **kwargs):
-        if (func, args, kwargs) in self.stack:
-            return True
-        else:
-            return False
-
-# ------------------------------------------------------------
-
-    def feed(self, func, *args, **kwargs):
-        self.stack.append((func, args, kwargs))
-
-# ------------------------------------------------------------
-
-    def do(self):
-        for func, args, kwargs in self.stack:
-            if hasattr(func, "refresh") == False:
-                func.__dict__["refresh"] = self
-            if hasattr(func, "sync") == False:
-                func.__dict__["sync"] = True
-            if not hasattr(func, "i"):
-                func.__dict__["i"] = 0
-            if not hasattr(func, "last_i"):
-                func.__dict__["last_i"] = 0
-            else:
-                func.__dict__["last_i"] = func.__dict__["i"]
-
-                if func.sync == True and (self.frame-self.pv_frame) > 0:
-                    func.__dict__["i"] += self.frame-self.pv_frame
-                    func(*args, **kwargs)
-                elif func.sync == False:
-                    func.__dict__["i"] += 1
-                    func(*args, **kwargs)
-
-
-
-# ------------------------------------------------------------
-
-    def run(self, debug=False):
-        required_fps = self.fps
-
-        start_time = time.time()
-
-        self.do()
-
-        exec_time = time.time()
-        latency = exec_time - start_time
-
-        if latency < 0.0001: latency = 0.0001
-
-        fps = 1 / latency
-
-        self.pv_frame = self.frame
-        self.pv_i = self.i
-
-        if fps > required_fps:
-            time.sleep(((1 / required_fps) - latency)/1.1)
-            self.i += 1
-
-        if required_fps >= fps:
-            self.i += required_fps / fps
-
-        self.frame = round(self.i)
-        #print(self.i)
-
-        if debug:
-            otp = "\33[0m\033[1;0H| >>>> Refresh.\33[34mrun \33[33mdebug"
-            print(otp)
-
-            otp = "\033[2;0H\33[0m|\u001b[38;5;15m\u001b[48;5;16m  INVERTED_LATENCY_CAP: "
-            print(otp + str(self.fps))
-
-            otp = "\33[0m\033[3;0H|\u001b[48;5;16m\u001b[38;5;15m  LATENCY: "
-            print("%s%1.2f   " % (otp, latency))
-
-            otp = "\033[4;0H\33[0m|\u001b[38;5;16m"
-            if fps >= self.fps:
-                otp += "\u001b[48;5;85m"
-            elif self.fps * 0.8 <= fps < self.fps:
-                otp += "\u001b[48;5;87m"
-            elif self.fps * 0.5 <= fps < self.fps * 0.8:
-                otp += "\u001b[48;5;221m"
-            elif self.fps * 0.2 <= fps < self.fps * 0.5:
-                otp += "\u001b[48;5;202m"
-            else:
-                otp += "\u001b[48;5;9m"
-            otp += "  EXECUTION_FREQUENCY: "
-            print("%s%1.2f   " % (otp, fps))
-
-            otp = "\33[0m\033[5;0H|\u001b[48;5;16m\u001b[38;5;15m  FRAME_DIFF: "
-            print("%s%1.2f   " % (otp, self.frame-self.pv_frame))
-
-            otp = "\33[0m\033[6;0H|\u001b[48;5;16m\u001b[38;5;15m  ACCUMULATOR_DIFF: "
-            print("%s%1.2f   " % (otp, self.i-self.pv_i))
-
-            final_time = time.time()
-            total_latency = final_time - start_time
-            otp = "\33[0m\033[7;0H|\u001b[38;5;15m\u001b[48;5;16m  STABILISED_FREQUENCY: "
-            print("%s%1.2f   " % (otp, (self.i - self.pv_i)/total_latency))
-
-# ------------------------------------------------------------
-
-
-# ------------------------------------------------------------
-# ------------------     Graphics CLASS   ---------------------
-# ------------------------------------------------------------
-class Graphics:
-    def __init__(self, auto_scale=False, win_mode=False, logo=False):
-        print(chr(27) + "[H" + chr(27) + "[J")
-        self.vscenes = {}
-        self.auto_scale = auto_scale
-
-        if win_mode == True:
-            kernel32 = ctypes.windll.kernel32
-            kernel32.SetConsoleMode(kernel32.GetStdHandle(-11), 7)
-
-        if logo == True:
-            tmp_scene = self.new_scene("tmp", 1, 1, 64, 64, 1)
-            logo_asset = self.pic_to_textAsset(path="flore1/logo.png", new_size=[32,32], transparent_rgb=(0,0,0))
-            logo_sprite = logo_asset.to_sprite()
-            tmp_scene.put(logo_sprite,32,16,0)
-            tmp_scene.show()
-            time.sleep(5)
-            self.del_scene("tmp")
-            print("\33[0m")
-
-
-    from .VIRTUALSCENE.virtualScene import VirtualScene
-    from .TEXTASSET.textAsset import TextAsset
-
-    def new_scene(self, name, coord_x, coord_y, res_x, res_y, layer_count):
-        self.vscenes[name] = self.VirtualScene(coord_x, coord_y, res_x, res_y, layer_count, self.auto_scale)
-        return self.vscenes[name]
-
-# ------------------------------------------------------------
-
-    def del_scene(self, name):
-        del self.vscenes[name]
-
-# ------------------------------------------------------------
-
-    def new_sprite(self):
-        return self.TextAsset.TextSprite()
-
-# ------------------------------------------------------------
-
-    def find_trsprt_index(self, rgb_palette, transparent_RGB):
-        if transparent_RGB in rgb_palette:
-            return rgb_palette.index(transparent_RGB)
-        else:
+            print("FILE TOO BIG")
+            time.sleep(2)
             return None
 
-# ------------------------------------------------------------
+def save_asset_as(asset, folder, name):
+    path = os.path.join(folder, name)
+    if not hasattr(asset, "chart") or not hasattr(asset, "prtcrd"): return
+    save_var_as((asset.chart, asset.prtcrd), folder, name, ".jus")
 
-    def pic_to_textAsset(self, path="", new_size="AUTO", transparent_rgb=(-1, -1, -1)):
-        img_file = Image.open(path)
-        [xs, ys] = img_file.size
-        building_manual = []
+def load_asset_from(path):
+    chart, prtcrd = load_var_from(path)
+    if chart != None:
+        ta = TextAsset()
+        ta.chart = chart
+        ta.prtcrd = prtcrd
+        return ta
+    else: return TextAsset("")
 
-        scale_filt = Image.NEAREST
-        if not path.endswith(".png"):
-            scale_filt = Image.LANCZOS
+def load_assets_from(folder):
+    assets = []
+    if not os.path.exists(folder): return []
+    for file in sorted(os.listdir(folder)):
+        if not file.endswith(".jus"): continue
+        path = os.path.join(folder, file)
+        chart, prtcrd = load_var_from(path)
+        if chart != None:
+            ta = TextAsset()
+            ta.chart = chart
+            ta.prtcrd = prtcrd
+            assets.append(ta)
+        else: continue
+    return assets
 
-        if new_size == "AUTO":
-            while (xs > 128 * (xs / ys) and ys > 128):
-                xs = int(xs / 1.3)
-                ys = int(ys / 1.3)
+def fix_color():
+    kernel32 = ctypes.windll.kernel32
+    kernel32.SetConsoleMode(kernel32.GetStdHandle(-11), 7)
+
+def show_logo(duration=5):
+    dirname = os.path.dirname(__file__)
+    filename = os.path.join(dirname, 'engine_assets_lib\logo.png')
+    PicConv = PictureConverter()
+    scene = Scene(1 , 1, 64, 40, 1)
+    logo_asset = PicConv.pic2asset(path=filename, size=[32,32], alpha=(0,0,0))
+    logo_sprt = TextSprite(asset=logo_asset)
+    scene.put(logo_sprt,32,4,0)
+    scene.show()
+    print_crd("\033[38;5;8mmade with \033[38;5;198m  F L O R E 1    E N G I N E  ", 43, 3)
+    time.sleep(duration)
+    print("\33[0m")
+
+def clear_screen():
+    print(chr(27) + "[H" + chr(27) + "[J")
+
+def cursor_to_crd(col, row):
+    sys.stdout.write("\33[0m\033["+str(row)+";"+str(col)+"H")
+
+def print_crd(content, col, row):
+    sys.stdout.write("\33[0m\033["+str(row)+";"+str(col)+"H")
+    sys.stdout.write(content)
+    sys.stdout.flush()
+
+def save_cursor():
+    sys.stdout.write("\033[s")
+    sys.stdout.flush()
+
+def restore_cursor():
+    sys.stdout.write("\033[u")
+    sys.stdout.flush()
+
+def extract_ints(string):
+    list = []
+    el = ""
+    for char in string:
+        if char.isdigit():
+            el += char
+        if not char.isdigit():
+            if el != "":
+                list.append(int(el))
+                el = ""
+    return list
+
+def draw_rectangle(char, topleft_x, topleft_y, bottright_x, bottright_y):
+    x1 = int(topleft_x)
+    y1 = int(topleft_y)
+    x2 = int(bottright_x)
+    y2 = int(bottright_y)
+
+    for y in range(y1, y1 + (y2 - y1)):
+        string = ""
+        for x in range(x1, x1 + (x2 - x1)):
+            string += char
+        print_crd(string, x1, y)
+
+def draw_line(char, xa, ya, xb, yb):
+    xa = int(xa); ya = int(ya); xb = int(xb); yb = int(yb)
+    if xa == xb and ya == yb: return print_crd(char, xa, ya)
+
+    xa, xb, ya, yb = (xa, xb, ya, yb) if xa < xb else (xb, xa, yb, ya)
+
+    a = (yb - ya) / (xb - xa) if xb != xa else -2
+
+    if -1 <= a <= 1:
+        for x in range(0, xb - xa):
+            print_crd(char, x+xa, math.floor(x*a + ya))
+
+    if a < -1 or a > 1:
+        xa, xb, ya, yb = (xa, xb, ya, yb) if ya > yb else (xb, xa, yb, ya)
+
+        a = (xa - xb) / (ya - yb)
+
+        for y in range(0, ya - yb):
+            print_crd(char, math.floor(y*a + xb), y+yb)
+
+def sys_print(string):
+    sys.stdout.write(string)
+    sys.stdout.flush()
+
+def get_hotkey():
+    if not hasattr(get_hotkey, "last"):
+        get_hotkey.last = {
+            "hotkey": None,
+            "delay": 0,
+            "time": time.time()
+        }
+    hotkey = str(keyboard.read_hotkey(suppress=False))
+
+    if hotkey == get_hotkey.last["hotkey"]:
+        if get_hotkey.last["time"] + get_hotkey.last["delay"] > time.time():
+            return None
         else:
-            xs = int(new_size[0])
-            ys = int(new_size[1])
+            get_hotkey.last["time"] = time.time()
+            get_hotkey.last["delay"] /= 1.5
+    else:
+        get_hotkey.last["hotkey"] = hotkey
+        get_hotkey.last["delay"] = 0.3
+        get_hotkey.last["time"] = time.time()
 
-        img_file = img_file.resize((int(xs), int(ys)), scale_filt)
-        img = img_file.convert("P")
-        rgb_palette = get_palette_in_rgb(img)
+    return hotkey
 
-        trsprt_index = self.find_trsprt_index(rgb_palette, transparent_rgb)
+def get_last_hotkey():
+    if not hasattr(get_hotkey, "last"):
+        get_hotkey.last = {
+            "hotkey": None,
+            "delay": 0,
+            "time": time.time()
+        }
+    return get_hotkey.last["hotkey"]
 
-        if len(rgb_palette) < 255:
-            found_black = False
-            i = 0
-            while i < len(rgb_palette):
-                if rgb_palette[i] == (0, 0, 0) and found_black == False:
-                    found_black = True
-                elif rgb_palette[i] == (0, 0, 0) and found_black == True:
-                    del rgb_palette[i]
-                    i -= 1
-                i += 1
 
-        img = img.load()
-        ansi_palette = []
-        for color in rgb_palette:
-            r, g, b = color
-            c_array = [r, g, b]
-            nearest = nearest_rgb_to_ansi(c_array, ANSI_RGB)
-            ansi_palette.append(nearest)
+def get_key():
+    if not hasattr(get_key, "last"):
+        get_key.last = {
+            "key": None,
+            "delay": 0,
+            "time": time.time()
+        }
+    key = str(keyboard.read_key(suppress=False))
 
-        pv_code = -1
-        code = 0
-        for y in range(0, ys):
-            building_manual.append("")
-            for x in range(0, xs):
-                ci = img[x, y]
-                code = ansi_palette[ci]
-                #print("%s%2s" % (("\33["+str(y)+";"+str((x*2)+1)+"H"),"\33[38;5;"+str(ci)+"m@@"))
+    if key == get_key.last["key"]:
+        if get_key.last["time"] + get_key.last["delay"] > time.time():
+            return None
+        else:
+            get_key.last["time"] = time.time()
+            get_key.last["delay"] /= 1.5
+    else:
+        get_key.last["key"] = key
+        get_key.last["delay"] = 0.3
+        get_key.last["time"] = time.time()
 
-                if code != pv_code:
-                    pixel = "bc:" + str(code) + "  "
-                else:
-                    pixel = "  "
+    return key
 
-                if trsprt_index is not None:
-                    if rgb_palette[ci] == transparent_rgb:
-                        pixel = "ªª"
+def get_last_key():
+    if not hasattr(get_key, "last"):
+        get_key.last = {
+            "key": None,
+            "delay": 0,
+            "time": time.time()
+        }
+    return get_key.last["key"]
 
-                pv_code = code
-                building_manual[y] += pixel
+def alt_input(x, y, prompt="", maxline=999, maxchar=99999, digit_only=False, max_width=9999):
+    string = ""
+    key = ""
+    crt_y = y
+    crt_x = x
+    clip = ""
+    last = {
+        "key": None,
+        "delay": 0,
+        "time": time.time()
+    }
+    cursor_to_crd(x, y)
 
-            pv_code = -1
+    @lru_cache(maxsize=32)
+    def line_count(string):
+        count = 1
+        for char in string:
+            if char == "\n": count += 1
+        return count
 
-        picAsset = self.TextAsset(building_manual)
-        return picAsset
+    def longest_line(string):
+        max = 0
+        count = 0
+        for char in string:
+            count += 1
+            if char == "\n":
+                if count > max: max += count - max
+                count = 0
+        return max
+
+    sys.stdout.write(prompt)
+    sys.stdout.flush()
+
+    while key != "enter":
+        time.sleep(0.05)
+
+        if keyboard.is_pressed("ctrl+c"):
+            clipboard.copy(clip)
+            continue
+        if keyboard.is_pressed("ctrl+v"):
+            pasted = clipboard.paste()
+            if len(pasted) + len(string) > maxchar: continue
+            string += pasted
+            crt_x += len(pasted)
+            sys.stdout.write(pasted)
+            sys.stdout.flush()
+            time.sleep(0.2)
+            continue
+
+        key = str(keyboard.read_key(suppress=False))
+
+        if key == last["key"]:
+            if last["time"] + last["delay"] > time.time():
+                continue
+            else:
+                last["time"] = time.time()
+                last["delay"] /= 1.5
+        else:
+            last["key"] = key
+            if last["key"] == "backspace":
+                last["delay"] = 0.15
+            else:
+                last["delay"] = 0.3
+            last["time"] = time.time()
+
+        if key == "backspace":
+            if crt_x == x: continue
+            crt_x -= 1
+            if len(string) >= 1: string = string[:len(string)-1]
+            sys.stdout.write("\b \b")
+            sys.stdout.flush()
+        elif key == "suppr":
+            while string[len(string)-1] != " " and crt_x > x+1:
+                crt_x -= 1
+                string = string[:len(string)-1]
+                sys.stdout.write("\b \b")
+                sys.stdout.flush()
+        elif key == "right shift" and line_count(string) < maxline:
+            string += "\n"
+            crt_y += 1
+            crt_x = x
+            cursor_to_crd(x, crt_y)
+            sys.stdout.flush()
+        elif key == "space" and len(string) < maxchar:
+            crt_x += 1
+            string += " "
+            sys.stdout.write(" ")
+            sys.stdout.flush()
+        elif len(key) == 1 and len(string) < maxchar:
+            if digit_only == True and key.isdigit() == False: continue
+            crt_x += 1
+            string += key
+            sys.stdout.write(key)
+            sys.stdout.flush()
+
+    draw_rectangle(" ", x, y, x+longest_line(string), y+line_count(string))
+    return string

@@ -12,7 +12,7 @@
 # ------------------   TextSprite Class  ---------------------
 # ------------------------------------------------------------
 class TextSprite:
-  def __init__(self):
+  def __init__(self, asset=None):
     self.x = 0
     self.y = 0
     self.layer = None
@@ -20,6 +20,9 @@ class TextSprite:
     self.chart = None
     self.prtcrd = set()
     self.act_prtcrd = set()
+
+    if asset != None:
+        self.set_asset(asset)
 
 # ------------------------------------------------------------
 
