@@ -18,7 +18,8 @@ Therefore, please consider donating, it will greatly support this project !
  3. [**Compatibility**](#compat)
  4. [**Tutorials**](#tuto)
  5. [**Documentation**](#doc)
- 6. [**License**](#license)
+ 6. [**Tools**](#tools)
+ 7. [**License**](#license)
 
 # <a name="features"></a>What can it do ?
 *The best thing to do would be to take a look at the [tutorials](#tuto), they tend to cover everything the latest build can do.*
@@ -39,7 +40,7 @@ Therefore, please consider donating, it will greatly support this project !
 - Input profiles for easy key customization
 - Tell if one of the actions in the input profile has one of its corresponding key pressed.
 - `alt_input()` Alternative to `input()` which is very customizable
-- Simultaneous / shortcut detection support
+- Simultaneous keys / shortcut detection support
 #  <a name="roadmap"></a>What is planned ?
 - `Gradually` Documentation and tutorials
 - `Gradually` Quality of life improvements
@@ -1230,6 +1231,8 @@ The distance in character width of the Sprite to its [Scene](#textsprite.scene)'
 The distance in character height of the Sprite to its [Scene](#textsprite.scene)'s top border.
 
 ---
+# <a name="tools"></a>
+---
 # <a name="license"></a>License
 This library is distributed under a CC-BY-SA license:
 - You can:
@@ -1246,11 +1249,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDAwODc4MDksOTIxMzE0NDIxLDE1OD
-g2ODAxNzUsLTg4MDY4Nzg1LC0xNjkwOTYxNDA4LC05MDc3NTc4
-NDQsLTE1MTYzNzQ5NjUsNzQwOTE2MTIxLDg3OTEyOTk2LDEwOT
-g5MTcwODksLTIwNDM1MTE1OTMsLTEyMDg5MTA0MTIsLTcyODcx
-NzI0MiwxOTAwOTE1NzIxLC0xMjY5NDEzMzA2LC0xMjUwODIxNz
-ExLC0yMDcwMjU0ODYzLC02NDI2MTc1NTcsLTcyNjU2NzY4Niwt
-ODQ4Mzk4NjgzXX0=
+eyJoaXN0b3J5IjpbMTQ1NDc0MTg3Niw5MjEzMTQ0MjEsMTU4OD
+Y4MDE3NSwtODgwNjg3ODUsLTE2OTA5NjE0MDgsLTkwNzc1Nzg0
+NCwtMTUxNjM3NDk2NSw3NDA5MTYxMjEsODc5MTI5OTYsMTA5OD
+kxNzA4OSwtMjA0MzUxMTU5MywtMTIwODkxMDQxMiwtNzI4NzE3
+MjQyLDE5MDA5MTU3MjEsLTEyNjk0MTMzMDYsLTEyNTA4MjE3MT
+EsLTIwNzAyNTQ4NjMsLTY0MjYxNzU1NywtNzI2NTY3Njg2LC04
+NDgzOTg2ODNdfQ==
 -->
