@@ -1,5 +1,4 @@
 # 🌸 Flore 1 
-### Note: Don't start making your game now, the engine is currently being restructured, everything you do with it may be structurally wrong in the next patch ! I am very sorry for the annoyance, more info soon.
  This is the first **python** 2D game engine **rendering in the terminal**.
  This library features the engine class itself, along with some utilitary classes for a more efficient use of it.
 
@@ -39,6 +38,7 @@ Therefore, please consider donating, it will greatly support this project !
 #### Input handling wise:
 - Input profiles for easy key customization
 - Tell if one of the actions in the input profile has one of its corresponding key pressed.
+- Alternative to `input()` with custom input box
 - No simultaneous key press support for now (coming soon)
 #  <a name="roadmap"></a>What is planned ?
 - `Gradually` Documentation and tutorials
@@ -1246,11 +1246,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MDg0NjQ3Niw5MjEzMTQ0MjEsMTU4OD
-Y4MDE3NSwtODgwNjg3ODUsLTE2OTA5NjE0MDgsLTkwNzc1Nzg0
-NCwtMTUxNjM3NDk2NSw3NDA5MTYxMjEsODc5MTI5OTYsMTA5OD
-kxNzA4OSwtMjA0MzUxMTU5MywtMTIwODkxMDQxMiwtNzI4NzE3
-MjQyLDE5MDA5MTU3MjEsLTEyNjk0MTMzMDYsLTEyNTA4MjE3MT
-EsLTIwNzAyNTQ4NjMsLTY0MjYxNzU1NywtNzI2NTY3Njg2LC04
-NDgzOTg2ODNdfQ==
+eyJoaXN0b3J5IjpbLTE1MDY1Mzg5NDYsOTIxMzE0NDIxLDE1OD
+g2ODAxNzUsLTg4MDY4Nzg1LC0xNjkwOTYxNDA4LC05MDc3NTc4
+NDQsLTE1MTYzNzQ5NjUsNzQwOTE2MTIxLDg3OTEyOTk2LDEwOT
+g5MTcwODksLTIwNDM1MTE1OTMsLTEyMDg5MTA0MTIsLTcyODcx
+NzI0MiwxOTAwOTE1NzIxLC0xMjY5NDEzMzA2LC0xMjUwODIxNz
+ExLC0yMDcwMjU0ODYzLC02NDI2MTc1NTcsLTcyNjU2NzY4Niwt
+ODQ4Mzk4NjgzXX0=
 -->
