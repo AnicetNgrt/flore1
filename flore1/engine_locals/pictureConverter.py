@@ -4,7 +4,7 @@ import os
 from PIL import Image
 
 # local
-from .classes_consts import ANSI_RGB
+from .engine_consts import ANSI_RGB
 from .textAsset import TextAsset
 
 

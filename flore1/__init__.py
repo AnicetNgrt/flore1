@@ -8,4 +8,5 @@
 
 name = "flore1"
 
-from .flore1 import *
+# local
+from .engine_locals import *

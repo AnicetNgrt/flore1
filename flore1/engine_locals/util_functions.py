@@ -1,11 +1,3 @@
-"""/////////////////////////
-///
-///   File: flore1.py
-///   Author: Anicet Nougaret
-///   License: CC BY-SA (see FLORE1/license.txt)
-///
-/////////////////////////"""
-
 # Python native
 import ctypes
 import sys
@@ -19,7 +11,14 @@ import keyboard
 import clipboard
 
 # local
-from .engine_classes import *
+from .engine_consts import *
+from .flipbook import Flipbook
+from .inputHandler import InputHandler
+from .refresh import Refresh
+from .scene import Scene
+from .textAsset import TextAsset
+from .textSprite import TextSprite
+from .pictureConverter import PictureConverter
 
 # -----------------------------------------------------------
 
