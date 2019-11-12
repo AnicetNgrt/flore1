@@ -74,7 +74,7 @@ Therefore, please consider donating, it will greatly support this project !
 - Terminals that do not support thoses will never be compatibles. 
 - flore1 may use python `curses` in future updates which is not compatible with all terminals (it will still be compatible with windows). 
 
-# <a name="exemples"></a>Exemples
+# <a name="exemples"></a>Examples
 Work in progress
 
 
@@ -656,11 +656,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NzQ5NjUzNywtMTg1MDc4MzIyMiw5Mj
-EzMTQ0MjEsMTU4ODY4MDE3NSwtODgwNjg3ODUsLTE2OTA5NjE0
-MDgsLTkwNzc1Nzg0NCwtMTUxNjM3NDk2NSw3NDA5MTYxMjEsOD
-c5MTI5OTYsMTA5ODkxNzA4OSwtMjA0MzUxMTU5MywtMTIwODkx
-MDQxMiwtNzI4NzE3MjQyLDE5MDA5MTU3MjEsLTEyNjk0MTMzMD
-YsLTEyNTA4MjE3MTEsLTIwNzAyNTQ4NjMsLTY0MjYxNzU1Nywt
-NzI2NTY3Njg2XX0=
+eyJoaXN0b3J5IjpbMTM3ODkxNjY0MywtMjk3NDk2NTM3LC0xOD
+UwNzgzMjIyLDkyMTMxNDQyMSwxNTg4NjgwMTc1LC04ODA2ODc4
+NSwtMTY5MDk2MTQwOCwtOTA3NzU3ODQ0LC0xNTE2Mzc0OTY1LD
+c0MDkxNjEyMSw4NzkxMjk5NiwxMDk4OTE3MDg5LC0yMDQzNTEx
+NTkzLC0xMjA4OTEwNDEyLC03Mjg3MTcyNDIsMTkwMDkxNTcyMS
+wtMTI2OTQxMzMwNiwtMTI1MDgyMTcxMSwtMjA3MDI1NDg2Mywt
+NjQyNjE3NTU3XX0=
 -->
