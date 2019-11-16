@@ -1,5 +1,5 @@
 # 🌸 Flore 1 
- This is the first **python** 2D game engine **rendering in the terminal**.
+ This is the first **python** 2D-ANSI game engine **rendering in the terminal**.
  This library features the engine class itself, along with some utilitary classes for a more efficient use of it.
  ```
  pip install flore1
