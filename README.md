@@ -81,7 +81,7 @@ Work in progress
 # <a name="tuto"></a>Tutorials
 Tutorials will be updated and brought back here following the structural updates in the code.
 #  <a name="doc"></a> Documentation 
-
+Flore1 only features documentation with Google-style docstrings in the code. Markdown documentation is coming soon.
 # <a name="tools"></a>Tools
 - [flore1-paint](https://github.com/AnicetNgrt/flore1-paint) An open source paint software for drawing and animating flore1 TextAssets
 ---
@@ -101,7 +101,7 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNzExODk2MywxMzc4OTE2NjQzLC0yOT
+eyJoaXN0b3J5IjpbMTMyMTExOTUyMiwxMzc4OTE2NjQzLC0yOT
 c0OTY1MzcsLTE4NTA3ODMyMjIsOTIxMzE0NDIxLDE1ODg2ODAx
 NzUsLTg4MDY4Nzg1LC0xNjkwOTYxNDA4LC05MDc3NTc4NDQsLT
 E1MTYzNzQ5NjUsNzQwOTE2MTIxLDg3OTEyOTk2LDEwOTg5MTcw
