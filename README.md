@@ -76,7 +76,20 @@ Therefore, please consider donating, it will greatly support this project !
 
 # <a name="exemples"></a>Examples
 ### Refresh example:
+```python
+from flore1 import *
 
+def example(arg1, arg2, arg3='something'):
+	print(arg1)
+	print(arg2)
+	print(arg3)
+	
+refr = Refresh(fps=2)
+refr.feed(example, (1, 'test'), {'arg3':3.14}) #
+
+while True:
+	refr.run()
+```
 
 
 # <a name="tuto"></a>Tutorials
@@ -102,11 +115,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDE1NTYxMzYsMTMyMTExOTUyMiwxMz
-c4OTE2NjQzLC0yOTc0OTY1MzcsLTE4NTA3ODMyMjIsOTIxMzE0
-NDIxLDE1ODg2ODAxNzUsLTg4MDY4Nzg1LC0xNjkwOTYxNDA4LC
-05MDc3NTc4NDQsLTE1MTYzNzQ5NjUsNzQwOTE2MTIxLDg3OTEy
-OTk2LDEwOTg5MTcwODksLTIwNDM1MTE1OTMsLTEyMDg5MTA0MT
-IsLTcyODcxNzI0MiwxOTAwOTE1NzIxLC0xMjY5NDEzMzA2LC0x
-MjUwODIxNzExXX0=
+eyJoaXN0b3J5IjpbMTMyMzc3MDUwNywxMzIxMTE5NTIyLDEzNz
+g5MTY2NDMsLTI5NzQ5NjUzNywtMTg1MDc4MzIyMiw5MjEzMTQ0
+MjEsMTU4ODY4MDE3NSwtODgwNjg3ODUsLTE2OTA5NjE0MDgsLT
+kwNzc1Nzg0NCwtMTUxNjM3NDk2NSw3NDA5MTYxMjEsODc5MTI5
+OTYsMTA5ODkxNzA4OSwtMjA0MzUxMTU5MywtMTIwODkxMDQxMi
+wtNzI4NzE3MjQyLDE5MDA5MTU3MjEsLTEyNjk0MTMzMDYsLTEy
+NTA4MjE3MTFdfQ==
 -->
