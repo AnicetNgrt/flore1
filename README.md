@@ -75,7 +75,8 @@ Therefore, please consider donating, it will greatly support this project !
 - flore1 may use python `curses` in future updates which is not compatible with all terminals (it will still be compatible with windows). 
 
 # <a name="exemples"></a>Examples
-Work in progress
+### Refresh example:
+
 
 
 # <a name="tuto"></a>Tutorials
@@ -84,7 +85,7 @@ Tutorials will be updated and brought back here following the structural updates
 Flore1 only features documentation with Google-style docstrings in the code. Markdown documentation is coming soon.
 # <a name="tools"></a>Tools
 - [flore1-paint](https://github.com/AnicetNgrt/flore1-paint) An open source paint software for drawing and animating flore1 TextAssets
----
+
 # <a name="license"></a>License
 This library is distributed under a CC-BY-SA license:
 - You can:
@@ -101,11 +102,11 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMTExOTUyMiwxMzc4OTE2NjQzLC0yOT
-c0OTY1MzcsLTE4NTA3ODMyMjIsOTIxMzE0NDIxLDE1ODg2ODAx
-NzUsLTg4MDY4Nzg1LC0xNjkwOTYxNDA4LC05MDc3NTc4NDQsLT
-E1MTYzNzQ5NjUsNzQwOTE2MTIxLDg3OTEyOTk2LDEwOTg5MTcw
-ODksLTIwNDM1MTE1OTMsLTEyMDg5MTA0MTIsLTcyODcxNzI0Mi
-wxOTAwOTE1NzIxLC0xMjY5NDEzMzA2LC0xMjUwODIxNzExLC0y
-MDcwMjU0ODYzXX0=
+eyJoaXN0b3J5IjpbLTEzMDE1NTYxMzYsMTMyMTExOTUyMiwxMz
+c4OTE2NjQzLC0yOTc0OTY1MzcsLTE4NTA3ODMyMjIsOTIxMzE0
+NDIxLDE1ODg2ODAxNzUsLTg4MDY4Nzg1LC0xNjkwOTYxNDA4LC
+05MDc3NTc4NDQsLTE1MTYzNzQ5NjUsNzQwOTE2MTIxLDg3OTEy
+OTk2LDEwOTg5MTcwODksLTIwNDM1MTE1OTMsLTEyMDg5MTA0MT
+IsLTcyODcxNzI0MiwxOTAwOTE1NzIxLC0xMjY5NDEzMzA2LC0x
+MjUwODIxNzExXX0=
 -->
