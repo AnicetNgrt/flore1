@@ -85,7 +85,7 @@ def example(arg1, arg2, arg3='something'):
 	print(arg3)
 	
 refr = Refresh(fps=2)
-refr.feed(example, (1, 'test'), {'arg3':3.14}) #
+refr.feed(example, (1, 'test'), {'arg3':3.14}) #function, *args, **kwargs
 
 while True:
 	refr.run()
@@ -115,7 +115,7 @@ This library is distributed under a CC-BY-SA license:
 ### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMzc3MDUwNywxMzIxMTE5NTIyLDEzNz
+eyJoaXN0b3J5IjpbMTU1OTEzMjE2OSwxMzIxMTE5NTIyLDEzNz
 g5MTY2NDMsLTI5NzQ5NjUzNywtMTg1MDc4MzIyMiw5MjEzMTQ0
 MjEsMTU4ODY4MDE3NSwtODgwNjg3ODUsLTE2OTA5NjE0MDgsLT
 kwNzc1Nzg0NCwtMTUxNjM3NDk2NSw3NDA5MTYxMjEsODc5MTI5
