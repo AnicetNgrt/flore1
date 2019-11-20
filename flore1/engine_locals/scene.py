@@ -16,6 +16,11 @@ def print_crd(content, col, row):
     sys.stdout.write(content)
     sys.stdout.flush()
 
+
+def extract_color_code(string):
+    if not (string.startswith("\u001b[48;5;") or string.startswith("\u001b[38;5;")) or not string.endswith("m"): return
+    return int(string[12:len(string)-2])
+
 # ------------------------------------------------------------
 # ------------------  VirtualScene Class ---------------------
 # ------------------------------------------------------------
@@ -81,7 +86,7 @@ class Scene:
 
 # ------------------------------------------------------------
 
-    def gen_stream(self, debug, repeat_color):
+    def gen_stream(self, debug, repeat_color, filter):
         self.stream = "\33[0m"
         self.prtcrd = set()
         self.prtcrd_rv = set()
@@ -185,7 +190,7 @@ class Scene:
 
 # ------------------------------------------------------------
 
-    def show(self, force=False, debug=False, repeat_color=False):
+    def show(self, force=False, debug=False, repeat_color=False, filter={"r":0,"g":0,"b":0}):
         if self.frame_event == True or force == True:
             genesis_time = time.time()
 
@@ -194,7 +199,7 @@ class Scene:
                 self.pv_prtcrd_rv = set()
                 self.pv_chart = set()
 
-            self.gen_stream(debug, repeat_color)
+            self.gen_stream(debug, repeat_color, filter)
 
             start_time = time.time()
 

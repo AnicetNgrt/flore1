@@ -4,7 +4,6 @@ import sys
 import math
 import time
 import os
-from functools import lru_cache
 
 # pypI
 import keyboard
@@ -93,7 +92,7 @@ def show_logo(duration=5):
     filename = os.path.join(dirname, 'engine_assets_lib\logo.png')
     PicConv = PictureConverter()
     scene = Scene(1 , 1, 64, 40, 1)
-    logo_asset = PicConv.pic2asset(path=filename, size=[32,32], alpha=(0,0,0))
+    logo_asset = PicConv.pic2asset(filename, size=[32,32], alpha=(0,0,0))
     logo_sprt = TextSprite(asset=logo_asset)
     scene.put(logo_sprt,32,4,0)
     scene.show()
@@ -244,7 +243,6 @@ def alt_input(x, y, prompt="", maxline=999, maxchar=99999, digit_only=False, max
     }
     cursor_to_crd(x, y)
 
-    @lru_cache(maxsize=32)
     def line_count(string):
         count = 1
         for char in string:

@@ -1,10 +1,46 @@
+"""
+File: engine_locals/refresh.py
+Author: Anicet Nougaret
+Version: 19.11.2019.A
+"""
+
 import time
 
-# ------------------------------------------------------------
-# ------------------    REFRESH CLASS    ---------------------
-# ------------------------------------------------------------
 class Refresh:
-    def __init__(self, fps=35):
+    """Calls, pokes, and times functions for rythmed, frame-aware and frame-synchronized function/methods executions.
+
+    Note:
+        You need to run the refresh in a loop with little to no latency involved
+        for it to work properly.
+
+    Example:
+        from flore1 import *
+        def example(arg1, arg2, arg3='something'):
+            print(arg1)
+            print(arg2)
+            print(arg3)
+
+        refr = Refresh(fps=2)
+        refr.feed(example, (1, 'test'), {'arg3':3.14})
+
+        while True:
+            refr.run()
+
+    Attributes:
+        fps (int):
+            Frames per second goal, or function refresh rythm.
+        stack:
+            List of tuples containing functions and their arguments that the
+            Refresh object has to call.
+    """
+
+    def __init__(self, fps=24):
+        """Inits the Refresh object and all its attributes.
+
+        Args:
+            fps (int, optional):
+                Frames per second goal, or function refresh rythm. Defaults to 24.
+        """
         self.fps = fps
         self.pv_i = 0
         self.i = 0
@@ -15,6 +51,17 @@ class Refresh:
 # ------------------------------------------------------------
 
     def terminate(self, func, *args, **kwargs):
+        """Removes a (function, *args, **kwargs) tuple from the Refresh object's execution stack.
+
+        Args:
+            func (:obj:'function' or :obj:'method'):
+                Function in the tuple to remove.
+            ``*args``:
+                Tuple of args in the tuple to remove.
+            ``**kwargs``:
+                Dictionnary of keyworded args in the tuple to remove.
+        """
+
         self.stack.remove((func, args, kwargs))
 
 # ------------------------------------------------------------
@@ -28,6 +75,21 @@ class Refresh:
 # ------------------------------------------------------------
 
     def feed(self, func, *args, **kwargs):
+        """Adds a (function, *args, **kwargs) tuple to the Refresh object's execution stack.
+
+        Args:
+            func (:obj:'function' or :obj:'method'):
+                Function in the tuple to add.
+            ``*args``:
+                Tuple of args in the tuple to add.
+            ``**kwargs``:
+                Dictionnary of keyworded args in the tuple to add.
+
+        Note:
+            You can set `<function-name>.sync` to `False` if you don't want your function to
+            have its speed stabilized.
+        """
+
         self.stack.append((func, args, kwargs))
 
 # ------------------------------------------------------------

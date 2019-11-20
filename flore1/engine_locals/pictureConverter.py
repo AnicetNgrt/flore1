@@ -1,7 +1,13 @@
+"""
+File: engine_locals/pictureConverter.py
+Author: Anicet Nougaret
+Version: 19.11.2019.A
+"""
+
 import os
 
-# PypI
 from PIL import Image
+"""module for image manipulation"""
 
 # local
 from .engine_consts import ANSI_RGB
@@ -9,7 +15,11 @@ from .textAsset import TextAsset
 
 
 class PictureConverter:
+    """Contains methods for converting pictures to TextAssets and caching results."""
+
     def __init__(self):
+        """inits the PictureConverter instance and creates cache's directory."""
+
         self._cache_path = os.path.join("__flore1cache__","_pic_cache.jus")
 
         if not os.path.exists("__flore1cache__"):
@@ -24,7 +34,30 @@ class PictureConverter:
             else:
                 self._cache = eval(f.read())
 
-    def pics2assets(self, dir="", size="AUTO", alpha=(-1, -1, -1)):
+    def pics2assets(self, dir, size="AUTO", alpha=(-1, -1, -1)):
+        """Converts all pictures in a directory to TextAssets objects an returns them.
+
+        Note:
+            Converts all the pictures file according their name's lexicographical order.
+
+            Supports PNG, JPG/JPEG, SVG and single-framed GIF
+
+        Args:
+            dir (str):
+                Directory which contains all the pictures to convert.
+            size (:obj:'list[int, int]', optional):
+                Width and Heigth of the TextAsset objects generated. Defaults to "AUTO"
+                (resizes until it fits within 128*128px).
+            alpha (:obj:'tuple(int, int, int)'):
+                RGB code of the color meant to be transparent in all the pictures.
+                Defaults to (-1, -1, -1), which is an impossible color. Therefore
+                no transparency is applied.
+
+        Returns:
+            (:obj:'list[<flore1.TextAsset object>]'): A list containing all the
+            TextAsset objects converted.in order.
+        """
+
         assets = []
         if not os.path.exists(dir): return assets
 
@@ -38,7 +71,28 @@ class PictureConverter:
 
 # ------------------------------------------------------------
 
-    def pic2asset(self, path="", size="AUTO", alpha=(-1, -1, -1)):
+    def pic2asset(self, path, size="AUTO", alpha=(-1, -1, -1)):
+        """Converts a picture to TextAssets objects an returns them.
+
+        Note:
+            Supports PNG, JPG/JPEG, SVG and single-framed GIF
+
+        Args:
+            path (str):
+                Path to the picture file.
+            size (:obj:'list[int, int]', optional):
+                Width and Heigth of the TextAsset generated. Defaults to "AUTO"
+                (resizes until it fits within 128*128px).
+            alpha (:obj:'tuple(int, int, int)'):
+                RGB code of the color meant to be transparent in the picture.
+                Defaults to (-1, -1, -1), which is an impossible color. Therefore
+                no transparency is applied.
+
+        Returns:
+            (:obj:'<flore1.TextAsset object>'): The TextAsset object resulting of
+            the conversion.
+        """
+
         key = str((path, size, alpha))
         if key in self._cache.keys():
             return TextAsset(self._cache[key])

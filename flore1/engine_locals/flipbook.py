@@ -1,14 +1,53 @@
+"""
+File: engine_locals/flipbook.py
+Author: Anicet Nougaret
+Version: 19.11.2019.A
+"""
+
 import math
 
-# ------------------------------------------------------------
-# ------------------    FLIPBOOK CLASS   ---------------------
-# ------------------------------------------------------------
 class Flipbook:
+    """The class for TextSprite animation.
+
+    The Flipbook object applies a collection of TextAsset objects to a TextSprite
+    object one by one at a rythm in order to animate the TextSprite
+    object.
+
+    Attributes:
+        Refresh (:obj:'<flore1.Refresh>'):
+            The Refresh object that will handle animation speed and speed
+            stabilization.
+        asset_list (:obj:'list [<flore1.TextAsset object>]'):
+            Assets list (frames) for the animation.
+        material (:obj:'tuple (function, *args)'):
+            Tuple containing the animation's play function and all it's params.
+            The Flipbook object's Refresh has it added to it's execution stack
+            for rythmed execution.
+    """
+
     def __init__(self, Refresh, Sprite, assets, fps=24, sync=True):
+        """Inits the Flipbook object.
+
+        Args:
+            Refresh (:obj:'<flore1.Refresh object>'):
+                The Refresh object that will handle animation speed and speed
+                stabilization.
+            Sprite (:obj:'<flore1.TextSprite object>'):
+                The TextSprite object which will be animated.
+            assets (:obj:'list [<flore1.TextAsset object>]'):
+                Assets list (frames) for the animation.
+            fps (int, optional):
+                Animation's frame per second goal. Defaults to 24.
+            sync (bool, optional):
+                Speed stabilization on/off. Defaults to True.
+        """
+
         self.Refresh = Refresh
         self.asset_list = assets
 
         def play(Sprite, asset_list, fps):
+            """Animation's function for running in a Refresh object's stack."""
+
             if not hasattr(play, "last_frame"):
                 play.last_frame = -1
             if not hasattr(play, "frame"):
@@ -37,6 +76,8 @@ class Flipbook:
 # ------------------------------------------------------------
 
     def start(self):
+        """Starts the animation from where it stopped last time"""
+
         if not self.Refresh.is_fed_with(*self.material):
             self.Refresh.feed(*self.material)
             return True
@@ -46,6 +87,8 @@ class Flipbook:
 # ------------------------------------------------------------
 
     def stop(self):
+        """Stops the animation"""
+
         if self.Refresh.is_fed_with(*self.material):
             self.Refresh.terminate(*self.material)
             return True

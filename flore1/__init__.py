@@ -1,12 +1,13 @@
-"""/////////////////////////
-///
-///   File: __init__.py
-///   Author: Anicet Nougaret
-///   License: CC BY-SA (see FLORE1/license.txt)
-///
-/////////////////////////"""
+"""
+File: __init__.py
+Author: Anicet Nougaret
+Version: 19.11.2019.A
+"""
 
 name = "flore1"
 
-# local
+"""
+Importing the engine's source
+"""
+
 from .engine_locals import *
