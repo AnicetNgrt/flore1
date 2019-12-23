@@ -74,8 +74,14 @@ Therefore, please consider donating, it will greatly support this project !
 - flore1 may use python `curses` in future updates which is not compatible with all terminals (it will still be compatible with windows). 
 
 # <a name="exemples"></a>Examples
-### Refresh example 1 :
+### ⏳ Refresh example 1 :
 #### Description:
+```
+1
+test
+3.14
+```
+Prints this ever
 ```python
 from flore1 import *
 
@@ -115,7 +121,7 @@ This library is distributed under a CC-BY-SA license:
 #### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNjk5MjE2MywxNTU5MTMyMTY5LDEzMj
+eyJoaXN0b3J5IjpbLTkyNzM2MTg3MywxNTU5MTMyMTY5LDEzMj
 ExMTk1MjIsMTM3ODkxNjY0MywtMjk3NDk2NTM3LC0xODUwNzgz
 MjIyLDkyMTMxNDQyMSwxNTg4NjgwMTc1LC04ODA2ODc4NSwtMT
 Y5MDk2MTQwOCwtOTA3NzU3ODQ0LC0xNTE2Mzc0OTY1LDc0MDkx
