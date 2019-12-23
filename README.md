@@ -82,7 +82,7 @@ Prints `1`, `test` and `3.14` 2 times per second.
 from flore1 import *
 
 # Creating the Refresh instance
-# and initializing its call frequency
+# and initializing its call frequency (fps)
 refr = Refresh(fps=2) 
 
 # Function we want to be called
@@ -120,17 +120,17 @@ This library is distributed under a CC-BY-SA license:
 	- **ShareAlike** — If you remix, transform, or build upon the material, **you must distribute your contributions under the [same license](https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en#) as the original.**
 
 #### More info at: https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en
-
+___
 ### Any kind of collaboration on this project is welcomed !
 
-#### <a name="thanks"></a>Thanks for reading !
+##### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE0MTk0OTEzLDE1NTkxMzIxNjksMTMyMT
-ExOTUyMiwxMzc4OTE2NjQzLC0yOTc0OTY1MzcsLTE4NTA3ODMy
-MjIsOTIxMzE0NDIxLDE1ODg2ODAxNzUsLTg4MDY4Nzg1LC0xNj
-kwOTYxNDA4LC05MDc3NTc4NDQsLTE1MTYzNzQ5NjUsNzQwOTE2
-MTIxLDg3OTEyOTk2LDEwOTg5MTcwODksLTIwNDM1MTE1OTMsLT
-EyMDg5MTA0MTIsLTcyODcxNzI0MiwxOTAwOTE1NzIxLC0xMjY5
-NDEzMzA2XX0=
+eyJoaXN0b3J5IjpbLTY2OTYxMDM1Nyw4MTQxOTQ5MTMsMTU1OT
+EzMjE2OSwxMzIxMTE5NTIyLDEzNzg5MTY2NDMsLTI5NzQ5NjUz
+NywtMTg1MDc4MzIyMiw5MjEzMTQ0MjEsMTU4ODY4MDE3NSwtOD
+gwNjg3ODUsLTE2OTA5NjE0MDgsLTkwNzc1Nzg0NCwtMTUxNjM3
+NDk2NSw3NDA5MTYxMjEsODc5MTI5OTYsMTA5ODkxNzA4OSwtMj
+A0MzUxMTU5MywtMTIwODkxMDQxMiwtNzI4NzE3MjQyLDE5MDA5
+MTU3MjFdfQ==
 -->
