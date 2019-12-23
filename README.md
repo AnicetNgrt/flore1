@@ -90,10 +90,12 @@ def example(arg1, arg2, arg3='something'):
 	print(arg2)
 	print(arg3)
 
-#asking to add it to the calling queue
+# asking to add the function to the calling queue
 refr.feed(example, (1, 'test'), {'arg3':3.14})
 #	(function, (*args) , {**kwargs})
-    
+
+# Repeatedly asking the Refresh Instance to
+# check if it is time to call
 while True:
 	refr.run()
 ```
@@ -122,11 +124,11 @@ This library is distributed under a CC-BY-SA license:
 #### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMjc4OTIxMywxNTU5MTMyMTY5LDEzMj
-ExMTk1MjIsMTM3ODkxNjY0MywtMjk3NDk2NTM3LC0xODUwNzgz
-MjIyLDkyMTMxNDQyMSwxNTg4NjgwMTc1LC04ODA2ODc4NSwtMT
-Y5MDk2MTQwOCwtOTA3NzU3ODQ0LC0xNTE2Mzc0OTY1LDc0MDkx
-NjEyMSw4NzkxMjk5NiwxMDk4OTE3MDg5LC0yMDQzNTExNTkzLC
-0xMjA4OTEwNDEyLC03Mjg3MTcyNDIsMTkwMDkxNTcyMSwtMTI2
-OTQxMzMwNl19
+eyJoaXN0b3J5IjpbLTE4NDAyMTcwMzEsMTU1OTEzMjE2OSwxMz
+IxMTE5NTIyLDEzNzg5MTY2NDMsLTI5NzQ5NjUzNywtMTg1MDc4
+MzIyMiw5MjEzMTQ0MjEsMTU4ODY4MDE3NSwtODgwNjg3ODUsLT
+E2OTA5NjE0MDgsLTkwNzc1Nzg0NCwtMTUxNjM3NDk2NSw3NDA5
+MTYxMjEsODc5MTI5OTYsMTA5ODkxNzA4OSwtMjA0MzUxMTU5My
+wtMTIwODkxMDQxMiwtNzI4NzE3MjQyLDE5MDA5MTU3MjEsLTEy
+Njk0MTMzMDZdfQ==
 -->
