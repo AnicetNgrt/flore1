@@ -70,7 +70,7 @@ Therefore, please consider donating, it will greatly support this project !
 "\u001b[39;5;<color_code>m"
 ```
 - Terminals that do not support thoses will never be compatibles. 
-- Flore1 is n
+- Flore1 is not using ncurses
 
 # <a name="exemples"></a>Examples
 ### ⏳ Refresh example 1 :
@@ -121,7 +121,7 @@ ___
 ##### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NzU3OTk4MiwtNjY5NjEwMzU3LDgxND
+eyJoaXN0b3J5IjpbMTE0ODYzOTE5MCwtNjY5NjEwMzU3LDgxND
 E5NDkxMywxNTU5MTMyMTY5LDEzMjExMTk1MjIsMTM3ODkxNjY0
 MywtMjk3NDk2NTM3LC0xODUwNzgzMjIyLDkyMTMxNDQyMSwxNT
 g4NjgwMTc1LC04ODA2ODc4NSwtMTY5MDk2MTQwOCwtOTA3NzU3
