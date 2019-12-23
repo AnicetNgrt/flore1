@@ -89,8 +89,10 @@ def example(arg1, arg2, arg3='something'):
 # Call frequency
 refr = Refresh(fps=2) 
 
-refr.feed(example, (1, 'test'), {'arg3':3.14}) #function, *args, **kwargs
-
+#function's parameters
+refr.feed(example, (1, 'test'), {'arg3':3.14})
+#	(function obj., (*args)   , {**kwargs})
+    
 while True:
 	refr.run()
 ```
@@ -119,11 +121,11 @@ This library is distributed under a CC-BY-SA license:
 #### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MTgxOTA3NCwxNTU5MTMyMTY5LDEzMj
-ExMTk1MjIsMTM3ODkxNjY0MywtMjk3NDk2NTM3LC0xODUwNzgz
-MjIyLDkyMTMxNDQyMSwxNTg4NjgwMTc1LC04ODA2ODc4NSwtMT
-Y5MDk2MTQwOCwtOTA3NzU3ODQ0LC0xNTE2Mzc0OTY1LDc0MDkx
-NjEyMSw4NzkxMjk5NiwxMDk4OTE3MDg5LC0yMDQzNTExNTkzLC
-0xMjA4OTEwNDEyLC03Mjg3MTcyNDIsMTkwMDkxNTcyMSwtMTI2
-OTQxMzMwNl19
+eyJoaXN0b3J5IjpbNDM4NTM3ODQ2LDE1NTkxMzIxNjksMTMyMT
+ExOTUyMiwxMzc4OTE2NjQzLC0yOTc0OTY1MzcsLTE4NTA3ODMy
+MjIsOTIxMzE0NDIxLDE1ODg2ODAxNzUsLTg4MDY4Nzg1LC0xNj
+kwOTYxNDA4LC05MDc3NTc4NDQsLTE1MTYzNzQ5NjUsNzQwOTE2
+MTIxLDg3OTEyOTk2LDEwOTg5MTcwODksLTIwNDM1MTE1OTMsLT
+EyMDg5MTA0MTIsLTcyODcxNzI0MiwxOTAwOTE1NzIxLC0xMjY5
+NDEzMzA2XX0=
 -->
