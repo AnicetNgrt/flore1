@@ -94,7 +94,7 @@ def example(arg1, arg2, arg3='something'):
 refr.feed(example, (1, 'test'), {'arg3':3.14})
 #	(function, *args, **kwargs)
 # How example will be called then:
-{
+#     example(1, 'test', 3.14)
 
 # Repeatedly asking the Refresh Instance to
 # check if it is time to call all the function
@@ -123,11 +123,11 @@ ___
 ##### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTYzODQyMDIsMTE0ODYzOTE5MCwtNj
-Y5NjEwMzU3LDgxNDE5NDkxMywxNTU5MTMyMTY5LDEzMjExMTk1
-MjIsMTM3ODkxNjY0MywtMjk3NDk2NTM3LC0xODUwNzgzMjIyLD
-kyMTMxNDQyMSwxNTg4NjgwMTc1LC04ODA2ODc4NSwtMTY5MDk2
-MTQwOCwtOTA3NzU3ODQ0LC0xNTE2Mzc0OTY1LDc0MDkxNjEyMS
-w4NzkxMjk5NiwxMDk4OTE3MDg5LC0yMDQzNTExNTkzLC0xMjA4
-OTEwNDEyXX0=
+eyJoaXN0b3J5IjpbOTc0NzUzOTI0LDExNDg2MzkxOTAsLTY2OT
+YxMDM1Nyw4MTQxOTQ5MTMsMTU1OTEzMjE2OSwxMzIxMTE5NTIy
+LDEzNzg5MTY2NDMsLTI5NzQ5NjUzNywtMTg1MDc4MzIyMiw5Mj
+EzMTQ0MjEsMTU4ODY4MDE3NSwtODgwNjg3ODUsLTE2OTA5NjE0
+MDgsLTkwNzc1Nzg0NCwtMTUxNjM3NDk2NSw3NDA5MTYxMjEsOD
+c5MTI5OTYsMTA5ODkxNzA4OSwtMjA0MzUxMTU5MywtMTIwODkx
+MDQxMl19
 -->
