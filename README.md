@@ -77,6 +77,7 @@ Therefore, please consider donating, it will greatly support this project !
 ### ⏳ Refresh example 1 :
 #### Description:
 Prints `1`, `test` and `3.14` 2 times per second.
+#### Code:
 ```python
 from flore1 import *
 
@@ -95,7 +96,8 @@ refr.feed(example, (1, 'test'), {'arg3':3.14})
 #	(function, (*args) , {**kwargs})
 
 # Repeatedly asking the Refresh Instance to
-# check if it is time to call
+# check if it is time to call all the function
+# in its calling queue.
 while True:
 	refr.run()
 ```
@@ -124,11 +126,11 @@ This library is distributed under a CC-BY-SA license:
 #### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDAyMTcwMzEsMTU1OTEzMjE2OSwxMz
-IxMTE5NTIyLDEzNzg5MTY2NDMsLTI5NzQ5NjUzNywtMTg1MDc4
-MzIyMiw5MjEzMTQ0MjEsMTU4ODY4MDE3NSwtODgwNjg3ODUsLT
-E2OTA5NjE0MDgsLTkwNzc1Nzg0NCwtMTUxNjM3NDk2NSw3NDA5
-MTYxMjEsODc5MTI5OTYsMTA5ODkxNzA4OSwtMjA0MzUxMTU5My
-wtMTIwODkxMDQxMiwtNzI4NzE3MjQyLDE5MDA5MTU3MjEsLTEy
-Njk0MTMzMDZdfQ==
+eyJoaXN0b3J5IjpbODE0MTk0OTEzLDE1NTkxMzIxNjksMTMyMT
+ExOTUyMiwxMzc4OTE2NjQzLC0yOTc0OTY1MzcsLTE4NTA3ODMy
+MjIsOTIxMzE0NDIxLDE1ODg2ODAxNzUsLTg4MDY4Nzg1LC0xNj
+kwOTYxNDA4LC05MDc3NTc4NDQsLTE1MTYzNzQ5NjUsNzQwOTE2
+MTIxLDg3OTEyOTk2LDEwOTg5MTcwODksLTIwNDM1MTE1OTMsLT
+EyMDg5MTA0MTIsLTcyODcxNzI0MiwxOTAwOTE1NzIxLC0xMjY5
+NDEzMzA2XX0=
 -->
