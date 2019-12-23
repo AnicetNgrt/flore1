@@ -11,7 +11,6 @@
 **Note**: Thanks a lot for paying attention to my work. 
 My name is Anicet Nougaret, I am a french IT student, and I am doing all of this alone. This project will always remain open source and free.
 Therefore, please consider donating, it will greatly support this project ! 
-\\(●\^◡\^●)/
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg) ](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=56G94VB5RYGKN&source=url) 
 
 # Table of contents:
@@ -75,7 +74,8 @@ Therefore, please consider donating, it will greatly support this project !
 - flore1 may use python `curses` in future updates which is not compatible with all terminals (it will still be compatible with windows). 
 
 # <a name="exemples"></a>Examples
-### Refresh example:
+### Refresh example 1 :
+#### Description:
 ```python
 from flore1 import *
 
@@ -108,18 +108,18 @@ This library is distributed under a CC-BY-SA license:
 	- **Attribution** — You must give [appropriate credit](https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en#), provide a link to the license, and [indicate if changes were made](https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en#). You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 	- **ShareAlike** — If you remix, transform, or build upon the material, **you must distribute your contributions under the [same license](https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en#) as the original.**
 
-### More info at: https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en
+#### More info at: https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en
 
-### Any kind of collaboration on this project is welcomed !  **(●^◡ ^● )**
+### Any kind of collaboration on this project is welcomed !
 
-### <a name="thanks"></a>Thanks for reading !
+#### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1OTEzMjE2OSwxMzIxMTE5NTIyLDEzNz
-g5MTY2NDMsLTI5NzQ5NjUzNywtMTg1MDc4MzIyMiw5MjEzMTQ0
-MjEsMTU4ODY4MDE3NSwtODgwNjg3ODUsLTE2OTA5NjE0MDgsLT
-kwNzc1Nzg0NCwtMTUxNjM3NDk2NSw3NDA5MTYxMjEsODc5MTI5
-OTYsMTA5ODkxNzA4OSwtMjA0MzUxMTU5MywtMTIwODkxMDQxMi
-wtNzI4NzE3MjQyLDE5MDA5MTU3MjEsLTEyNjk0MTMzMDYsLTEy
-NTA4MjE3MTFdfQ==
+eyJoaXN0b3J5IjpbMTczNjk5MjE2MywxNTU5MTMyMTY5LDEzMj
+ExMTk1MjIsMTM3ODkxNjY0MywtMjk3NDk2NTM3LC0xODUwNzgz
+MjIyLDkyMTMxNDQyMSwxNTg4NjgwMTc1LC04ODA2ODc4NSwtMT
+Y5MDk2MTQwOCwtOTA3NzU3ODQ0LC0xNTE2Mzc0OTY1LDc0MDkx
+NjEyMSw4NzkxMjk5NiwxMDk4OTE3MDg5LC0yMDQzNTExNTkzLC
+0xMjA4OTEwNDEyLC03Mjg3MTcyNDIsMTkwMDkxNTcyMSwtMTI2
+OTQxMzMwNl19
 -->
