@@ -19,13 +19,12 @@ Therefore, please consider donating, it will greatly support this project !
  2. [**Roadmap**](#roadmap) 
  3. [**Compatibility**](#compat)
  4. [**Examples**](#examples)
- 5. [**Tutorials**](#tuto)
- 6. [**Documentation**](#doc)
- 7. [**Tools**](#tools)
- 8. [**License**](#license)
+ 5. [**Documentation**](#doc)
+ 6. [**Tools**](#tools)
+ 7. [**License**](#license)
 
 # <a name="features"></a>What can it do ?
-*The best thing to do would be to take a look at the [tutorials](#tuto), they tend to cover everything the latest build can do.*
+
 #### Graphics wise:
 -   Interpret an easy syntax for creating text based sprites with color.
 -   Convert pictures to text based sprites.
@@ -101,10 +100,6 @@ refr.feed(example, (1, 'test'), {'arg3':3.14})
 while True:
 	refr.run()
 ```
-
-
-# <a name="tuto"></a>Tutorials
-Tutorials will be updated and brought back here following the structural updates in the code.
 #  <a name="doc"></a> Documentation 
 Flore1 only features documentation with Google-style docstrings in the code. Markdown documentation is coming soon.
 # <a name="tools"></a>Tools
@@ -126,11 +121,11 @@ ___
 ##### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2OTYxMDM1Nyw4MTQxOTQ5MTMsMTU1OT
-EzMjE2OSwxMzIxMTE5NTIyLDEzNzg5MTY2NDMsLTI5NzQ5NjUz
-NywtMTg1MDc4MzIyMiw5MjEzMTQ0MjEsMTU4ODY4MDE3NSwtOD
-gwNjg3ODUsLTE2OTA5NjE0MDgsLTkwNzc1Nzg0NCwtMTUxNjM3
-NDk2NSw3NDA5MTYxMjEsODc5MTI5OTYsMTA5ODkxNzA4OSwtMj
-A0MzUxMTU5MywtMTIwODkxMDQxMiwtNzI4NzE3MjQyLDE5MDA5
-MTU3MjFdfQ==
+eyJoaXN0b3J5IjpbLTEwMjQ1MzE1ODYsLTY2OTYxMDM1Nyw4MT
+QxOTQ5MTMsMTU1OTEzMjE2OSwxMzIxMTE5NTIyLDEzNzg5MTY2
+NDMsLTI5NzQ5NjUzNywtMTg1MDc4MzIyMiw5MjEzMTQ0MjEsMT
+U4ODY4MDE3NSwtODgwNjg3ODUsLTE2OTA5NjE0MDgsLTkwNzc1
+Nzg0NCwtMTUxNjM3NDk2NSw3NDA5MTYxMjEsODc5MTI5OTYsMT
+A5ODkxNzA4OSwtMjA0MzUxMTU5MywtMTIwODkxMDQxMiwtNzI4
+NzE3MjQyXX0=
 -->
