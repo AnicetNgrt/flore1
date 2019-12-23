@@ -25,7 +25,7 @@ Therefore, please consider donating, it will greatly support this project !
 
 # <a name="features"></a>What can it do ?
 
-#### Graphics wise:
+#### Graphics:
 -   Interpret an easy syntax for creating text based sprites with color.
 -   Convert pictures to text based sprites.
 -   Manage picture's transparency.
@@ -38,7 +38,7 @@ Therefore, please consider donating, it will greatly support this project !
 -   Sync/unsync the looped functions with render speed (fps stabilisation).
 -  Play flibook in a scene at a desired frame rate. 
 
-#### Input handling wise:
+#### Input handling:
 - Input profiles for easy key customization
 - Tell if one of the actions in the input profile has one of its corresponding key pressed.
 - `alt_input()` Alternative to `input()` which is very customizable
@@ -56,10 +56,10 @@ Therefore, please consider donating, it will greatly support this project !
 
 #  <a name="compat"></a>Known compatible terminals
 **According to the latest tests**:
-1. `good perf.` `good rendering` `Windows 10` `CPU`- **cmd.exe**
-2. `good perf.` `good rendering` `Windows 10` `CPU`- **Powershell**
-3. `good perf.` `bad rendering` `Windows 10` `GPU`- **new terminal**
-4. `bad perf.` `good rendering` `Linux` `CPU`- **repl.it terminal emulator**
+1. `fast` `good rendering` `Windows 10` `CPU`- **cmd.exe**
+2. `fast` `good rendering` `Windows 10` `CPU`- **Powershell**
+3. `fast` `bad rendering` `Windows 10` `GPU`- **new terminal**
+4. `slow` `good rendering` `Linux` `CPU`- **repl.it terminal emulator**
  
 **Notes**: 
 - It has great probability of rendering well on any modern terminal which supports the following escapes codes:
@@ -70,7 +70,7 @@ Therefore, please consider donating, it will greatly support this project !
 "\u001b[39;5;<color_code>m"
 ```
 - Terminals that do not support thoses will never be compatibles. 
-- flore1 may use python `curses` in future updates which is not compatible with all terminals (it will still be compatible with windows). 
+- Flore1 is n
 
 # <a name="exemples"></a>Examples
 ### ⏳ Refresh example 1 :
@@ -121,11 +121,11 @@ ___
 ##### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjQ1MzE1ODYsLTY2OTYxMDM1Nyw4MT
-QxOTQ5MTMsMTU1OTEzMjE2OSwxMzIxMTE5NTIyLDEzNzg5MTY2
-NDMsLTI5NzQ5NjUzNywtMTg1MDc4MzIyMiw5MjEzMTQ0MjEsMT
-U4ODY4MDE3NSwtODgwNjg3ODUsLTE2OTA5NjE0MDgsLTkwNzc1
-Nzg0NCwtMTUxNjM3NDk2NSw3NDA5MTYxMjEsODc5MTI5OTYsMT
-A5ODkxNzA4OSwtMjA0MzUxMTU5MywtMTIwODkxMDQxMiwtNzI4
-NzE3MjQyXX0=
+eyJoaXN0b3J5IjpbMTc0NzU3OTk4MiwtNjY5NjEwMzU3LDgxND
+E5NDkxMywxNTU5MTMyMTY5LDEzMjExMTk1MjIsMTM3ODkxNjY0
+MywtMjk3NDk2NTM3LC0xODUwNzgzMjIyLDkyMTMxNDQyMSwxNT
+g4NjgwMTc1LC04ODA2ODc4NSwtMTY5MDk2MTQwOCwtOTA3NzU3
+ODQ0LC0xNTE2Mzc0OTY1LDc0MDkxNjEyMSw4NzkxMjk5NiwxMD
+k4OTE3MDg5LC0yMDQzNTExNTkzLC0xMjA4OTEwNDEyLC03Mjg3
+MTcyNDJdfQ==
 -->
