@@ -76,21 +76,19 @@ Therefore, please consider donating, it will greatly support this project !
 # <a name="exemples"></a>Examples
 ### ⏳ Refresh example 1 :
 #### Description:
-```
-1
-test
-3.14
-```
-Prints this ever
+Prints `1`, `test` and `3.14` 2 times per second.
 ```python
 from flore1 import *
 
+# Function called
 def example(arg1, arg2, arg3='something'):
 	print(arg1)
 	print(arg2)
 	print(arg3)
-	
-refr = Refresh(fps=2)
+
+# Call frequency
+refr = Refresh(fps=2) 
+
 refr.feed(example, (1, 'test'), {'arg3':3.14}) #function, *args, **kwargs
 
 while True:
@@ -121,7 +119,7 @@ This library is distributed under a CC-BY-SA license:
 #### <a name="thanks"></a>Thanks for reading !
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNzM2MTg3MywxNTU5MTMyMTY5LDEzMj
+eyJoaXN0b3J5IjpbLTI3MTgxOTA3NCwxNTU5MTMyMTY5LDEzMj
 ExMTk1MjIsMTM3ODkxNjY0MywtMjk3NDk2NTM3LC0xODUwNzgz
 MjIyLDkyMTMxNDQyMSwxNTg4NjgwMTc1LC04ODA2ODc4NSwtMT
 Y5MDk2MTQwOCwtOTA3NzU3ODQ0LC0xNTE2Mzc0OTY1LDc0MDkx
