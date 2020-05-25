@@ -5,8 +5,6 @@
  pip install flore1
  ```
 
-- **[Quick start](#tuto0)**
-
 # Table of contents:
 
  1. [**Features**](#features)
