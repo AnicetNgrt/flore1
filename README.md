@@ -1,4 +1,4 @@
-# 🌸 Flore 1 [Not updated anymore by main programmer Anicet]
+# 🌸 Flore 1 [Not updated anymore]
  This is the first **python** 2D-ANSI game engine **rendering in the terminal**.
  This library features the engine class itself, along with some utilitary classes for a more efficient use of it.
  ```
